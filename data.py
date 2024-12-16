@@ -2,7 +2,7 @@ from torch.utils.data import DataLoader, TensorDataset
 from torchvision import datasets, transforms
 
 
-def get_mnist_loaders(batch_size=10):  # Added batch_size parameter with default=10
+def get_mnist_loaders(batch_size=10):
     transform = transforms.Compose([
         transforms.ToTensor()
     ])
