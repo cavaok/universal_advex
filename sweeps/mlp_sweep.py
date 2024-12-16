@@ -3,7 +3,11 @@ from torch import optim
 from torch import nn
 import torch.nn.functional as F
 import os
-from ..data import get_mnist_loaders
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append('/home/okcava/projects/universal_advex')
+from data import get_mnist_loaders
 import wandb
 
 print('running mlp_sweep.py')

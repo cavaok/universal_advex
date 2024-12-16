@@ -1,0 +1,5 @@
+running mlp_sweep.py
+Create sweep with ID: 9p7uhedv
+Sweep URL: https://wandb.ai/cavaokcava/mlp_sweep_elu/sweeps/9p7uhedv
+Create sweep with ID: c2h30w7n
+Sweep URL: https://wandb.ai/cavaokcava/mlp_sweep_sigmoid/sweeps/c2h30w7n

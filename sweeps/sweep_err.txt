@@ -1,0 +1,215 @@
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: cavaokcava. Use `wandb login --relogin` to force relogin
+wandb: Agent Starting Run: mftxqd7j with config:
+wandb: 	activation: ELU
+wandb: 	batch_size: 128
+wandb: 	epochs: 15
+wandb: 	hidden_dims: [512, 256]
+wandb: 	learning_rate: 0.00390321358222581
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241215_223838-mftxqd7j
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run leafy-sweep-1
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mlp_sweep_elu
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mlp_sweep_elu/sweeps/9p7uhedv
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mlp_sweep_elu/runs/mftxqd7j
+wandb:                                                                                
+wandb: 🚀 View run leafy-sweep-1 at: https://wandb.ai/cavaokcava/mlp_sweep_elu/runs/mftxqd7j
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mlp_sweep_elu
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241215_223838-mftxqd7j/logs
+Run mftxqd7j errored:
+Traceback (most recent call last):
+  File "/home/okcava/projects/universal_advex/.venv/lib/python3.8/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "mlp_sweep.py", line 109, in train_sweep
+    train_loader, test_loader, _ = get_mnist_loaders(batch_size=config.batch_size)
+TypeError: get_mnist_loaders() got an unexpected keyword argument 'batch_size'
+
+wandb: ERROR Run mftxqd7j errored:
+wandb: ERROR Traceback (most recent call last):
+wandb: ERROR   File "/home/okcava/projects/universal_advex/.venv/lib/python3.8/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+wandb: ERROR     self._function()
+wandb: ERROR   File "mlp_sweep.py", line 109, in train_sweep
+wandb: ERROR     train_loader, test_loader, _ = get_mnist_loaders(batch_size=config.batch_size)
+wandb: ERROR TypeError: get_mnist_loaders() got an unexpected keyword argument 'batch_size'
+wandb: ERROR 
+wandb: Agent Starting Run: whfymehq with config:
+wandb: 	activation: ELU
+wandb: 	batch_size: 64
+wandb: 	epochs: 15
+wandb: 	hidden_dims: [512, 256]
+wandb: 	learning_rate: 0.0028686083977549695
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241215_223848-whfymehq
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run rare-sweep-2
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mlp_sweep_elu
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mlp_sweep_elu/sweeps/9p7uhedv
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mlp_sweep_elu/runs/whfymehq
+wandb:                                                                                
+wandb: 🚀 View run rare-sweep-2 at: https://wandb.ai/cavaokcava/mlp_sweep_elu/runs/whfymehq
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mlp_sweep_elu
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241215_223848-whfymehq/logs
+Run whfymehq errored:
+Traceback (most recent call last):
+  File "/home/okcava/projects/universal_advex/.venv/lib/python3.8/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "mlp_sweep.py", line 109, in train_sweep
+    train_loader, test_loader, _ = get_mnist_loaders(batch_size=config.batch_size)
+TypeError: get_mnist_loaders() got an unexpected keyword argument 'batch_size'
+
+wandb: ERROR Run whfymehq errored:
+wandb: ERROR Traceback (most recent call last):
+wandb: ERROR   File "/home/okcava/projects/universal_advex/.venv/lib/python3.8/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+wandb: ERROR     self._function()
+wandb: ERROR   File "mlp_sweep.py", line 109, in train_sweep
+wandb: ERROR     train_loader, test_loader, _ = get_mnist_loaders(batch_size=config.batch_size)
+wandb: ERROR TypeError: get_mnist_loaders() got an unexpected keyword argument 'batch_size'
+wandb: ERROR 
+wandb: Agent Starting Run: 8g35jpbj with config:
+wandb: 	activation: ELU
+wandb: 	batch_size: 64
+wandb: 	epochs: 15
+wandb: 	hidden_dims: [512, 256, 128]
+wandb: 	learning_rate: 0.0020574602862583873
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241215_223853-8g35jpbj
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run daily-sweep-3
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mlp_sweep_elu
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mlp_sweep_elu/sweeps/9p7uhedv
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mlp_sweep_elu/runs/8g35jpbj
+wandb:                                                                                
+wandb: 🚀 View run daily-sweep-3 at: https://wandb.ai/cavaokcava/mlp_sweep_elu/runs/8g35jpbj
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mlp_sweep_elu
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241215_223853-8g35jpbj/logs
+Run 8g35jpbj errored:
+Traceback (most recent call last):
+  File "/home/okcava/projects/universal_advex/.venv/lib/python3.8/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "mlp_sweep.py", line 109, in train_sweep
+    train_loader, test_loader, _ = get_mnist_loaders(batch_size=config.batch_size)
+TypeError: get_mnist_loaders() got an unexpected keyword argument 'batch_size'
+
+wandb: ERROR Run 8g35jpbj errored:
+wandb: ERROR Traceback (most recent call last):
+wandb: ERROR   File "/home/okcava/projects/universal_advex/.venv/lib/python3.8/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+wandb: ERROR     self._function()
+wandb: ERROR   File "mlp_sweep.py", line 109, in train_sweep
+wandb: ERROR     train_loader, test_loader, _ = get_mnist_loaders(batch_size=config.batch_size)
+wandb: ERROR TypeError: get_mnist_loaders() got an unexpected keyword argument 'batch_size'
+wandb: ERROR 
+Detected 3 failed runs in the first 60 seconds, killing sweep.
+wandb: ERROR Detected 3 failed runs in the first 60 seconds, killing sweep.
+wandb: To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+wandb: Agent Starting Run: 8gfpa4o0 with config:
+wandb: 	activation: Sigmoid
+wandb: 	batch_size: 32
+wandb: 	epochs: 15
+wandb: 	hidden_dims: [512, 256, 128]
+wandb: 	learning_rate: 0.006568930031450947
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241215_223859-8gfpa4o0
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run fanciful-sweep-1
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mlp_sweep_sigmoid
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mlp_sweep_sigmoid/sweeps/c2h30w7n
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mlp_sweep_sigmoid/runs/8gfpa4o0
+wandb: uploading summary
+wandb:                                                                                
+wandb: 🚀 View run fanciful-sweep-1 at: https://wandb.ai/cavaokcava/mlp_sweep_sigmoid/runs/8gfpa4o0
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mlp_sweep_sigmoid
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241215_223859-8gfpa4o0/logs
+Run 8gfpa4o0 errored:
+Traceback (most recent call last):
+  File "/home/okcava/projects/universal_advex/.venv/lib/python3.8/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "mlp_sweep.py", line 109, in train_sweep
+    train_loader, test_loader, _ = get_mnist_loaders(batch_size=config.batch_size)
+TypeError: get_mnist_loaders() got an unexpected keyword argument 'batch_size'
+
+wandb: ERROR Run 8gfpa4o0 errored:
+wandb: ERROR Traceback (most recent call last):
+wandb: ERROR   File "/home/okcava/projects/universal_advex/.venv/lib/python3.8/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+wandb: ERROR     self._function()
+wandb: ERROR   File "mlp_sweep.py", line 109, in train_sweep
+wandb: ERROR     train_loader, test_loader, _ = get_mnist_loaders(batch_size=config.batch_size)
+wandb: ERROR TypeError: get_mnist_loaders() got an unexpected keyword argument 'batch_size'
+wandb: ERROR 
+wandb: Agent Starting Run: yu6u8amp with config:
+wandb: 	activation: Sigmoid
+wandb: 	batch_size: 64
+wandb: 	epochs: 15
+wandb: 	hidden_dims: [512, 256]
+wandb: 	learning_rate: 0.002582241132231794
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241215_223909-yu6u8amp
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run sweepy-sweep-2
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mlp_sweep_sigmoid
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mlp_sweep_sigmoid/sweeps/c2h30w7n
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mlp_sweep_sigmoid/runs/yu6u8amp
+wandb:                                                                                
+wandb: 🚀 View run sweepy-sweep-2 at: https://wandb.ai/cavaokcava/mlp_sweep_sigmoid/runs/yu6u8amp
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mlp_sweep_sigmoid
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241215_223909-yu6u8amp/logs
+Run yu6u8amp errored:
+Traceback (most recent call last):
+  File "/home/okcava/projects/universal_advex/.venv/lib/python3.8/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "mlp_sweep.py", line 109, in train_sweep
+    train_loader, test_loader, _ = get_mnist_loaders(batch_size=config.batch_size)
+TypeError: get_mnist_loaders() got an unexpected keyword argument 'batch_size'
+
+wandb: ERROR Run yu6u8amp errored:
+wandb: ERROR Traceback (most recent call last):
+wandb: ERROR   File "/home/okcava/projects/universal_advex/.venv/lib/python3.8/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+wandb: ERROR     self._function()
+wandb: ERROR   File "mlp_sweep.py", line 109, in train_sweep
+wandb: ERROR     train_loader, test_loader, _ = get_mnist_loaders(batch_size=config.batch_size)
+wandb: ERROR TypeError: get_mnist_loaders() got an unexpected keyword argument 'batch_size'
+wandb: ERROR 
+wandb: Sweep Agent: Waiting for job.
+wandb: Job received.
+wandb: Agent Starting Run: 2fs0io9z with config:
+wandb: 	activation: Sigmoid
+wandb: 	batch_size: 128
+wandb: 	epochs: 15
+wandb: 	hidden_dims: [256, 128]
+wandb: 	learning_rate: 0.002302561639882691
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241215_223924-2fs0io9z
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run apricot-sweep-3
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mlp_sweep_sigmoid
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mlp_sweep_sigmoid/sweeps/c2h30w7n
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mlp_sweep_sigmoid/runs/2fs0io9z
+wandb:                                                                                
+wandb: 🚀 View run apricot-sweep-3 at: https://wandb.ai/cavaokcava/mlp_sweep_sigmoid/runs/2fs0io9z
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mlp_sweep_sigmoid
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241215_223924-2fs0io9z/logs
+Run 2fs0io9z errored:
+Traceback (most recent call last):
+  File "/home/okcava/projects/universal_advex/.venv/lib/python3.8/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+    self._function()
+  File "mlp_sweep.py", line 109, in train_sweep
+    train_loader, test_loader, _ = get_mnist_loaders(batch_size=config.batch_size)
+TypeError: get_mnist_loaders() got an unexpected keyword argument 'batch_size'
+
+wandb: ERROR Run 2fs0io9z errored:
+wandb: ERROR Traceback (most recent call last):
+wandb: ERROR   File "/home/okcava/projects/universal_advex/.venv/lib/python3.8/site-packages/wandb/agents/pyagent.py", line 306, in _run_job
+wandb: ERROR     self._function()
+wandb: ERROR   File "mlp_sweep.py", line 109, in train_sweep
+wandb: ERROR     train_loader, test_loader, _ = get_mnist_loaders(batch_size=config.batch_size)
+wandb: ERROR TypeError: get_mnist_loaders() got an unexpected keyword argument 'batch_size'
+wandb: ERROR 
+Detected 3 failed runs in the first 60 seconds, killing sweep.
+wandb: ERROR Detected 3 failed runs in the first 60 seconds, killing sweep.
+wandb: To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
