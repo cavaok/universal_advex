@@ -2,7 +2,7 @@ from torch.utils.data import DataLoader, TensorDataset
 from torchvision import datasets, transforms
 
 
-def get_mnist_loaders():
+def get_mnist_loaders(batch_size=10):  # Added batch_size parameter with default=10
     transform = transforms.Compose([
         transforms.ToTensor()
     ])
@@ -10,8 +10,8 @@ def get_mnist_loaders():
     train_dataset = datasets.MNIST(root='./data', train=True, download=True, transform=transform)
     test_dataset = datasets.MNIST(root='./data', train=False, download=True, transform=transform)
 
-    train_loader = DataLoader(train_dataset, batch_size=10, shuffle=True)
-    test_loader = DataLoader(test_dataset, batch_size=10, shuffle=False)
+    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+    test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
     adversarial_loader = DataLoader(test_dataset, batch_size=1, shuffle=False)
 
     return train_loader, test_loader, adversarial_loader
