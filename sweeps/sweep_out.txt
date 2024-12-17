@@ -1,5 +1,0 @@
-running mlp_sweep.py
-Create sweep with ID: mmogltup
-Sweep URL: https://wandb.ai/cavaokcava/mlp_sweep_elu/sweeps/mmogltup
-Create sweep with ID: 3klyqm9c
-Sweep URL: https://wandb.ai/cavaokcava/mlp_sweep_sigmoid/sweeps/3klyqm9c
