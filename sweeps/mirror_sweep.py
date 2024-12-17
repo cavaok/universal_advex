@@ -4,8 +4,10 @@ from torch import nn
 import torch.nn.functional as F
 import os
 import sys
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from data import get_mnist_loaders
+from helper import create_diffuse_one_hot
 import wandb
 
 print('running mirror_sweep.py')
@@ -83,12 +85,12 @@ def train_sweep():
         for i, (images, labels) in enumerate(train_loader):
             images = images.view(images.size(0), -1).to(device)
 
-            # Create one-hot encoded labels
+            # Create diffuse labels for input and one-hot for targets
+            diffuse_labels = create_diffuse_one_hot(labels).to(device)
             target_labels = F.one_hot(labels, num_classes=num_classes).float().to(device)
 
-            # Concatenate images and labels for input
-            inputs = torch.cat((images, target_labels), dim=1)
-            targets = inputs.clone()  # We want to reconstruct both image and labels
+            # Concatenate images with diffuse labels for input
+            inputs = torch.cat((images, diffuse_labels), dim=1)
 
             optimizer.zero_grad()
             outputs = autoencoder(inputs)
@@ -96,11 +98,9 @@ def train_sweep():
             # Split outputs into image and label components
             output_images = outputs[:, :image_dim]
             output_labels = outputs[:, image_dim:]
-            target_images = targets[:, :image_dim]
-            target_labels = targets[:, image_dim:]
 
             # Calculate losses
-            image_loss = F.mse_loss(output_images, target_images)
+            image_loss = F.mse_loss(output_images, images)
             label_loss = F.kl_div(F.log_softmax(output_labels, dim=1), target_labels, reduction='batchmean')
 
             # Combined loss
@@ -127,10 +127,12 @@ def train_sweep():
         with torch.no_grad():
             for images, labels in test_loader:
                 images = images.view(images.size(0), -1).to(device)
+                diffuse_labels = create_diffuse_one_hot(labels).to(device)
                 target_labels = F.one_hot(labels, num_classes=num_classes).float().to(device)
-                inputs = torch.cat((images, target_labels), dim=1)
 
+                inputs = torch.cat((images, diffuse_labels), dim=1)
                 outputs = autoencoder(inputs)
+
                 output_images = outputs[:, :image_dim]
                 output_labels = outputs[:, image_dim:]
 
