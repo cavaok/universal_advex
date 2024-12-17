@@ -7,7 +7,7 @@
 #SBATCH -J sweeps              # Job name
 #SBATCH -o sweep_out.txt       # Standard output
 #SBATCH -e sweep_err.txt       # Standard error
-#SBATCH --gres=gpu:A100:1      # Request 1 A100 GPU
+# SLURM --gres=gpu:A100:1      # Request 1 A100 GPU
 
 # Load Python environment
 module load python/3.8.13/slu6jvw
