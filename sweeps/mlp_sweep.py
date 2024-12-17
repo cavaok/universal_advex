@@ -168,8 +168,8 @@ if __name__ == "__main__":
 
     # Create and run ELU sweep
     sweep_id_elu = wandb.sweep(sweep_config_elu, project="mlp_sweep_elu")
-    wandb.agent(sweep_id_elu, train_sweep, count=5)   # Run 5 ELU experiments
+    wandb.agent(sweep_id_elu, train_sweep, count=35)   # Run 5 ELU experiments
 
     # Create and run Sigmoid sweep
     sweep_id_sigmoid = wandb.sweep(sweep_config_sigmoid, project="mlp_sweep_sigmoid")
-    wandb.agent(sweep_id_sigmoid, train_sweep, count=5)   # Run 5 Sigmoid experiments
+    wandb.agent(sweep_id_sigmoid, train_sweep, count=35)   # Run 5 Sigmoid experiments

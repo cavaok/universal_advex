@@ -1,37 +1,5 @@
 running mlp_sweep.py
-Create sweep with ID: j9c2qzxe
-Sweep URL: https://wandb.ai/cavaokcava/mlp_sweep_elu/sweeps/j9c2qzxe
-Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
-Failed to download (trying next):
-HTTP Error 403: Forbidden
-
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz to ./data/MNIST/raw/train-images-idx3-ubyte.gz
-Extracting ./data/MNIST/raw/train-images-idx3-ubyte.gz to ./data/MNIST/raw
-
-Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
-Failed to download (trying next):
-HTTP Error 403: Forbidden
-
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz to ./data/MNIST/raw/train-labels-idx1-ubyte.gz
-Extracting ./data/MNIST/raw/train-labels-idx1-ubyte.gz to ./data/MNIST/raw
-
-Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
-Failed to download (trying next):
-HTTP Error 403: Forbidden
-
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw/t10k-images-idx3-ubyte.gz
-Extracting ./data/MNIST/raw/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw
-
-Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
-Failed to download (trying next):
-HTTP Error 403: Forbidden
-
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz
-Extracting ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw
-
-Create sweep with ID: ti8lo99x
-Sweep URL: https://wandb.ai/cavaokcava/mlp_sweep_sigmoid/sweeps/ti8lo99x
+Create sweep with ID: mmogltup
+Sweep URL: https://wandb.ai/cavaokcava/mlp_sweep_elu/sweeps/mmogltup
+Create sweep with ID: 3klyqm9c
+Sweep URL: https://wandb.ai/cavaokcava/mlp_sweep_sigmoid/sweeps/3klyqm9c
