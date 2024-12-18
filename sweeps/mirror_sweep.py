@@ -10,7 +10,7 @@ from data import get_mnist_loaders
 from helper import create_diffuse_one_hot
 import wandb
 
-print('running mirror_sweep.py')
+print('running mirror_sweep_elu.py')
 
 # Setup device
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -20,8 +20,8 @@ image_dim = 28 * 28
 num_classes = 10
 input_dim = image_dim + num_classes
 
-# Define sweep configurations
-sweep_config_elu = {
+# Define sweep configuration - ELU only
+sweep_config = {
     'method': 'random',
     'metric': {
         'name': 'test_accuracy',
@@ -41,15 +41,9 @@ sweep_config_elu = {
         },
         'epochs': {
             'value': 15
-        },
-        'activation': {
-            'value': 'ELU'
         }
     }
 }
-
-sweep_config_sigmoid = dict(sweep_config_elu)
-sweep_config_sigmoid['parameters']['activation']['value'] = 'Sigmoid'
 
 
 def train_sweep():
@@ -57,26 +51,18 @@ def train_sweep():
     wandb.init()
     config = wandb.config
 
-    # Debug prints to verify activation
     print(f"\n{'='*50}")
-    print(f"Starting run in project: {wandb.run.project}")
-    print(f"Using activation function: {config.activation}")
+    print(f"Starting ELU sweep run")
+    print(f"Project: {wandb.run.project}")
+    print(f"Batch size: {config.batch_size}")
+    print(f"Learning rate: {config.learning_rate}")
+    print(f"Lambda weight: {config.lambda_weight}")
     print(f"{'='*50}\n")
 
-    # Set up activation function
-    activation_fn = {
-        'ELU': nn.ELU(),
-        'Sigmoid': nn.Sigmoid(),
-    }[config.activation]
-
-    # Log activation explicitly to wandb
-    wandb.run.summary['actual_activation'] = config.activation
-    wandb.log({'activation_type': config.activation})
-
-    # Model definition
+    # Model definition - explicitly using ELU
     encoder_and_decoder = nn.Sequential(
         nn.Linear(input_dim, input_dim),
-        activation_fn
+        nn.ELU()
     ).to(device)
 
     def autoencoder(x):
@@ -125,7 +111,8 @@ def train_sweep():
                     'epoch': epoch,
                     'train_loss': running_loss / 100,
                     'image_loss': image_loss.item(),
-                    'label_loss': label_loss.item()
+                    'label_loss': label_loss.item(),
+                    'activation': 'ELU'  # Explicitly log activation type
                 })
                 running_loss = 0.0
 
@@ -169,12 +156,7 @@ if __name__ == "__main__":
     # Initialize wandb
     wandb.login()
 
-    # For ELU sweep (if this was the one that didn't complete properly):
-    sweep_id = wandb.sweep(sweep_config_elu, project="mirror_sweep_elu")
-    print("\nStarting ELU sweep")
+    # Create and run ELU sweep only
+    sweep_id = wandb.sweep(sweep_config, project="mirror_sweep_elu_verified")
+    print("\nStarting ELU sweep with verification")
     wandb.agent(sweep_id, train_sweep, count=40)
-
-    # For Sigmoid sweep (uncomment when ready to run this one):
-    # sweep_id = wandb.sweep(sweep_config_sigmoid, project="mirror_sweep_sigmoid")
-    # print("\nStarting Sigmoid sweep")
-    # wandb.agent(sweep_id, train_sweep, count=40)
