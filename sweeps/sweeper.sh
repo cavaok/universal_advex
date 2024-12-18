@@ -16,4 +16,4 @@ module load python/3.8.13/slu6jvw
 source /home/okcava/projects/universal_advex/.venv/bin/activate
 
 # Run scripts
-python mirror_sweep.py
+python hadamard_sweep.py
