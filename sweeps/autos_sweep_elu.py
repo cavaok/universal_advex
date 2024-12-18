@@ -122,23 +122,18 @@ def train_sweep():
         for i, (images, labels) in enumerate(train_loader):
             images = images.view(images.size(0), -1).to(device)
 
-            # Create diffuse labels for input and one-hot for targets
+            # Create inputs and targets
             diffuse_labels = create_diffuse_one_hot(labels).to(device)
-            target_labels = F.one_hot(labels, num_classes=num_classes).float().to(device)
-
             inputs = torch.cat((images, diffuse_labels), dim=1)
+            targets = torch.cat((images, torch.eye(num_classes)[labels].to(device)), dim=1)
 
             optimizer.zero_grad()
             outputs = autoencoder(inputs)
 
-            # Split outputs
-            output_images = outputs[:, :image_dim]
-            output_labels = outputs[:, image_dim:]
-
-            # Calculate losses
-            image_loss = F.mse_loss(output_images, images)
-            label_loss = F.kl_div(F.log_softmax(output_labels, dim=1),
-                                  target_labels, reduction='batchmean')
+            # Calculate losses using same approach as working code
+            outputs_label_probs = F.softmax(outputs[:, image_dim:], dim=1)
+            image_loss = F.mse_loss(outputs[:, :image_dim], targets[:, :image_dim])
+            label_loss = F.kl_div(outputs_label_probs.log(), targets[:, image_dim:])
 
             loss = image_loss + config.lambda_weight * label_loss
             loss.backward()
@@ -167,32 +162,36 @@ def train_sweep():
             for images, labels in test_loader:
                 images = images.view(images.size(0), -1).to(device)
                 diffuse_labels = create_diffuse_one_hot(labels).to(device)
-                target_labels = F.one_hot(labels, num_classes=num_classes).float().to(device)
-
                 inputs = torch.cat((images, diffuse_labels), dim=1)
+                targets = torch.cat((images, torch.eye(num_classes)[labels].to(device)), dim=1)
+
                 outputs = autoencoder(inputs)
 
-                output_images = outputs[:, :image_dim]
-                output_labels = outputs[:, image_dim:]
+                # Calculate losses using same approach as working code
+                outputs_label_probs = F.softmax(outputs[:, image_dim:], dim=1)
+                image_loss = F.mse_loss(outputs[:, :image_dim], targets[:, :image_dim])
+                label_loss = F.kl_div(outputs_label_probs.log(), targets[:, image_dim:])
 
-                # Calculate test losses
-                image_loss = F.mse_loss(output_images, images)
-                label_loss = F.kl_div(F.log_softmax(output_labels, dim=1),
-                                      target_labels, reduction='batchmean')
                 loss = image_loss + config.lambda_weight * label_loss
                 test_loss += loss.item()
 
-                # Calculate accuracy
-                _, predicted = output_labels.max(1)
+                # Use last 10 outputs for prediction
+                _, predicted = outputs[:, -num_classes:].max(1)
                 total += labels.size(0)
-                correct += (predicted == labels.to(device)).sum().item()
+                correct += predicted.eq(labels.to(device)).sum().item()
 
-        accuracy = 100 * correct / total
-        wandb.log({
-            'epoch': epoch,
-            'test_accuracy': accuracy,
-            'test_loss': test_loss / len(test_loader)
-        })
+                if total % 1000 == 0:  # Debugging prints
+                    print(f"\nPredictions sample:")
+                    print(f"Labels: {labels[:5]}")
+                    print(f"Predicted: {predicted[:5]}")
+                    print(f"Running accuracy: {100. * correct / total:.2f}%")
+
+            accuracy = 100 * correct / total
+            wandb.log({
+                'epoch': epoch,
+                'test_accuracy': accuracy,
+                'test_loss': test_loss / len(test_loader)
+            })
 
 
 if __name__ == "__main__":
@@ -205,4 +204,3 @@ if __name__ == "__main__":
         sweep_id = wandb.sweep(sweep_config, project=project_name)
         print(f"\nStarting sweep for {project_name}")
         wandb.agent(sweep_id, train_sweep, count=40)
-
