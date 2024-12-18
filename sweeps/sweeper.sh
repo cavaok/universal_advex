@@ -16,4 +16,5 @@ module load python/3.8.13/slu6jvw
 source /home/okcava/projects/universal_advex/.venv/bin/activate
 
 # Run scripts
-python hadamard_sweep.py
+python autos_sweep_elu.py
+python autos_sweep_sigmoid.py
