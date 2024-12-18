@@ -57,11 +57,21 @@ def train_sweep():
     wandb.init()
     config = wandb.config
 
+    # Debug prints to verify activation
+    print(f"\n{'='*50}")
+    print(f"Starting run in project: {wandb.run.project}")
+    print(f"Using activation function: {config.activation}")
+    print(f"{'='*50}\n")
+
     # Set up activation function
     activation_fn = {
         'ELU': nn.ELU(),
         'Sigmoid': nn.Sigmoid(),
     }[config.activation]
+
+    # Log activation explicitly to wandb
+    wandb.run.summary['actual_activation'] = config.activation
+    wandb.log({'activation_type': config.activation})
 
     # Model definition
     encoder_and_decoder = nn.Sequential(
@@ -159,11 +169,12 @@ if __name__ == "__main__":
     # Initialize wandb
     wandb.login()
 
-    # Create and run ELU sweep
-    sweep_id_elu = wandb.sweep(sweep_config_elu, project="mirror_sweep_elu")
-    wandb.agent(sweep_id_elu, train_sweep, count=40)
+    # For ELU sweep (if this was the one that didn't complete properly):
+    sweep_id = wandb.sweep(sweep_config_elu, project="mirror_sweep_elu")
+    print("\nStarting ELU sweep")
+    wandb.agent(sweep_id, train_sweep, count=40)
 
-    # Create and run Sigmoid sweep
-    sweep_id_sigmoid = wandb.sweep(sweep_config_sigmoid, project="mirror_sweep_sigmoid")
-    wandb.agent(sweep_id_sigmoid, train_sweep, count=40)
-
+    # For Sigmoid sweep (uncomment when ready to run this one):
+    # sweep_id = wandb.sweep(sweep_config_sigmoid, project="mirror_sweep_sigmoid")
+    # print("\nStarting Sigmoid sweep")
+    # wandb.agent(sweep_id, train_sweep, count=40)
