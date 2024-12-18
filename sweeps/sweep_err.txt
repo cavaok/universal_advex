@@ -8,17 +8,1406 @@ Loading python/3.8.13/slu6jvw
     util-linux-uuid/2.37.4/nlecwm6
 wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
 wandb: Currently logged in as: cavaokcava. Use `wandb login --relogin` to force relogin
-wandb: Agent Starting Run: v3c4t1ia with config:
-wandb: 	activation: Sigmoid
+wandb: Agent Starting Run: 8osxfa5t with config:
+wandb: 	batch_size: 128
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.07237901453885637
+wandb: 	learning_rate: 0.0029402814398747775
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_111409-8osxfa5t
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run rare-sweep-1
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/8osxfa5t
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▂▂▂▂▃▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇███
+wandb:    image_loss █▅▄▃▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    label_loss ▆▅▄▄▄▄▅▃▄▃▅▃▅█▅▅▆▃▅▄▄▃▃▃▃▃▃▄▅▅▄▃▂▃▃▅▂▁▃▃
+wandb: test_accuracy ▁▄▆▆▇▆▆▆▇▅▆▇▇██
+wandb:     test_loss █▄▂▂▁▂▁▂▁▂▁▁▁▁▁
+wandb:    train_loss █▇▅▅▄▃▃▃▃▃▂▂▃▂▂▃▃▂▂▂▂▂▂▂▂▂▂▁▁▂▁▂▂▂▂▂▁▁▁▂
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 9e-05
+wandb:    label_loss 0.18529
+wandb: test_accuracy 93.07
+wandb:     test_loss 0.01788
+wandb:    train_loss 0.0172
+wandb: 
+wandb: 🚀 View run rare-sweep-1 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/8osxfa5t
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_111409-8osxfa5t/logs
+wandb: Agent Starting Run: k5h1tv0r with config:
+wandb: 	batch_size: 128
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.47135051243607307
+wandb: 	learning_rate: 0.0032314647736366693
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_111550-k5h1tv0r
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run azure-sweep-2
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/k5h1tv0r
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▄▄▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇▇▇████
+wandb:    image_loss █▅▄▃▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    label_loss █▅▄▃▃▃▃▃▂▃▂▄▄▃▃▄▃▅▃▂▂▁▃▄▃▄▃▃▃▃▄▃▂▄▃▂▂▄▁▃
+wandb: test_accuracy ▁▄▄▅▆▆▇▆▇▆▇██▇▇
+wandb:     test_loss █▄▃▂▂▂▁▂▁▂▁▁▁▂▂
+wandb:    train_loss █▃▃▃▂▂▂▂▂▂▂▂▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.0002
+wandb:    label_loss 0.27014
+wandb: test_accuracy 92.98
+wandb:     test_loss 0.11874
+wandb:    train_loss 0.10151
+wandb: 
+wandb: 🚀 View run azure-sweep-2 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/k5h1tv0r
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_111550-k5h1tv0r/logs
+wandb: Agent Starting Run: d9eyp4re with config:
+wandb: 	batch_size: 128
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.48600254841471946
+wandb: 	learning_rate: 0.008965029409544634
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_111732-d9eyp4re
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run helpful-sweep-3
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/d9eyp4re
+wandb: uploading history steps 72-74, summary
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▁▂▂▃▃▃▃▃▃▃▃▃▄▄▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇▇████
+wandb:    image_loss █▄▂▁▁▂▂▅▂▄▃▂▁▂▄▄▃▁▁▃▂▂▂▁▅▃▁▄▁▄▂▁▄▄▂▃▂▆▃▁
+wandb:    label_loss ▆▅▅▃▃▅▆▄▆▆▂▃▆▃▃▄▄▂▄▂▃▁▆▅▂▄█▃▂▄▅▃▂▃▆▃▅▄▄▆
+wandb: test_accuracy ▁▂▅▄▅▁▅▅█▆▄▆▄▇▄
+wandb:     test_loss ▅▄▄▁▃▇▄▄▁▄█▆█▃▆
+wandb:    train_loss █▃▃▂▂▂▂▂▂▂▂▂▂▁▂▁▁▂▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00069
+wandb:    label_loss 0.39552
+wandb: test_accuracy 92.54
+wandb:     test_loss 0.13426
+wandb:    train_loss 0.11534
+wandb: 
+wandb: 🚀 View run helpful-sweep-3 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/d9eyp4re
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_111732-d9eyp4re/logs
+wandb: Agent Starting Run: uje64c43 with config:
+wandb: 	batch_size: 64
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.030050877825217537
+wandb: 	learning_rate: 0.005891734488385638
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_111913-uje64c43
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run fluent-sweep-4
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/uje64c43
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▂▂▃▃▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇▇▇▇██
+wandb:    image_loss █▄▂▂▃▂▂▁▁▃▄▂▃▄▃▄▂▂▁▄▃▂▃▂▂▁▃▂▂▅▄▁▂▃▂▆▁▆▄▂
+wandb:    label_loss ▆▃▅▄▇▄▇▃█▆▁▆▃▇▂▄▅▄▂▆▇▇▆▃▂▁▆▃▄▆▂▁▃▄▅▇▅▃▂▁
+wandb: test_accuracy ▁▄▄▃▇▇█▇▆▇▆▇▆▇▇
+wandb:     test_loss ▄▄▄▅▂▁▃▂█▃▁▂▂▄▅
+wandb:    train_loss █▅▄▃▂▃▂▄▃▂▃▃▂▂▂▂▃▂▂▂▃▁▂▂▁▂▁▃▂▁▂▂▃▂▁▁▂▂▁▂
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00128
+wandb:    label_loss 0.34073
+wandb: test_accuracy 92.73
+wandb:     test_loss 0.00991
+wandb:    train_loss 0.00817
+wandb: 
+wandb: 🚀 View run fluent-sweep-4 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/uje64c43
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_111913-uje64c43/logs
+wandb: Agent Starting Run: 1lpqrwal with config:
+wandb: 	batch_size: 128
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.0399773245399444
+wandb: 	learning_rate: 0.007741633820098159
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_112105-1lpqrwal
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run kind-sweep-5
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/1lpqrwal
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▁▂▂▃▃▃▃▃▃▄▄▄▄▅▅▅▅▅▅▅▅▅▆▆▇▇▇▇▇▇▇▇▇█
+wandb:    image_loss █▄▃▂▁▁▂▁▁▁▃▂▂▂▂▂▂▃▂▂▁▂▁▁▃▂▃▂▁▄▂▄▂▁▃▂▁▃▂▁
+wandb:    label_loss ▇▅▅▄▅▅▄▄▄▅▃▄▃▅▆▄▅▆▇▂▃▄▆▂▃▆▂▂█▃▃▂▃▇▃▂▅▂▁▆
+wandb: test_accuracy ▁▅█▅▅▆▅▄▇▇▅▅▆▆▆
+wandb:     test_loss ▃▂▃▂▂▂▃▂▄▁▂▂▅▁█
+wandb:    train_loss █▂▂▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00048
+wandb:    label_loss 0.29951
+wandb: test_accuracy 92.63
+wandb:     test_loss 0.01526
+wandb:    train_loss 0.01075
+wandb: 
+wandb: 🚀 View run kind-sweep-5 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/1lpqrwal
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_112105-1lpqrwal/logs
+wandb: Agent Starting Run: aoibta5y with config:
 wandb: 	batch_size: 32
 wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.32026677863463293
-wandb: 	learning_rate: 0.009237654399703674
-wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_110548-v3c4t1ia
+wandb: 	lambda_weight: 0.11713671315611168
+wandb: 	learning_rate: 0.009154449894448503
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_112246-aoibta5y
 wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run stoic-sweep-1
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu/sweeps/zfrrm4ew
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu/runs/v3c4t1ia
-slurmstepd: error: *** JOB 981348 ON gpu-4-11 CANCELLED AT 2024-12-18T11:06:15 ***
+wandb: Syncing run effortless-sweep-6
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/aoibta5y
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▂▃▃▃▃▃▃▃▃▃▃▃▃▄▄▅▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇▇██
+wandb:    image_loss ▅▃▅▂▂▄▃▄▂▂▅▂▂▃▅█▆▄▂▃▂▃▃▆▃▂▂▂▁▃▆▃▂▃▄▃▂▂▆▄
+wandb:    label_loss ▇▇▃▂▂▁▁▁█▃▃▃▄▇▂▄▅▅▂▄▂█▃▅▅▃▅▅▇▆▃▃▂▃▆▃▅▄▃▃
+wandb: test_accuracy ▃▅▅▄▇▆▆▆▇▁██▅▅▆
+wandb:     test_loss ▃▁▂█▄▃▂▃▄▅▃▂▃▆▃
+wandb:    train_loss ▇▆▇█▇▃▃█▃▆▄▄▆▄▅▆▆▆▅▄▄▅▆▄▃▁▁▇▃▃▃▅▄▄▆▃▂▂▃▄
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00409
+wandb:    label_loss 0.10467
+wandb: test_accuracy 92.35
+wandb:     test_loss 0.04282
+wandb:    train_loss 0.04026
+wandb: 
+wandb: 🚀 View run effortless-sweep-6 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/aoibta5y
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_112246-aoibta5y/logs
+wandb: Agent Starting Run: pec0dfv6 with config:
+wandb: 	batch_size: 64
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.40760146799235847
+wandb: 	learning_rate: 0.000638106244924519
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_112453-pec0dfv6
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run hopeful-sweep-7
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/pec0dfv6
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▂▂▃▃▃▃▃▃▄▄▅▅▅▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇█████
+wandb:    image_loss █▆▄▄▃▃▃▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    label_loss ▇▅▇▄▆▄▃▄▄▄▄▃▃▅▅▁▁▅▂▅▃▆▄▃▄▂▅▇▂█▄▄▂▄▄▅▄▅▂▂
+wandb: test_accuracy ▁▄▅▆▇▇▇▇█▇▇████
+wandb:     test_loss █▄▃▃▂▂▂▁▁▁▁▁▁▁▁
+wandb:    train_loss █▄▄▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 1e-05
+wandb:    label_loss 0.1022
+wandb: test_accuracy 92.89
+wandb:     test_loss 0.1013
+wandb:    train_loss 0.10031
+wandb: 
+wandb: 🚀 View run hopeful-sweep-7 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/pec0dfv6
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_112453-pec0dfv6/logs
+wandb: Agent Starting Run: iy5alofo with config:
+wandb: 	batch_size: 128
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.3968926212043474
+wandb: 	learning_rate: 0.005050436845636266
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_112644-iy5alofo
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run upbeat-sweep-8
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/iy5alofo
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▂▂▂▂▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇▇▇██
+wandb:    image_loss █▅▄▂▂▂▁▁▁▃▂▁▂▁▁▂▁▁▁▂▂▁▁▁▂▂▂▁▁▂▂▂▃▁▁▁▁▁▁▁
+wandb:    label_loss █▇▆▇▄▄▄▅▄▂▄▆▇▃▄▄▃▆▁▄▃▅▃▄▂▄▃▃▂▅▆▃▅▄█▇▃▂▇▄
+wandb: test_accuracy ▁▄▆▅▇▇▆██▆▇█▇▆█
+wandb:     test_loss █▃▂▂▁▂▃▁▃▂▂▂▂▃▂
+wandb:    train_loss █▃▃▂▂▂▂▂▂▂▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00038
+wandb:    label_loss 0.13906
+wandb: test_accuracy 92.94
+wandb:     test_loss 0.10004
+wandb:    train_loss 0.09288
+wandb: 
+wandb: 🚀 View run upbeat-sweep-8 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/iy5alofo
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_112644-iy5alofo/logs
+wandb: Agent Starting Run: pnwwth9c with config:
+wandb: 	batch_size: 64
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.21509075777531456
+wandb: 	learning_rate: 0.004974407072641147
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_112825-pnwwth9c
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run absurd-sweep-9
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/pnwwth9c
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▂▂▂▃▃▃▃▃▃▃▃▃▃▄▄▅▅▅▅▅▅▅▅▅▅▆▆▇▇▇▇▇▇▇███
+wandb:    image_loss █▂▂▁▂▂▂▁▁▂▂▁▂▂▃▂▂▂▂▁▂▁▁▂▁▂▂▃▂▂▃▃▂▃▁▁▃▁▂▃
+wandb:    label_loss ▇▆▃▆▅▅▆▆▃▄▄▁▄▅▅▅▅▂▂▃▁▅▂▃▂▃▁▅▁▂▂▆▂▄█▄▂▂▅▂
+wandb: test_accuracy ▁▆▅▂▄▇▆▃▇▅▇▂█▅▅
+wandb:     test_loss ▇▂▃▇▄▁▃▇▄▅▄█▅▆▇
+wandb:    train_loss ██▆▇▆▅▆▅▆▅▄▆▅▅▅▃▅▃▄▄▄▄▄▃▄▃▃▁▄▄▁▃▄▄▃▄▃▃▃▃
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00145
+wandb:    label_loss 0.20339
+wandb: test_accuracy 92.73
+wandb:     test_loss 0.0597
+wandb:    train_loss 0.05072
+wandb: 
+wandb: 🚀 View run absurd-sweep-9 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/pnwwth9c
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_112825-pnwwth9c/logs
+wandb: Agent Starting Run: gwzl11xw with config:
+wandb: 	batch_size: 32
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.071798401870862
+wandb: 	learning_rate: 0.0036251760775067015
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_113017-gwzl11xw
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run faithful-sweep-10
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/gwzl11xw
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▃▃▃▃▃▃▃▄▄▅▅▅▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇▇▇▇▇██
+wandb:    image_loss ▅▅▅▃▅▇▆▅▃▅▇▂▁▂▃▅▃▄▅▆▂▇▃▂█▇▂▂▄▁▄▂▃▃▃▃▇▃▃▄
+wandb:    label_loss ▃▄▃▅▆▂▄▅█▃▄▅▂▁▃▃█▂▂▁▄▁▂▁▃▄▃▄▃▂▄▂▂▁▄▇▂▂▃▃
+wandb: test_accuracy ▁▄▆▆▃█▆▆▃▅▆█▆▅█
+wandb:     test_loss ▅▅▂▂▇▃▁▃▇▄▃▅▅█▆
+wandb:    train_loss █▆▅▆▅▄▅▅▄▆▃▄▅▄▃▄▄▅▃▄▄▃▃▃▂▂▄▁▄▃▃▄▃▄▂▃▁▄▂▃
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00133
+wandb:    label_loss 0.21293
+wandb: test_accuracy 92.91
+wandb:     test_loss 0.02081
+wandb:    train_loss 0.01755
+wandb: 
+wandb: 🚀 View run faithful-sweep-10 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/gwzl11xw
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_113017-gwzl11xw/logs
+wandb: Agent Starting Run: 4hdss30m with config:
+wandb: 	batch_size: 32
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.4972076853911197
+wandb: 	learning_rate: 0.0009615376029262136
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_113224-4hdss30m
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run still-sweep-11
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/4hdss30m
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▂▂▂▃▃▃▃▃▃▃▃▄▄▅▅▅▅▅▅▅▅▅▅▅▆▇▇▇▇▇▇▇████
+wandb:    image_loss █▄▃▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    label_loss █▆▄▃▄▂▂▄▁▄▂▄▄▂▅▂▄▁▂▃▂▃▄▁▃▂▂▂▃▂▃▂▃▂▂▄▂▃▂▁
+wandb: test_accuracy ▁▄▆▅▆█▇▇█▇▆▇▇██
+wandb:     test_loss █▅▃▂▂▂▂▂▁▁▂▁▁▁▁
+wandb:    train_loss █▆▆▅▅▄▄▄▄▄▄▃▄▂▃▄▄▃▃▂▂▂▂▂▂▃▃▃▁▂▃▂▁▁▂▁▃▂▃▂
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00016
+wandb:    label_loss 0.06921
+wandb: test_accuracy 93.01
+wandb:     test_loss 0.12359
+wandb:    train_loss 0.12214
+wandb: 
+wandb: 🚀 View run still-sweep-11 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/4hdss30m
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_113224-4hdss30m/logs
+wandb: Agent Starting Run: 496bohgj with config:
+wandb: 	batch_size: 64
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.003696148579568459
+wandb: 	learning_rate: 0.004141668644803283
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_113430-496bohgj
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run drawn-sweep-12
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/496bohgj
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▂▂▂▂▃▃▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▇▇▇▇▇▇███
+wandb:    image_loss █▅▄▃▃▃▁▂▃▂▃▅▁▂▂▃▄▄▁▁▃▃▁▄▁▃▃▁▅▂▁▂▅▃▂▃▇▂▅▂
+wandb:    label_loss ▅▅▄▅▄▅▅▂▂▃▂▆▃▂▁▁▃▃▅▄█▅▃▂▄▂▅▃▂▁▃▅▆▅▅▅▂▅▃▇
+wandb: test_accuracy ▁▂▄▆▆▄▅▂▆▇▇▇▆█▆
+wandb:     test_loss ▆▃█▂▃▄▂▄▂▄▄▁▆▃▂
+wandb:    train_loss █▁▁▁▂▂▂▂▁▁▂▁▁▁▁▁▁▂▁▂▁▁▂▂▁▂▂▁▁▂▂▁▁▁▁▁▁▂▁▂
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00041
+wandb:    label_loss 0.48817
+wandb: test_accuracy 92.81
+wandb:     test_loss 0.00129
+wandb:    train_loss 0.00121
+wandb: 
+wandb: 🚀 View run drawn-sweep-12 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/496bohgj
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_113430-496bohgj/logs
+wandb: Agent Starting Run: ntpqobko with config:
+wandb: 	batch_size: 32
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.4322121637574821
+wandb: 	learning_rate: 0.0006960490201948247
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_113622-ntpqobko
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run treasured-sweep-13
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/ntpqobko
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▂▂▂▂▃▃▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▅▅▆▆▇▇▇▇▇▇▇█
+wandb:    image_loss █▆▄▄▄▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    label_loss ▄▃▇▅▃▂▇▃▆▅▄▃▇▂▃▂▂▃▄▄▆▄▆▇▂▇█▂▂▃▃▅▇▅▅▂▅▃▂▁
+wandb: test_accuracy ▁▄▅▅▅▆▆▇▇██▇▇▇█
+wandb:     test_loss █▄▃▂▃▂▂▁▁▁▁▁▁▂▁
+wandb:    train_loss █▄▄▄▃▃▂▂▂▂▂▂▂▂▁▂▂▂▂▂▂▂▁▂▂▁▂▂▂▁▂▁▁▂▁▁▁▁▂▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 6e-05
+wandb:    label_loss 0.23779
+wandb: test_accuracy 92.95
+wandb:     test_loss 0.10704
+wandb:    train_loss 0.09539
+wandb: 
+wandb: 🚀 View run treasured-sweep-13 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/ntpqobko
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_113622-ntpqobko/logs
+wandb: Agent Starting Run: o6umo1xe with config:
+wandb: 	batch_size: 128
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.39267746304669104
+wandb: 	learning_rate: 0.009672801502505952
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_113829-o6umo1xe
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run warm-sweep-14
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/o6umo1xe
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇▇▇▇███
+wandb:    image_loss ▇▃▂▁▁▂▂▂▃▃▂▂▂▃▄▁▂▂█▂▃▂▃▂▂▂▂▁▂▂▃▅▃▂▂▄▂▃▂▃
+wandb:    label_loss ▆▅█▅▆▄▆▄▄▄▃▄▄▅▂▅▃▄▆▄▄▃▃▇▂▅▅▄▃▃▃▄▂▃▁▅▂█▂▆
+wandb: test_accuracy ▁▇▅▇█▆▆▇▆█▆▇▇▆▇
+wandb:     test_loss █▃▄▄▁▄▅▄▅▄▆▅▆▆▆
+wandb:    train_loss █▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▂▂▂▂▁▂▂▁▂▁▂▂▁▂▂▁▁▂
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00174
+wandb:    label_loss 0.3423
+wandb: test_accuracy 92.6
+wandb:     test_loss 0.11088
+wandb:    train_loss 0.09663
+wandb: 
+wandb: 🚀 View run warm-sweep-14 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/o6umo1xe
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_113829-o6umo1xe/logs
+wandb: Agent Starting Run: 5otl5jl5 with config:
+wandb: 	batch_size: 128
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.07443094359815194
+wandb: 	learning_rate: 0.007969699402011133
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_114010-5otl5jl5
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run wandering-sweep-15
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/5otl5jl5
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▂▂▃▃▃▃▃▃▃▃▃▃▃▄▄▅▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇█
+wandb:    image_loss ▆▃▂▁▁▁▁▂▇▄▃█▂▅▃▄▅▁▂▅▂▂▂▂▃▄▄▃▂▃▁▄▂▃▅▂▂▂▂▃
+wandb:    label_loss ▆▇▆█▄▅▅▆▄▄▃▄▅▇▄▃▅▃▄▂▃█▂▃▆▁▄▆▃█▄▃▂▄▂▂▅▅▆▃
+wandb: test_accuracy ▄▁▆▃█▃▁▆▄▄▆▃▇█▃
+wandb:     test_loss ▂▃▃▇▁▃█▄▄▅▄▄▄▂█
+wandb:    train_loss █▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00101
+wandb:    label_loss 0.12604
+wandb: test_accuracy 92.39
+wandb:     test_loss 0.02237
+wandb:    train_loss 0.01838
+wandb: 
+wandb: 🚀 View run wandering-sweep-15 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/5otl5jl5
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_114010-5otl5jl5/logs
+wandb: Agent Starting Run: rvg66cvl with config:
+wandb: 	batch_size: 64
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.27782745261729636
+wandb: 	learning_rate: 0.009609525551516916
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_114151-rvg66cvl
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run lyric-sweep-16
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/rvg66cvl
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▄▅▅▅▅▅▅▅▆▆▇▇▇▇▇▇▇▇▇█
+wandb:    image_loss ▁▁▂▂▄▃▃▂▂▁▄▂▂▃▃▃▃█▁▃▃▅▁▅▄▂▃▄▂▁▅▂▄▂▄▂▂▂▃▂
+wandb:    label_loss ▄▃▃▄▇▆▂▃▄▄▃▃▄▂▄▃▄▄▅█▆▄▅▄▂▅▄▂▅▃▄▁▃▇▄▄▄▅▃▃
+wandb: test_accuracy ▆▆▇▆▇█▅▅█▅▆▁▄▅█
+wandb:     test_loss ▁▂▂▃▃▂▃▃▂▅▅█▇▇▄
+wandb:    train_loss █▂▂▂▂▂▂▁▂▁▂▂▂▁▂▂▂▂▁▂▁▁▁▂▂▁▁▁▁▂▁▁▂▂▁▂▁▂▂▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00281
+wandb:    label_loss 0.17794
+wandb: test_accuracy 92.73
+wandb:     test_loss 0.08352
+wandb:    train_loss 0.082
+wandb: 
+wandb: 🚀 View run lyric-sweep-16 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/rvg66cvl
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_114151-rvg66cvl/logs
+wandb: Agent Starting Run: kg251woo with config:
+wandb: 	batch_size: 64
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.009063302963584652
+wandb: 	learning_rate: 0.006526584573738928
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_114343-kg251woo
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run pleasant-sweep-17
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/kg251woo
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▁▂▂▂▂▃▃▃▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▆▆▇▇▇▇▇▇██
+wandb:    image_loss █▃▂▂▃▂▂▄▂▄▁▁▂▂▁▂▄▁▁▂▁▃▁▆▂▂▂▂▃▃▃▂▂▂▁▆▁▄▂▃
+wandb:    label_loss ▆▆▅█▂▄▂▅▁▄▇█▅▄▃▂▆▆▆▅▅▄▅▁▄▄▃▄▃▆▃▃▃▃▆▃▃▂▅▄
+wandb: test_accuracy ▄▅█▅▆█▅▅▁▆▄▄▆▅▇
+wandb:     test_loss ▁▆▁▅▆▃█▃▂▄▆▃▂▅▅
+wandb:    train_loss █▃▅▃▃▃▄▃▃▂▄▆▃▄▂▁▃▃▂▃▂▂▅▄▃▂▅▂▃▂▆▄▂▃▃▂▂▂▄▃
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00233
+wandb:    label_loss 0.2123
+wandb: test_accuracy 92.8
+wandb:     test_loss 0.00478
+wandb:    train_loss 0.00395
+wandb: 
+wandb: 🚀 View run pleasant-sweep-17 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/kg251woo
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_114343-kg251woo/logs
+wandb: Agent Starting Run: somx8zie with config:
+wandb: 	batch_size: 32
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.1182783200956447
+wandb: 	learning_rate: 0.0028733687508259984
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_114534-somx8zie
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run super-sweep-18
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/somx8zie
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▂▂▂▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇▇▇█
+wandb:    image_loss █▄▂▂▂▂▁▁▁▁▂▂▁▂▁▂▁▂▁▁▁▁▂▂▂▂▁▂▁▂▂▂▁▁▁▂▁▂▃▁
+wandb:    label_loss ▆▅▃▃▂▃▂▃▅▂▃▆▄▃▂▂▂▃▅▇▅▄▄▄▁▅▃▃▅▂▄▅█▂▅▃▁▇▃▂
+wandb: test_accuracy ▁▄▃▅▇▅█▇█▇▅█▇▆▆
+wandb:     test_loss █▅▄▂▄▅▅▁▃▄▆▅▄▆▇
+wandb:    train_loss █▇▅▅▆▃▂▄▂▃▃▂▂▂▃▂▂▁▃▃▂▂▁▂▂▂▃▂▂▂▂▂▂▂▂▁▂▃▂▂
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00101
+wandb:    label_loss 0.05343
+wandb: test_accuracy 92.68
+wandb:     test_loss 0.03245
+wandb:    train_loss 0.02657
+wandb: 
+wandb: 🚀 View run super-sweep-18 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/somx8zie
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_114534-somx8zie/logs
+wandb: Agent Starting Run: tw58frpm with config:
+wandb: 	batch_size: 128
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.11001951711249676
+wandb: 	learning_rate: 0.008911386826638173
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_114741-tw58frpm
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run rural-sweep-19
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/tw58frpm
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▂▂▂▂▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇███
+wandb:    image_loss ▄▂▂▁▁▁▁▂▁▂▃▁▁▂▂▂▂▂▂▂▁▂▂▁▁▂▁▂▃▃▃▁▁█▁▁▂▅▂▁
+wandb:    label_loss ▆▃▅▇▆▇▄▆▆▂▅█▅▄▃▃▄▃▂▆▇▂▆▄▄▂▃▄▃▆▄▁▃▄▅▂▃▄▆▇
+wandb: test_accuracy ▄▇▁▇▇▆▇█▅▇█▆▆▇▄
+wandb:     test_loss ▃▃▆▂▁▂▂▁▅▃▄▅▅▅█
+wandb:    train_loss █▃▂▂▂▂▁▁▁▂▂▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00084
+wandb:    label_loss 0.38343
+wandb: test_accuracy 92.15
+wandb:     test_loss 0.03516
+wandb:    train_loss 0.02752
+wandb: 
+wandb: 🚀 View run rural-sweep-19 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/tw58frpm
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_114741-tw58frpm/logs
+wandb: Agent Starting Run: elw2zo3q with config:
+wandb: 	batch_size: 128
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.03294288773046039
+wandb: 	learning_rate: 0.009978213122454177
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_114922-elw2zo3q
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run scarlet-sweep-20
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/elw2zo3q
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▂▂▂▂▃▃▃▃▃▃▃▃▃▄▅▅▅▅▅▅▅▅▅▆▆▇▇▇▇▇▇▇▇██
+wandb:    image_loss ▇▃▂▂▁▁▂▂▂▂▄▅▂▂▅▃▂▂▁▃▃▂▃▁▂▃▂▁▃▅▅▂▄▂▁█▁▂▂▂
+wandb:    label_loss █▄▃▅▂▅▅▃▆▁▂▄▅▅▅▅▃▃▃▅▆▃▃▅▇▅▃▃▂▄▃▃▃▂▃▄▄▃▆▁
+wandb: test_accuracy ▁▆▄▅▄▇▇▆▄▆▅▇▅▃█
+wandb:     test_loss ▂▁▅▄▄▆▆▂▆▁▆▄█▅▆
+wandb:    train_loss █▆▄▃▃▃▃▅▃▃▄▃▃▅▅▃▂▃▄▄▄▃▆▂▅▂▁▃▄▃▃▃▁▃▆▁▂▂▄▂
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00148
+wandb:    label_loss 0.28716
+wandb: test_accuracy 92.81
+wandb:     test_loss 0.01094
+wandb:    train_loss 0.0092
+wandb: 
+wandb: 🚀 View run scarlet-sweep-20 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/elw2zo3q
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_114922-elw2zo3q/logs
+wandb: Agent Starting Run: nvwnq5mo with config:
+wandb: 	batch_size: 64
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.3271397335566669
+wandb: 	learning_rate: 0.000974381664994712
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_115103-nvwnq5mo
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run celestial-sweep-21
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/nvwnq5mo
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▂▂▂▂▂▃▃▃▃▄▄▄▅▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇▇████
+wandb:    image_loss ██▅▄▄▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    label_loss ▇█▂▄▅▅▅▆▃▂▅▃▁▂▆▂▃▆▆▃▄▇▇▃▂▃▆▂▂▄▃▁▄▂▃▄▄▄▂▁
+wandb: test_accuracy ▁▅▅▆▇▆▇█▇████▇█
+wandb:     test_loss █▄▃▂▂▂▂▁▁▁▁▁▁▁▁
+wandb:    train_loss █▃▂▂▂▂▂▂▂▂▂▂▁▁▂▂▂▂▂▁▁▂▁▁▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 3e-05
+wandb:    label_loss 0.24172
+wandb: test_accuracy 92.94
+wandb:     test_loss 0.08103
+wandb:    train_loss 0.07889
+wandb: 
+wandb: 🚀 View run celestial-sweep-21 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/nvwnq5mo
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_115103-nvwnq5mo/logs
+wandb: Agent Starting Run: 7kiap5im with config:
+wandb: 	batch_size: 128
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.41941442643678417
+wandb: 	learning_rate: 0.00877267110833401
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_115255-7kiap5im
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run vague-sweep-22
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/7kiap5im
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▃▃▄▅▅▅▅▅▅▅▅▅▆▇▇▇▇▇▇▇███
+wandb:    image_loss ▇▃▁▁▂▂▂▂▄▆▃▇▆▂▄▇█▄▅▄▂▄▅▅▇▄▅▂▁▄▃▇▅▅█▂▄▄▂▆
+wandb:    label_loss █▃▅▁▆▅▃▆▂▄▃▅▇▁▅▂▆▁▃▁▁▁▄▁▂▅▂▁▆▄▂▄▄▃▅▃▄▅▆▁
+wandb: test_accuracy ▄▅▅▄▁▄▄▅▄▆▇█▇▅▆
+wandb:     test_loss ▄▂▄▄█▂▇▅▅▃▃▁▄█▇
+wandb:    train_loss █▃▃▂▂▂▂▂▂▂▂▁▁▂▁▂▁▂▁▂▁▂▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00185
+wandb:    label_loss 0.17104
+wandb: test_accuracy 92.73
+wandb:     test_loss 0.11828
+wandb:    train_loss 0.10301
+wandb: 
+wandb: 🚀 View run vague-sweep-22 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/7kiap5im
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_115255-7kiap5im/logs
+wandb: Agent Starting Run: cbmvzin0 with config:
+wandb: 	batch_size: 32
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.37096856018842206
+wandb: 	learning_rate: 0.005837119406298424
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_115436-cbmvzin0
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run colorful-sweep-23
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/cbmvzin0
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▂▂▂▂▃▃▃▃▃▃▃▃▄▄▅▅▅▅▅▅▅▅▅▆▇▇▇▇▇▇▇███
+wandb:    image_loss ▄▃▂▅▅▄▂█▁▇▃▁▆▂▂▂▄▃▂▃▇▃▂▂▃▂▇▃▄▄▆▂▃▃▃▄▂▂▂▅
+wandb:    label_loss ▄▃▃▃▃▂▅▅▃▅▂▂▁▂▄▂▆▂▂▃▃▂▂▄▃▃▂▃▂▂▄▆▁▂▁▂▂▂█▃
+wandb: test_accuracy ▁▆▆▅█▆▇█▃▅▇▇▆▆▁
+wandb:     test_loss ▄▁▃▃▂▃▃▃▄▄▅▄▄▅█
+wandb:    train_loss █▇▃▄▄▃▃▃▂▄▂▂▂▁▃▃▃▃▃▁▃▃▂▄▂▁▂▂▂▁▂▂▂▁▁▂▂▂▂▂
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00314
+wandb:    label_loss 0.04951
+wandb: test_accuracy 91.56
+wandb:     test_loss 0.1241
+wandb:    train_loss 0.09379
+wandb: 
+wandb: 🚀 View run colorful-sweep-23 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/cbmvzin0
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_115436-cbmvzin0/logs
+wandb: Agent Starting Run: 0o2c3b0j with config:
+wandb: 	batch_size: 128
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.40951064963829287
+wandb: 	learning_rate: 0.004306799710170037
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_115643-0o2c3b0j
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run dazzling-sweep-24
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/0o2c3b0j
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▅▅▆▆▇▇▇▇▇▇▇▇██
+wandb:    image_loss █▄▃▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁▂
+wandb:    label_loss █▅▃▆▅▅▅▃▃▃▄▅▆▃▂▂▂▂▄▃▄▆▃▄▃▂▃▃▄▂▃▄▃▃▁▃▃▁▄▂
+wandb: test_accuracy ▁▃▆▇▅▄█▇▆▆█▇█▆▆
+wandb:     test_loss █▄▂▁▂▂▁▂▃▃▁▂▁▂▂
+wandb:    train_loss █▃▂▂▂▂▂▂▂▂▂▂▁▁▂▁▂▂▁▁▁▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00066
+wandb:    label_loss 0.14057
+wandb: test_accuracy 92.79
+wandb:     test_loss 0.10361
+wandb:    train_loss 0.0955
+wandb: 
+wandb: 🚀 View run dazzling-sweep-24 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/0o2c3b0j
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_115643-0o2c3b0j/logs
+wandb: Agent Starting Run: 2jccknlr with config:
+wandb: 	batch_size: 32
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.06918925742077042
+wandb: 	learning_rate: 0.0016472084037750226
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_115824-2jccknlr
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run fallen-sweep-25
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/2jccknlr
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▃▃▃▃▃▃▃▄▄▄▄▅▅▅▅▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇▇██
+wandb:    image_loss █▃▃▁▁▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁
+wandb:    label_loss ▃█▅▃▂▂▄▂▅▂▃▂▄▆▃▄▅▁▄▃▁▂▂▁▂▂▃▃▃▃▂▂▃▅▂▂▂▂▁▃
+wandb: test_accuracy ▁▄▄▅▅▆▆▇▆▇█▅▇▅█
+wandb:     test_loss █▄▃▂▂▃▁▂▁▂▁▂▂▂▁
+wandb:    train_loss █▄▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00021
+wandb:    label_loss 0.24757
+wandb: test_accuracy 93.03
+wandb:     test_loss 0.01748
+wandb:    train_loss 0.01588
+wandb: 
+wandb: 🚀 View run fallen-sweep-25 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/2jccknlr
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_115824-2jccknlr/logs
+wandb: Agent Starting Run: mh3r0iwm with config:
+wandb: 	batch_size: 64
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.16920497867507583
+wandb: 	learning_rate: 0.0021861283106128283
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_120036-mh3r0iwm
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run hardy-sweep-26
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/mh3r0iwm
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▂▃▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇▇▇▇█
+wandb:    image_loss █▆▄▃▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    label_loss █▄▄▃▆▄▃▄▅▃▃▁▄▁▃▄▃▅▄▂▄▁▃▄▃▂▂▆▁▅▃▂▃▄▂▁▁▄▁▂
+wandb: test_accuracy ▁▄▆▄▇▇▆██▇▇▆▆▇▇
+wandb:     test_loss █▄▂▂▂▁▂▁▁▁▂▂▂▂▂
+wandb:    train_loss █▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00012
+wandb:    label_loss 0.33186
+wandb: test_accuracy 92.96
+wandb:     test_loss 0.04317
+wandb:    train_loss 0.04074
+wandb: 
+wandb: 🚀 View run hardy-sweep-26 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/mh3r0iwm
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_120036-mh3r0iwm/logs
+wandb: Agent Starting Run: a56qvtk3 with config:
+wandb: 	batch_size: 64
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.43021069768011566
+wandb: 	learning_rate: 0.008933027476157731
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_120227-a56qvtk3
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run misunderstood-sweep-27
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/a56qvtk3
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▂▂▂▂▃▃▃▃▃▃▃▃▃▃▄▄▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:    image_loss ▄▂▄▄▃▄▆▄▃▄▆▂▁▅▁▁▇█▃▅▃▂▃▂▃▄▄▃▄█▂▄▁▆▃▂▂▂▄▂
+wandb:    label_loss ▅▄▅▃▁▄▄▄▆▃▄▁▆▅▅▄▇▃▃▂▃▂▂▃▃▄▄▆▃█▃▅▃▃▂▅▂▃▅▃
+wandb: test_accuracy ▂▃▆▅▁▅█▅▄▆▄▅▆▄▇
+wandb:     test_loss ▂▁▁▄▆▃▂▄▆▄█▆▃▄▅
+wandb:    train_loss █▂▂▂▂▁▂▂▂▂▁▂▁▂▂▁▁▁▁▂▁▁▂▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▂▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00173
+wandb:    label_loss 0.26091
+wandb: test_accuracy 92.75
+wandb:     test_loss 0.13001
+wandb:    train_loss 0.10887
+wandb: 
+wandb: 🚀 View run misunderstood-sweep-27 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/a56qvtk3
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_120227-a56qvtk3/logs
+wandb: Agent Starting Run: q3nxngm8 with config:
+wandb: 	batch_size: 32
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.25569780672844794
+wandb: 	learning_rate: 0.0010394711575075952
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_120419-q3nxngm8
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run olive-sweep-28
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/q3nxngm8
+wandb: uploading history steps 210-245, summary
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▁▁▂▂▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▅▅▅▅▅▅▆▆▇▇▇▇▇▇█
+wandb:    image_loss █▆▃▃▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂▁▂▂▂▁▁▁▁▁▂▁▁▂▁▁▁▁▁▁▁
+wandb:    label_loss ▅▄▅▄▂▂▂▂▅▄▂▃▆█▄▆▃▁▃▄▃▅▂▄▄▂▃▃▄▄▅▃▁▁▅▃▃▃▅▄
+wandb: test_accuracy ▁▃▅▅▇▆▇▇▆▆▆▇▆█▇
+wandb:     test_loss █▅▃▃▂▁▁▁▂▁▁▁▁▁▁
+wandb:    train_loss █▄▄▃▃▂▃▂▂▂▂▂▂▃▂▃▂▁▂▂▂▂▂▁▂▂▂▁▁▂▂▂▁▂▂▂▁▂▂▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 8e-05
+wandb:    label_loss 0.22632
+wandb: test_accuracy 92.89
+wandb:     test_loss 0.06373
+wandb:    train_loss 0.05748
+wandb: 
+wandb: 🚀 View run olive-sweep-28 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/q3nxngm8
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_120419-q3nxngm8/logs
+wandb: Agent Starting Run: 68slp6df with config:
+wandb: 	batch_size: 32
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.187026082092627
+wandb: 	learning_rate: 0.003961854707384831
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_120716-68slp6df
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run vocal-sweep-29
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/68slp6df
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▁▂▂▃▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇▇███
+wandb:    image_loss █▂▄▅▁▄▃▂▄▇▄▂▃▂▃▁▄▂▃▄▁▄▂▃▅▄▄▂▅▆▁▃▄▄▃▃▃▂▄▂
+wandb:    label_loss ▅▄▂▃▃▆▄▂▆▆▄▃▅▃▅▃█▃▂▂▁▁▁▃▅▅▁▆▂▄▄▄▁▄▄▇▅▆▂▄
+wandb: test_accuracy ▁▃▆▄▇▇▇███▇▄▇▇▇
+wandb:     test_loss ▇▂▂▃▄▃▃▃▁▅▄▅█▅▇
+wandb:    train_loss █▇▅▄▄▅▄▄▂▄▅▃▃▄▄▆▄▂▄▂▂▃▃▃▂▄▁▂▄▄▂▃▂▃▃▃▁▄▃▄
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.0024
+wandb:    label_loss 0.29979
+wandb: test_accuracy 92.83
+wandb:     test_loss 0.05387
+wandb:    train_loss 0.04447
+wandb: 
+wandb: 🚀 View run vocal-sweep-29 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/68slp6df
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_120716-68slp6df/logs
+wandb: Agent Starting Run: 9t8doew3 with config:
+wandb: 	batch_size: 64
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.05502731966860358
+wandb: 	learning_rate: 0.006643503612568076
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_120923-9t8doew3
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run feasible-sweep-30
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/9t8doew3
+wandb: uploading history steps 131-149, summary
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▂▂▃▃▃▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▅▆▆▇▇▇▇▇█████
+wandb:    image_loss █▂▁▃▃▄▂▂▂▂▃▁▃▂▅▃▄▂▁▄▂▂▂▂▂▄▂▁▂▁▃▃▁▂▂▄▂▃▂▁
+wandb:    label_loss ▅▃▃▆█▃▅▃▂▄▄▃▃▆▅▁▂▂▇▅▃▄▃▃▂▃▃▅▃▂▅▁▃▄▅▄▃▂▃▄
+wandb: test_accuracy ▄▆▅▅▄▄▆▅▅▇▅█▆▁█
+wandb:     test_loss ▂▃▅▃▁▃▄▃▄▂▅▃▆█▃
+wandb:    train_loss █▃▂▂▁▁▁▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00078
+wandb:    label_loss 0.24516
+wandb: test_accuracy 92.84
+wandb:     test_loss 0.01631
+wandb:    train_loss 0.01431
+wandb: 
+wandb: 🚀 View run feasible-sweep-30 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/9t8doew3
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_120923-9t8doew3/logs
+wandb: Agent Starting Run: 85qkb0yr with config:
+wandb: 	batch_size: 128
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.4156390743028028
+wandb: 	learning_rate: 0.006938525783350511
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_121114-85qkb0yr
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run radiant-sweep-31
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/85qkb0yr
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▄▄▅▅▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇▇██
+wandb:    image_loss █▄▃▂▁▁▁▂▂▂▂▁▂▂▂▁▂▂▂▂▂▂▂▂▁▂▂▁▂▁▂▃▂▂▂▂▃▁▁▁
+wandb:    label_loss █▃▆▄▄▄▃▃▄▃▄▅▆▃▄▃▂▄▂▃▃▆▃▂▅▃▂▃▄▃▄▆▃▃▄▄▃▃▁▄
+wandb: test_accuracy ▁▄▃▆▇▄▆█▆▅▇▅▇██
+wandb:     test_loss █▄▇▃▁█▃▃▇▅▄▇▅▅▇
+wandb:    train_loss █▃▃▂▂▂▂▂▂▂▂▁▂▂▂▂▁▂▂▂▂▂▁▁▂▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.0005
+wandb:    label_loss 0.25108
+wandb: test_accuracy 92.85
+wandb:     test_loss 0.11316
+wandb:    train_loss 0.09554
+wandb: 
+wandb: 🚀 View run radiant-sweep-31 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/85qkb0yr
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_121114-85qkb0yr/logs
+wandb: Agent Starting Run: q42a880j with config:
+wandb: 	batch_size: 64
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.27625873129367007
+wandb: 	learning_rate: 0.0023545938990035937
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_121256-q42a880j
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run divine-sweep-32
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/q42a880j
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▅▅▅▆▇▇▇▇▇▇▇██
+wandb:    image_loss █▅▃▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    label_loss █▅▅▆▃▅▇▄▅▂▃▃▃▅▅▄▄▃▃▅▃▄▄▄▅▃▅▃▄▃▃▃▄▁▂▅▇▅▄▇
+wandb: test_accuracy ▁▄▆▄▄▆▆▇▇▆▆█▇▆▇
+wandb:     test_loss █▄▂▃▃▂▂▂▂▂▂▁▁▂▂
+wandb:    train_loss █▆▅▅▅▄▄▄▄▃▃▄▃▃▃▃▂▂▂▂▃▃▂▃▃▂▂▂▂▂▃▂▂▁▃▂▂▂▂▂
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00014
+wandb:    label_loss 0.48854
+wandb: test_accuracy 93.04
+wandb:     test_loss 0.06964
+wandb:    train_loss 0.06304
+wandb: 
+wandb: 🚀 View run divine-sweep-32 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/q42a880j
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_121256-q42a880j/logs
+wandb: Agent Starting Run: fainqkvh with config:
+wandb: 	batch_size: 64
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.11197214587318438
+wandb: 	learning_rate: 0.0024149997362890546
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_121447-fainqkvh
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run volcanic-sweep-33
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/fainqkvh
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▂▃▃▃▃▃▃▃▃▃▃▃▃▃▄▄▅▅▅▅▅▅▆▇▇▇▇▇▇▇▇▇████
+wandb:    image_loss █▄▃▃▃▁▂▁▂▁▂▁▂▂▂▂▂▁▂▂▁▁▂▂▂▂▁▁▂▂▄▂▂▁▁▁▁▁▃▁
+wandb:    label_loss █▄▅▄▄▅▂▃▃▂▂▃▄▃▅▄▂▄▃▃▃▃▁▂▂▂▁▄▃▂▄▂▁▃▄▄▅▂▅▅
+wandb: test_accuracy ▁▄▅▇▇▅▇▇▇▇▆▇█▇▇
+wandb:     test_loss █▄▃▂▃▂▂▂▂▁▂▂▃▂▂
+wandb:    train_loss █▆▅▄▅▄▃▄▃▂▃▃▂▃▂▂▃▂▁▃▁▂▂▂▂▂▂▂▁▂▁▃▁▂▂▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00021
+wandb:    label_loss 0.44063
+wandb: test_accuracy 93.01
+wandb:     test_loss 0.02812
+wandb:    train_loss 0.02469
+wandb: 
+wandb: 🚀 View run volcanic-sweep-33 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/fainqkvh
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_121447-fainqkvh/logs
+wandb: Agent Starting Run: otek3u7e with config:
+wandb: 	batch_size: 64
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.38793630802685386
+wandb: 	learning_rate: 0.003288812811268355
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_121639-otek3u7e
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run leafy-sweep-34
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/otek3u7e
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▁▂▂▃▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇▇▇▇▇█
+wandb:    image_loss █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    label_loss ▇█▃▅▃▄▇▁▂▂▆▂▅▂▂▃▇▁▂▂▂▁▄▃▂▂▁▃▆▃▃▄▃▂▃▄▂▂▂▃
+wandb: test_accuracy ▁▃▃▆▇▅▅▄▇▇▆█▄▇▇
+wandb:     test_loss █▅▃▃▁▃▁▃▁▃▂▁▄▃▂
+wandb:    train_loss █▆▅▄▃▄▃▃▃▃▂▃▃▂▂▂▂▃▃▂▂▂▃▂▁▂▂▂▁▃▂▃▂▁▁▁▂▂▂▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00029
+wandb:    label_loss 0.20742
+wandb: test_accuracy 92.89
+wandb:     test_loss 0.09945
+wandb:    train_loss 0.0948
+wandb: 
+wandb: 🚀 View run leafy-sweep-34 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/otek3u7e
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_121639-otek3u7e/logs
+wandb: Agent Starting Run: co2qa3be with config:
+wandb: 	batch_size: 64
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.451593858270674
+wandb: 	learning_rate: 0.004497061468799231
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_121830-co2qa3be
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run brisk-sweep-35
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/co2qa3be
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▂▃▃▃▃▃▃▃▃▃▄▅▅▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇▇▇▇██
+wandb:    image_loss █▅▃▃▂▁▁▁▂▁▂▁▁▂▁▁▁▂▁▂▁▁▂▁▁▁▁▂▂▁▂▁▁▁▁▁▁▁▁▁
+wandb:    label_loss ▆▄▅▅█▃▃▄▂▅▃▃▃▅▄▁▃▃▃▅▄▃▂▄▂▃▅▄▄▅▄▂▃▄▂▄▂▅▂▅
+wandb: test_accuracy ▁▅▄▅▆▆▇▇▅█▆█▆▅▇
+wandb:     test_loss █▁▂▃▁▂▁▂▄▂▃▃▃▆▃
+wandb:    train_loss █▂▂▂▂▂▂▂▁▂▂▂▁▂▁▁▁▂▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00055
+wandb:    label_loss 0.20002
+wandb: test_accuracy 92.94
+wandb:     test_loss 0.11888
+wandb:    train_loss 0.10414
+wandb: 
+wandb: 🚀 View run brisk-sweep-35 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/co2qa3be
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_121830-co2qa3be/logs
+wandb: Agent Starting Run: em4a51mn with config:
+wandb: 	batch_size: 128
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.20858651267924777
+wandb: 	learning_rate: 0.0009904114451984387
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_122021-em4a51mn
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run logical-sweep-36
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/em4a51mn
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▅▅▆▇▇▇▇▇▇▇▇▇█
+wandb:    image_loss █▅▃▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    label_loss █▅▅▃▄▂▃▃▃▃▄▃▃▂▂▃▂▂▂▂▂▃▂▂▂▁▂▂▂▂▄▂▂▁▃▂▁▃▃▁
+wandb: test_accuracy ▁▃▅▆▇▇▇▇██▇█▇██
+wandb:     test_loss █▅▃▃▂▂▂▁▁▁▁▁▁▁▁
+wandb:    train_loss █▄▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 3e-05
+wandb:    label_loss 0.15523
+wandb: test_accuracy 92.95
+wandb:     test_loss 0.05178
+wandb:    train_loss 0.04913
+wandb: 
+wandb: 🚀 View run logical-sweep-36 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/em4a51mn
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_122021-em4a51mn/logs
+wandb: Agent Starting Run: ecsnegw2 with config:
+wandb: 	batch_size: 64
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.42444348957764855
+wandb: 	learning_rate: 0.005434646750636922
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_122203-ecsnegw2
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run breezy-sweep-37
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/ecsnegw2
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▄▄▄▄▅▅▅▅▅▅▅▆▆▇▇▇▇▇▇▇▇▇▇▇█
+wandb:    image_loss ▅▄▃▂▂▃▄▃▆▂▂▃▅▂▂█▅▃▃▂▄▃▂▆█▆▂▁▂▂▁▁▃▂▂▄▂▄▃▆
+wandb:    label_loss ▄█▇▅▃▄▄▂▅▃█▄▄▄▃▄▄▅▃▆▂▅▃▄▂▄▄▄▄▂█▃▄▄▁▂▇▃▅▄
+wandb: test_accuracy ▄▂▅▁▂▅▇▆▇▁█▄▂█▆
+wandb:     test_loss ▄▃▂▅▅▁▂▃▃█▅▅█▄▅
+wandb:    train_loss █▅▃▃▃▃▂▂▃▃▂▂▂▂▂▂▂▂▁▂▂▂▁▂▁▂▂▂▂▁▂▂▂▂▂▁▁▂▁▂
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.0011
+wandb:    label_loss 0.26172
+wandb: test_accuracy 92.64
+wandb:     test_loss 0.11504
+wandb:    train_loss 0.10554
+wandb: 
+wandb: 🚀 View run breezy-sweep-37 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/ecsnegw2
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_122203-ecsnegw2/logs
+wandb: Agent Starting Run: r3jhc71a with config:
+wandb: 	batch_size: 128
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.219420943198532
+wandb: 	learning_rate: 0.0006865898171289793
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_122354-r3jhc71a
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run generous-sweep-38
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/r3jhc71a
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▂▂▂▃▃▃▃▃▃▃▃▃▄▄▄▄▅▅▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇▇█
+wandb:    image_loss █▅▃▃▃▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    label_loss █▅▅▅▅▂▃▄▃▂▄▄▃▄▃▄▃▅▃▄▃▃▃▂▃▂▃▃▄▃▂▂▃▂▂▂▂▂▂▁
+wandb: test_accuracy ▁▄▅▆▇▇▇▇█▇▇████
+wandb:     test_loss █▅▃▃▂▂▂▂▁▁▁▁▁▁▁
+wandb:    train_loss █▄▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 1e-05
+wandb:    label_loss 0.11896
+wandb: test_accuracy 92.87
+wandb:     test_loss 0.05506
+wandb:    train_loss 0.05567
+wandb: 
+wandb: 🚀 View run generous-sweep-38 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/r3jhc71a
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_122354-r3jhc71a/logs
+wandb: Agent Starting Run: gvt9v39o with config:
+wandb: 	batch_size: 32
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.0818694032784224
+wandb: 	learning_rate: 0.004745182190873435
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_122535-gvt9v39o
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run stilted-sweep-39
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/gvt9v39o
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▁▂▃▃▃▃▃▃▃▃▃▃▃▄▄▄▄▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇█
+wandb:    image_loss █▄▃▁▄▅▃▆▅▂▃▄▅▅▆▂▃▇█▃▄▃▃▇▃▄▃▃▃▂▃▇▃▃▄▄▂▅█▅
+wandb:    label_loss ▄▄▅▃▄▇▄▁▃▂▁▂▂▄▃▂▃▃▆▅▃█▂▃▃▁▂▁▂▃▃▅▆▁▄▅▂▄▂▁
+wandb: test_accuracy ▁▅▅▄▅▄▆▃█▆▄▆▆█▇
+wandb:     test_loss ▃▃▂▂▅▄▃█▁▃▇▄▂▂▅
+wandb:    train_loss █▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00233
+wandb:    label_loss 0.13139
+wandb: test_accuracy 92.86
+wandb:     test_loss 0.02576
+wandb:    train_loss 0.02039
+wandb: 
+wandb: 🚀 View run stilted-sweep-39 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/gvt9v39o
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_122535-gvt9v39o/logs
+wandb: Agent Starting Run: j3uxrsu3 with config:
+wandb: 	batch_size: 64
+wandb: 	epochs: 15
+wandb: 	lambda_weight: 0.43856037901471634
+wandb: 	learning_rate: 0.003329410249339584
+wandb: Tracking run with wandb version 0.19.1
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_122742-j3uxrsu3
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run fancy-sweep-40
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/j3uxrsu3
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:         epoch ▁▁▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇▇▇██
+wandb:    image_loss █▄▃▂▁▁▁▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂▂▁▂▁▁▂▂▁▁▁▁
+wandb:    label_loss ▆▆▆▁▄▃▄▂▄▅▄▄▄▄▂▄▅▅▃▄▄█▄▃▄▃█▅▁▅▆▅▇▃▄▁▃▃▂▄
+wandb: test_accuracy ▁▆▆▅▆▆▆▆▆▆█▇▇▇▄
+wandb:     test_loss █▂▂▂▂▁▂▂▁▂▂▂▂▁▄
+wandb:    train_loss ▇█▇▇▅▄▅▄▄▄▄▃▃▃▄▃▃▂▃▃▃▃▂▂▂▁▃▄▁▂▃▂▂▂▁▃▂▂▁▂
+wandb: 
+wandb: Run summary:
+wandb:    activation ELU
+wandb:         epoch 14
+wandb:    image_loss 0.00029
+wandb:    label_loss 0.22922
+wandb: test_accuracy 92.4
+wandb:     test_loss 0.11599
+wandb:    train_loss 0.10114
+wandb: 
+wandb: 🚀 View run fancy-sweep-40 at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/runs/j3uxrsu3
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20241218_122742-j3uxrsu3/logs

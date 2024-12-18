@@ -1,0 +1,365 @@
+running mirror_sweep_elu.py
+Create sweep with ID: 3zt66fvr
+Sweep URL: https://wandb.ai/cavaokcava/mirror_sweep_elu_verified/sweeps/3zt66fvr
+
+Starting ELU sweep with verification
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 128
+Learning rate: 0.0029402814398747775
+Lambda weight: 0.07237901453885637
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 128
+Learning rate: 0.0032314647736366693
+Lambda weight: 0.47135051243607307
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 128
+Learning rate: 0.008965029409544634
+Lambda weight: 0.48600254841471946
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 64
+Learning rate: 0.005891734488385638
+Lambda weight: 0.030050877825217537
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 128
+Learning rate: 0.007741633820098159
+Lambda weight: 0.0399773245399444
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 32
+Learning rate: 0.009154449894448503
+Lambda weight: 0.11713671315611168
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 64
+Learning rate: 0.000638106244924519
+Lambda weight: 0.40760146799235847
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 128
+Learning rate: 0.005050436845636266
+Lambda weight: 0.3968926212043474
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 64
+Learning rate: 0.004974407072641147
+Lambda weight: 0.21509075777531456
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 32
+Learning rate: 0.0036251760775067015
+Lambda weight: 0.071798401870862
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 32
+Learning rate: 0.0009615376029262136
+Lambda weight: 0.4972076853911197
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 64
+Learning rate: 0.004141668644803283
+Lambda weight: 0.003696148579568459
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 32
+Learning rate: 0.0006960490201948247
+Lambda weight: 0.4322121637574821
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 128
+Learning rate: 0.009672801502505952
+Lambda weight: 0.39267746304669104
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 128
+Learning rate: 0.007969699402011133
+Lambda weight: 0.07443094359815194
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 64
+Learning rate: 0.009609525551516916
+Lambda weight: 0.27782745261729636
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 64
+Learning rate: 0.006526584573738928
+Lambda weight: 0.009063302963584652
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 32
+Learning rate: 0.0028733687508259984
+Lambda weight: 0.1182783200956447
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 128
+Learning rate: 0.008911386826638173
+Lambda weight: 0.11001951711249676
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 128
+Learning rate: 0.009978213122454177
+Lambda weight: 0.03294288773046039
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 64
+Learning rate: 0.000974381664994712
+Lambda weight: 0.3271397335566669
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 128
+Learning rate: 0.00877267110833401
+Lambda weight: 0.41941442643678417
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 32
+Learning rate: 0.005837119406298424
+Lambda weight: 0.37096856018842206
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 128
+Learning rate: 0.004306799710170037
+Lambda weight: 0.40951064963829287
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 32
+Learning rate: 0.0016472084037750226
+Lambda weight: 0.06918925742077042
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 64
+Learning rate: 0.0021861283106128283
+Lambda weight: 0.16920497867507583
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 64
+Learning rate: 0.008933027476157731
+Lambda weight: 0.43021069768011566
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 32
+Learning rate: 0.0010394711575075952
+Lambda weight: 0.25569780672844794
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 32
+Learning rate: 0.003961854707384831
+Lambda weight: 0.187026082092627
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 64
+Learning rate: 0.006643503612568076
+Lambda weight: 0.05502731966860358
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 128
+Learning rate: 0.006938525783350511
+Lambda weight: 0.4156390743028028
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 64
+Learning rate: 0.0023545938990035937
+Lambda weight: 0.27625873129367007
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 64
+Learning rate: 0.0024149997362890546
+Lambda weight: 0.11197214587318438
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 64
+Learning rate: 0.003288812811268355
+Lambda weight: 0.38793630802685386
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 64
+Learning rate: 0.004497061468799231
+Lambda weight: 0.451593858270674
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 128
+Learning rate: 0.0009904114451984387
+Lambda weight: 0.20858651267924777
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 64
+Learning rate: 0.005434646750636922
+Lambda weight: 0.42444348957764855
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 128
+Learning rate: 0.0006865898171289793
+Lambda weight: 0.219420943198532
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 32
+Learning rate: 0.004745182190873435
+Lambda weight: 0.0818694032784224
+==================================================
+
+
+==================================================
+Starting ELU sweep run
+Project: mirror_sweep_elu_verified
+Batch size: 64
+Learning rate: 0.003329410249339584
+Lambda weight: 0.43856037901471634
+==================================================
+
