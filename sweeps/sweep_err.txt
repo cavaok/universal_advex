@@ -8,1405 +8,158 @@ Loading python/3.8.13/slu6jvw
     util-linux-uuid/2.37.4/nlecwm6
 wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
 wandb: Currently logged in as: cavaokcava. Use `wandb login --relogin` to force relogin
-wandb: Agent Starting Run: jbmew8ky with config:
-wandb: 	batch_size: 64
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.07285782955669406
-wandb: 	learning_rate: 0.002487346183361745
-wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_125853-jbmew8ky
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run absurd-sweep-1
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/jbmew8ky
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▁▁▂▂▂▃▃▃▃▄▄▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇▇▇▇███
-wandb:    image_loss █▅▃▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁
-wandb:    label_loss ▅█▁▅▃▂▄▂▂▃▃▃▂▂▄▆▁▃▂▃▂▂▂▁▂▁▄▃▂▂▄▄▁▂▃▄▁▃▁▁
-wandb: test_accuracy ▂▄▄▆█▇▇▇▁█▅▄▄▆▅
-wandb:     test_loss ▅▃▂▂▁▃▂▃█▄▆▇▇▆█
-wandb:    train_loss █▇▆▅▄▄▃▄▄▃▄▃▂▄▂▄▂▃▂▂▂▃▂▃▂▂▂▂▃▁▂▁▁▂▁▂▂▁▁▂
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00097
-wandb:    label_loss 0.08713
-wandb:    model_type Hadamard
-wandb: test_accuracy 93.63
-wandb:     test_loss 0.0208
-wandb:    train_loss 0.01238
-wandb: 
-wandb: 🚀 View run absurd-sweep-1 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/jbmew8ky
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_125853-jbmew8ky/logs
-wandb: Agent Starting Run: hfnz1fyz with config:
+wandb: Agent Starting Run: mlpy82m6 with config:
 wandb: 	batch_size: 128
 wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.3636615191332289
-wandb: 	learning_rate: 0.002882051264160395
+wandb: 	lambda_weight: 0.2349455070416845
+wandb: 	learning_rate: 0.006948176845237264
 wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_130045-hfnz1fyz
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_142046-mlpy82m6
 wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run ethereal-sweep-2
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/hfnz1fyz
+wandb: Syncing run earnest-sweep-1
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/auto_512_elu
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/auto_512_elu/sweeps/se4i7sy2
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/auto_512_elu/runs/mlpy82m6
 wandb:                                                                                
 wandb: 
 wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▃▃▃▄▅▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇███
-wandb:    image_loss █▅▄▃▃▂▂▂▁▁▂▁▁▁▁▁▁▂▁▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-wandb:    label_loss ▇█▄▅▇▄▄▅█▇▅▆▃▃▆▅▅▂▆▅▃▂▃█▄▂▂▂▃▃▃▄▁▃▃▄▂▂▄▄
-wandb: test_accuracy ▁▅▅▆▄▅▇▇██▄▅▇█▆
-wandb:     test_loss █▂▂▁▃▄▂▂▃▂▇▄▆▅█
-wandb:    train_loss █▄▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:         epoch ▁▁▁▁▁▂▂▂▂▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▅▅▅▅▆▇▇▇▇▇▇▇▇██
+wandb:    image_loss ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▇█████████████████████
+wandb:    label_loss ▃▂▃▁▂▁▂▂▁▁▁▂▂▂▁▂▁███████████████████████
+wandb: test_accuracy ██████▁▁▁▁▁▁▁▁▁
+wandb:     test_loss ▁▁▁▁▁▁█████████
+wandb:    train_loss ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁████████████████████████
 wandb: 
 wandb: Run summary:
+wandb:    activation ELU
 wandb:         epoch 14
-wandb:    image_loss 0.00081
-wandb:    label_loss 0.32889
-wandb:    model_type Hadamard
-wandb: test_accuracy 94.09
-wandb:     test_loss 0.09318
-wandb:    train_loss 0.05191
+wandb:    image_loss 1.37746
+wandb:    label_loss 2.30259
+wandb: test_accuracy 9.8
+wandb:     test_loss 1.92098
+wandb:    train_loss 1.91254
 wandb: 
-wandb: 🚀 View run ethereal-sweep-2 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/hfnz1fyz
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
+wandb: 🚀 View run earnest-sweep-1 at: https://wandb.ai/cavaokcava/auto_512_elu/runs/mlpy82m6
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/auto_512_elu
 wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_130045-hfnz1fyz/logs
-wandb: Agent Starting Run: d43rubuk with config:
-wandb: 	batch_size: 64
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.3331165483014362
-wandb: 	learning_rate: 0.007794624641500036
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_130226-d43rubuk
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run comic-sweep-3
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/d43rubuk
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▂▂▃▃▃▃▃▄▄▄▄▅▅▅▅▅▅▅▅▅▆▆▇▇▇▇▇▇▇▇▇▇▇▇███
-wandb:    image_loss ▁▁▁▁▂▄▅▁▂▁▁▁▂▁▁▂▁▃▁▂▇▂▂▃▃▃▁▂▆▂▂▁▂▂▃▃█▂▄▃
-wandb:    label_loss ▄▃▄▂▂▁▁▅▂▃▆▄▂█▂▃▂▁▄▂▃▂▃▂▁▅█▆▃▃█▄▄▁▁▇▂█▃▄
-wandb: test_accuracy ▇▂▆▁▆█▄▆▂▃▄▇▆▄▆
-wandb:     test_loss ▁▅█▄▃▂▄▂▄▅▅▄▃▅▆
-wandb:    train_loss ▄▅▂▄▇▅▇▅▇▃▂▃▂▁▂▂▄▄▃▄▅▁▂▃▃▄▂▃▃▂██▄▄▅▂▃▅▃▄
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.0206
-wandb:    label_loss 0.30653
-wandb:    model_type Hadamard
-wandb: test_accuracy 91.87
-wandb:     test_loss 0.22429
-wandb:    train_loss 0.1413
-wandb: 
-wandb: 🚀 View run comic-sweep-3 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/d43rubuk
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_130226-d43rubuk/logs
-wandb: Agent Starting Run: t4t0tvjb with config:
-wandb: 	batch_size: 128
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.14592815058845332
-wandb: 	learning_rate: 0.003964062612735733
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_130418-t4t0tvjb
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run solar-sweep-4
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/t4t0tvjb
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▂▂▂▂▃▃▃▃▃▃▃▅▅▅▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇▇▇█
-wandb:    image_loss █▅▄▃▂▂▂▁▁▃▂▂▂▂▁▂▂▁▁▂▁▁▁▁▁▁▁▁▃▁▃▁▁▁▁▃▁▁▁▁
-wandb:    label_loss ▆█▃▃▃▂▃▄█▄█▄▃▆▄▃▄▂▂▅▄▁▂▁▄▃▂▂▂▅▅▇▄▃▁▂▃▇▂▅
-wandb: test_accuracy ▅▁▆█▇█▇▆▆▃▆▆▆▇▆
-wandb:     test_loss ▂▅▃▁▂▃▇▅▅█▄▅▆▆▇
-wandb:    train_loss █▄▃▂▂▂▂▂▂▂▂▂▂▂▁▂▂▂▂▁▂▁▁▁▂▁▁▁▂▂▁▁▁▁▁▁▁▁▁▁
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.0011
-wandb:    label_loss 0.19112
-wandb:    model_type Hadamard
-wandb: test_accuracy 94.14
-wandb:     test_loss 0.04079
-wandb:    train_loss 0.02519
-wandb: 
-wandb: 🚀 View run solar-sweep-4 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/t4t0tvjb
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_130418-t4t0tvjb/logs
-wandb: Agent Starting Run: oykfp6ff with config:
-wandb: 	batch_size: 32
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.4898849907922002
-wandb: 	learning_rate: 0.006679752131662093
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_130559-oykfp6ff
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run ethereal-sweep-5
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/oykfp6ff
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▂▂▂▃▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▅▅▅▅▅▆▇▇▇▇▇▇▇▇▇█
-wandb:    image_loss ▃▅▃▂▂▇▁▂▄▃▁▄▁▃▂▃▁▂▂▂▂▂▂▂▆▁▁▅▂▁▁▂▄▇█▃▂▃▂▂
-wandb:    label_loss ▂▄▄▃▃▂▁▂▂▂▅▂▇▃▃▁▅▃▇▂▄▂▁▂▅▁▁▆▂▆▂▄▄▃▅█▆▂▄▁
-wandb: test_accuracy ▇▁▇▂▅▂▁▃█▆▄▁▄▃▇
-wandb:     test_loss ▁▂▁▃▂▃▆▇▃▃▄▅█▅▅
-wandb:    train_loss █▃▃▃▃▂▅▄▂▁▃▅▃▄▄▁▁▄▂▁▄▃▁▂▄▂▃▃▆▄▃▃▂▃▂▃▂▃▂▃
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.02094
-wandb:    label_loss 0.37642
-wandb:    model_type Hadamard
-wandb: test_accuracy 91.56
-wandb:     test_loss 0.32231
-wandb:    train_loss 0.2144
-wandb: 
-wandb: 🚀 View run ethereal-sweep-5 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/oykfp6ff
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_130559-oykfp6ff/logs
-wandb: Agent Starting Run: qpkpvrqd with config:
-wandb: 	batch_size: 128
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.48306097255202946
-wandb: 	learning_rate: 0.007651933344545721
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_130811-qpkpvrqd
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run fast-sweep-6
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/qpkpvrqd
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▂▂▃▃▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▆▆▇▇▇▇▇▇▇▇▇▇▇██
-wandb:    image_loss ▁▁▁▁▂▂▆▁▇▅▆▂▂▄▂▁█▆▁█▂▂▃▅▃▅▁▁▁▃▁▁▁▁▂▄▁▁▁▄
-wandb:    label_loss ▅▅▃▃▄▁▄▃▅▄▄▂▄▁▃▃▁▄▄▃▂▃▁▁▄█▆▅▃▅▁▂▂▁▆▂▃▃▆▄
-wandb: test_accuracy ▅▇█▅▆▇▃▂▁█▅▅▆▃▄
-wandb:     test_loss ▁▁▂▃▇▄▄▅█▃▅▄█▄▅
-wandb:    train_loss █▃▃▂▂▂▁▃▂▃▃▃▂▂▃▂▂▃▃▂▂▂▃▄▃▂▂▂▂▂▂▂▂▂▂▁▂▂▁▂
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.04259
-wandb:    label_loss 0.12401
-wandb:    model_type Hadamard
-wandb: test_accuracy 92.09
-wandb:     test_loss 0.20784
-wandb:    train_loss 0.12658
-wandb: 
-wandb: 🚀 View run fast-sweep-6 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/qpkpvrqd
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_130811-qpkpvrqd/logs
-wandb: Agent Starting Run: e55j17x7 with config:
-wandb: 	batch_size: 64
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.318520335423207
-wandb: 	learning_rate: 0.009255835153560512
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_130952-e55j17x7
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run distinctive-sweep-7
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/e55j17x7
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▆▇▇▇▇▇▇▇███
-wandb:    image_loss ▁▁▁▁▁▂▁▁▃▃▄▂▂▃▂▂▁▂▃▁▁▃▁▁▁▂▂▁▂▃▁▁▂▂▂▃▂█▂▂
-wandb:    label_loss ▂▃▂▆▃▃▁▃▅▃▃▃▂▂▄▇▇█▄▂▃▃▄▄▂▃▅▆▃▁▁▁▃▂▇▂▂▄▂▂
-wandb: test_accuracy ▃▁▅█▂▅██▅▂▆▃▃▄▂
-wandb:     test_loss ▁▄▃▅▅▂█▂▄▃▃▄▄▃▇
-wandb:    train_loss ▁▂▆▆▆█▂▄▃▆▁▂▂▁▃▁▃▂▁▃▃▃▄▂▃▁▄▂▃▃▂▂▂▃▁▄▁▃▃▃
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.04622
-wandb:    label_loss 0.44408
-wandb:    model_type Hadamard
-wandb: test_accuracy 90.13
-wandb:     test_loss 0.426
-wandb:    train_loss 0.22982
-wandb: 
-wandb: 🚀 View run distinctive-sweep-7 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/e55j17x7
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_130952-e55j17x7/logs
-wandb: Agent Starting Run: z95csmcn with config:
-wandb: 	batch_size: 128
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.21549551502328151
-wandb: 	learning_rate: 0.008962319161691995
-wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_131143-z95csmcn
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run brisk-sweep-8
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/z95csmcn
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▂▃▃▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇▇███
-wandb:    image_loss ▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁▂▁█▁▁▃▁▁▁▁▁▅▂▄▁▁▁▁▁▂▁▁▁▁▂
-wandb:    label_loss ▆▅▄▅▆▁█▇▄▃▂▃▁▅▃▁▆▆▂█▃▅▇▃▃▄▃▂▇▅▄▃▆▅▁▄▂▃▁▇
-wandb: test_accuracy ▃▂▃▄▅█▅▂▅▃▆▇▇▄▁
-wandb:     test_loss ▁▁▂▁▂▄▂█▃▅▂▂▂▃▃
-wandb:    train_loss █▂▂▁▁▁▁▂▃▃▃▄▄▃▆▆▅▆█▇▆▇▇▇▆▆▆▇▄▅▂▄▃▃▃▃▂▂▄▂
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.06016
-wandb:    label_loss 0.49223
-wandb:    model_type Hadamard
-wandb: test_accuracy 91.25
-wandb:     test_loss 0.11129
-wandb:    train_loss 0.07804
-wandb: 
-wandb: 🚀 View run brisk-sweep-8 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/z95csmcn
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_131143-z95csmcn/logs
-wandb: Agent Starting Run: 6bw8y26w with config:
-wandb: 	batch_size: 64
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.27722384257001825
-wandb: 	learning_rate: 0.008413802333230589
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_131325-6bw8y26w
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run peachy-sweep-9
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/6bw8y26w
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▃▄▄▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇▇███
-wandb:    image_loss ▁▁▂▄▃▂▄▅▂▄▁▅▂▃▆▂▃▇▂▁▁▂▁▄▁▂▂▁▁▅▁▂▄▂▃▁▁▂▂█
-wandb:    label_loss ▃▂▃▄▂▅▂▂▁▃▄▃▂▃▂▁▄▂▃▅▁▁▄▂█▆▂▃▁▂▂▂▃▃▂▃▄▃▄▂
-wandb: test_accuracy ▃▅▄█▇▄▇▆▅▆▅▅█▅▁
-wandb:     test_loss ▅▂▇▁▅█▃▂▅▆▃▃▂▆▇
-wandb:    train_loss █▂▃▃▆▅▆▅▅▄▂▃▃▂▁▂▃▂▁▂▃▂▁▂▁▄▃▃▆▁▄▁▄▄▁▂▃▃▂▃
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.1002
-wandb:    label_loss 0.3587
-wandb:    model_type Hadamard
-wandb: test_accuracy 88.09
-wandb:     test_loss 0.23735
-wandb:    train_loss 0.13269
-wandb: 
-wandb: 🚀 View run peachy-sweep-9 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/6bw8y26w
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_131325-6bw8y26w/logs
-wandb: Agent Starting Run: doo598it with config:
-wandb: 	batch_size: 128
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.49092011582549544
-wandb: 	learning_rate: 0.003440355276528969
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_131516-doo598it
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run sunny-sweep-10
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/doo598it
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▂▂▃▃▃▃▃▃▃▃▃▃▃▄▄▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇███
-wandb:    image_loss █▅▄▃▃▂▃▂▂▁▁▁▁▁▁▁▁▁▁▂▂▂▁▁▁▁▁▁▁▁▂▁▁▂▂▁▁▁▁▁
-wandb:    label_loss ██▄▄▅▆█▆▄▄▁▂▇▄▃▆▅▅▃▅▂▁▆▄▂▄▃▃▂▃▃▂▄▂▃▁▂▃▅▅
-wandb: test_accuracy ▁▅▆▄▁▄▅▆▆█▂▄▆▄▅
-wandb:     test_loss ▃▁▂▃▃▃▃▅▄▅▇▆▅█▆
-wandb:    train_loss █▆▆▅▇▅▅▄▄▄▃▄▄▃▃▄▃▄▃▂▂▃▃▃▂▂▃▃▂▂▃▁▂▃▁▂▃▁▂▂
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00113
-wandb:    label_loss 0.19491
-wandb:    model_type Hadamard
-wandb: test_accuracy 94.03
-wandb:     test_loss 0.12521
-wandb:    train_loss 0.07797
-wandb: 
-wandb: 🚀 View run sunny-sweep-10 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/doo598it
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_131516-doo598it/logs
-wandb: Agent Starting Run: klsfzufw with config:
-wandb: 	batch_size: 128
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.05631568116974928
-wandb: 	learning_rate: 0.00019633349626582355
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_131658-klsfzufw
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run misunderstood-sweep-11
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/klsfzufw
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▂▂▂▂▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇▇███
-wandb:    image_loss █▅▅▄▃▃▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-wandb:    label_loss █▄▄▄▃▂▂▃▃▃▂▂▂▂▂▁▂▂▂▁▂▃▃▂▂▂▁▁▁▂▁▁▂▂▁▂▁▁▂▂
-wandb: test_accuracy ▁▄▅▅▆▆▆▆▇▇▇▇▇██
-wandb:     test_loss █▅▄▃▃▂▂▂▂▂▂▁▁▁▁
-wandb:    train_loss █▅▄▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00071
-wandb:    label_loss 0.17377
-wandb:    model_type Hadamard
-wandb: test_accuracy 94.01
-wandb:     test_loss 0.01324
-wandb:    train_loss 0.01264
-wandb: 
-wandb: 🚀 View run misunderstood-sweep-11 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/klsfzufw
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_131658-klsfzufw/logs
-wandb: Agent Starting Run: wfyffu99 with config:
-wandb: 	batch_size: 128
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.376281248805124
-wandb: 	learning_rate: 0.007643473253392923
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_131839-wfyffu99
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run crimson-sweep-12
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/wfyffu99
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▂▂▃▃▃▃▃▃▃▃▄▄▅▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇▇████
-wandb:    image_loss ▁▁▁▁▁▁▁▁▁▃▂▅▂▂▂▂█▁▂▁▅▂▁▂▂▁▄▁▁▁▁▁▁▂▁▁▁▁▁▁
-wandb:    label_loss ▅▇▅▄▇▆▄▅█▇▄▃▃▂▆▆▂▁▄▁█▅▄▄▁▂▄▅▂▅▁▄▅▃▄▃▅▂▃█
-wandb: test_accuracy ▇▃▅▄▆█▃▇▇▆▅▅▆▁▄
-wandb:     test_loss ▁▂▆▂▂▂▃▂▇█▃▄▄▅▅
-wandb:    train_loss █▃▂▂▂▂▂▁▂▂▂▂▂▃▂▂▃▄▃▂▃▃▂▂▂▂▂▂▁▁▁▁▂▁▂▁▁▁▁▂
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00864
-wandb:    label_loss 0.46546
-wandb:    model_type Hadamard
-wandb: test_accuracy 92.26
-wandb:     test_loss 0.17617
-wandb:    train_loss 0.11996
-wandb: 
-wandb: 🚀 View run crimson-sweep-12 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/wfyffu99
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_131839-wfyffu99/logs
-wandb: Agent Starting Run: vv9f8pdm with config:
-wandb: 	batch_size: 32
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.021741437023870935
-wandb: 	learning_rate: 0.004418003005629928
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_132021-vv9f8pdm
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run morning-sweep-13
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/vv9f8pdm
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▁▂▂▃▃▃▃▃▃▃▃▃▃▄▅▅▅▅▅▅▅▅▅▅▆▇▇▇▇▇▇███
-wandb:    image_loss ▂▂▂▂▁▂▂▂▁▂▂▁▁█▁▁▁▁▂▁▂▂▁▁▁▁▁▂▃▁▁▂▁▁▁▂▁▁▁▇
-wandb:    label_loss ▃▂▂▂▃▃▂▃▂▃▅▂▂▃▂▃▃▄▁█▄▁▄▁▂▁▂▁▂▁▃▁▂▄▆▂▂▃▄▄
-wandb: test_accuracy ▄▅▃▅▁█▇▇▄▆▃▄▅▄▆
-wandb:     test_loss ▃▁▁▃▅▃▁▇▆█▆▄▆▇▇
-wandb:    train_loss █▃▂▂▂▂▂▁▂▂▁▂▂▁▁▂▂▂▁▂▂▁▁▂▂▁▁▂▂▁▂▁▁▂▁▂▁▂▁▁
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00795
-wandb:    label_loss 0.44023
-wandb:    model_type Hadamard
-wandb: test_accuracy 92.57
-wandb:     test_loss 0.01825
-wandb:    train_loss 0.01256
-wandb: 
-wandb: 🚀 View run morning-sweep-13 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/vv9f8pdm
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_132021-vv9f8pdm/logs
-wandb: Agent Starting Run: 4ar10q6c with config:
-wandb: 	batch_size: 32
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.01179186693354084
-wandb: 	learning_rate: 0.0024661124427274787
-wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_132232-4ar10q6c
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run worthy-sweep-14
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/4ar10q6c
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▂▂▂▂▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▅▅▅▅▅▆▆▇▇▇▇▇▇█
-wandb:    image_loss █▄▃▁▂▂▁▂▁▁▂▁▁▁▁▁▂▁▂▁▁▁▂▁▂▁▂▁▁▁▂▂▂▂▁▁▂▂▁▁
-wandb:    label_loss ▄▃▃▂█▃▂▃▂▁▁▄▂▃▁▃▃▃▁▂▂▂▁▃▄▂▂▁▂▂▆▂▃▂▂▂▃▃▂▁
-wandb: test_accuracy ▁▁▇▆▇▃▇▇▇▇█▇▂▆▄
-wandb:     test_loss ▆▅▁▃▄▅▂▅▄▄▃▄█▄█
-wandb:    train_loss █▆▅▅▆▄▅▄▃▃▃▄▂▄▄▃▄▃▃▂▄▃▂▂▃▃▃▂▂▃▃▂▁▃▃▂▂▃▃▅
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00316
-wandb:    label_loss 0.24549
-wandb:    model_type Hadamard
-wandb: test_accuracy 93.08
-wandb:     test_loss 0.00612
-wandb:    train_loss 0.0052
-wandb: 
-wandb: 🚀 View run worthy-sweep-14 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/4ar10q6c
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_132232-4ar10q6c/logs
-wandb: Agent Starting Run: 8ytz4fer with config:
-wandb: 	batch_size: 32
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.05653869302790904
-wandb: 	learning_rate: 0.004209749841243263
-wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_132444-8ytz4fer
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run fresh-flower-15
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/8ytz4fer
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▂▂▂▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▅▆▆▇▇▇▇▇▇▇▇▇▇▇▇█
-wandb:    image_loss ▄▃▃▃▃█▃▄▃▇▂▃▄▂▅▂▂▄▂▃▄▅▄▂▂▁▆▂▆▂▂▃▂▃▂▆▆▃▄▁
-wandb:    label_loss ▄▄▃▁▃▂▂▂▂▃▂▄▃▂█▇▁▄▁▂▁▅▄▃▂▅▃▃▆▄▂▂▂▅▆▂▁▄▁▇
-wandb: test_accuracy ▆▅▅▃▃▆▇█▆▃▄▇▇▇▁
-wandb:     test_loss ▂▁▂▅▄▃▄▅▃█▅▄▄▄█
-wandb:    train_loss █▆▆▄▅▃▄▅▄▄▃▂▂▄▆▄▃▃▄▃▃▄▂▅▃▃▆▄▂▁▂▃▂▇▂▂▃▂▁▃
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.0054
-wandb:    label_loss 0.36933
-wandb:    model_type Hadamard
-wandb: test_accuracy 91.1
-wandb:     test_loss 0.03432
-wandb:    train_loss 0.02143
-wandb: 
-wandb: 🚀 View run fresh-flower-15 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/8ytz4fer
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_132444-8ytz4fer/logs
-wandb: Agent Starting Run: g86oslvx with config:
-wandb: 	batch_size: 32
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.3892270994796515
-wandb: 	learning_rate: 0.006549691479515308
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_132655-g86oslvx
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run atomic-sweep-16
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/g86oslvx
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▂▂▂▂▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇▇▇▇▇█
-wandb:    image_loss ▁▁▂▂█▁▁▁▁▂▁▃▃▁▅▂▁▄▁▁▁▄▄▃▆▅▂▃▁▂▂▅▂▂▂▅▂▃▂▄
-wandb:    label_loss ▁▂▁▃▂▆▅▂▃▂▅▂▆▅▄▁▁▄▂▁▂▁▄▅▂▆▃▂▂▂▁▆▂▂▅▅▃█▃▄
-wandb: test_accuracy ▅▇▃▅▇▃▆▆▁▆▄▅▆█▅
-wandb:     test_loss ▁▁▃▃▄▅▅▄█▅▆█▅▄▇
-wandb:    train_loss ▃▅▁▂▄▃▂▃▇▃▆▂▇▃▂▆▂▇▁▄▃▄▆▂▆▃▂▂▅▂▇▃▁▆▄▃▃█▅▃
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.03369
-wandb:    label_loss 0.61791
-wandb:    model_type Hadamard
-wandb: test_accuracy 90.19
-wandb:     test_loss 0.29611
-wandb:    train_loss 0.21076
-wandb: 
-wandb: 🚀 View run atomic-sweep-16 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/g86oslvx
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_132655-g86oslvx/logs
-wandb: Agent Starting Run: 1gpn6o9n with config:
-wandb: 	batch_size: 32
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.3479508256102126
-wandb: 	learning_rate: 0.00011519073306831583
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_132907-1gpn6o9n
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run different-sweep-17
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/1gpn6o9n
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▃▃▃▃▃▃▄▄▄▄▅▅▅▅▅▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇██
-wandb:    image_loss █▃▃▃▃▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-wandb:    label_loss ▅▃▅▃▂▃▃▄▂▁▆▃▅▂▁▁▁█▄▂▁▁▂▁▅▂▄▁▂▃▃▂▂▁▂▂▂▁▂▃
-wandb: test_accuracy ▁▃▄▅▅▅▅▆▆▇▇▇▇██
-wandb:     test_loss █▆▅▄▄▃▃▃▂▂▂▂▁▁▁
-wandb:    train_loss █▆▃▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00013
-wandb:    label_loss 0.11517
-wandb:    model_type Hadamard
-wandb: test_accuracy 94.22
-wandb:     test_loss 0.07383
-wandb:    train_loss 0.07019
-wandb: 
-wandb: 🚀 View run different-sweep-17 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/1gpn6o9n
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_132907-1gpn6o9n/logs
-wandb: Agent Starting Run: dj961unz with config:
-wandb: 	batch_size: 32
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.18079797792504865
-wandb: 	learning_rate: 0.0003718362558682712
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_133119-dj961unz
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run bumbling-sweep-18
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/dj961unz
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▂▃▃▃▃▃▃▃▃▄▄▄▄▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇▇▇▇█████
-wandb:    image_loss █▆▅▄▃▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-wandb:    label_loss █▃▆▃█▃▄▃▄▃▃▂▂▅▃▅▃▃▂▄▆▃▃▁▃▃▂▃▆▄▂▃▃▁▄▁▂▂▃▁
-wandb: test_accuracy ▁▂▄▃▆▇▇▇██▇████
-wandb:     test_loss █▆▄▄▂▂▂▁▁▁▂▂▁▁▁
-wandb:    train_loss ██▇▇▇▅▅▄▄▃▃▃▃▃▃▃▃▃▃▂▃▂▂▂▂▂▁▂▂▂▁▁▂▁▂▁▂▁▂▂
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00015
-wandb:    label_loss 0.11374
-wandb:    model_type Hadamard
-wandb: test_accuracy 94.82
-wandb:     test_loss 0.03468
-wandb:    train_loss 0.02532
-wandb: 
-wandb: 🚀 View run bumbling-sweep-18 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/dj961unz
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_133119-dj961unz/logs
-wandb: Agent Starting Run: aebl1fu1 with config:
-wandb: 	batch_size: 64
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.3211527273892123
-wandb: 	learning_rate: 0.005031424739423729
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_133331-aebl1fu1
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run unique-sweep-19
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/aebl1fu1
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▃▃▃▄▄▅▅▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇▇█
-wandb:    image_loss ▄▂▁█▂▁▁▁▂▁▁▂▂▁▁▁▃▂▁▁▂▂▂▂▂▁▂▁▁▁▁▁▂▁▂▂▁▄▃▁
-wandb:    label_loss ▅▂▃▃▅▅▅▂▃▂▃▃▃▃▃▄▂▁▁▅▂▂█▂▂▅▂▃▁▂▁▁▁▁▁▄▅▃▄▃
-wandb: test_accuracy ▅▂▃▆▁▅▅▄▅▇▆█▁▂▂
-wandb:     test_loss ▁▅▅▂▆▄▄▅▄▆▇▅▇██
-wandb:    train_loss █▆▅▅▃▄▅▄▅▄▃▄▅▂▃▃▄▂▃▂▄▁▃▅▂▂▁▃▂▃▃▄▁▂▁▂▃▃▁▁
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.003
-wandb:    label_loss 0.21152
-wandb:    model_type Hadamard
-wandb: test_accuracy 92.46
-wandb:     test_loss 0.12296
-wandb:    train_loss 0.07776
-wandb: 
-wandb: 🚀 View run unique-sweep-19 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/aebl1fu1
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_133331-aebl1fu1/logs
-wandb: Agent Starting Run: rlkumhdn with config:
-wandb: 	batch_size: 128
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.03880530617968292
-wandb: 	learning_rate: 0.004900809075702383
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_133522-rlkumhdn
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run restful-sweep-20
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/rlkumhdn
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▂▃▃▃▃▃▃▃▃▃▃▄▄▄▄▅▅▅▅▅▅▅▅▅▆▆▇▇▇▇▇▇██
-wandb:    image_loss ▆▄▂▂▃▁▂▁▂▁▂▂▃▁▃▄▂▁▁▅▂▃▂▁▃█▂▁▁▁▄▁▂▁▁▁▁▁▂▂
-wandb:    label_loss ▄█▄▄▂▄▂▂▄▂▄▂▂▃▅▃▂▁▄▄▂▂▃▃▃▅▄▃▁▄▄▆▃▂▃▃▂▁▃▃
-wandb: test_accuracy ▅▅▅▂█▃▆▇█▂▇▆▃▆▁
-wandb:     test_loss ▂█▁█▄▂▇▂▂▄▃▃▆▆▆
-wandb:    train_loss █▅▃▃▄▄▄▄▄▅▄▄▅▅▄▄▄▃▂▃▃▄▄▂▃▂▃▃▂▁▄▄▃▂▂▄▂▃▁▃
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00192
-wandb:    label_loss 0.16988
-wandb:    model_type Hadamard
-wandb: test_accuracy 92.53
-wandb:     test_loss 0.01454
-wandb:    train_loss 0.01031
-wandb: 
-wandb: 🚀 View run restful-sweep-20 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/rlkumhdn
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_133522-rlkumhdn/logs
-wandb: Agent Starting Run: wh68s8pc with config:
-wandb: 	batch_size: 128
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.18705128193965723
-wandb: 	learning_rate: 0.006531583094771759
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_133703-wh68s8pc
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run flowing-sweep-21
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/wh68s8pc
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▂▃▃▃▃▃▃▃▃▄▄▅▅▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇▇▇███
-wandb:    image_loss ▁▁▁▁▁▁▂▁▂▁▁▂▃▄▁█▃▂▁▂▁▁▂▁▂▁▂▂▂▃▁▁▁▂▁▁▁▁▂▁
-wandb:    label_loss ▆▅▃▃▂█▃▃▃▇▃▄▂▂▃▄▂▄▅▅▃▂▂▂▃▄▂▂▂▄▅▃▃▆▂▄▃▄▂▁
-wandb: test_accuracy ▂▅█▄▃██▆█▃▄▇▄▃▁
-wandb:     test_loss ▁▁▃▄▄▂▁█▂▃▃▃▇▄▅
-wandb:    train_loss █▂▂▃▂▃▂▂▂▃▂▂▃▃▃▂▃▂▃▃▂▃▂▃▁▂▂▂▂▂▁▂▂▁▂▂▂▁▂▂
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00469
-wandb:    label_loss 0.06769
-wandb:    model_type Hadamard
-wandb: test_accuracy 92.13
-wandb:     test_loss 0.08157
-wandb:    train_loss 0.05386
-wandb: 
-wandb: 🚀 View run flowing-sweep-21 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/wh68s8pc
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_133703-wh68s8pc/logs
-wandb: Agent Starting Run: wy8lfd5d with config:
-wandb: 	batch_size: 64
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.02394372725511068
-wandb: 	learning_rate: 0.00557374816780665
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_133845-wy8lfd5d
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run worthy-sweep-22
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/wy8lfd5d
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▂▂▂▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▅▅▅▆▆▇▇▇▇▇▇▇▇▇█
-wandb:    image_loss ▂▂▂▂▂▂▂▁▁▂▂▁▁▁▁▁▁▃▂▁▂▂▂▁█▂▁▄▂▃▂▁▁▁▁▂▁▁▁▃
-wandb:    label_loss ▃▅▅▆█▂▅▂▇▄▃▃▃▂▆▆▂▂▂▄█▇▂▂▂▃▃▅▇▁▁▅▁▄▂▇▆▄▁▁
-wandb: test_accuracy ▅▇▄▆▆▅▆▆▇▃█▅▁▃▆
-wandb:     test_loss ▁▁▂▄▁▁▆▂▁▃▂▂▆▅█
-wandb:    train_loss █▂▂▂▂▂▄▃▂▂▂▂▂▂▁▁▂▁▁▂▂▂▂▂▁▂▂▃▂▂▂▂▂▂▁▂▁▁▁▂
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00295
-wandb:    label_loss 0.05549
-wandb:    model_type Hadamard
-wandb: test_accuracy 92.41
-wandb:     test_loss 0.02889
-wandb:    train_loss 0.01344
-wandb: 
-wandb: 🚀 View run worthy-sweep-22 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/wy8lfd5d
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_133845-wy8lfd5d/logs
-wandb: Agent Starting Run: 12salr8q with config:
-wandb: 	batch_size: 32
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.1084327321868575
-wandb: 	learning_rate: 0.00378753725272708
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_134036-12salr8q
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run glorious-sweep-23
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/12salr8q
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▁▂▂▂▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▅▆▇▇▇▇▇▇▇▇▇████
-wandb:    image_loss ▃▂▂▄▄▁▂▇▃▂▃▂▃▄▄▄▃▄▂▂▄▁▁▃██▃▃▂▆▃▃▃▂▂▃▃▃▂▂
-wandb:    label_loss ▅▁▂▁▂▂▃▁▁▂▁▁▃▂▂▂▃▂▂▂▃▂▂▂▂▁▇▄▂▂▁▁▃▅▂█▅▁▂▁
-wandb: test_accuracy ▅▆▁▂▄▄▇▇▂▅█▇▃▅▅
-wandb:     test_loss ▁▃▄▄▃▄▄▄▄▇▃▅█▆▇
-wandb:    train_loss █▅▇▆▅▃▅▄▆▆▅▄▆▅▄▂▄▃▄▆▅▃▄▁▅▃▅▃▄▃▂▃▃▄▅▄▃▃▄▃
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00459
-wandb:    label_loss 0.27343
-wandb:    model_type Hadamard
-wandb: test_accuracy 92.15
-wandb:     test_loss 0.05031
-wandb:    train_loss 0.03343
-wandb: 
-wandb: 🚀 View run glorious-sweep-23 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/12salr8q
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_134036-12salr8q/logs
-wandb: Agent Starting Run: wka7jztt with config:
-wandb: 	batch_size: 64
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.4772520365996373
-wandb: 	learning_rate: 0.0023567539511488446
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_134248-wka7jztt
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run ethereal-sweep-24
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/wka7jztt
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▂▃▃▃▃▃▃▃▃▄▄▅▅▅▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇▇▇▇█
-wandb:    image_loss █▃▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂
-wandb:    label_loss ▄▂▅▇▇▆▅▃▄▂▂▅▃▃▂▄▂▂▃▂▆▃▂▂▃▃▂█▂▄▁▅▃▁▁▁▃▅▂▅
-wandb: test_accuracy ▁▄▆▆▅▅█▆▆▅▄▅▆▆▅
-wandb:     test_loss ▄▁▃▁▃▃▁▅▃▆▆█▆▆█
-wandb:    train_loss █▇▆▆▅▄▃▄▂▃▃▃▂▂▂▂▃▂▂▃▂▂▂▂▂▂▂▁▁▂▁▂▁▁▂▃▁▁▂▂
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00063
-wandb:    label_loss 0.32419
-wandb:    model_type Hadamard
-wandb: test_accuracy 93.88
-wandb:     test_loss 0.13183
-wandb:    train_loss 0.07395
-wandb: 
-wandb: 🚀 View run ethereal-sweep-24 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/wka7jztt
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_134248-wka7jztt/logs
-wandb: Agent Starting Run: 51ypcx5b with config:
-wandb: 	batch_size: 128
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.20478310080770168
-wandb: 	learning_rate: 0.003629750668507291
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_134439-51ypcx5b
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run zany-sweep-25
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/51ypcx5b
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▅▆▆▇▇▇▇▇▇████
-wandb:    image_loss █▅▄▃▂▂▂▂▁▄▂▂▃▁▂▂▁▃▃▁▁▁▁▂▂▁▁▁▂▂▁▁▁▁▁▃▁▁▁▁
-wandb:    label_loss █▃▅▆▄▅▂▆▅▄▂▁▆▃▃▃▃▂▃▃▂▂▃▂▃▂▁▃▂▁▂▂▂▂▁▂▂▄▂▂
-wandb: test_accuracy ▃▅▄▅█▆▄▇▅▄▃▁▃▅▃
-wandb:     test_loss ▃▁▃▂▃▃▅▅▃▅▆█▇▆▇
-wandb:    train_loss █▇▄▅▆▃▅▄▄▃▄▃▄▂▃▃▃▃▃▃▃▃▂▂▂▂▂▁▁▂▂▂▂▂▂▂▁▃▂▁
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00056
-wandb:    label_loss 0.1026
-wandb:    model_type Hadamard
-wandb: test_accuracy 93.59
-wandb:     test_loss 0.05756
-wandb:    train_loss 0.0289
-wandb: 
-wandb: 🚀 View run zany-sweep-25 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/51ypcx5b
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_134439-51ypcx5b/logs
-wandb: Agent Starting Run: p8nr6h0y with config:
-wandb: 	batch_size: 32
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.21560223945583137
-wandb: 	learning_rate: 0.006175388549832951
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_134620-p8nr6h0y
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run wild-sweep-26
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/p8nr6h0y
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▂▂▂▂▂▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▅▅▅▅▆▇▇▇▇▇▇▇▇▇█
-wandb:    image_loss ▃▃▃▁▄▃▃▆▃▂▂▄▂▃▂▃▂▂▂▁▅▃▂▃▃▃█▂▃▅▅▂▃▂▂▂▃▁▂▂
-wandb:    label_loss ▂▂▂▄▅▁▂▃▂▁▂▂▂▂▅▁▂▃▃▂▂▂▃▃▃▂▃▃█▄▂█▅▃▂▄▄▂▃▂
-wandb: test_accuracy ▁▆▇▅▆█▆▆▆▇▅▆▅▇▇
-wandb:     test_loss ▃▂▁▁▄▂▄▄▃▃▇▄█▆▆
-wandb:    train_loss ▄▆▅▆▇▃▁▅▃▃▄▄▂▁▅▄▂▄▄▃▅▂▄▃▅▆▅▃▆▃▅▂▅▅▃▄▃▄▄█
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.0125
-wandb:    label_loss 0.02126
-wandb:    model_type Hadamard
-wandb: test_accuracy 91.25
-wandb:     test_loss 0.15911
-wandb:    train_loss 0.1223
-wandb: 
-wandb: 🚀 View run wild-sweep-26 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/p8nr6h0y
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_134620-p8nr6h0y/logs
-wandb: Agent Starting Run: wiwpfl1h with config:
-wandb: 	batch_size: 128
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.487467706056273
-wandb: 	learning_rate: 0.008664451386901938
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_134832-wiwpfl1h
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run northern-sweep-27
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/wiwpfl1h
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▂▂▂▂▃▃▃▃▃▃▃▃▄▄▅▅▅▅▅▅▅▅▅▆▆▇▇▇▇▇▇▇▇▇█
-wandb:    image_loss ▁▁▁▁▁▁▁▄▁█▂▂▂▁▅▆▁▂▇▂▃▃▃▁▁▂▄▇▁▁▁▁▃▁▂▁▁▁▁▂
-wandb:    label_loss ▅▆▄▂▂▃▆▅▅▂▅▄▁▃█▁▂▂▅▃▅▄▄▂▂█▁▄▄▁▆▆▅▅▄▁▄▆▂▅
-wandb: test_accuracy ▅▇▇█▆▆▅▆▇▄▆▁▆▆▇
-wandb:     test_loss ▁▂▂▃▂▂▄▆▃▄█▆▃▄▄
-wandb:    train_loss █▃▃▂▃▃▃▂▃▂▄▄▄▃▃▅▅▃▃▆▄▄▃▃▄▂▂▃▃▂▂▂▃▂▃▁▂▃▁▃
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.03102
-wandb:    label_loss 0.32573
-wandb:    model_type Hadamard
-wandb: test_accuracy 92.95
-wandb:     test_loss 0.21658
-wandb:    train_loss 0.17208
-wandb: 
-wandb: 🚀 View run northern-sweep-27 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/wiwpfl1h
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_134832-wiwpfl1h/logs
-wandb: Agent Starting Run: jw3sx9mh with config:
-wandb: 	batch_size: 128
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.19608698359475996
-wandb: 	learning_rate: 0.009429275218245834
-wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_135014-jw3sx9mh
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run splendid-sweep-28
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/jw3sx9mh
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▂▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇▇▇██
-wandb:    image_loss ▁▁▁▁▁▁▂▁▁▁▂▂▂▂▃█▂▃▂▂▂▂▅▃▂▄▇▁▄▁▁▁▁▂▄▁▁▁▁▂
-wandb:    label_loss ▄▄▃▂▃▄▄▄▃▂▃▃▅▁▄▁▃▄▂▇▂▂▃▆▄▄▆▃▂▁▄█▃▂▁▂▂▂▄▃
-wandb: test_accuracy ▄▁▅▇▆█▅▇▇▁▆▇▃▃█
-wandb:     test_loss ▁▄▃▂▄▆▄▃█▂▇▃▂▃▂
-wandb:    train_loss ▅▂▂▁▁▂▂▂▂▂█▄▄▄█▄▄▅▆▄▄▃▃▅▃▂▂▄▂▃▂▄▂▂▃▂▁▁▂▂
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.0576
-wandb:    label_loss 0.24344
-wandb:    model_type Hadamard
-wandb: test_accuracy 92.78
-wandb:     test_loss 0.08996
-wandb:    train_loss 0.08827
-wandb: 
-wandb: 🚀 View run splendid-sweep-28 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/jw3sx9mh
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_135014-jw3sx9mh/logs
-wandb: Agent Starting Run: swwu58b4 with config:
-wandb: 	batch_size: 64
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.056065252577531366
-wandb: 	learning_rate: 0.009236720170430816
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_135155-swwu58b4
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run serene-sweep-29
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/swwu58b4
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▄▅▅▅▅▅▅▅▅▅▅▅▅▅▆▇▇▇▇▇▇▇▇██
-wandb:    image_loss ▁▂▄▃▄▂▁▂▃▄▃▂▁▂▂▁▁▂▂▆█▂▂▁▄▁▃▂▂▂▂▁▆▂▁▃▄▁▂▅
-wandb:    label_loss ▂▄▂▂▂▅▁▂▃▃▁▂▂▅▁▂▃█▃▁▃▁▅▂▄▂▂▄▅▂▄▃▃▄█▄▂▁▂▄
-wandb: test_accuracy ▁▇▆▅██▅▅▅▆▇▇▇▇▆
-wandb:     test_loss ▁▁▂▁▁▃▂▁▂▃▂▁█▁▁
-wandb:    train_loss ▅▁▁▁▁▅▆█▅█▃▆▆▄▂▄▃▃▄▂▃▂▄▄▃▂▃▄▄▃▄▄▅▃▂▄▃▆▂▅
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.05846
-wandb:    label_loss 0.74442
-wandb:    model_type Hadamard
-wandb: test_accuracy 90.78
-wandb:     test_loss 0.04919
-wandb:    train_loss 0.10442
-wandb: 
-wandb: 🚀 View run serene-sweep-29 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/swwu58b4
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_135155-swwu58b4/logs
-wandb: Agent Starting Run: 11pfnyut with config:
-wandb: 	batch_size: 128
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.02208892032531312
-wandb: 	learning_rate: 0.0014686270442120536
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_135346-11pfnyut
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run classic-sweep-30
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/11pfnyut
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▃▃▄▄▄▅▅▅▅▆▆▆▆▇▇▇▇▇▇▇▇██
-wandb:    image_loss █▅▃▃▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-wandb:    label_loss ▆▅▃▅▄▄▄▂▂▃▄▂▂▂▆▂▃▂▄▂▂▂▁▂▃▃▄▃▂▂▂▃▂▃█▃▂▄▁▂
-wandb: test_accuracy ▁▂▅▅▇▇▅▇▇██▇▇▇▇
-wandb:     test_loss █▅▃▂▁▁▂▁▁▁▁▁▁▁▁
-wandb:    train_loss █▃▃▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00019
-wandb:    label_loss 0.08917
-wandb:    model_type Hadamard
-wandb: test_accuracy 94.84
-wandb:     test_loss 0.00479
-wandb:    train_loss 0.00315
-wandb: 
-wandb: 🚀 View run classic-sweep-30 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/11pfnyut
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_135346-11pfnyut/logs
-wandb: Agent Starting Run: 0q9z56bf with config:
-wandb: 	batch_size: 128
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.38282269451476575
-wandb: 	learning_rate: 0.005158988601673952
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_135527-0q9z56bf
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run spring-sweep-31
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/0q9z56bf
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▃▃▃▄▅▅▅▅▅▅▅▆▇▇▇▇▇▇▇▇▇███
-wandb:    image_loss ▂▂▁▁▁▁▁▁▁▁▇▁▂▂▆▂▂▁▁▁▁▁▃▁▄▁▁▁▁▁▁▁▁▁█▁▁▁▁▁
-wandb:    label_loss ▆▇█▄▇▆▄▄▃▃▅▇▇▄▂▆▃▃▃▃▁▆▅▄▄▄▂▁▆▆▅▃▅▁▇▄▆▅▃▃
-wandb: test_accuracy ▁▃▆▄▄▇▇▇▆▄▄▁▄█▆
-wandb:     test_loss ▂▁▂▂▂▃▂▂▃▅█▅▄▅▅
-wandb:    train_loss ██▇▄▅▄▅▃▄▄▃▅▄▄▃▃▄▂▃▃▃▂▄▁▃▂▂▃▃▂▂▂▂▃▁▂▃▂▁▁
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00093
-wandb:    label_loss 0.11809
-wandb:    model_type Hadamard
-wandb: test_accuracy 93.57
-wandb:     test_loss 0.12089
-wandb:    train_loss 0.08038
-wandb: 
-wandb: 🚀 View run spring-sweep-31 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/0q9z56bf
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_135527-0q9z56bf/logs
-wandb: Agent Starting Run: zsjhg4ft with config:
-wandb: 	batch_size: 128
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.10157755836434074
-wandb: 	learning_rate: 0.004399590820463583
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_135709-zsjhg4ft
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run proud-sweep-32
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/zsjhg4ft
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▂▂▂▂▃▃▃▃▃▃▃▃▃▃▄▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇██
-wandb:    image_loss ▄▃▂▂▂▁▁▃▁▂▅▁▁█▁▃▂▁▂█▂▆▁▄▇▁▂▁▁▁▁▁▁▂▁▁▁▁▁▂
-wandb:    label_loss ▄█▄▄▃▄▅▅▄▂▂▂▆▃▃▅▄▃▄▃▆▂▄▄▄▂▅▂▅▂▂▄▇▂▁▃▂▃▄▃
-wandb: test_accuracy ▁▇▆██▆▇▁█▇▆▇▇▆▅
-wandb:     test_loss ▄▁▁▁▂▄▂▆▂▃▄▃█▅▅
-wandb:    train_loss █▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▂▁▂▂▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▂
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00189
-wandb:    label_loss 0.22046
-wandb:    model_type Hadamard
-wandb: test_accuracy 93.18
-wandb:     test_loss 0.03153
-wandb:    train_loss 0.02091
-wandb: 
-wandb: 🚀 View run proud-sweep-32 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/zsjhg4ft
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_135709-zsjhg4ft/logs
+wandb: Find logs at: ./wandb/run-20241218_142046-mlpy82m6/logs
 wandb: Sweep Agent: Waiting for job.
 wandb: Job received.
-wandb: Agent Starting Run: yxd387sd with config:
-wandb: 	batch_size: 64
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.30641112896196915
-wandb: 	learning_rate: 0.0068520942314188775
-wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_135916-yxd387sd
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run confused-sweep-33
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/yxd387sd
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▂▂▂▃▃▃▃▃▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇█
-wandb:    image_loss ▂▁▁▂▂▁▂▁▂▃▂▂▂▁▂▁▂▂▂▁▁▁▁▆▂▂▅▁▄▃▁▂▁▁▃▂▂▃▁█
-wandb:    label_loss ▃▅▃▄▂▂▅▂▆▃▂▁▄▅▄▄▂▃▅▃▃▅▆▇▆▅▁▁▇▂▄▄▄▃▁▂▄█▅▂
-wandb: test_accuracy ▁█▅▄▂▄▁▅▃▃▇▁█▁▅
-wandb:     test_loss ▁▄▂▃▁▁▂▃▃▃▂▅▃█▅
-wandb:    train_loss ▆▇▇█▅▆▅▄▅▄▇▇▃▄▅▄▅▅▁▅▇▄▄▅▃▄▄▄▆▃▃▃▇▅▃▂▂▃▄▄
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00707
-wandb:    label_loss 0.1239
-wandb:    model_type Hadamard
-wandb: test_accuracy 91.93
-wandb:     test_loss 0.16137
-wandb:    train_loss 0.10547
-wandb: 
-wandb: 🚀 View run confused-sweep-33 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/yxd387sd
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_135916-yxd387sd/logs
-wandb: Agent Starting Run: mbmbtt7x with config:
+wandb: Agent Starting Run: dbu9jamy with config:
 wandb: 	batch_size: 32
 wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.20191396257513056
-wandb: 	learning_rate: 0.002789238815215797
-wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_140107-mbmbtt7x
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run denim-sweep-34
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/mbmbtt7x
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▂▂▂▃▃▃▃▃▃▄▄▅▅▅▅▅▅▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇█
-wandb:    image_loss ▇▄▃▇▄▁▅▁▅▃▃▃▄▃█▆▂▃▂▂▁▅▄▃▃▄▅▄▃▃▄▃▃▃▆▁▁▁▂▂
-wandb:    label_loss ▂█▁▂▂▁▂▁▃▃▁▃▃▂▃▃▂▃▄▁▃▁▂▂▃▂▁▂▁▂▄▂▂▁▁▃▁▂▁▃
-wandb: test_accuracy ▂▅▂▇▇█▆█▅▆▇▁▂▆▆
-wandb:     test_loss ▂▁▂▁▃▃▂▃▃▄▃▆█▅▇
-wandb:    train_loss █▅▅▄▃▃▃▃▄▃▂▃▃▄▂▃▃▃▂▃▃▂▂▂▂▂▂▂▁▂▃▃▂▂▂▂▂▂▁▂
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00326
-wandb:    label_loss 0.13534
-wandb:    model_type Hadamard
-wandb: test_accuracy 92.91
-wandb:     test_loss 0.0767
-wandb:    train_loss 0.04377
-wandb: 
-wandb: 🚀 View run denim-sweep-34 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/mbmbtt7x
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_140107-mbmbtt7x/logs
-wandb: Agent Starting Run: cgmzi6yf with config:
-wandb: 	batch_size: 32
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.3036243142198489
-wandb: 	learning_rate: 0.00023541167161835776
-wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_140319-cgmzi6yf
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run ethereal-sweep-35
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/cgmzi6yf
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▃▃▃▄▅▅▅▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇█
-wandb:    image_loss █▇▄▃▃▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-wandb:    label_loss ▆▅▅█▃▆▃▅▁▄▂█▅▂▄▃▃▃▄▃▄▄▆▁▁▁▂▂▂▅▃▂▁▁▄▃▂▂▂▃
-wandb: test_accuracy ▁▃▄▅▆▅▆▆▇▇▆▇███
-wandb:     test_loss █▆▄▃▃▃▂▂▂▁▂▁▁▁▁
-wandb:    train_loss █▆▆▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▂▁▁▁▁▁▁▁
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00036
-wandb:    label_loss 0.181
-wandb:    model_type Hadamard
-wandb: test_accuracy 94.77
-wandb:     test_loss 0.06016
-wandb:    train_loss 0.04398
-wandb: 
-wandb: 🚀 View run ethereal-sweep-35 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/cgmzi6yf
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_140319-cgmzi6yf/logs
-wandb: Agent Starting Run: i65ot83d with config:
-wandb: 	batch_size: 32
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.12864316362954376
-wandb: 	learning_rate: 0.0020975658413126532
+wandb: 	lambda_weight: 0.16166388826581035
+wandb: 	learning_rate: 0.009603011089232205
 wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_140529-i65ot83d
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_142232-dbu9jamy
 wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run usual-sweep-36
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/i65ot83d
+wandb: Syncing run floral-sweep-2
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/auto_512_elu
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/auto_512_elu/sweeps/se4i7sy2
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/auto_512_elu/runs/dbu9jamy
 wandb:                                                                                
 wandb: 
 wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▁▂▂▂▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇█████
-wandb:    image_loss ██▂▂▂▂▁▂▂▁▁▁▁▂▁▁▁▂▁▂▁▂▁▁▁▂▁▁▁▂▂▂▂▁▁▁▂▁▂▁
-wandb:    label_loss ▂▂▂▂▄▂▃▃▃▃▂▂▁▁▂▂▃▄▅▄▄▃▃█▄▄▂▂▂▂▃▄▁▆▂▂▁▁▄▃
-wandb: test_accuracy ▃▁▆▆▇█▆▅▆▃▅▇▅▅▄
-wandb:     test_loss ▃▄▁▃▂▂▆▄▄█▇▄▇██
-wandb:    train_loss ▇██▆▄▇▅▅▃▅▄▄▄▃▃▅▂▃▂▃▂▃▄▂▄▂▁▂▃▂▃▁▂▂▂▁▁▂▂▃
+wandb:         epoch ▁▁▁▁▁▂▂▃▃▃▃▃▃▃▃▄▄▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇▇▇▇▇▇███
+wandb:    image_loss ▁▁▁▁▁▁▁▁▁▁██████████████████████████████
+wandb:    label_loss ▃▃▁▁▃▃██████████████████████████████████
+wandb: test_accuracy ██▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:     test_loss ▁▁█████████████
+wandb:    train_loss ▂▁▁▁▁▁▁▃▅▅▅▅▅▅▅▅▅▅█▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
 wandb: 
 wandb: Run summary:
+wandb:    activation ELU
 wandb:         epoch 14
-wandb:    image_loss 0.00129
-wandb:    label_loss 0.23157
-wandb:    model_type Hadamard
-wandb: test_accuracy 93.52
-wandb:     test_loss 0.0395
-wandb:    train_loss 0.02659
+wandb:    image_loss 1.37308
+wandb:    label_loss 2.30259
+wandb: test_accuracy 9.8
+wandb:     test_loss 1.75138
+wandb:    train_loss 1.74496
 wandb: 
-wandb: 🚀 View run usual-sweep-36 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/i65ot83d
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
+wandb: 🚀 View run floral-sweep-2 at: https://wandb.ai/cavaokcava/auto_512_elu/runs/dbu9jamy
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/auto_512_elu
 wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_140529-i65ot83d/logs
-wandb: Agent Starting Run: uj817054 with config:
-wandb: 	batch_size: 32
-wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.4690399139381915
-wandb: 	learning_rate: 0.00633043322410478
-wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_140741-uj817054
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run prime-sweep-37
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/uj817054
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▅▅▅▅▅▅▅▅▅▆▇▇▇▇▇▇▇▇██
-wandb:    image_loss ▁▂▂▄▂▁▁▂▂▂▄▁▃▂▁█▃▂▂▂▂▁▁▁▃▂▂▂▂▁▂▁▁▂▁▃▅▂▃▄
-wandb:    label_loss ▃▆▃▄▂▇▂▂▂▂▁▃▂█▂▅▅▂█▂▂▂▂▃▂▁▁▁▁▁▃▃▁█▂▃▂▅▄▁
-wandb: test_accuracy ▇▆▇▆█▁▇▅▇▃█▅▅▆█
-wandb:     test_loss ▁▃▃▄▃▇▃▅▄▅▄▅▅█▆
-wandb:    train_loss ▅▄▇▃▃▃▄▄▄▄▆▄▅▅▆▄▄█▄▅▁▄▅▁█▇▁▆▃▄▂▄▃▄▂▄▂▆▅▅
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.03188
-wandb:    label_loss 0.19995
-wandb:    model_type Hadamard
-wandb: test_accuracy 91.94
-wandb:     test_loss 0.31021
-wandb:    train_loss 0.2345
-wandb: 
-wandb: 🚀 View run prime-sweep-37 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/uj817054
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_140741-uj817054/logs
-wandb: Agent Starting Run: ipza2vho with config:
+wandb: Find logs at: ./wandb/run-20241218_142232-dbu9jamy/logs
+wandb: Agent Starting Run: 9lha68nv with config:
 wandb: 	batch_size: 128
 wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.4316439592521294
-wandb: 	learning_rate: 0.009235679911502056
+wandb: 	lambda_weight: 0.270381162124587
+wandb: 	learning_rate: 0.005227223078201048
 wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_140953-ipza2vho
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_142444-9lha68nv
 wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run vital-sweep-38
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/ipza2vho
+wandb: Syncing run vague-sweep-3
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/auto_512_elu
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/auto_512_elu/sweeps/se4i7sy2
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/auto_512_elu/runs/9lha68nv
 wandb:                                                                                
 wandb: 
 wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▅▅▅▅▅▆▇▇▇▇▇▇▇██
-wandb:    image_loss ▁▁▁▁▁▁▁▁▂▅▂▁▁▂▃▃▁▂▃▁▂▂▁▄▆▂▁▆▆▂█▁▁▁▁▁▁▁▁▁
-wandb:    label_loss ▂▄▅▆▅▄▄▄▃▃▃▅▃▂▃▃▄▅▃▄▄▂█▃▃▄▃▁▂▃▄▇▆▆▇▃▃▃▂▅
-wandb: test_accuracy ▄▅▆▇▁█▇█▆▆▆▅▆▇▇
-wandb:     test_loss ▁▂▂▃▃▃█▃▃▇▄▃▃▃▄
-wandb:    train_loss █▃▃▃▂▂▄▂▂▃▃▄▃▅▄▇▃▄▄▇▄▄▃▆█▆▄▄▄▆▃▄▄▂▄▂▂▃▁▁
+wandb:         epoch ▁▁▁▁▁▂▂▂▂▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇▇███
+wandb:    image_loss ▆▅▄▃▃▃▄▂▂▃▃▃▃▁▂▃▂▂▄█▂▂▃▂▂▂▂▂▃▂▂▂▃▃▂▁▅▂▃▄
+wandb:    label_loss ▃▆█▃▄▂▆▅▃▄▆▁▅▅▆▄▃▅▃▅▂▃▂▂▁▆▄▁▅▃▃▇▆▅▇▇▁▄▄▃
+wandb: test_accuracy ▁▃▆▅▆▇▆█▆▄▇▄▅▇▇
+wandb:     test_loss ██▂▃▄▃▂▁▃▅▄▆▄▃▃
+wandb:    train_loss █▇▇▅▆▄▅▄▄▄▃▃▃▃▃▃▂▂▂▃▃▂▂▃▂▂▂▃▂▃▂▂▂▁▃▂▃▁▂▃
 wandb: 
 wandb: Run summary:
+wandb:    activation ELU
 wandb:         epoch 14
-wandb:    image_loss 0.00428
-wandb:    label_loss 0.19572
-wandb:    model_type Hadamard
-wandb: test_accuracy 92.28
-wandb:     test_loss 0.22863
-wandb:    train_loss 0.11806
+wandb:    image_loss 0.00767
+wandb:    label_loss 0.25083
+wandb: test_accuracy 92.05
+wandb:     test_loss 0.08656
+wandb:    train_loss 0.08581
 wandb: 
-wandb: 🚀 View run vital-sweep-38 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/ipza2vho
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
+wandb: 🚀 View run vague-sweep-3 at: https://wandb.ai/cavaokcava/auto_512_elu/runs/9lha68nv
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/auto_512_elu
 wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_140953-ipza2vho/logs
-wandb: Agent Starting Run: 2wx63kwq with config:
+wandb: Find logs at: ./wandb/run-20241218_142444-9lha68nv/logs
+wandb: Agent Starting Run: 0jkz1qhw with config:
 wandb: 	batch_size: 64
 wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.16544652406434662
-wandb: 	learning_rate: 0.00867280510938986
+wandb: 	lambda_weight: 0.23754060998903043
+wandb: 	learning_rate: 0.0014331568297559314
 wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_141134-2wx63kwq
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_142626-0jkz1qhw
 wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run rose-sweep-39
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/2wx63kwq
+wandb: Syncing run hardy-sweep-4
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/auto_512_elu
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/auto_512_elu/sweeps/se4i7sy2
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/auto_512_elu/runs/0jkz1qhw
 wandb:                                                                                
 wandb: 
 wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▁▁▂▂▂▃▃▃▃▃▃▄▄▄▄▅▅▅▅▅▅▅▅▆▆▇▇▇▇▇▇▇▇▇█
-wandb:    image_loss ▁▁▁▁▁▄▆▂▂▅▁▂▁▁▁▁▁▃▁▂▁█▂▁▂▁▅▂▁▁▇▃▁▄▁▁▄▁▁▂
-wandb:    label_loss ▄▃▇▃▃▅▄▄▅▄▂▃▄▁▂▄▁▂▄▂▂▂▃█▂▂▂▃▂▁▁▃▂▅▂▃▅▁▃▃
-wandb: test_accuracy ▆▆█▅▃▁▆▇██▆▆▂█▄
-wandb:     test_loss ▁▃▄▂▄▂▄▂█▂▄▃▅▃▆
-wandb:    train_loss ▁▂▁▂▂▄█▅▅▆▄▃▃▃▃▂▂▃▂▂▃▄▂▃▂▃▃▂▃▂▃▂▃▃▃▃▄▁▄▂
+wandb:         epoch ▁▁▁▁▁▁▁▁▁▂▂▂▂▃▃▃▃▃▄▄▅▅▅▅▅▅▅▅▅▆▆▆▇▇▇▇▇███
+wandb:    image_loss █▅▂▂▂▂▁▂▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    label_loss ▆▅▄▅▄▃▅▁▄▃▅▃▇▃▃▆▃▇▇▅▃▂█▂▂█▅▅▄▃▄▃▂▅▆▅▂▁▃▄
+wandb: test_accuracy ▂▁▁▅▅▃▅▇▆█▂█▆█▆
+wandb:     test_loss ███▄▅▆▄▂▃▃▇▂▄▁▃
+wandb:    train_loss █▆▅▅▃▃▄▃▃▃▃▂▂▃▂▂▁▂▂▂▂▂▂▂▂▁▂▂▂▂▂▁▂▁▁▂▁▂▁▁
 wandb: 
 wandb: Run summary:
+wandb:    activation ELU
 wandb:         epoch 14
-wandb:    image_loss 0.01468
-wandb:    label_loss 0.39698
-wandb:    model_type Hadamard
-wandb: test_accuracy 90.51
-wandb:     test_loss 0.16487
-wandb:    train_loss 0.12248
+wandb:    image_loss 0.00175
+wandb:    label_loss 0.2343
+wandb: test_accuracy 92.32
+wandb:     test_loss 0.06743
+wandb:    train_loss 0.06357
 wandb: 
-wandb: 🚀 View run rose-sweep-39 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/2wx63kwq
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
+wandb: 🚀 View run hardy-sweep-4 at: https://wandb.ai/cavaokcava/auto_512_elu/runs/0jkz1qhw
+wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/auto_512_elu
 wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_141134-2wx63kwq/logs
-wandb: Agent Starting Run: a83zf04y with config:
-wandb: 	batch_size: 32
+wandb: Find logs at: ./wandb/run-20241218_142626-0jkz1qhw/logs
+wandb: Agent Starting Run: x7r13309 with config:
+wandb: 	batch_size: 128
 wandb: 	epochs: 15
-wandb: 	lambda_weight: 0.05668632309326904
-wandb: 	learning_rate: 0.0006056413655395253
+wandb: 	lambda_weight: 0.2513938359436515
+wandb: 	learning_rate: 0.002516477524053298
 wandb: Tracking run with wandb version 0.19.1
-wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_141326-a83zf04y
+wandb: Run data is saved locally in /home/okcava/projects/universal_advex/sweeps/wandb/run-20241218_142817-x7r13309
 wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run cool-sweep-40
-wandb: ⭐️ View project at https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/hadamard_sweep/sweeps/iq0ltfxu
-wandb: 🚀 View run at https://wandb.ai/cavaokcava/hadamard_sweep/runs/a83zf04y
-wandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:         epoch ▁▁▁▁▁▂▂▂▂▃▃▃▃▃▃▃▃▄▅▅▅▅▅▅▅▆▇▇▇▇▇▇▇▇▇▇▇███
-wandb:    image_loss █▄▄▃▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-wandb:    label_loss ▃▆█▅▇▂▄▆█▇▆▃▂▂▄▂▂▂▁▃▂▆▂▂▃▄▃▂▄▂▂▅▃▂▁▂▃▅▁▁
-wandb: test_accuracy ▁▁▄▄▆▆▆▇▇▄▇█▇█▇
-wandb:     test_loss █▅▂▂▁▁▂▁▁▃▂▁▁▁▂
-wandb:    train_loss █▆▆▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▂▁▁▁▁▁▁▁▂▁▁
-wandb: 
-wandb: Run summary:
-wandb:         epoch 14
-wandb:    image_loss 0.00017
-wandb:    label_loss 0.03567
-wandb:    model_type Hadamard
-wandb: test_accuracy 94.64
-wandb:     test_loss 0.01228
-wandb:    train_loss 0.00772
-wandb: 
-wandb: 🚀 View run cool-sweep-40 at: https://wandb.ai/cavaokcava/hadamard_sweep/runs/a83zf04y
-wandb: ⭐️ View project at: https://wandb.ai/cavaokcava/hadamard_sweep
-wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20241218_141326-a83zf04y/logs
+wandb: Syncing run smooth-sweep-5
+wandb: ⭐️ View project at https://wandb.ai/cavaokcava/auto_512_elu
+wandb: 🧹 View sweep at https://wandb.ai/cavaokcava/auto_512_elu/sweeps/se4i7sy2
+wandb: 🚀 View run at https://wandb.ai/cavaokcava/auto_512_elu/runs/x7r13309
+slurmstepd: error: *** JOB 981863 ON gpu-4-12 CANCELLED AT 2024-12-18T14:28:29 ***
