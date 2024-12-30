@@ -10,7 +10,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from data import get_mnist_loaders
 from helper import create_diffuse_one_hot
 
-print('running autoencoder_sweep_elu.py')
+print('running auto_128_sigmoid.py')
 
 # Setup device
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -20,40 +20,7 @@ image_dim = 28 * 28
 num_classes = 10
 input_dim = image_dim + num_classes
 
-# Architecture definitions
-ARCHITECTURES = {
-    '512': [(512, False)],
-    '256': [(512, True), (256, False)],
-    '128': [(512, True), (256, True), (128, False)],
-    '64': [(512, True), (256, True), (128, True), (64, False)]
-}
-
-
-def create_encoder_decoder(architecture_layers):
-    # Build encoder
-    encoder_layers = []
-    prev_dim = input_dim
-    for dim, add_activation in architecture_layers:
-        encoder_layers.append(nn.Linear(prev_dim, dim))
-        if add_activation:
-            encoder_layers.append(nn.ELU())
-        prev_dim = dim
-
-    # Build decoder (reverse of encoder)
-    decoder_layers = []
-    layers_reversed = [(input_dim, True)] + [(architecture_layers[i - 1][0], architecture_layers[i - 1][1])
-                                             for i in range(len(architecture_layers) - 1, 0, -1)]
-    prev_dim = architecture_layers[-1][0]  # Start from bottleneck dimension
-    for dim, add_activation in layers_reversed:
-        decoder_layers.append(nn.Linear(prev_dim, dim))
-        if add_activation:
-            decoder_layers.append(nn.ELU())
-        prev_dim = dim
-
-    return nn.Sequential(*encoder_layers), nn.Sequential(*decoder_layers)
-
-
-# Define sweep configuration template
+# Define sweep configuration
 sweep_config = {
     'method': 'random',
     'metric': {
@@ -85,21 +52,29 @@ def train_sweep():
     config = wandb.config
 
     print(f"\n{'=' * 50}")
-    print(f"Starting ELU sweep run")
-    print(f"Project: {wandb.run.project}")
+    print(f"Starting 128 Sigmoid sweep run")
     print(f"Batch size: {config.batch_size}")
     print(f"Learning rate: {config.learning_rate}")
     print(f"Lambda weight: {config.lambda_weight}")
     print(f"{'=' * 50}\n")
 
-    # Get architecture layers based on project name
-    bottleneck = wandb.run.project.split('_')[1]  # Extract '512', '256', etc.
-    architecture_layers = ARCHITECTURES[bottleneck]
+    # Define the encoder network
+    encoder = nn.Sequential(
+        nn.Linear(input_dim, 512),
+        nn.Sigmoid(),
+        nn.Linear(512, 256),
+        nn.Sigmoid(),
+        nn.Linear(256, 128)
+    ).to(device)
 
-    # Create encoder and decoder
-    encoder, decoder = create_encoder_decoder(architecture_layers)
-    encoder = encoder.to(device)
-    decoder = decoder.to(device)
+    # Define the decoder network
+    decoder = nn.Sequential(
+        nn.Linear(128, 256),
+        nn.Sigmoid(),
+        nn.Linear(256, 512),
+        nn.Sigmoid(),
+        nn.Linear(512, input_dim)
+    ).to(device)
 
     def autoencoder(x):
         encoded = encoder(x)
@@ -130,7 +105,7 @@ def train_sweep():
             optimizer.zero_grad()
             outputs = autoencoder(inputs)
 
-            # Calculate losses using same approach as working code
+            # Calculate losses
             outputs_label_probs = F.softmax(outputs[:, image_dim:], dim=1)
             image_loss = F.mse_loss(outputs[:, :image_dim], targets[:, :image_dim])
             label_loss = F.kl_div(outputs_label_probs.log(), targets[:, image_dim:])
@@ -146,8 +121,7 @@ def train_sweep():
                     'epoch': epoch,
                     'train_loss': running_loss / 100,
                     'image_loss': image_loss.item(),
-                    'label_loss': label_loss.item(),
-                    'activation': 'ELU'
+                    'label_loss': label_loss.item()
                 })
                 running_loss = 0.0
 
@@ -167,7 +141,7 @@ def train_sweep():
 
                 outputs = autoencoder(inputs)
 
-                # Calculate losses using same approach as working code
+                # Calculate losses
                 outputs_label_probs = F.softmax(outputs[:, image_dim:], dim=1)
                 image_loss = F.mse_loss(outputs[:, :image_dim], targets[:, :image_dim])
                 label_loss = F.kl_div(outputs_label_probs.log(), targets[:, image_dim:])
@@ -198,9 +172,7 @@ if __name__ == "__main__":
     # Initialize wandb
     wandb.login()
 
-    # Run sweeps for each architecture
-    for bottleneck in ['512', '256', '128', '64']:
-        project_name = f"auto_{bottleneck}_elu"
-        sweep_id = wandb.sweep(sweep_config, project=project_name)
-        print(f"\nStarting sweep for {project_name}")
-        wandb.agent(sweep_id, train_sweep, count=40)
+    # Create and run sweep
+    sweep_id = wandb.sweep(sweep_config, project="auto_128_sigmoid")
+    print("\nStarting sweep for 128 Sigmoid architecture")
+    wandb.agent(sweep_id, train_sweep, count=40)
