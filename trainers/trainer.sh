@@ -2,12 +2,12 @@
 #SBATCH -N 1                  # Number of nodes
 #SBATCH -n 1                  # Number of tasks
 #SBATCH --mem=16G             # Memory per node
-#SBATCH -t 3:00:00            # Time required
+#SBATCH -t 4:00:00            # Time required
 #SBATCH -p short              # Partition
-#SBATCH -J auto_sweeps        # Job name
-#SBATCH -o sweep_out.txt      # Standard output
-#SBATCH -e sweep_err.txt      # Standard error
-# SLURM --gres=gpu:A100:1     # Request 1 A100 GPU
+#SBATCH -J train              # Job name
+#SBATCH -o trainer_out.txt    # Standard output
+#SBATCH -e trainer_err.txt    # Standard error
+#SBATCH --gres=gpu:A100:1     # Request 1 A100 GPU
 
 # Load Python environment
 module load python/3.8.13/slu6jvw
@@ -16,4 +16,7 @@ module load python/3.8.13/slu6jvw
 source /home/okcava/projects/universal_advex/.venv/bin/activate
 
 # Run sweep scripts
-python mlp_trainer.py
+python hadamard_sum_trainer.py
+python hadamard_last_trainer.py
+
+
