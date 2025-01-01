@@ -7,113 +7,83 @@ Batch size: 128
 Lambda weight: 0.022089
 ==================================================
 
-Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
-Failed to download (trying next):
-HTTP Error 403: Forbidden
+Epoch [1/15], Step [100/469], Loss: 0.2781
+Epoch [1/15], Step [200/469], Loss: 0.1743
+Epoch [1/15], Step [300/469], Loss: 0.1528
+Epoch [1/15], Step [400/469], Loss: 0.1373
+Epoch [1/15], Test Accuracy: 34.70%
+Epoch [2/15], Step [100/469], Loss: 0.1308
+Epoch [2/15], Step [200/469], Loss: 0.1271
+Epoch [2/15], Step [300/469], Loss: 0.1238
+Epoch [2/15], Step [400/469], Loss: 0.1209
+Epoch [2/15], Test Accuracy: 47.92%
+Epoch [3/15], Step [100/469], Loss: 0.1176
+Epoch [3/15], Step [200/469], Loss: 0.1154
+Epoch [3/15], Step [300/469], Loss: 0.1134
+Epoch [3/15], Step [400/469], Loss: 0.1114
+Epoch [3/15], Test Accuracy: 54.26%
+Epoch [4/15], Step [100/469], Loss: 0.1090
+Epoch [4/15], Step [200/469], Loss: 0.1080
+Epoch [4/15], Step [300/469], Loss: 0.1074
+Epoch [4/15], Step [400/469], Loss: 0.1065
+Epoch [4/15], Test Accuracy: 57.69%
+Epoch [5/15], Step [100/469], Loss: 0.1054
+Epoch [5/15], Step [200/469], Loss: 0.1054
+Epoch [5/15], Step [300/469], Loss: 0.1044
+Epoch [5/15], Step [400/469], Loss: 0.1037
+Epoch [5/15], Test Accuracy: 63.41%
+Epoch [6/15], Step [100/469], Loss: 0.1029
+Epoch [6/15], Step [200/469], Loss: 0.1027
+Epoch [6/15], Step [300/469], Loss: 0.1032
+Epoch [6/15], Step [400/469], Loss: 0.1025
+Epoch [6/15], Test Accuracy: 66.97%
+Epoch [7/15], Step [100/469], Loss: 0.1014
+Epoch [7/15], Step [200/469], Loss: 0.1016
+Epoch [7/15], Step [300/469], Loss: 0.1007
+Epoch [7/15], Step [400/469], Loss: 0.1000
+Epoch [7/15], Test Accuracy: 69.19%
+Epoch [8/15], Step [100/469], Loss: 0.0999
+Epoch [8/15], Step [200/469], Loss: 0.0996
+Epoch [8/15], Step [300/469], Loss: 0.0996
+Epoch [8/15], Step [400/469], Loss: 0.0992
+Epoch [8/15], Test Accuracy: 69.49%
+Epoch [9/15], Step [100/469], Loss: 0.0984
+Epoch [9/15], Step [200/469], Loss: 0.0983
+Epoch [9/15], Step [300/469], Loss: 0.0989
+Epoch [9/15], Step [400/469], Loss: 0.0983
+Epoch [9/15], Test Accuracy: 70.17%
+Epoch [10/15], Step [100/469], Loss: 0.0977
+Epoch [10/15], Step [200/469], Loss: 0.0971
+Epoch [10/15], Step [300/469], Loss: 0.0978
+Epoch [10/15], Step [400/469], Loss: 0.0973
+Epoch [10/15], Test Accuracy: 72.05%
+Epoch [11/15], Step [100/469], Loss: 0.0972
+Epoch [11/15], Step [200/469], Loss: 0.0970
+Epoch [11/15], Step [300/469], Loss: 0.0969
+Epoch [11/15], Step [400/469], Loss: 0.0969
+Epoch [11/15], Test Accuracy: 73.36%
+Epoch [12/15], Step [100/469], Loss: 0.0963
+Epoch [12/15], Step [200/469], Loss: 0.0961
+Epoch [12/15], Step [300/469], Loss: 0.0963
+Epoch [12/15], Step [400/469], Loss: 0.0957
+Epoch [12/15], Test Accuracy: 74.90%
+Epoch [13/15], Step [100/469], Loss: 0.0951
+Epoch [13/15], Step [200/469], Loss: 0.0957
+Epoch [13/15], Step [300/469], Loss: 0.0959
+Epoch [13/15], Step [400/469], Loss: 0.0953
+Epoch [13/15], Test Accuracy: 76.34%
+Epoch [14/15], Step [100/469], Loss: 0.0952
+Epoch [14/15], Step [200/469], Loss: 0.0952
+Epoch [14/15], Step [300/469], Loss: 0.0943
+Epoch [14/15], Step [400/469], Loss: 0.0951
+Epoch [14/15], Test Accuracy: 77.60%
+Epoch [15/15], Step [100/469], Loss: 0.0942
+Epoch [15/15], Step [200/469], Loss: 0.0948
+Epoch [15/15], Step [300/469], Loss: 0.0943
+Epoch [15/15], Step [400/469], Loss: 0.0944
+Epoch [15/15], Test Accuracy: 79.81%
 
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz to ./data/MNIST/raw/train-images-idx3-ubyte.gz
-Extracting ./data/MNIST/raw/train-images-idx3-ubyte.gz to ./data/MNIST/raw
-
-Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
-Failed to download (trying next):
-HTTP Error 403: Forbidden
-
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz to ./data/MNIST/raw/train-labels-idx1-ubyte.gz
-Extracting ./data/MNIST/raw/train-labels-idx1-ubyte.gz to ./data/MNIST/raw
-
-Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
-Failed to download (trying next):
-HTTP Error 403: Forbidden
-
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw/t10k-images-idx3-ubyte.gz
-Extracting ./data/MNIST/raw/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw
-
-Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
-Failed to download (trying next):
-HTTP Error 403: Forbidden
-
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz
-Extracting ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw
-
-Epoch [1/15], Step [100/469], Loss: 0.0466
-Epoch [1/15], Step [200/469], Loss: 0.0168
-Epoch [1/15], Step [300/469], Loss: 0.0133
-Epoch [1/15], Step [400/469], Loss: 0.0118
-Epoch [1/15], Test Accuracy: 92.69%
-Epoch [2/15], Step [100/469], Loss: 0.0094
-Epoch [2/15], Step [200/469], Loss: 0.0083
-Epoch [2/15], Step [300/469], Loss: 0.0082
-Epoch [2/15], Step [400/469], Loss: 0.0078
-Epoch [2/15], Test Accuracy: 92.96%
-Epoch [3/15], Step [100/469], Loss: 0.0069
-Epoch [3/15], Step [200/469], Loss: 0.0065
-Epoch [3/15], Step [300/469], Loss: 0.0059
-Epoch [3/15], Step [400/469], Loss: 0.0061
-Epoch [3/15], Test Accuracy: 93.81%
-Epoch [4/15], Step [100/469], Loss: 0.0053
-Epoch [4/15], Step [200/469], Loss: 0.0055
-Epoch [4/15], Step [300/469], Loss: 0.0053
-Epoch [4/15], Step [400/469], Loss: 0.0051
-Epoch [4/15], Test Accuracy: 94.51%
-Epoch [5/15], Step [100/469], Loss: 0.0045
-Epoch [5/15], Step [200/469], Loss: 0.0046
-Epoch [5/15], Step [300/469], Loss: 0.0048
-Epoch [5/15], Step [400/469], Loss: 0.0046
-Epoch [5/15], Test Accuracy: 94.54%
-Epoch [6/15], Step [100/469], Loss: 0.0043
-Epoch [6/15], Step [200/469], Loss: 0.0042
-Epoch [6/15], Step [300/469], Loss: 0.0040
-Epoch [6/15], Step [400/469], Loss: 0.0042
-Epoch [6/15], Test Accuracy: 94.39%
-Epoch [7/15], Step [100/469], Loss: 0.0040
-Epoch [7/15], Step [200/469], Loss: 0.0040
-Epoch [7/15], Step [300/469], Loss: 0.0037
-Epoch [7/15], Step [400/469], Loss: 0.0040
-Epoch [7/15], Test Accuracy: 94.63%
-Epoch [8/15], Step [100/469], Loss: 0.0036
-Epoch [8/15], Step [200/469], Loss: 0.0038
-Epoch [8/15], Step [300/469], Loss: 0.0038
-Epoch [8/15], Step [400/469], Loss: 0.0038
-Epoch [8/15], Test Accuracy: 94.65%
-Epoch [9/15], Step [100/469], Loss: 0.0036
-Epoch [9/15], Step [200/469], Loss: 0.0035
-Epoch [9/15], Step [300/469], Loss: 0.0035
-Epoch [9/15], Step [400/469], Loss: 0.0037
-Epoch [9/15], Test Accuracy: 94.74%
-Epoch [10/15], Step [100/469], Loss: 0.0033
-Epoch [10/15], Step [200/469], Loss: 0.0034
-Epoch [10/15], Step [300/469], Loss: 0.0035
-Epoch [10/15], Step [400/469], Loss: 0.0035
-Epoch [10/15], Test Accuracy: 94.69%
-Epoch [11/15], Step [100/469], Loss: 0.0032
-Epoch [11/15], Step [200/469], Loss: 0.0034
-Epoch [11/15], Step [300/469], Loss: 0.0034
-Epoch [11/15], Step [400/469], Loss: 0.0034
-Epoch [11/15], Test Accuracy: 94.76%
-Epoch [12/15], Step [100/469], Loss: 0.0032
-Epoch [12/15], Step [200/469], Loss: 0.0032
-Epoch [12/15], Step [300/469], Loss: 0.0034
-Epoch [12/15], Step [400/469], Loss: 0.0035
-Epoch [12/15], Test Accuracy: 94.93%
-Epoch [13/15], Step [100/469], Loss: 0.0032
-Epoch [13/15], Step [200/469], Loss: 0.0032
-Epoch [13/15], Step [300/469], Loss: 0.0033
-Epoch [13/15], Step [400/469], Loss: 0.0033
-Epoch [13/15], Test Accuracy: 94.87%
-Epoch [14/15], Step [100/469], Loss: 0.0029
-Epoch [14/15], Step [200/469], Loss: 0.0033
-Epoch [14/15], Step [300/469], Loss: 0.0033
-Epoch [14/15], Step [400/469], Loss: 0.0034
-Epoch [14/15], Test Accuracy: 94.89%
-Epoch [15/15], Step [100/469], Loss: 0.0028
-Epoch [15/15], Step [200/469], Loss: 0.0033
-Epoch [15/15], Step [300/469], Loss: 0.0032
-Epoch [15/15], Step [400/469], Loss: 0.0031
-Epoch [15/15], Test Accuracy: 94.99%
+Model saved to: /home/okcava/projects/universal_advex/trainers/../models/hadamard_sum_iter1.pth
 
 ==================================================
 Training Hadamard Network with 2 iterations
@@ -122,81 +92,83 @@ Batch size: 128
 Lambda weight: 0.022089
 ==================================================
 
-Epoch [1/15], Step [100/469], Loss: 0.1298
-Epoch [1/15], Step [200/469], Loss: 0.0543
-Epoch [1/15], Step [300/469], Loss: 0.0416
-Epoch [1/15], Step [400/469], Loss: 0.0348
-Epoch [1/15], Test Accuracy: 95.74%
-Epoch [2/15], Step [100/469], Loss: 0.0280
-Epoch [2/15], Step [200/469], Loss: 0.0260
-Epoch [2/15], Step [300/469], Loss: 0.0267
-Epoch [2/15], Step [400/469], Loss: 0.0242
-Epoch [2/15], Test Accuracy: 96.15%
-Epoch [3/15], Step [100/469], Loss: 0.0214
-Epoch [3/15], Step [200/469], Loss: 0.0201
-Epoch [3/15], Step [300/469], Loss: 0.0206
-Epoch [3/15], Step [400/469], Loss: 0.0192
-Epoch [3/15], Test Accuracy: 96.15%
-Epoch [4/15], Step [100/469], Loss: 0.0166
-Epoch [4/15], Step [200/469], Loss: 0.0173
-Epoch [4/15], Step [300/469], Loss: 0.0170
-Epoch [4/15], Step [400/469], Loss: 0.0170
-Epoch [4/15], Test Accuracy: 96.02%
-Epoch [5/15], Step [100/469], Loss: 0.0146
-Epoch [5/15], Step [200/469], Loss: 0.0157
-Epoch [5/15], Step [300/469], Loss: 0.0167
-Epoch [5/15], Step [400/469], Loss: 0.0169
-Epoch [5/15], Test Accuracy: 96.03%
-Epoch [6/15], Step [100/469], Loss: 0.0140
-Epoch [6/15], Step [200/469], Loss: 0.0141
-Epoch [6/15], Step [300/469], Loss: 0.0172
-Epoch [6/15], Step [400/469], Loss: 0.0163
-Epoch [6/15], Test Accuracy: 96.40%
-Epoch [7/15], Step [100/469], Loss: 0.0138
-Epoch [7/15], Step [200/469], Loss: 0.0127
-Epoch [7/15], Step [300/469], Loss: 0.0143
-Epoch [7/15], Step [400/469], Loss: 0.0165
-Epoch [7/15], Test Accuracy: 96.05%
-Epoch [8/15], Step [100/469], Loss: 0.0123
-Epoch [8/15], Step [200/469], Loss: 0.0140
-Epoch [8/15], Step [300/469], Loss: 0.0138
-Epoch [8/15], Step [400/469], Loss: 0.0145
-Epoch [8/15], Test Accuracy: 95.97%
-Epoch [9/15], Step [100/469], Loss: 0.0131
-Epoch [9/15], Step [200/469], Loss: 0.0144
-Epoch [9/15], Step [300/469], Loss: 0.0144
-Epoch [9/15], Step [400/469], Loss: 0.0133
-Epoch [9/15], Test Accuracy: 96.30%
-Epoch [10/15], Step [100/469], Loss: 0.0114
-Epoch [10/15], Step [200/469], Loss: 0.0131
-Epoch [10/15], Step [300/469], Loss: 0.0121
-Epoch [10/15], Step [400/469], Loss: 0.0126
-Epoch [10/15], Test Accuracy: 96.38%
-Epoch [11/15], Step [100/469], Loss: 0.0119
-Epoch [11/15], Step [200/469], Loss: 0.0124
-Epoch [11/15], Step [300/469], Loss: 0.0135
-Epoch [11/15], Step [400/469], Loss: 0.0119
-Epoch [11/15], Test Accuracy: 96.30%
-Epoch [12/15], Step [100/469], Loss: 0.0112
-Epoch [12/15], Step [200/469], Loss: 0.0107
-Epoch [12/15], Step [300/469], Loss: 0.0151
-Epoch [12/15], Step [400/469], Loss: 0.0155
-Epoch [12/15], Test Accuracy: 95.66%
-Epoch [13/15], Step [100/469], Loss: 0.0105
-Epoch [13/15], Step [200/469], Loss: 0.0116
-Epoch [13/15], Step [300/469], Loss: 0.0146
-Epoch [13/15], Step [400/469], Loss: 0.0144
-Epoch [13/15], Test Accuracy: 96.42%
-Epoch [14/15], Step [100/469], Loss: 0.0088
-Epoch [14/15], Step [200/469], Loss: 0.0106
-Epoch [14/15], Step [300/469], Loss: 0.0094
-Epoch [14/15], Step [400/469], Loss: 0.0117
-Epoch [14/15], Test Accuracy: 96.41%
-Epoch [15/15], Step [100/469], Loss: 0.0109
-Epoch [15/15], Step [200/469], Loss: 0.0122
-Epoch [15/15], Step [300/469], Loss: 0.0139
-Epoch [15/15], Step [400/469], Loss: 0.0118
-Epoch [15/15], Test Accuracy: 92.99%
+Epoch [1/15], Step [100/469], Loss: 0.3373
+Epoch [1/15], Step [200/469], Loss: 0.2693
+Epoch [1/15], Step [300/469], Loss: 0.2565
+Epoch [1/15], Step [400/469], Loss: 0.2494
+Epoch [1/15], Test Accuracy: 22.87%
+Epoch [2/15], Step [100/469], Loss: 0.2376
+Epoch [2/15], Step [200/469], Loss: 0.2340
+Epoch [2/15], Step [300/469], Loss: 0.2292
+Epoch [2/15], Step [400/469], Loss: 0.2267
+Epoch [2/15], Test Accuracy: 37.35%
+Epoch [3/15], Step [100/469], Loss: 0.2224
+Epoch [3/15], Step [200/469], Loss: 0.2191
+Epoch [3/15], Step [300/469], Loss: 0.2178
+Epoch [3/15], Step [400/469], Loss: 0.2158
+Epoch [3/15], Test Accuracy: 38.90%
+Epoch [4/15], Step [100/469], Loss: 0.2134
+Epoch [4/15], Step [200/469], Loss: 0.2121
+Epoch [4/15], Step [300/469], Loss: 0.2122
+Epoch [4/15], Step [400/469], Loss: 0.2095
+Epoch [4/15], Test Accuracy: 43.81%
+Epoch [5/15], Step [100/469], Loss: 0.2080
+Epoch [5/15], Step [200/469], Loss: 0.2077
+Epoch [5/15], Step [300/469], Loss: 0.2066
+Epoch [5/15], Step [400/469], Loss: 0.2058
+Epoch [5/15], Test Accuracy: 47.54%
+Epoch [6/15], Step [100/469], Loss: 0.2042
+Epoch [6/15], Step [200/469], Loss: 0.2032
+Epoch [6/15], Step [300/469], Loss: 0.2025
+Epoch [6/15], Step [400/469], Loss: 0.2017
+Epoch [6/15], Test Accuracy: 52.71%
+Epoch [7/15], Step [100/469], Loss: 0.2006
+Epoch [7/15], Step [200/469], Loss: 0.1992
+Epoch [7/15], Step [300/469], Loss: 0.1987
+Epoch [7/15], Step [400/469], Loss: 0.1986
+Epoch [7/15], Test Accuracy: 58.47%
+Epoch [8/15], Step [100/469], Loss: 0.1977
+Epoch [8/15], Step [200/469], Loss: 0.1968
+Epoch [8/15], Step [300/469], Loss: 0.1966
+Epoch [8/15], Step [400/469], Loss: 0.1958
+Epoch [8/15], Test Accuracy: 64.10%
+Epoch [9/15], Step [100/469], Loss: 0.1951
+Epoch [9/15], Step [200/469], Loss: 0.1948
+Epoch [9/15], Step [300/469], Loss: 0.1935
+Epoch [9/15], Step [400/469], Loss: 0.1933
+Epoch [9/15], Test Accuracy: 69.19%
+Epoch [10/15], Step [100/469], Loss: 0.1917
+Epoch [10/15], Step [200/469], Loss: 0.1916
+Epoch [10/15], Step [300/469], Loss: 0.1913
+Epoch [10/15], Step [400/469], Loss: 0.1905
+Epoch [10/15], Test Accuracy: 71.52%
+Epoch [11/15], Step [100/469], Loss: 0.1897
+Epoch [11/15], Step [200/469], Loss: 0.1893
+Epoch [11/15], Step [300/469], Loss: 0.1890
+Epoch [11/15], Step [400/469], Loss: 0.1886
+Epoch [11/15], Test Accuracy: 77.38%
+Epoch [12/15], Step [100/469], Loss: 0.1872
+Epoch [12/15], Step [200/469], Loss: 0.1872
+Epoch [12/15], Step [300/469], Loss: 0.1861
+Epoch [12/15], Step [400/469], Loss: 0.1864
+Epoch [12/15], Test Accuracy: 77.88%
+Epoch [13/15], Step [100/469], Loss: 0.1856
+Epoch [13/15], Step [200/469], Loss: 0.1849
+Epoch [13/15], Step [300/469], Loss: 0.1855
+Epoch [13/15], Step [400/469], Loss: 0.1841
+Epoch [13/15], Test Accuracy: 78.61%
+Epoch [14/15], Step [100/469], Loss: 0.1848
+Epoch [14/15], Step [200/469], Loss: 0.1823
+Epoch [14/15], Step [300/469], Loss: 0.1836
+Epoch [14/15], Step [400/469], Loss: 0.1833
+Epoch [14/15], Test Accuracy: 80.02%
+Epoch [15/15], Step [100/469], Loss: 0.1816
+Epoch [15/15], Step [200/469], Loss: 0.1818
+Epoch [15/15], Step [300/469], Loss: 0.1817
+Epoch [15/15], Step [400/469], Loss: 0.1817
+Epoch [15/15], Test Accuracy: 80.70%
+
+Model saved to: /home/okcava/projects/universal_advex/trainers/../models/hadamard_sum_iter2.pth
 
 ==================================================
 Training Hadamard Network with 3 iterations
@@ -205,81 +177,83 @@ Batch size: 128
 Lambda weight: 0.022089
 ==================================================
 
-Epoch [1/15], Step [100/469], Loss: 0.4187
-Epoch [1/15], Step [200/469], Loss: 0.2655
-Epoch [1/15], Step [300/469], Loss: 0.1702
-Epoch [1/15], Step [400/469], Loss: 0.1145
-Epoch [1/15], Test Accuracy: 94.65%
-Epoch [2/15], Step [100/469], Loss: 0.0766
-Epoch [2/15], Step [200/469], Loss: 0.0675
-Epoch [2/15], Step [300/469], Loss: 0.0627
-Epoch [2/15], Step [400/469], Loss: 0.0583
-Epoch [2/15], Test Accuracy: 95.98%
-Epoch [3/15], Step [100/469], Loss: 0.0498
-Epoch [3/15], Step [200/469], Loss: 0.0464
-Epoch [3/15], Step [300/469], Loss: 0.0438
-Epoch [3/15], Step [400/469], Loss: 0.0445
-Epoch [3/15], Test Accuracy: 96.30%
-Epoch [4/15], Step [100/469], Loss: 0.0393
-Epoch [4/15], Step [200/469], Loss: 0.0404
-Epoch [4/15], Step [300/469], Loss: 0.0375
-Epoch [4/15], Step [400/469], Loss: 0.0381
-Epoch [4/15], Test Accuracy: 96.33%
-Epoch [5/15], Step [100/469], Loss: 0.0328
-Epoch [5/15], Step [200/469], Loss: 0.0342
-Epoch [5/15], Step [300/469], Loss: 0.0363
-Epoch [5/15], Step [400/469], Loss: 0.0363
-Epoch [5/15], Test Accuracy: 95.45%
-Epoch [6/15], Step [100/469], Loss: 0.0328
-Epoch [6/15], Step [200/469], Loss: 0.0321
-Epoch [6/15], Step [300/469], Loss: 0.0355
-Epoch [6/15], Step [400/469], Loss: 0.0344
-Epoch [6/15], Test Accuracy: 96.66%
-Epoch [7/15], Step [100/469], Loss: 0.0296
-Epoch [7/15], Step [200/469], Loss: 0.0296
-Epoch [7/15], Step [300/469], Loss: 0.0330
-Epoch [7/15], Step [400/469], Loss: 0.0326
-Epoch [7/15], Test Accuracy: 96.20%
-Epoch [8/15], Step [100/469], Loss: 0.0300
-Epoch [8/15], Step [200/469], Loss: 0.0298
-Epoch [8/15], Step [300/469], Loss: 0.0305
-Epoch [8/15], Step [400/469], Loss: 0.0326
-Epoch [8/15], Test Accuracy: 96.17%
-Epoch [9/15], Step [100/469], Loss: 0.0280
-Epoch [9/15], Step [200/469], Loss: 0.0320
-Epoch [9/15], Step [300/469], Loss: 0.0308
-Epoch [9/15], Step [400/469], Loss: 0.0295
-Epoch [9/15], Test Accuracy: 96.00%
-Epoch [10/15], Step [100/469], Loss: 0.0304
-Epoch [10/15], Step [200/469], Loss: 0.0270
-Epoch [10/15], Step [300/469], Loss: 0.0314
-Epoch [10/15], Step [400/469], Loss: 0.0334
-Epoch [10/15], Test Accuracy: 96.59%
-Epoch [11/15], Step [100/469], Loss: 0.0300
-Epoch [11/15], Step [200/469], Loss: 0.0271
-Epoch [11/15], Step [300/469], Loss: 0.0313
-Epoch [11/15], Step [400/469], Loss: 0.0280
-Epoch [11/15], Test Accuracy: 96.09%
-Epoch [12/15], Step [100/469], Loss: 0.0245
-Epoch [12/15], Step [200/469], Loss: 0.0256
-Epoch [12/15], Step [300/469], Loss: 0.0275
-Epoch [12/15], Step [400/469], Loss: 0.0282
-Epoch [12/15], Test Accuracy: 92.68%
-Epoch [13/15], Step [100/469], Loss: 2447445270059466.0000
-Epoch [13/15], Step [200/469], Loss: 1101579775426.5601
-Epoch [13/15], Step [300/469], Loss: 804882593218.5601
-Epoch [13/15], Step [400/469], Loss: 728319167119.3600
-Epoch [13/15], Test Accuracy: 10.76%
-Epoch [14/15], Step [100/469], Loss: 2870539784458.2402
-Epoch [14/15], Step [200/469], Loss: 574438062346.2400
-Epoch [14/15], Step [300/469], Loss: 247797886126.0800
-Epoch [14/15], Step [400/469], Loss: 168176243834.8800
-Epoch [14/15], Test Accuracy: 13.14%
-Epoch [15/15], Step [100/469], Loss: 142240568238.0800
-Epoch [15/15], Step [200/469], Loss: 87386576081.9200
-Epoch [15/15], Step [300/469], Loss: 196475417804.8000
-Epoch [15/15], Step [400/469], Loss: 100546661288.9600
-Epoch [15/15], Test Accuracy: 12.54%
+Epoch [1/15], Step [100/469], Loss: 0.4981
+Epoch [1/15], Step [200/469], Loss: 0.3963
+Epoch [1/15], Step [300/469], Loss: 0.3739
+Epoch [1/15], Step [400/469], Loss: 0.3633
+Epoch [1/15], Test Accuracy: 19.48%
+Epoch [2/15], Step [100/469], Loss: 0.3473
+Epoch [2/15], Step [200/469], Loss: 0.3393
+Epoch [2/15], Step [300/469], Loss: 0.3346
+Epoch [2/15], Step [400/469], Loss: 0.3298
+Epoch [2/15], Test Accuracy: 45.96%
+Epoch [3/15], Step [100/469], Loss: 0.3229
+Epoch [3/15], Step [200/469], Loss: 0.3209
+Epoch [3/15], Step [300/469], Loss: 0.3181
+Epoch [3/15], Step [400/469], Loss: 0.3156
+Epoch [3/15], Test Accuracy: 60.55%
+Epoch [4/15], Step [100/469], Loss: 0.3117
+Epoch [4/15], Step [200/469], Loss: 0.3105
+Epoch [4/15], Step [300/469], Loss: 0.3090
+Epoch [4/15], Step [400/469], Loss: 0.3061
+Epoch [4/15], Test Accuracy: 53.45%
+Epoch [5/15], Step [100/469], Loss: 0.3029
+Epoch [5/15], Step [200/469], Loss: 0.3020
+Epoch [5/15], Step [300/469], Loss: 0.3018
+Epoch [5/15], Step [400/469], Loss: 0.3000
+Epoch [5/15], Test Accuracy: 58.45%
+Epoch [6/15], Step [100/469], Loss: 0.2974
+Epoch [6/15], Step [200/469], Loss: 0.2967
+Epoch [6/15], Step [300/469], Loss: 0.2957
+Epoch [6/15], Step [400/469], Loss: 0.2939
+Epoch [6/15], Test Accuracy: 67.59%
+Epoch [7/15], Step [100/469], Loss: 0.2908
+Epoch [7/15], Step [200/469], Loss: 0.2916
+Epoch [7/15], Step [300/469], Loss: 0.2912
+Epoch [7/15], Step [400/469], Loss: 0.2889
+Epoch [7/15], Test Accuracy: 71.96%
+Epoch [8/15], Step [100/469], Loss: 0.2886
+Epoch [8/15], Step [200/469], Loss: 0.2868
+Epoch [8/15], Step [300/469], Loss: 0.2859
+Epoch [8/15], Step [400/469], Loss: 0.2859
+Epoch [8/15], Test Accuracy: 70.10%
+Epoch [9/15], Step [100/469], Loss: 0.2837
+Epoch [9/15], Step [200/469], Loss: 0.2838
+Epoch [9/15], Step [300/469], Loss: 0.2837
+Epoch [9/15], Step [400/469], Loss: 0.2829
+Epoch [9/15], Test Accuracy: 71.36%
+Epoch [10/15], Step [100/469], Loss: 0.2816
+Epoch [10/15], Step [200/469], Loss: 0.2813
+Epoch [10/15], Step [300/469], Loss: 0.2806
+Epoch [10/15], Step [400/469], Loss: 0.2792
+Epoch [10/15], Test Accuracy: 75.38%
+Epoch [11/15], Step [100/469], Loss: 0.2781
+Epoch [11/15], Step [200/469], Loss: 0.2783
+Epoch [11/15], Step [300/469], Loss: 0.2764
+Epoch [11/15], Step [400/469], Loss: 0.2777
+Epoch [11/15], Test Accuracy: 77.58%
+Epoch [12/15], Step [100/469], Loss: 0.2741
+Epoch [12/15], Step [200/469], Loss: 0.2762
+Epoch [12/15], Step [300/469], Loss: 0.2753
+Epoch [12/15], Step [400/469], Loss: 0.2736
+Epoch [12/15], Test Accuracy: 76.87%
+Epoch [13/15], Step [100/469], Loss: 0.2737
+Epoch [13/15], Step [200/469], Loss: 0.2722
+Epoch [13/15], Step [300/469], Loss: 0.2724
+Epoch [13/15], Step [400/469], Loss: 0.2724
+Epoch [13/15], Test Accuracy: 76.33%
+Epoch [14/15], Step [100/469], Loss: 0.2699
+Epoch [14/15], Step [200/469], Loss: 0.2702
+Epoch [14/15], Step [300/469], Loss: 0.2704
+Epoch [14/15], Step [400/469], Loss: 0.2698
+Epoch [14/15], Test Accuracy: 74.30%
+Epoch [15/15], Step [100/469], Loss: 0.2688
+Epoch [15/15], Step [200/469], Loss: 0.2683
+Epoch [15/15], Step [300/469], Loss: 0.2679
+Epoch [15/15], Step [400/469], Loss: 0.2685
+Epoch [15/15], Test Accuracy: 75.25%
+
+Model saved to: /home/okcava/projects/universal_advex/trainers/../models/hadamard_sum_iter3.pth
 
 ==================================================
 Training Hadamard Network with 4 iterations
@@ -288,81 +262,83 @@ Batch size: 128
 Lambda weight: 0.022089
 ==================================================
 
-Epoch [1/15], Step [100/469], Loss: 314.8831
-Epoch [1/15], Step [200/469], Loss: 134844622580.6350
-Epoch [1/15], Step [300/469], Loss: 1786508387117702.7500
-Epoch [1/15], Step [400/469], Loss: 483897848774.1675
-Epoch [1/15], Test Accuracy: 11.23%
-Epoch [2/15], Step [100/469], Loss: 1579178171.6692
-Epoch [2/15], Step [200/469], Loss: 10494263666.1952
-Epoch [2/15], Step [300/469], Loss: 13798883432.0494
-Epoch [2/15], Step [400/469], Loss: 44289622079.0375
-Epoch [2/15], Test Accuracy: 11.37%
-Epoch [3/15], Step [100/469], Loss: 617528826.6141
-Epoch [3/15], Step [200/469], Loss: 4736536744.3866
-Epoch [3/15], Step [300/469], Loss: 15496620539.0342
-Epoch [3/15], Step [400/469], Loss: 19044543424.6544
-Epoch [3/15], Test Accuracy: 11.48%
-Epoch [4/15], Step [100/469], Loss: 9544847718.1176
-Epoch [4/15], Step [200/469], Loss: 4802439837.1681
-Epoch [4/15], Step [300/469], Loss: 2500010970.1313
-Epoch [4/15], Step [400/469], Loss: 13943134006.6717
-Epoch [4/15], Test Accuracy: 11.74%
-Epoch [5/15], Step [100/469], Loss: 169498900.4375
-Epoch [5/15], Step [200/469], Loss: 482094210.0213
-Epoch [5/15], Step [300/469], Loss: 7133770846.6814
-Epoch [5/15], Step [400/469], Loss: 2811981763.0831
-Epoch [5/15], Test Accuracy: 11.96%
-Epoch [6/15], Step [100/469], Loss: 2721487664.9821
-Epoch [6/15], Step [200/469], Loss: 1406646928.4923
-Epoch [6/15], Step [300/469], Loss: 7119750993.8574
-Epoch [6/15], Step [400/469], Loss: 803482692.9060
-Epoch [6/15], Test Accuracy: 12.19%
-Epoch [7/15], Step [100/469], Loss: 137442266.8602
-Epoch [7/15], Step [200/469], Loss: 6869057340.3603
-Epoch [7/15], Step [300/469], Loss: 2596506833.4561
-Epoch [7/15], Step [400/469], Loss: 2432853578.1103
-Epoch [7/15], Test Accuracy: 12.28%
-Epoch [8/15], Step [100/469], Loss: 647888153.7364
-Epoch [8/15], Step [200/469], Loss: 3919355337.8031
-Epoch [8/15], Step [300/469], Loss: 453889834.1114
-Epoch [8/15], Step [400/469], Loss: 1516169817.2198
-Epoch [8/15], Test Accuracy: 12.50%
-Epoch [9/15], Step [100/469], Loss: 1573957751.0438
-Epoch [9/15], Step [200/469], Loss: 163599933.0897
-Epoch [9/15], Step [300/469], Loss: 2124678082.7533
-Epoch [9/15], Step [400/469], Loss: 728150444.6503
-Epoch [9/15], Test Accuracy: 12.71%
-Epoch [10/15], Step [100/469], Loss: 167243612.7858
-Epoch [10/15], Step [200/469], Loss: 3340401555.3770
-Epoch [10/15], Step [300/469], Loss: 1043932076.0822
-Epoch [10/15], Step [400/469], Loss: 675021942.6665
-Epoch [10/15], Test Accuracy: 13.11%
-Epoch [11/15], Step [100/469], Loss: 1119288177.3597
-Epoch [11/15], Step [200/469], Loss: 1576919314.1522
-Epoch [11/15], Step [300/469], Loss: 391760687.7140
-Epoch [11/15], Step [400/469], Loss: 1398155125.7616
-Epoch [11/15], Test Accuracy: 13.37%
-Epoch [12/15], Step [100/469], Loss: 713858623.9708
-Epoch [12/15], Step [200/469], Loss: 1969383600.6164
-Epoch [12/15], Step [300/469], Loss: 622588583.6594
-Epoch [12/15], Step [400/469], Loss: 63473271.5256
-Epoch [12/15], Test Accuracy: 13.50%
-Epoch [13/15], Step [100/469], Loss: 916944573.3604
-Epoch [13/15], Step [200/469], Loss: 1602320316.0610
-Epoch [13/15], Step [300/469], Loss: 289338635.4489
-Epoch [13/15], Step [400/469], Loss: 189538285.5403
-Epoch [13/15], Test Accuracy: 13.66%
-Epoch [14/15], Step [100/469], Loss: 402901060.8502
-Epoch [14/15], Step [200/469], Loss: 1450111862.0872
-Epoch [14/15], Step [300/469], Loss: 127048839.1029
-Epoch [14/15], Step [400/469], Loss: 195950334.0335
-Epoch [14/15], Test Accuracy: 13.83%
-Epoch [15/15], Step [100/469], Loss: 348311845.7045
-Epoch [15/15], Step [200/469], Loss: 920080501.5491
-Epoch [15/15], Step [300/469], Loss: 117986381.3052
-Epoch [15/15], Step [400/469], Loss: 45598758.5609
-Epoch [15/15], Test Accuracy: 14.17%
+Epoch [1/15], Step [100/469], Loss: 0.6416
+Epoch [1/15], Step [200/469], Loss: 0.5203
+Epoch [1/15], Step [300/469], Loss: 0.5015
+Epoch [1/15], Step [400/469], Loss: 0.4884
+Epoch [1/15], Test Accuracy: 9.78%
+Epoch [2/15], Step [100/469], Loss: 0.4720
+Epoch [2/15], Step [200/469], Loss: 0.4647
+Epoch [2/15], Step [300/469], Loss: 0.4558
+Epoch [2/15], Step [400/469], Loss: 0.4517
+Epoch [2/15], Test Accuracy: 30.63%
+Epoch [3/15], Step [100/469], Loss: 0.4442
+Epoch [3/15], Step [200/469], Loss: 0.4384
+Epoch [3/15], Step [300/469], Loss: 0.4327
+Epoch [3/15], Step [400/469], Loss: 0.4279
+Epoch [3/15], Test Accuracy: 48.34%
+Epoch [4/15], Step [100/469], Loss: 0.4232
+Epoch [4/15], Step [200/469], Loss: 0.4204
+Epoch [4/15], Step [300/469], Loss: 0.4165
+Epoch [4/15], Step [400/469], Loss: 0.4126
+Epoch [4/15], Test Accuracy: 59.53%
+Epoch [5/15], Step [100/469], Loss: 0.4106
+Epoch [5/15], Step [200/469], Loss: 0.4097
+Epoch [5/15], Step [300/469], Loss: 0.4069
+Epoch [5/15], Step [400/469], Loss: 0.4047
+Epoch [5/15], Test Accuracy: 52.17%
+Epoch [6/15], Step [100/469], Loss: 0.4000
+Epoch [6/15], Step [200/469], Loss: 0.4027
+Epoch [6/15], Step [300/469], Loss: 0.4000
+Epoch [6/15], Step [400/469], Loss: 0.3973
+Epoch [6/15], Test Accuracy: 62.28%
+Epoch [7/15], Step [100/469], Loss: 0.3950
+Epoch [7/15], Step [200/469], Loss: 0.3953
+Epoch [7/15], Step [300/469], Loss: 0.3936
+Epoch [7/15], Step [400/469], Loss: 0.3929
+Epoch [7/15], Test Accuracy: 58.79%
+Epoch [8/15], Step [100/469], Loss: 0.3920
+Epoch [8/15], Step [200/469], Loss: 0.3895
+Epoch [8/15], Step [300/469], Loss: 0.3884
+Epoch [8/15], Step [400/469], Loss: 0.3872
+Epoch [8/15], Test Accuracy: 61.54%
+Epoch [9/15], Step [100/469], Loss: 0.3865
+Epoch [9/15], Step [200/469], Loss: 0.3863
+Epoch [9/15], Step [300/469], Loss: 0.3858
+Epoch [9/15], Step [400/469], Loss: 0.3852
+Epoch [9/15], Test Accuracy: 66.47%
+Epoch [10/15], Step [100/469], Loss: 0.3839
+Epoch [10/15], Step [200/469], Loss: 0.3808
+Epoch [10/15], Step [300/469], Loss: 0.3808
+Epoch [10/15], Step [400/469], Loss: 0.3810
+Epoch [10/15], Test Accuracy: 70.40%
+Epoch [11/15], Step [100/469], Loss: 0.3783
+Epoch [11/15], Step [200/469], Loss: 0.3786
+Epoch [11/15], Step [300/469], Loss: 0.3771
+Epoch [11/15], Step [400/469], Loss: 0.3758
+Epoch [11/15], Test Accuracy: 67.11%
+Epoch [12/15], Step [100/469], Loss: 0.3758
+Epoch [12/15], Step [200/469], Loss: 0.3747
+Epoch [12/15], Step [300/469], Loss: 0.3735
+Epoch [12/15], Step [400/469], Loss: 0.3747
+Epoch [12/15], Test Accuracy: 67.38%
+Epoch [13/15], Step [100/469], Loss: 0.3700
+Epoch [13/15], Step [200/469], Loss: 0.3720
+Epoch [13/15], Step [300/469], Loss: 0.3712
+Epoch [13/15], Step [400/469], Loss: 0.3698
+Epoch [13/15], Test Accuracy: 74.14%
+Epoch [14/15], Step [100/469], Loss: 0.3692
+Epoch [14/15], Step [200/469], Loss: 0.3677
+Epoch [14/15], Step [300/469], Loss: 0.3668
+Epoch [14/15], Step [400/469], Loss: 0.3671
+Epoch [14/15], Test Accuracy: 73.82%
+Epoch [15/15], Step [100/469], Loss: 0.3654
+Epoch [15/15], Step [200/469], Loss: 0.3655
+Epoch [15/15], Step [300/469], Loss: 0.3641
+Epoch [15/15], Step [400/469], Loss: 0.3631
+Epoch [15/15], Test Accuracy: 77.09%
+
+Model saved to: /home/okcava/projects/universal_advex/trainers/../models/hadamard_sum_iter4.pth
 
 ==================================================
 Training Hadamard Network with 5 iterations
@@ -371,81 +347,83 @@ Batch size: 128
 Lambda weight: 0.022089
 ==================================================
 
-Epoch [1/15], Step [100/469], Loss: 108446337310025296.0000
-Epoch [1/15], Step [200/469], Loss: 1384569357960752136192.0000
-Epoch [1/15], Step [300/469], Loss: 1215551320583275544576.0000
-Epoch [1/15], Step [400/469], Loss: 1355294098766013399040.0000
-Epoch [1/15], Test Accuracy: 7.13%
-Epoch [2/15], Step [100/469], Loss: 1013148933920822394880.0000
-Epoch [2/15], Step [200/469], Loss: 4285195343470735130624.0000
-Epoch [2/15], Step [300/469], Loss: 568457586335836143616.0000
-Epoch [2/15], Step [400/469], Loss: 894048116069842812928.0000
-Epoch [2/15], Test Accuracy: 6.90%
-Epoch [3/15], Step [100/469], Loss: 5930744785521019453440.0000
-Epoch [3/15], Step [200/469], Loss: 3133664117778984992768.0000
-Epoch [3/15], Step [300/469], Loss: 2639020618922820370432.0000
-Epoch [3/15], Step [400/469], Loss: 287986025562743996416.0000
-Epoch [3/15], Test Accuracy: 6.91%
-Epoch [4/15], Step [100/469], Loss: 2649639655690556932096.0000
-Epoch [4/15], Step [200/469], Loss: 770234687744009568256.0000
-Epoch [4/15], Step [300/469], Loss: 5983907491543887380480.0000
-Epoch [4/15], Step [400/469], Loss: 1121015583145496150016.0000
-Epoch [4/15], Test Accuracy: 6.89%
-Epoch [5/15], Step [100/469], Loss: 1301562569685217312768.0000
-Epoch [5/15], Step [200/469], Loss: 3180487444836722409472.0000
-Epoch [5/15], Step [300/469], Loss: 6394927055868243476480.0000
-Epoch [5/15], Step [400/469], Loss: 249292746399844696064.0000
-Epoch [5/15], Test Accuracy: 6.88%
-Epoch [6/15], Step [100/469], Loss: 225812777183883395072.0000
-Epoch [6/15], Step [200/469], Loss: 5650857542669686538240.0000
-Epoch [6/15], Step [300/469], Loss: 5115556671476413235200.0000
-Epoch [6/15], Step [400/469], Loss: 1011777510237918724096.0000
-Epoch [6/15], Test Accuracy: 6.89%
-Epoch [7/15], Step [100/469], Loss: 45784261247345778688.0000
-Epoch [7/15], Step [200/469], Loss: 1886170226949039325184.0000
-Epoch [7/15], Step [300/469], Loss: 5653689272075275993088.0000
-Epoch [7/15], Step [400/469], Loss: 4587107754900146094080.0000
-Epoch [7/15], Test Accuracy: 6.84%
-Epoch [8/15], Step [100/469], Loss: 5876385766431563710464.0000
-Epoch [8/15], Step [200/469], Loss: 1995704021276767027200.0000
-Epoch [8/15], Step [300/469], Loss: 682571587681399603200.0000
-Epoch [8/15], Step [400/469], Loss: 3451237688289621180416.0000
-Epoch [8/15], Test Accuracy: 6.86%
-Epoch [9/15], Step [100/469], Loss: 3259578753714668699648.0000
-Epoch [9/15], Step [200/469], Loss: 1375032479119863709696.0000
-Epoch [9/15], Step [300/469], Loss: 1368647334236610101248.0000
-Epoch [9/15], Step [400/469], Loss: 6778210458194216484864.0000
-Epoch [9/15], Test Accuracy: 6.82%
-Epoch [10/15], Step [100/469], Loss: 6403978122747913961472.0000
-Epoch [10/15], Step [200/469], Loss: 551936332094054662144.0000
-Epoch [10/15], Step [300/469], Loss: 1482307652663665229824.0000
-Epoch [10/15], Step [400/469], Loss: 820400456295666679808.0000
-Epoch [10/15], Test Accuracy: 6.87%
-Epoch [11/15], Step [100/469], Loss: 3819260512212390248448.0000
-Epoch [11/15], Step [200/469], Loss: 1790760364094031134720.0000
-Epoch [11/15], Step [300/469], Loss: 5764144123349481553920.0000
-Epoch [11/15], Step [400/469], Loss: 670230994398647156736.0000
-Epoch [11/15], Test Accuracy: 6.87%
-Epoch [12/15], Step [100/469], Loss: 7217527974015519424512.0000
-Epoch [12/15], Step [200/469], Loss: 486997560238844280832.0000
-Epoch [12/15], Step [300/469], Loss: 215360562805496512512.0000
-Epoch [12/15], Step [400/469], Loss: 2190306848639284674560.0000
-Epoch [12/15], Test Accuracy: 6.86%
-Epoch [13/15], Step [100/469], Loss: 8267980843445909454848.0000
-Epoch [13/15], Step [200/469], Loss: 2117999953860060250112.0000
-Epoch [13/15], Step [300/469], Loss: 576057554573385859072.0000
-Epoch [13/15], Step [400/469], Loss: 967271639098504511488.0000
-Epoch [13/15], Test Accuracy: 6.85%
-Epoch [14/15], Step [100/469], Loss: 4350271878272942866432.0000
-Epoch [14/15], Step [200/469], Loss: 5211687579577314443264.0000
-Epoch [14/15], Step [300/469], Loss: 1126654990225218076672.0000
-Epoch [14/15], Step [400/469], Loss: 1723549882707355369472.0000
-Epoch [14/15], Test Accuracy: 6.84%
-Epoch [15/15], Step [100/469], Loss: 2472206191738794541056.0000
-Epoch [15/15], Step [200/469], Loss: 6320576945263485124608.0000
-Epoch [15/15], Step [300/469], Loss: 1349020353498592575488.0000
-Epoch [15/15], Step [400/469], Loss: 1329079080510462361600.0000
-Epoch [15/15], Test Accuracy: 6.85%
+Epoch [1/15], Step [100/469], Loss: 0.7983
+Epoch [1/15], Step [200/469], Loss: 0.6561
+Epoch [1/15], Step [300/469], Loss: 0.6309
+Epoch [1/15], Step [400/469], Loss: 0.6186
+Epoch [1/15], Test Accuracy: 15.80%
+Epoch [2/15], Step [100/469], Loss: 0.6007
+Epoch [2/15], Step [200/469], Loss: 0.5876
+Epoch [2/15], Step [300/469], Loss: 0.5805
+Epoch [2/15], Step [400/469], Loss: 0.5717
+Epoch [2/15], Test Accuracy: 25.00%
+Epoch [3/15], Step [100/469], Loss: 0.5596
+Epoch [3/15], Step [200/469], Loss: 0.5552
+Epoch [3/15], Step [300/469], Loss: 0.5488
+Epoch [3/15], Step [400/469], Loss: 0.5448
+Epoch [3/15], Test Accuracy: 55.69%
+Epoch [4/15], Step [100/469], Loss: 0.5374
+Epoch [4/15], Step [200/469], Loss: 0.5352
+Epoch [4/15], Step [300/469], Loss: 0.5291
+Epoch [4/15], Step [400/469], Loss: 0.5274
+Epoch [4/15], Test Accuracy: 54.65%
+Epoch [5/15], Step [100/469], Loss: 0.5222
+Epoch [5/15], Step [200/469], Loss: 0.5210
+Epoch [5/15], Step [300/469], Loss: 0.5196
+Epoch [5/15], Step [400/469], Loss: 0.5172
+Epoch [5/15], Test Accuracy: 58.18%
+Epoch [6/15], Step [100/469], Loss: 0.5116
+Epoch [6/15], Step [200/469], Loss: 0.5094
+Epoch [6/15], Step [300/469], Loss: 0.5100
+Epoch [6/15], Step [400/469], Loss: 0.5088
+Epoch [6/15], Test Accuracy: 63.71%
+Epoch [7/15], Step [100/469], Loss: 0.5046
+Epoch [7/15], Step [200/469], Loss: 0.5045
+Epoch [7/15], Step [300/469], Loss: 0.5036
+Epoch [7/15], Step [400/469], Loss: 0.5016
+Epoch [7/15], Test Accuracy: 57.56%
+Epoch [8/15], Step [100/469], Loss: 0.4987
+Epoch [8/15], Step [200/469], Loss: 0.4975
+Epoch [8/15], Step [300/469], Loss: 0.4966
+Epoch [8/15], Step [400/469], Loss: 0.4937
+Epoch [8/15], Test Accuracy: 66.14%
+Epoch [9/15], Step [100/469], Loss: 0.4929
+Epoch [9/15], Step [200/469], Loss: 0.4896
+Epoch [9/15], Step [300/469], Loss: 0.4932
+Epoch [9/15], Step [400/469], Loss: 0.4918
+Epoch [9/15], Test Accuracy: 70.16%
+Epoch [10/15], Step [100/469], Loss: 0.4868
+Epoch [10/15], Step [200/469], Loss: 0.4863
+Epoch [10/15], Step [300/469], Loss: 0.4846
+Epoch [10/15], Step [400/469], Loss: 0.4838
+Epoch [10/15], Test Accuracy: 65.39%
+Epoch [11/15], Step [100/469], Loss: 0.4812
+Epoch [11/15], Step [200/469], Loss: 0.4811
+Epoch [11/15], Step [300/469], Loss: 0.4819
+Epoch [11/15], Step [400/469], Loss: 0.4802
+Epoch [11/15], Test Accuracy: 67.95%
+Epoch [12/15], Step [100/469], Loss: 0.4783
+Epoch [12/15], Step [200/469], Loss: 0.4764
+Epoch [12/15], Step [300/469], Loss: 0.4771
+Epoch [12/15], Step [400/469], Loss: 0.4751
+Epoch [12/15], Test Accuracy: 67.71%
+Epoch [13/15], Step [100/469], Loss: 0.4749
+Epoch [13/15], Step [200/469], Loss: 0.4743
+Epoch [13/15], Step [300/469], Loss: 0.4720
+Epoch [13/15], Step [400/469], Loss: 0.4725
+Epoch [13/15], Test Accuracy: 71.67%
+Epoch [14/15], Step [100/469], Loss: 0.4707
+Epoch [14/15], Step [200/469], Loss: 0.4697
+Epoch [14/15], Step [300/469], Loss: 0.4686
+Epoch [14/15], Step [400/469], Loss: 0.4674
+Epoch [14/15], Test Accuracy: 71.87%
+Epoch [15/15], Step [100/469], Loss: 0.4661
+Epoch [15/15], Step [200/469], Loss: 0.4651
+Epoch [15/15], Step [300/469], Loss: 0.4658
+Epoch [15/15], Step [400/469], Loss: 0.4652
+Epoch [15/15], Test Accuracy: 73.15%
+
+Model saved to: /home/okcava/projects/universal_advex/trainers/../models/hadamard_sum_iter5.pth
 
 ==================================================
 Training Hadamard Network with 6 iterations
@@ -454,81 +432,83 @@ Batch size: 128
 Lambda weight: 0.022089
 ==================================================
 
-Epoch [1/15], Step [100/469], Loss: 2584604608594992891741524197376.0000
-Epoch [1/15], Step [200/469], Loss: inf
-Epoch [1/15], Step [300/469], Loss: inf
-Epoch [1/15], Step [400/469], Loss: nan
-Epoch [1/15], Test Accuracy: 9.80%
-Epoch [2/15], Step [100/469], Loss: nan
-Epoch [2/15], Step [200/469], Loss: nan
-Epoch [2/15], Step [300/469], Loss: nan
-Epoch [2/15], Step [400/469], Loss: nan
-Epoch [2/15], Test Accuracy: 9.80%
-Epoch [3/15], Step [100/469], Loss: nan
-Epoch [3/15], Step [200/469], Loss: nan
-Epoch [3/15], Step [300/469], Loss: nan
-Epoch [3/15], Step [400/469], Loss: nan
-Epoch [3/15], Test Accuracy: 9.80%
-Epoch [4/15], Step [100/469], Loss: nan
-Epoch [4/15], Step [200/469], Loss: nan
-Epoch [4/15], Step [300/469], Loss: nan
-Epoch [4/15], Step [400/469], Loss: nan
-Epoch [4/15], Test Accuracy: 9.80%
-Epoch [5/15], Step [100/469], Loss: nan
-Epoch [5/15], Step [200/469], Loss: nan
-Epoch [5/15], Step [300/469], Loss: nan
-Epoch [5/15], Step [400/469], Loss: nan
-Epoch [5/15], Test Accuracy: 9.80%
-Epoch [6/15], Step [100/469], Loss: nan
-Epoch [6/15], Step [200/469], Loss: nan
-Epoch [6/15], Step [300/469], Loss: nan
-Epoch [6/15], Step [400/469], Loss: nan
-Epoch [6/15], Test Accuracy: 9.80%
-Epoch [7/15], Step [100/469], Loss: nan
-Epoch [7/15], Step [200/469], Loss: nan
-Epoch [7/15], Step [300/469], Loss: nan
-Epoch [7/15], Step [400/469], Loss: nan
-Epoch [7/15], Test Accuracy: 9.80%
-Epoch [8/15], Step [100/469], Loss: nan
-Epoch [8/15], Step [200/469], Loss: nan
-Epoch [8/15], Step [300/469], Loss: nan
-Epoch [8/15], Step [400/469], Loss: nan
-Epoch [8/15], Test Accuracy: 9.80%
-Epoch [9/15], Step [100/469], Loss: nan
-Epoch [9/15], Step [200/469], Loss: nan
-Epoch [9/15], Step [300/469], Loss: nan
-Epoch [9/15], Step [400/469], Loss: nan
-Epoch [9/15], Test Accuracy: 9.80%
-Epoch [10/15], Step [100/469], Loss: nan
-Epoch [10/15], Step [200/469], Loss: nan
-Epoch [10/15], Step [300/469], Loss: nan
-Epoch [10/15], Step [400/469], Loss: nan
-Epoch [10/15], Test Accuracy: 9.80%
-Epoch [11/15], Step [100/469], Loss: nan
-Epoch [11/15], Step [200/469], Loss: nan
-Epoch [11/15], Step [300/469], Loss: nan
-Epoch [11/15], Step [400/469], Loss: nan
-Epoch [11/15], Test Accuracy: 9.80%
-Epoch [12/15], Step [100/469], Loss: nan
-Epoch [12/15], Step [200/469], Loss: nan
-Epoch [12/15], Step [300/469], Loss: nan
-Epoch [12/15], Step [400/469], Loss: nan
-Epoch [12/15], Test Accuracy: 9.80%
-Epoch [13/15], Step [100/469], Loss: nan
-Epoch [13/15], Step [200/469], Loss: nan
-Epoch [13/15], Step [300/469], Loss: nan
-Epoch [13/15], Step [400/469], Loss: nan
-Epoch [13/15], Test Accuracy: 9.80%
-Epoch [14/15], Step [100/469], Loss: nan
-Epoch [14/15], Step [200/469], Loss: nan
-Epoch [14/15], Step [300/469], Loss: nan
-Epoch [14/15], Step [400/469], Loss: nan
-Epoch [14/15], Test Accuracy: 9.80%
-Epoch [15/15], Step [100/469], Loss: nan
-Epoch [15/15], Step [200/469], Loss: nan
-Epoch [15/15], Step [300/469], Loss: nan
-Epoch [15/15], Step [400/469], Loss: nan
-Epoch [15/15], Test Accuracy: 9.80%
+Epoch [1/15], Step [100/469], Loss: 0.9599
+Epoch [1/15], Step [200/469], Loss: 0.7814
+Epoch [1/15], Step [300/469], Loss: 0.7523
+Epoch [1/15], Step [400/469], Loss: 0.7418
+Epoch [1/15], Test Accuracy: 15.77%
+Epoch [2/15], Step [100/469], Loss: 0.7234
+Epoch [2/15], Step [200/469], Loss: 0.7204
+Epoch [2/15], Step [300/469], Loss: 0.7075
+Epoch [2/15], Step [400/469], Loss: 0.6961
+Epoch [2/15], Test Accuracy: 17.36%
+Epoch [3/15], Step [100/469], Loss: 0.6867
+Epoch [3/15], Step [200/469], Loss: 0.6758
+Epoch [3/15], Step [300/469], Loss: 0.6725
+Epoch [3/15], Step [400/469], Loss: 0.6667
+Epoch [3/15], Test Accuracy: 38.46%
+Epoch [4/15], Step [100/469], Loss: 0.6576
+Epoch [4/15], Step [200/469], Loss: 0.6527
+Epoch [4/15], Step [300/469], Loss: 0.6492
+Epoch [4/15], Step [400/469], Loss: 0.6463
+Epoch [4/15], Test Accuracy: 44.97%
+Epoch [5/15], Step [100/469], Loss: 0.6414
+Epoch [5/15], Step [200/469], Loss: 0.6341
+Epoch [5/15], Step [300/469], Loss: 0.6316
+Epoch [5/15], Step [400/469], Loss: 0.6293
+Epoch [5/15], Test Accuracy: 48.48%
+Epoch [6/15], Step [100/469], Loss: 0.6232
+Epoch [6/15], Step [200/469], Loss: 0.6229
+Epoch [6/15], Step [300/469], Loss: 0.6202
+Epoch [6/15], Step [400/469], Loss: 0.6215
+Epoch [6/15], Test Accuracy: 52.20%
+Epoch [7/15], Step [100/469], Loss: 0.6166
+Epoch [7/15], Step [200/469], Loss: 0.6132
+Epoch [7/15], Step [300/469], Loss: 0.6109
+Epoch [7/15], Step [400/469], Loss: 0.6104
+Epoch [7/15], Test Accuracy: 56.34%
+Epoch [8/15], Step [100/469], Loss: 0.6049
+Epoch [8/15], Step [200/469], Loss: 0.6019
+Epoch [8/15], Step [300/469], Loss: 0.6032
+Epoch [8/15], Step [400/469], Loss: 0.6026
+Epoch [8/15], Test Accuracy: 52.32%
+Epoch [9/15], Step [100/469], Loss: 0.5944
+Epoch [9/15], Step [200/469], Loss: 0.5983
+Epoch [9/15], Step [300/469], Loss: 0.5946
+Epoch [9/15], Step [400/469], Loss: 0.5956
+Epoch [9/15], Test Accuracy: 61.42%
+Epoch [10/15], Step [100/469], Loss: 0.5913
+Epoch [10/15], Step [200/469], Loss: 0.5914
+Epoch [10/15], Step [300/469], Loss: 0.5889
+Epoch [10/15], Step [400/469], Loss: 0.5905
+Epoch [10/15], Test Accuracy: 62.68%
+Epoch [11/15], Step [100/469], Loss: 0.5860
+Epoch [11/15], Step [200/469], Loss: 0.5848
+Epoch [11/15], Step [300/469], Loss: 0.5820
+Epoch [11/15], Step [400/469], Loss: 0.5831
+Epoch [11/15], Test Accuracy: 66.84%
+Epoch [12/15], Step [100/469], Loss: 0.5781
+Epoch [12/15], Step [200/469], Loss: 0.5792
+Epoch [12/15], Step [300/469], Loss: 0.5770
+Epoch [12/15], Step [400/469], Loss: 0.5750
+Epoch [12/15], Test Accuracy: 71.94%
+Epoch [13/15], Step [100/469], Loss: 0.5757
+Epoch [13/15], Step [200/469], Loss: 0.5739
+Epoch [13/15], Step [300/469], Loss: 0.5744
+Epoch [13/15], Step [400/469], Loss: 0.5697
+Epoch [13/15], Test Accuracy: 67.98%
+Epoch [14/15], Step [100/469], Loss: 0.5681
+Epoch [14/15], Step [200/469], Loss: 0.5675
+Epoch [14/15], Step [300/469], Loss: 0.5683
+Epoch [14/15], Step [400/469], Loss: 0.5688
+Epoch [14/15], Test Accuracy: 66.80%
+Epoch [15/15], Step [100/469], Loss: 0.5630
+Epoch [15/15], Step [200/469], Loss: 0.5661
+Epoch [15/15], Step [300/469], Loss: 0.5636
+Epoch [15/15], Step [400/469], Loss: 0.5618
+Epoch [15/15], Test Accuracy: 73.43%
+
+Model saved to: /home/okcava/projects/universal_advex/trainers/../models/hadamard_sum_iter6.pth
 
 ==================================================
 Training Hadamard Network with 7 iterations
@@ -537,81 +517,83 @@ Batch size: 128
 Lambda weight: 0.022089
 ==================================================
 
-Epoch [1/15], Step [100/469], Loss: nan
-Epoch [1/15], Step [200/469], Loss: nan
-Epoch [1/15], Step [300/469], Loss: nan
-Epoch [1/15], Step [400/469], Loss: nan
-Epoch [1/15], Test Accuracy: 9.80%
-Epoch [2/15], Step [100/469], Loss: nan
-Epoch [2/15], Step [200/469], Loss: nan
-Epoch [2/15], Step [300/469], Loss: nan
-Epoch [2/15], Step [400/469], Loss: nan
-Epoch [2/15], Test Accuracy: 9.80%
-Epoch [3/15], Step [100/469], Loss: nan
-Epoch [3/15], Step [200/469], Loss: nan
-Epoch [3/15], Step [300/469], Loss: nan
-Epoch [3/15], Step [400/469], Loss: nan
-Epoch [3/15], Test Accuracy: 9.80%
-Epoch [4/15], Step [100/469], Loss: nan
-Epoch [4/15], Step [200/469], Loss: nan
-Epoch [4/15], Step [300/469], Loss: nan
-Epoch [4/15], Step [400/469], Loss: nan
-Epoch [4/15], Test Accuracy: 9.80%
-Epoch [5/15], Step [100/469], Loss: nan
-Epoch [5/15], Step [200/469], Loss: nan
-Epoch [5/15], Step [300/469], Loss: nan
-Epoch [5/15], Step [400/469], Loss: nan
-Epoch [5/15], Test Accuracy: 9.80%
-Epoch [6/15], Step [100/469], Loss: nan
-Epoch [6/15], Step [200/469], Loss: nan
-Epoch [6/15], Step [300/469], Loss: nan
-Epoch [6/15], Step [400/469], Loss: nan
-Epoch [6/15], Test Accuracy: 9.80%
-Epoch [7/15], Step [100/469], Loss: nan
-Epoch [7/15], Step [200/469], Loss: nan
-Epoch [7/15], Step [300/469], Loss: nan
-Epoch [7/15], Step [400/469], Loss: nan
-Epoch [7/15], Test Accuracy: 9.80%
-Epoch [8/15], Step [100/469], Loss: nan
-Epoch [8/15], Step [200/469], Loss: nan
-Epoch [8/15], Step [300/469], Loss: nan
-Epoch [8/15], Step [400/469], Loss: nan
-Epoch [8/15], Test Accuracy: 9.80%
-Epoch [9/15], Step [100/469], Loss: nan
-Epoch [9/15], Step [200/469], Loss: nan
-Epoch [9/15], Step [300/469], Loss: nan
-Epoch [9/15], Step [400/469], Loss: nan
-Epoch [9/15], Test Accuracy: 9.80%
-Epoch [10/15], Step [100/469], Loss: nan
-Epoch [10/15], Step [200/469], Loss: nan
-Epoch [10/15], Step [300/469], Loss: nan
-Epoch [10/15], Step [400/469], Loss: nan
-Epoch [10/15], Test Accuracy: 9.80%
-Epoch [11/15], Step [100/469], Loss: nan
-Epoch [11/15], Step [200/469], Loss: nan
-Epoch [11/15], Step [300/469], Loss: nan
-Epoch [11/15], Step [400/469], Loss: nan
-Epoch [11/15], Test Accuracy: 9.80%
-Epoch [12/15], Step [100/469], Loss: nan
-Epoch [12/15], Step [200/469], Loss: nan
-Epoch [12/15], Step [300/469], Loss: nan
-Epoch [12/15], Step [400/469], Loss: nan
-Epoch [12/15], Test Accuracy: 9.80%
-Epoch [13/15], Step [100/469], Loss: nan
-Epoch [13/15], Step [200/469], Loss: nan
-Epoch [13/15], Step [300/469], Loss: nan
-Epoch [13/15], Step [400/469], Loss: nan
-Epoch [13/15], Test Accuracy: 9.80%
-Epoch [14/15], Step [100/469], Loss: nan
-Epoch [14/15], Step [200/469], Loss: nan
-Epoch [14/15], Step [300/469], Loss: nan
-Epoch [14/15], Step [400/469], Loss: nan
-Epoch [14/15], Test Accuracy: 9.80%
-Epoch [15/15], Step [100/469], Loss: nan
-Epoch [15/15], Step [200/469], Loss: nan
-Epoch [15/15], Step [300/469], Loss: nan
-Epoch [15/15], Step [400/469], Loss: nan
-Epoch [15/15], Test Accuracy: 9.80%
+Epoch [1/15], Step [100/469], Loss: 1.1265
+Epoch [1/15], Step [200/469], Loss: 0.9230
+Epoch [1/15], Step [300/469], Loss: 0.8841
+Epoch [1/15], Step [400/469], Loss: 0.8711
+Epoch [1/15], Test Accuracy: 9.74%
+Epoch [2/15], Step [100/469], Loss: 0.8561
+Epoch [2/15], Step [200/469], Loss: 0.8475
+Epoch [2/15], Step [300/469], Loss: 0.8372
+Epoch [2/15], Step [400/469], Loss: 0.8288
+Epoch [2/15], Test Accuracy: 17.80%
+Epoch [3/15], Step [100/469], Loss: 0.8226
+Epoch [3/15], Step [200/469], Loss: 0.8099
+Epoch [3/15], Step [300/469], Loss: 0.7986
+Epoch [3/15], Step [400/469], Loss: 0.7890
+Epoch [3/15], Test Accuracy: 26.52%
+Epoch [4/15], Step [100/469], Loss: 0.7837
+Epoch [4/15], Step [200/469], Loss: 0.7753
+Epoch [4/15], Step [300/469], Loss: 0.7684
+Epoch [4/15], Step [400/469], Loss: 0.7602
+Epoch [4/15], Test Accuracy: 36.04%
+Epoch [5/15], Step [100/469], Loss: 0.7561
+Epoch [5/15], Step [200/469], Loss: 0.7543
+Epoch [5/15], Step [300/469], Loss: 0.7479
+Epoch [5/15], Step [400/469], Loss: 0.7456
+Epoch [5/15], Test Accuracy: 44.88%
+Epoch [6/15], Step [100/469], Loss: 0.7397
+Epoch [6/15], Step [200/469], Loss: 0.7364
+Epoch [6/15], Step [300/469], Loss: 0.7369
+Epoch [6/15], Step [400/469], Loss: 0.7328
+Epoch [6/15], Test Accuracy: 49.95%
+Epoch [7/15], Step [100/469], Loss: 0.7280
+Epoch [7/15], Step [200/469], Loss: 0.7265
+Epoch [7/15], Step [300/469], Loss: 0.7190
+Epoch [7/15], Step [400/469], Loss: 0.7225
+Epoch [7/15], Test Accuracy: 56.89%
+Epoch [8/15], Step [100/469], Loss: 0.7173
+Epoch [8/15], Step [200/469], Loss: 0.7138
+Epoch [8/15], Step [300/469], Loss: 0.7100
+Epoch [8/15], Step [400/469], Loss: 0.7077
+Epoch [8/15], Test Accuracy: 59.24%
+Epoch [9/15], Step [100/469], Loss: 0.7056
+Epoch [9/15], Step [200/469], Loss: 0.7087
+Epoch [9/15], Step [300/469], Loss: 0.7017
+Epoch [9/15], Step [400/469], Loss: 0.6994
+Epoch [9/15], Test Accuracy: 52.35%
+Epoch [10/15], Step [100/469], Loss: 0.6981
+Epoch [10/15], Step [200/469], Loss: 0.6935
+Epoch [10/15], Step [300/469], Loss: 0.6907
+Epoch [10/15], Step [400/469], Loss: 0.6943
+Epoch [10/15], Test Accuracy: 61.07%
+Epoch [11/15], Step [100/469], Loss: 0.6883
+Epoch [11/15], Step [200/469], Loss: 0.6857
+Epoch [11/15], Step [300/469], Loss: 0.6835
+Epoch [11/15], Step [400/469], Loss: 0.6850
+Epoch [11/15], Test Accuracy: 68.16%
+Epoch [12/15], Step [100/469], Loss: 0.6789
+Epoch [12/15], Step [200/469], Loss: 0.6750
+Epoch [12/15], Step [300/469], Loss: 0.6812
+Epoch [12/15], Step [400/469], Loss: 0.6777
+Epoch [12/15], Test Accuracy: 57.78%
+Epoch [13/15], Step [100/469], Loss: 0.6724
+Epoch [13/15], Step [200/469], Loss: 0.6709
+Epoch [13/15], Step [300/469], Loss: 0.6670
+Epoch [13/15], Step [400/469], Loss: 0.6680
+Epoch [13/15], Test Accuracy: 67.49%
+Epoch [14/15], Step [100/469], Loss: 0.6639
+Epoch [14/15], Step [200/469], Loss: 0.6652
+Epoch [14/15], Step [300/469], Loss: 0.6618
+Epoch [14/15], Step [400/469], Loss: 0.6649
+Epoch [14/15], Test Accuracy: 66.79%
+Epoch [15/15], Step [100/469], Loss: 0.6583
+Epoch [15/15], Step [200/469], Loss: 0.6573
+Epoch [15/15], Step [300/469], Loss: 0.6560
+Epoch [15/15], Step [400/469], Loss: 0.6581
+Epoch [15/15], Test Accuracy: 67.18%
+
+Model saved to: /home/okcava/projects/universal_advex/trainers/../models/hadamard_sum_iter7.pth
 
 ==================================================
 Training Hadamard Network with 8 iterations
@@ -620,81 +602,83 @@ Batch size: 128
 Lambda weight: 0.022089
 ==================================================
 
-Epoch [1/15], Step [100/469], Loss: nan
-Epoch [1/15], Step [200/469], Loss: nan
-Epoch [1/15], Step [300/469], Loss: nan
-Epoch [1/15], Step [400/469], Loss: nan
-Epoch [1/15], Test Accuracy: 9.80%
-Epoch [2/15], Step [100/469], Loss: nan
-Epoch [2/15], Step [200/469], Loss: nan
-Epoch [2/15], Step [300/469], Loss: nan
-Epoch [2/15], Step [400/469], Loss: nan
-Epoch [2/15], Test Accuracy: 9.80%
-Epoch [3/15], Step [100/469], Loss: nan
-Epoch [3/15], Step [200/469], Loss: nan
-Epoch [3/15], Step [300/469], Loss: nan
-Epoch [3/15], Step [400/469], Loss: nan
-Epoch [3/15], Test Accuracy: 9.80%
-Epoch [4/15], Step [100/469], Loss: nan
-Epoch [4/15], Step [200/469], Loss: nan
-Epoch [4/15], Step [300/469], Loss: nan
-Epoch [4/15], Step [400/469], Loss: nan
-Epoch [4/15], Test Accuracy: 9.80%
-Epoch [5/15], Step [100/469], Loss: nan
-Epoch [5/15], Step [200/469], Loss: nan
-Epoch [5/15], Step [300/469], Loss: nan
-Epoch [5/15], Step [400/469], Loss: nan
-Epoch [5/15], Test Accuracy: 9.80%
-Epoch [6/15], Step [100/469], Loss: nan
-Epoch [6/15], Step [200/469], Loss: nan
-Epoch [6/15], Step [300/469], Loss: nan
-Epoch [6/15], Step [400/469], Loss: nan
-Epoch [6/15], Test Accuracy: 9.80%
-Epoch [7/15], Step [100/469], Loss: nan
-Epoch [7/15], Step [200/469], Loss: nan
-Epoch [7/15], Step [300/469], Loss: nan
-Epoch [7/15], Step [400/469], Loss: nan
-Epoch [7/15], Test Accuracy: 9.80%
-Epoch [8/15], Step [100/469], Loss: nan
-Epoch [8/15], Step [200/469], Loss: nan
-Epoch [8/15], Step [300/469], Loss: nan
-Epoch [8/15], Step [400/469], Loss: nan
-Epoch [8/15], Test Accuracy: 9.80%
-Epoch [9/15], Step [100/469], Loss: nan
-Epoch [9/15], Step [200/469], Loss: nan
-Epoch [9/15], Step [300/469], Loss: nan
-Epoch [9/15], Step [400/469], Loss: nan
-Epoch [9/15], Test Accuracy: 9.80%
-Epoch [10/15], Step [100/469], Loss: nan
-Epoch [10/15], Step [200/469], Loss: nan
-Epoch [10/15], Step [300/469], Loss: nan
-Epoch [10/15], Step [400/469], Loss: nan
-Epoch [10/15], Test Accuracy: 9.80%
-Epoch [11/15], Step [100/469], Loss: nan
-Epoch [11/15], Step [200/469], Loss: nan
-Epoch [11/15], Step [300/469], Loss: nan
-Epoch [11/15], Step [400/469], Loss: nan
-Epoch [11/15], Test Accuracy: 9.80%
-Epoch [12/15], Step [100/469], Loss: nan
-Epoch [12/15], Step [200/469], Loss: nan
-Epoch [12/15], Step [300/469], Loss: nan
-Epoch [12/15], Step [400/469], Loss: nan
-Epoch [12/15], Test Accuracy: 9.80%
-Epoch [13/15], Step [100/469], Loss: nan
-Epoch [13/15], Step [200/469], Loss: nan
-Epoch [13/15], Step [300/469], Loss: nan
-Epoch [13/15], Step [400/469], Loss: nan
-Epoch [13/15], Test Accuracy: 9.80%
-Epoch [14/15], Step [100/469], Loss: nan
-Epoch [14/15], Step [200/469], Loss: nan
-Epoch [14/15], Step [300/469], Loss: nan
-Epoch [14/15], Step [400/469], Loss: nan
-Epoch [14/15], Test Accuracy: 9.80%
-Epoch [15/15], Step [100/469], Loss: nan
-Epoch [15/15], Step [200/469], Loss: nan
-Epoch [15/15], Step [300/469], Loss: nan
-Epoch [15/15], Step [400/469], Loss: nan
-Epoch [15/15], Test Accuracy: 9.80%
+Epoch [1/15], Step [100/469], Loss: 1.3036
+Epoch [1/15], Step [200/469], Loss: 1.0786
+Epoch [1/15], Step [300/469], Loss: 1.0222
+Epoch [1/15], Step [400/469], Loss: 0.9967
+Epoch [1/15], Test Accuracy: 11.35%
+Epoch [2/15], Step [100/469], Loss: 0.9839
+Epoch [2/15], Step [200/469], Loss: 0.9782
+Epoch [2/15], Step [300/469], Loss: 0.9706
+Epoch [2/15], Step [400/469], Loss: 0.9584
+Epoch [2/15], Test Accuracy: 15.94%
+Epoch [3/15], Step [100/469], Loss: 0.9476
+Epoch [3/15], Step [200/469], Loss: 0.9367
+Epoch [3/15], Step [300/469], Loss: 0.9307
+Epoch [3/15], Step [400/469], Loss: 0.9222
+Epoch [3/15], Test Accuracy: 11.32%
+Epoch [4/15], Step [100/469], Loss: 0.9136
+Epoch [4/15], Step [200/469], Loss: 0.9047
+Epoch [4/15], Step [300/469], Loss: 0.8939
+Epoch [4/15], Step [400/469], Loss: 0.8849
+Epoch [4/15], Test Accuracy: 33.51%
+Epoch [5/15], Step [100/469], Loss: 0.8740
+Epoch [5/15], Step [200/469], Loss: 0.8718
+Epoch [5/15], Step [300/469], Loss: 0.8591
+Epoch [5/15], Step [400/469], Loss: 0.8564
+Epoch [5/15], Test Accuracy: 45.67%
+Epoch [6/15], Step [100/469], Loss: 0.8458
+Epoch [6/15], Step [200/469], Loss: 0.8422
+Epoch [6/15], Step [300/469], Loss: 0.8407
+Epoch [6/15], Step [400/469], Loss: 0.8383
+Epoch [6/15], Test Accuracy: 52.38%
+Epoch [7/15], Step [100/469], Loss: 0.8266
+Epoch [7/15], Step [200/469], Loss: 0.8264
+Epoch [7/15], Step [300/469], Loss: 0.8173
+Epoch [7/15], Step [400/469], Loss: 0.8159
+Epoch [7/15], Test Accuracy: 54.87%
+Epoch [8/15], Step [100/469], Loss: 0.8047
+Epoch [8/15], Step [200/469], Loss: 0.8084
+Epoch [8/15], Step [300/469], Loss: 0.8102
+Epoch [8/15], Step [400/469], Loss: 0.8026
+Epoch [8/15], Test Accuracy: 62.89%
+Epoch [9/15], Step [100/469], Loss: 0.7988
+Epoch [9/15], Step [200/469], Loss: 0.7996
+Epoch [9/15], Step [300/469], Loss: 0.7943
+Epoch [9/15], Step [400/469], Loss: 0.7920
+Epoch [9/15], Test Accuracy: 62.33%
+Epoch [10/15], Step [100/469], Loss: 0.7856
+Epoch [10/15], Step [200/469], Loss: 0.7854
+Epoch [10/15], Step [300/469], Loss: 0.7795
+Epoch [10/15], Step [400/469], Loss: 0.7789
+Epoch [10/15], Test Accuracy: 64.38%
+Epoch [11/15], Step [100/469], Loss: 0.7742
+Epoch [11/15], Step [200/469], Loss: 0.7773
+Epoch [11/15], Step [300/469], Loss: 0.7757
+Epoch [11/15], Step [400/469], Loss: 0.7674
+Epoch [11/15], Test Accuracy: 63.54%
+Epoch [12/15], Step [100/469], Loss: 0.7700
+Epoch [12/15], Step [200/469], Loss: 0.7646
+Epoch [12/15], Step [300/469], Loss: 0.7630
+Epoch [12/15], Step [400/469], Loss: 0.7612
+Epoch [12/15], Test Accuracy: 70.13%
+Epoch [13/15], Step [100/469], Loss: 0.7585
+Epoch [13/15], Step [200/469], Loss: 0.7585
+Epoch [13/15], Step [300/469], Loss: 0.7591
+Epoch [13/15], Step [400/469], Loss: 0.7557
+Epoch [13/15], Test Accuracy: 67.90%
+Epoch [14/15], Step [100/469], Loss: 0.7522
+Epoch [14/15], Step [200/469], Loss: 0.7534
+Epoch [14/15], Step [300/469], Loss: 0.7519
+Epoch [14/15], Step [400/469], Loss: 0.7528
+Epoch [14/15], Test Accuracy: 67.01%
+Epoch [15/15], Step [100/469], Loss: 0.7452
+Epoch [15/15], Step [200/469], Loss: 0.7435
+Epoch [15/15], Step [300/469], Loss: 0.7451
+Epoch [15/15], Step [400/469], Loss: 0.7452
+Epoch [15/15], Test Accuracy: 67.21%
+
+Model saved to: /home/okcava/projects/universal_advex/trainers/../models/hadamard_sum_iter8.pth
 
 ==================================================
 Training Hadamard Network with 9 iterations
@@ -703,81 +687,83 @@ Batch size: 128
 Lambda weight: 0.022089
 ==================================================
 
-Epoch [1/15], Step [100/469], Loss: nan
-Epoch [1/15], Step [200/469], Loss: nan
-Epoch [1/15], Step [300/469], Loss: nan
-Epoch [1/15], Step [400/469], Loss: nan
-Epoch [1/15], Test Accuracy: 9.80%
-Epoch [2/15], Step [100/469], Loss: nan
-Epoch [2/15], Step [200/469], Loss: nan
-Epoch [2/15], Step [300/469], Loss: nan
-Epoch [2/15], Step [400/469], Loss: nan
-Epoch [2/15], Test Accuracy: 9.80%
-Epoch [3/15], Step [100/469], Loss: nan
-Epoch [3/15], Step [200/469], Loss: nan
-Epoch [3/15], Step [300/469], Loss: nan
-Epoch [3/15], Step [400/469], Loss: nan
-Epoch [3/15], Test Accuracy: 9.80%
-Epoch [4/15], Step [100/469], Loss: nan
-Epoch [4/15], Step [200/469], Loss: nan
-Epoch [4/15], Step [300/469], Loss: nan
-Epoch [4/15], Step [400/469], Loss: nan
-Epoch [4/15], Test Accuracy: 9.80%
-Epoch [5/15], Step [100/469], Loss: nan
-Epoch [5/15], Step [200/469], Loss: nan
-Epoch [5/15], Step [300/469], Loss: nan
-Epoch [5/15], Step [400/469], Loss: nan
-Epoch [5/15], Test Accuracy: 9.80%
-Epoch [6/15], Step [100/469], Loss: nan
-Epoch [6/15], Step [200/469], Loss: nan
-Epoch [6/15], Step [300/469], Loss: nan
-Epoch [6/15], Step [400/469], Loss: nan
-Epoch [6/15], Test Accuracy: 9.80%
-Epoch [7/15], Step [100/469], Loss: nan
-Epoch [7/15], Step [200/469], Loss: nan
-Epoch [7/15], Step [300/469], Loss: nan
-Epoch [7/15], Step [400/469], Loss: nan
-Epoch [7/15], Test Accuracy: 9.80%
-Epoch [8/15], Step [100/469], Loss: nan
-Epoch [8/15], Step [200/469], Loss: nan
-Epoch [8/15], Step [300/469], Loss: nan
-Epoch [8/15], Step [400/469], Loss: nan
-Epoch [8/15], Test Accuracy: 9.80%
-Epoch [9/15], Step [100/469], Loss: nan
-Epoch [9/15], Step [200/469], Loss: nan
-Epoch [9/15], Step [300/469], Loss: nan
-Epoch [9/15], Step [400/469], Loss: nan
-Epoch [9/15], Test Accuracy: 9.80%
-Epoch [10/15], Step [100/469], Loss: nan
-Epoch [10/15], Step [200/469], Loss: nan
-Epoch [10/15], Step [300/469], Loss: nan
-Epoch [10/15], Step [400/469], Loss: nan
-Epoch [10/15], Test Accuracy: 9.80%
-Epoch [11/15], Step [100/469], Loss: nan
-Epoch [11/15], Step [200/469], Loss: nan
-Epoch [11/15], Step [300/469], Loss: nan
-Epoch [11/15], Step [400/469], Loss: nan
-Epoch [11/15], Test Accuracy: 9.80%
-Epoch [12/15], Step [100/469], Loss: nan
-Epoch [12/15], Step [200/469], Loss: nan
-Epoch [12/15], Step [300/469], Loss: nan
-Epoch [12/15], Step [400/469], Loss: nan
-Epoch [12/15], Test Accuracy: 9.80%
-Epoch [13/15], Step [100/469], Loss: nan
-Epoch [13/15], Step [200/469], Loss: nan
-Epoch [13/15], Step [300/469], Loss: nan
-Epoch [13/15], Step [400/469], Loss: nan
-Epoch [13/15], Test Accuracy: 9.80%
-Epoch [14/15], Step [100/469], Loss: nan
-Epoch [14/15], Step [200/469], Loss: nan
-Epoch [14/15], Step [300/469], Loss: nan
-Epoch [14/15], Step [400/469], Loss: nan
-Epoch [14/15], Test Accuracy: 9.80%
-Epoch [15/15], Step [100/469], Loss: nan
-Epoch [15/15], Step [200/469], Loss: nan
-Epoch [15/15], Step [300/469], Loss: nan
-Epoch [15/15], Step [400/469], Loss: nan
-Epoch [15/15], Test Accuracy: 9.80%
+Epoch [1/15], Step [100/469], Loss: 1.4802
+Epoch [1/15], Step [200/469], Loss: 1.1775
+Epoch [1/15], Step [300/469], Loss: 1.1319
+Epoch [1/15], Step [400/469], Loss: 1.1195
+Epoch [1/15], Test Accuracy: 10.28%
+Epoch [2/15], Step [100/469], Loss: 1.1080
+Epoch [2/15], Step [200/469], Loss: 1.0939
+Epoch [2/15], Step [300/469], Loss: 1.0848
+Epoch [2/15], Step [400/469], Loss: 1.0770
+Epoch [2/15], Test Accuracy: 9.74%
+Epoch [3/15], Step [100/469], Loss: 1.0655
+Epoch [3/15], Step [200/469], Loss: 1.0607
+Epoch [3/15], Step [300/469], Loss: 1.0636
+Epoch [3/15], Step [400/469], Loss: 1.0483
+Epoch [3/15], Test Accuracy: 15.69%
+Epoch [4/15], Step [100/469], Loss: 1.0331
+Epoch [4/15], Step [200/469], Loss: 1.0316
+Epoch [4/15], Step [300/469], Loss: 1.0123
+Epoch [4/15], Step [400/469], Loss: 1.0082
+Epoch [4/15], Test Accuracy: 28.98%
+Epoch [5/15], Step [100/469], Loss: 0.9925
+Epoch [5/15], Step [200/469], Loss: 0.9792
+Epoch [5/15], Step [300/469], Loss: 0.9651
+Epoch [5/15], Step [400/469], Loss: 0.9605
+Epoch [5/15], Test Accuracy: 41.34%
+Epoch [6/15], Step [100/469], Loss: 0.9516
+Epoch [6/15], Step [200/469], Loss: 0.9485
+Epoch [6/15], Step [300/469], Loss: 0.9366
+Epoch [6/15], Step [400/469], Loss: 0.9331
+Epoch [6/15], Test Accuracy: 41.42%
+Epoch [7/15], Step [100/469], Loss: 0.9238
+Epoch [7/15], Step [200/469], Loss: 0.9219
+Epoch [7/15], Step [300/469], Loss: 0.9161
+Epoch [7/15], Step [400/469], Loss: 0.9193
+Epoch [7/15], Test Accuracy: 50.45%
+Epoch [8/15], Step [100/469], Loss: 0.9070
+Epoch [8/15], Step [200/469], Loss: 0.9006
+Epoch [8/15], Step [300/469], Loss: 0.9028
+Epoch [8/15], Step [400/469], Loss: 0.9005
+Epoch [8/15], Test Accuracy: 50.81%
+Epoch [9/15], Step [100/469], Loss: 0.8965
+Epoch [9/15], Step [200/469], Loss: 0.8845
+Epoch [9/15], Step [300/469], Loss: 0.8918
+Epoch [9/15], Step [400/469], Loss: 0.8847
+Epoch [9/15], Test Accuracy: 59.73%
+Epoch [10/15], Step [100/469], Loss: 0.8814
+Epoch [10/15], Step [200/469], Loss: 0.8842
+Epoch [10/15], Step [300/469], Loss: 0.8782
+Epoch [10/15], Step [400/469], Loss: 0.8751
+Epoch [10/15], Test Accuracy: 58.93%
+Epoch [11/15], Step [100/469], Loss: 0.8711
+Epoch [11/15], Step [200/469], Loss: 0.8685
+Epoch [11/15], Step [300/469], Loss: 0.8689
+Epoch [11/15], Step [400/469], Loss: 0.8659
+Epoch [11/15], Test Accuracy: 64.61%
+Epoch [12/15], Step [100/469], Loss: 0.8653
+Epoch [12/15], Step [200/469], Loss: 0.8612
+Epoch [12/15], Step [300/469], Loss: 0.8559
+Epoch [12/15], Step [400/469], Loss: 0.8579
+Epoch [12/15], Test Accuracy: 65.44%
+Epoch [13/15], Step [100/469], Loss: 0.8505
+Epoch [13/15], Step [200/469], Loss: 0.8453
+Epoch [13/15], Step [300/469], Loss: 0.8516
+Epoch [13/15], Step [400/469], Loss: 0.8505
+Epoch [13/15], Test Accuracy: 65.91%
+Epoch [14/15], Step [100/469], Loss: 0.8458
+Epoch [14/15], Step [200/469], Loss: 0.8434
+Epoch [14/15], Step [300/469], Loss: 0.8443
+Epoch [14/15], Step [400/469], Loss: 0.8379
+Epoch [14/15], Test Accuracy: 68.36%
+Epoch [15/15], Step [100/469], Loss: 0.8404
+Epoch [15/15], Step [200/469], Loss: 0.8402
+Epoch [15/15], Step [300/469], Loss: 0.8325
+Epoch [15/15], Step [400/469], Loss: 0.8321
+Epoch [15/15], Test Accuracy: 66.82%
+
+Model saved to: /home/okcava/projects/universal_advex/trainers/../models/hadamard_sum_iter9.pth
 
 ==================================================
 Training Hadamard Network with 10 iterations
@@ -786,935 +772,93 @@ Batch size: 128
 Lambda weight: 0.022089
 ==================================================
 
-Epoch [1/15], Step [100/469], Loss: nan
-Epoch [1/15], Step [200/469], Loss: nan
-Epoch [1/15], Step [300/469], Loss: nan
-Epoch [1/15], Step [400/469], Loss: nan
+Epoch [1/15], Step [100/469], Loss: 1.6127
+Epoch [1/15], Step [200/469], Loss: 1.3468
+Epoch [1/15], Step [300/469], Loss: 1.2713
+Epoch [1/15], Step [400/469], Loss: 1.2475
 Epoch [1/15], Test Accuracy: 9.80%
-Epoch [2/15], Step [100/469], Loss: nan
-Epoch [2/15], Step [200/469], Loss: nan
-Epoch [2/15], Step [300/469], Loss: nan
-Epoch [2/15], Step [400/469], Loss: nan
-Epoch [2/15], Test Accuracy: 9.80%
-Epoch [3/15], Step [100/469], Loss: nan
-Epoch [3/15], Step [200/469], Loss: nan
-Epoch [3/15], Step [300/469], Loss: nan
-Epoch [3/15], Step [400/469], Loss: nan
-Epoch [3/15], Test Accuracy: 9.80%
-Epoch [4/15], Step [100/469], Loss: nan
-Epoch [4/15], Step [200/469], Loss: nan
-Epoch [4/15], Step [300/469], Loss: nan
-Epoch [4/15], Step [400/469], Loss: nan
-Epoch [4/15], Test Accuracy: 9.80%
-Epoch [5/15], Step [100/469], Loss: nan
-Epoch [5/15], Step [200/469], Loss: nan
-Epoch [5/15], Step [300/469], Loss: nan
-Epoch [5/15], Step [400/469], Loss: nan
-Epoch [5/15], Test Accuracy: 9.80%
-Epoch [6/15], Step [100/469], Loss: nan
-Epoch [6/15], Step [200/469], Loss: nan
-Epoch [6/15], Step [300/469], Loss: nan
-Epoch [6/15], Step [400/469], Loss: nan
-Epoch [6/15], Test Accuracy: 9.80%
-Epoch [7/15], Step [100/469], Loss: nan
-Epoch [7/15], Step [200/469], Loss: nan
-Epoch [7/15], Step [300/469], Loss: nan
-Epoch [7/15], Step [400/469], Loss: nan
-Epoch [7/15], Test Accuracy: 9.80%
-Epoch [8/15], Step [100/469], Loss: nan
-Epoch [8/15], Step [200/469], Loss: nan
-Epoch [8/15], Step [300/469], Loss: nan
-Epoch [8/15], Step [400/469], Loss: nan
-Epoch [8/15], Test Accuracy: 9.80%
-Epoch [9/15], Step [100/469], Loss: nan
-Epoch [9/15], Step [200/469], Loss: nan
-Epoch [9/15], Step [300/469], Loss: nan
-Epoch [9/15], Step [400/469], Loss: nan
-Epoch [9/15], Test Accuracy: 9.80%
-Epoch [10/15], Step [100/469], Loss: nan
-Epoch [10/15], Step [200/469], Loss: nan
-Epoch [10/15], Step [300/469], Loss: nan
-Epoch [10/15], Step [400/469], Loss: nan
-Epoch [10/15], Test Accuracy: 9.80%
-Epoch [11/15], Step [100/469], Loss: nan
-Epoch [11/15], Step [200/469], Loss: nan
-Epoch [11/15], Step [300/469], Loss: nan
-Epoch [11/15], Step [400/469], Loss: nan
-Epoch [11/15], Test Accuracy: 9.80%
-Epoch [12/15], Step [100/469], Loss: nan
-Epoch [12/15], Step [200/469], Loss: nan
-Epoch [12/15], Step [300/469], Loss: nan
-Epoch [12/15], Step [400/469], Loss: nan
-Epoch [12/15], Test Accuracy: 9.80%
-Epoch [13/15], Step [100/469], Loss: nan
-Epoch [13/15], Step [200/469], Loss: nan
-Epoch [13/15], Step [300/469], Loss: nan
-Epoch [13/15], Step [400/469], Loss: nan
-Epoch [13/15], Test Accuracy: 9.80%
-Epoch [14/15], Step [100/469], Loss: nan
-Epoch [14/15], Step [200/469], Loss: nan
-Epoch [14/15], Step [300/469], Loss: nan
-Epoch [14/15], Step [400/469], Loss: nan
-Epoch [14/15], Test Accuracy: 9.80%
-Epoch [15/15], Step [100/469], Loss: nan
-Epoch [15/15], Step [200/469], Loss: nan
-Epoch [15/15], Step [300/469], Loss: nan
-Epoch [15/15], Step [400/469], Loss: nan
-Epoch [15/15], Test Accuracy: 9.80%
+Epoch [2/15], Step [100/469], Loss: 1.2395
+Epoch [2/15], Step [200/469], Loss: 1.2328
+Epoch [2/15], Step [300/469], Loss: 1.2194
+Epoch [2/15], Step [400/469], Loss: 1.2139
+Epoch [2/15], Test Accuracy: 10.08%
+Epoch [3/15], Step [100/469], Loss: 1.2018
+Epoch [3/15], Step [200/469], Loss: 1.1903
+Epoch [3/15], Step [300/469], Loss: 1.1844
+Epoch [3/15], Step [400/469], Loss: 1.1745
+Epoch [3/15], Test Accuracy: 10.41%
+Epoch [4/15], Step [100/469], Loss: 1.1780
+Epoch [4/15], Step [200/469], Loss: 1.1773
+Epoch [4/15], Step [300/469], Loss: 1.1699
+Epoch [4/15], Step [400/469], Loss: 1.1580
+Epoch [4/15], Test Accuracy: 12.99%
+Epoch [5/15], Step [100/469], Loss: 1.1505
+Epoch [5/15], Step [200/469], Loss: 1.1506
+Epoch [5/15], Step [300/469], Loss: 1.1426
+Epoch [5/15], Step [400/469], Loss: 1.1309
+Epoch [5/15], Test Accuracy: 26.87%
+Epoch [6/15], Step [100/469], Loss: 1.1150
+Epoch [6/15], Step [200/469], Loss: 1.1004
+Epoch [6/15], Step [300/469], Loss: 1.0950
+Epoch [6/15], Step [400/469], Loss: 1.0779
+Epoch [6/15], Test Accuracy: 44.08%
+Epoch [7/15], Step [100/469], Loss: 1.0651
+Epoch [7/15], Step [200/469], Loss: 1.0461
+Epoch [7/15], Step [300/469], Loss: 1.0436
+Epoch [7/15], Step [400/469], Loss: 1.0324
+Epoch [7/15], Test Accuracy: 52.20%
+Epoch [8/15], Step [100/469], Loss: 1.0210
+Epoch [8/15], Step [200/469], Loss: 1.0145
+Epoch [8/15], Step [300/469], Loss: 1.0143
+Epoch [8/15], Step [400/469], Loss: 1.0107
+Epoch [8/15], Test Accuracy: 56.05%
+Epoch [9/15], Step [100/469], Loss: 1.0005
+Epoch [9/15], Step [200/469], Loss: 0.9957
+Epoch [9/15], Step [300/469], Loss: 0.9903
+Epoch [9/15], Step [400/469], Loss: 0.9896
+Epoch [9/15], Test Accuracy: 58.16%
+Epoch [10/15], Step [100/469], Loss: 0.9843
+Epoch [10/15], Step [200/469], Loss: 0.9816
+Epoch [10/15], Step [300/469], Loss: 0.9822
+Epoch [10/15], Step [400/469], Loss: 0.9757
+Epoch [10/15], Test Accuracy: 59.69%
+Epoch [11/15], Step [100/469], Loss: 0.9668
+Epoch [11/15], Step [200/469], Loss: 0.9673
+Epoch [11/15], Step [300/469], Loss: 0.9655
+Epoch [11/15], Step [400/469], Loss: 0.9623
+Epoch [11/15], Test Accuracy: 65.03%
+Epoch [12/15], Step [100/469], Loss: 0.9585
+Epoch [12/15], Step [200/469], Loss: 0.9598
+Epoch [12/15], Step [300/469], Loss: 0.9561
+Epoch [12/15], Step [400/469], Loss: 0.9550
+Epoch [12/15], Test Accuracy: 63.55%
+Epoch [13/15], Step [100/469], Loss: 0.9493
+Epoch [13/15], Step [200/469], Loss: 0.9497
+Epoch [13/15], Step [300/469], Loss: 0.9454
+Epoch [13/15], Step [400/469], Loss: 0.9442
+Epoch [13/15], Test Accuracy: 71.34%
+Epoch [14/15], Step [100/469], Loss: 0.9453
+Epoch [14/15], Step [200/469], Loss: 0.9352
+Epoch [14/15], Step [300/469], Loss: 0.9379
+Epoch [14/15], Step [400/469], Loss: 0.9329
+Epoch [14/15], Test Accuracy: 69.15%
+Epoch [15/15], Step [100/469], Loss: 0.9286
+Epoch [15/15], Step [200/469], Loss: 0.9288
+Epoch [15/15], Step [300/469], Loss: 0.9301
+Epoch [15/15], Step [400/469], Loss: 0.9242
+Epoch [15/15], Test Accuracy: 71.27%
+
+Model saved to: /home/okcava/projects/universal_advex/trainers/../models/hadamard_sum_iter10.pth
 
 Final Results:
 ==================================================
-Hadamard Sum Loss with 1 iterations: 94.99%
-Hadamard Sum Loss with 2 iterations: 92.99%
-Hadamard Sum Loss with 3 iterations: 12.54%
-Hadamard Sum Loss with 4 iterations: 14.17%
-Hadamard Sum Loss with 5 iterations: 6.85%
-Hadamard Sum Loss with 6 iterations: 9.80%
-Hadamard Sum Loss with 7 iterations: 9.80%
-Hadamard Sum Loss with 8 iterations: 9.80%
-Hadamard Sum Loss with 9 iterations: 9.80%
-Hadamard Sum Loss with 10 iterations: 9.80%
-Using device: cuda
-
-==================================================
-Training Hadamard Network with 1 iterations (Last Loss)
-Learning rate: 0.0014686
-Batch size: 128
-Lambda weight: 0.022089
-==================================================
-
-Epoch [1/15], Step [100/469], Loss: 0.0452
-Epoch [1/15], Step [200/469], Loss: 0.0173
-Epoch [1/15], Step [300/469], Loss: 0.0131
-Epoch [1/15], Step [400/469], Loss: 0.0112
-Epoch [1/15], Test Accuracy: 92.15%
-Epoch [2/15], Step [100/469], Loss: 0.0091
-Epoch [2/15], Step [200/469], Loss: 0.0082
-Epoch [2/15], Step [300/469], Loss: 0.0079
-Epoch [2/15], Step [400/469], Loss: 0.0072
-Epoch [2/15], Test Accuracy: 93.56%
-Epoch [3/15], Step [100/469], Loss: 0.0066
-Epoch [3/15], Step [200/469], Loss: 0.0065
-Epoch [3/15], Step [300/469], Loss: 0.0064
-Epoch [3/15], Step [400/469], Loss: 0.0059
-Epoch [3/15], Test Accuracy: 93.44%
-Epoch [4/15], Step [100/469], Loss: 0.0055
-Epoch [4/15], Step [200/469], Loss: 0.0052
-Epoch [4/15], Step [300/469], Loss: 0.0054
-Epoch [4/15], Step [400/469], Loss: 0.0053
-Epoch [4/15], Test Accuracy: 94.17%
-Epoch [5/15], Step [100/469], Loss: 0.0049
-Epoch [5/15], Step [200/469], Loss: 0.0047
-Epoch [5/15], Step [300/469], Loss: 0.0046
-Epoch [5/15], Step [400/469], Loss: 0.0046
-Epoch [5/15], Test Accuracy: 94.00%
-Epoch [6/15], Step [100/469], Loss: 0.0042
-Epoch [6/15], Step [200/469], Loss: 0.0045
-Epoch [6/15], Step [300/469], Loss: 0.0043
-Epoch [6/15], Step [400/469], Loss: 0.0043
-Epoch [6/15], Test Accuracy: 94.66%
-Epoch [7/15], Step [100/469], Loss: 0.0038
-Epoch [7/15], Step [200/469], Loss: 0.0042
-Epoch [7/15], Step [300/469], Loss: 0.0039
-Epoch [7/15], Step [400/469], Loss: 0.0042
-Epoch [7/15], Test Accuracy: 94.74%
-Epoch [8/15], Step [100/469], Loss: 0.0039
-Epoch [8/15], Step [200/469], Loss: 0.0036
-Epoch [8/15], Step [300/469], Loss: 0.0038
-Epoch [8/15], Step [400/469], Loss: 0.0039
-Epoch [8/15], Test Accuracy: 94.56%
-Epoch [9/15], Step [100/469], Loss: 0.0035
-Epoch [9/15], Step [200/469], Loss: 0.0037
-Epoch [9/15], Step [300/469], Loss: 0.0037
-Epoch [9/15], Step [400/469], Loss: 0.0037
-Epoch [9/15], Test Accuracy: 94.60%
-Epoch [10/15], Step [100/469], Loss: 0.0035
-Epoch [10/15], Step [200/469], Loss: 0.0036
-Epoch [10/15], Step [300/469], Loss: 0.0036
-Epoch [10/15], Step [400/469], Loss: 0.0035
-Epoch [10/15], Test Accuracy: 94.72%
-Epoch [11/15], Step [100/469], Loss: 0.0034
-Epoch [11/15], Step [200/469], Loss: 0.0033
-Epoch [11/15], Step [300/469], Loss: 0.0037
-Epoch [11/15], Step [400/469], Loss: 0.0036
-Epoch [11/15], Test Accuracy: 94.37%
-Epoch [12/15], Step [100/469], Loss: 0.0032
-Epoch [12/15], Step [200/469], Loss: 0.0035
-Epoch [12/15], Step [300/469], Loss: 0.0033
-Epoch [12/15], Step [400/469], Loss: 0.0035
-Epoch [12/15], Test Accuracy: 94.69%
-Epoch [13/15], Step [100/469], Loss: 0.0032
-Epoch [13/15], Step [200/469], Loss: 0.0034
-Epoch [13/15], Step [300/469], Loss: 0.0032
-Epoch [13/15], Step [400/469], Loss: 0.0031
-Epoch [13/15], Test Accuracy: 94.91%
-Epoch [14/15], Step [100/469], Loss: 0.0033
-Epoch [14/15], Step [200/469], Loss: 0.0031
-Epoch [14/15], Step [300/469], Loss: 0.0033
-Epoch [14/15], Step [400/469], Loss: 0.0033
-Epoch [14/15], Test Accuracy: 94.74%
-Epoch [15/15], Step [100/469], Loss: 0.0029
-Epoch [15/15], Step [200/469], Loss: 0.0031
-Epoch [15/15], Step [300/469], Loss: 0.0031
-Epoch [15/15], Step [400/469], Loss: 0.0036
-Epoch [15/15], Test Accuracy: 94.61%
-
-==================================================
-Training Hadamard Network with 2 iterations (Last Loss)
-Learning rate: 0.0014686
-Batch size: 128
-Lambda weight: 0.022089
-==================================================
-
-Epoch [1/15], Step [100/469], Loss: 0.0665
-Epoch [1/15], Step [200/469], Loss: 0.0231
-Epoch [1/15], Step [300/469], Loss: 0.0165
-Epoch [1/15], Step [400/469], Loss: 0.0134
-Epoch [1/15], Test Accuracy: 96.54%
-Epoch [2/15], Step [100/469], Loss: 0.0092
-Epoch [2/15], Step [200/469], Loss: 0.0086
-Epoch [2/15], Step [300/469], Loss: 0.0081
-Epoch [2/15], Step [400/469], Loss: 0.0077
-Epoch [2/15], Test Accuracy: 96.85%
-Epoch [3/15], Step [100/469], Loss: 0.0057
-Epoch [3/15], Step [200/469], Loss: 0.0058
-Epoch [3/15], Step [300/469], Loss: 0.0058
-Epoch [3/15], Step [400/469], Loss: 0.0059
-Epoch [3/15], Test Accuracy: 97.29%
-Epoch [4/15], Step [100/469], Loss: 0.0049
-Epoch [4/15], Step [200/469], Loss: 0.0053
-Epoch [4/15], Step [300/469], Loss: 0.0050
-Epoch [4/15], Step [400/469], Loss: 0.0048
-Epoch [4/15], Test Accuracy: 96.99%
-Epoch [5/15], Step [100/469], Loss: 0.0042
-Epoch [5/15], Step [200/469], Loss: 0.0046
-Epoch [5/15], Step [300/469], Loss: 0.0047
-Epoch [5/15], Step [400/469], Loss: 0.0044
-Epoch [5/15], Test Accuracy: 96.61%
-Epoch [6/15], Step [100/469], Loss: 0.0037
-Epoch [6/15], Step [200/469], Loss: 0.0034
-Epoch [6/15], Step [300/469], Loss: 0.0046
-Epoch [6/15], Step [400/469], Loss: 0.0049
-Epoch [6/15], Test Accuracy: 96.94%
-Epoch [7/15], Step [100/469], Loss: 0.0034
-Epoch [7/15], Step [200/469], Loss: 0.0039
-Epoch [7/15], Step [300/469], Loss: 0.0036
-Epoch [7/15], Step [400/469], Loss: 0.0034
-Epoch [7/15], Test Accuracy: 96.72%
-Epoch [8/15], Step [100/469], Loss: 0.0036
-Epoch [8/15], Step [200/469], Loss: 0.0032
-Epoch [8/15], Step [300/469], Loss: 0.0029
-Epoch [8/15], Step [400/469], Loss: 0.0040
-Epoch [8/15], Test Accuracy: 97.17%
-Epoch [9/15], Step [100/469], Loss: 0.0025
-Epoch [9/15], Step [200/469], Loss: 0.0027
-Epoch [9/15], Step [300/469], Loss: 0.0033
-Epoch [9/15], Step [400/469], Loss: 0.0030
-Epoch [9/15], Test Accuracy: 97.32%
-Epoch [10/15], Step [100/469], Loss: 0.0050
-Epoch [10/15], Step [200/469], Loss: 0.0036
-Epoch [10/15], Step [300/469], Loss: 0.0031
-Epoch [10/15], Step [400/469], Loss: 0.0030
-Epoch [10/15], Test Accuracy: 97.23%
-Epoch [11/15], Step [100/469], Loss: 0.0024
-Epoch [11/15], Step [200/469], Loss: 0.0030
-Epoch [11/15], Step [300/469], Loss: 0.0025
-Epoch [11/15], Step [400/469], Loss: 0.0025
-Epoch [11/15], Test Accuracy: 97.02%
-Epoch [12/15], Step [100/469], Loss: 0.0029
-Epoch [12/15], Step [200/469], Loss: 0.0033
-Epoch [12/15], Step [300/469], Loss: 0.0025
-Epoch [12/15], Step [400/469], Loss: 0.0032
-Epoch [12/15], Test Accuracy: 97.29%
-Epoch [13/15], Step [100/469], Loss: 0.0027
-Epoch [13/15], Step [200/469], Loss: 0.0035
-Epoch [13/15], Step [300/469], Loss: 0.0041
-Epoch [13/15], Step [400/469], Loss: 0.0042
-Epoch [13/15], Test Accuracy: 97.17%
-Epoch [14/15], Step [100/469], Loss: 0.0026
-Epoch [14/15], Step [200/469], Loss: 0.0025
-Epoch [14/15], Step [300/469], Loss: 0.0027
-Epoch [14/15], Step [400/469], Loss: 0.0033
-Epoch [14/15], Test Accuracy: 97.41%
-Epoch [15/15], Step [100/469], Loss: 0.0025
-Epoch [15/15], Step [200/469], Loss: 0.0026
-Epoch [15/15], Step [300/469], Loss: 0.0027
-Epoch [15/15], Step [400/469], Loss: 0.0019
-Epoch [15/15], Test Accuracy: 97.41%
-
-==================================================
-Training Hadamard Network with 3 iterations (Last Loss)
-Learning rate: 0.0014686
-Batch size: 128
-Lambda weight: 0.022089
-==================================================
-
-Epoch [1/15], Step [100/469], Loss: 0.1635
-Epoch [1/15], Step [200/469], Loss: 0.1733
-Epoch [1/15], Step [300/469], Loss: 21640.2925
-Epoch [1/15], Step [400/469], Loss: 27.3352
-Epoch [1/15], Test Accuracy: 6.46%
-Epoch [2/15], Step [100/469], Loss: 4.5551
-Epoch [2/15], Step [200/469], Loss: 4.3465
-Epoch [2/15], Step [300/469], Loss: 3.3667
-Epoch [2/15], Step [400/469], Loss: 2.0626
-Epoch [2/15], Test Accuracy: 7.18%
-Epoch [3/15], Step [100/469], Loss: 1.7100
-Epoch [3/15], Step [200/469], Loss: 1.5730
-Epoch [3/15], Step [300/469], Loss: 1.3690
-Epoch [3/15], Step [400/469], Loss: 1.3820
-Epoch [3/15], Test Accuracy: 7.62%
-Epoch [4/15], Step [100/469], Loss: 1.1519
-Epoch [4/15], Step [200/469], Loss: 0.8760
-Epoch [4/15], Step [300/469], Loss: 0.6942
-Epoch [4/15], Step [400/469], Loss: 0.8005
-Epoch [4/15], Test Accuracy: 8.07%
-Epoch [5/15], Step [100/469], Loss: 0.6909
-Epoch [5/15], Step [200/469], Loss: 0.6506
-Epoch [5/15], Step [300/469], Loss: 0.6382
-Epoch [5/15], Step [400/469], Loss: 0.5296
-Epoch [5/15], Test Accuracy: 8.43%
-Epoch [6/15], Step [100/469], Loss: 0.5392
-Epoch [6/15], Step [200/469], Loss: 0.4784
-Epoch [6/15], Step [300/469], Loss: 0.4447
-Epoch [6/15], Step [400/469], Loss: 0.5774
-Epoch [6/15], Test Accuracy: 9.02%
-Epoch [7/15], Step [100/469], Loss: 0.4555
-Epoch [7/15], Step [200/469], Loss: 0.3942
-Epoch [7/15], Step [300/469], Loss: 0.3748
-Epoch [7/15], Step [400/469], Loss: 0.4258
-Epoch [7/15], Test Accuracy: 9.53%
-Epoch [8/15], Step [100/469], Loss: 0.3980
-Epoch [8/15], Step [200/469], Loss: 0.3373
-Epoch [8/15], Step [300/469], Loss: 0.3220
-Epoch [8/15], Step [400/469], Loss: 0.3414
-Epoch [8/15], Test Accuracy: 9.88%
-Epoch [9/15], Step [100/469], Loss: 0.3146
-Epoch [9/15], Step [200/469], Loss: 0.3334
-Epoch [9/15], Step [300/469], Loss: 0.2904
-Epoch [9/15], Step [400/469], Loss: 0.2865
-Epoch [9/15], Test Accuracy: 10.55%
-Epoch [10/15], Step [100/469], Loss: 0.2678
-Epoch [10/15], Step [200/469], Loss: 0.2893
-Epoch [10/15], Step [300/469], Loss: 0.2707
-Epoch [10/15], Step [400/469], Loss: 0.2623
-Epoch [10/15], Test Accuracy: 11.25%
-Epoch [11/15], Step [100/469], Loss: 0.2619
-Epoch [11/15], Step [200/469], Loss: 0.2428
-Epoch [11/15], Step [300/469], Loss: 0.2347
-Epoch [11/15], Step [400/469], Loss: 0.2228
-Epoch [11/15], Test Accuracy: 11.99%
-Epoch [12/15], Step [100/469], Loss: 0.2304
-Epoch [12/15], Step [200/469], Loss: 0.2359
-Epoch [12/15], Step [300/469], Loss: 0.2148
-Epoch [12/15], Step [400/469], Loss: 0.2229
-Epoch [12/15], Test Accuracy: 12.70%
-Epoch [13/15], Step [100/469], Loss: 0.2398
-Epoch [13/15], Step [200/469], Loss: 0.2061
-Epoch [13/15], Step [300/469], Loss: 0.2027
-Epoch [13/15], Step [400/469], Loss: 0.2087
-Epoch [13/15], Test Accuracy: 13.90%
-Epoch [14/15], Step [100/469], Loss: 0.1951
-Epoch [14/15], Step [200/469], Loss: 0.2167
-Epoch [14/15], Step [300/469], Loss: 0.1962
-Epoch [14/15], Step [400/469], Loss: 0.1963
-Epoch [14/15], Test Accuracy: 15.03%
-Epoch [15/15], Step [100/469], Loss: 0.1862
-Epoch [15/15], Step [200/469], Loss: 0.1941
-Epoch [15/15], Step [300/469], Loss: 0.1912
-Epoch [15/15], Step [400/469], Loss: 0.1923
-Epoch [15/15], Test Accuracy: 16.63%
-
-==================================================
-Training Hadamard Network with 4 iterations (Last Loss)
-Learning rate: 0.0014686
-Batch size: 128
-Lambda weight: 0.022089
-==================================================
-
-Epoch [1/15], Step [100/469], Loss: 0.1685
-Epoch [1/15], Step [200/469], Loss: 1293410.4776
-Epoch [1/15], Step [300/469], Loss: 2158692114492651470848.0000
-Epoch [1/15], Step [400/469], Loss: 954880216782151876608.0000
-Epoch [1/15], Test Accuracy: 13.66%
-Epoch [2/15], Step [100/469], Loss: 1186581149141269217280.0000
-Epoch [2/15], Step [200/469], Loss: 957660958609063280640.0000
-Epoch [2/15], Step [300/469], Loss: 2089778569992953135104.0000
-Epoch [2/15], Step [400/469], Loss: 1182267385922146533376.0000
-Epoch [2/15], Test Accuracy: 10.71%
-Epoch [3/15], Step [100/469], Loss: 648538746957419249664.0000
-Epoch [3/15], Step [200/469], Loss: 1870953410065737711616.0000
-Epoch [3/15], Step [300/469], Loss: 526078300789936750592.0000
-Epoch [3/15], Step [400/469], Loss: 884318650569894658048.0000
-Epoch [3/15], Test Accuracy: 9.27%
-Epoch [4/15], Step [100/469], Loss: 588027559243594203136.0000
-Epoch [4/15], Step [200/469], Loss: 929293919945737895936.0000
-Epoch [4/15], Step [300/469], Loss: 986664344315817361408.0000
-Epoch [4/15], Step [400/469], Loss: 1002750319199525535744.0000
-Epoch [4/15], Test Accuracy: 8.03%
-Epoch [5/15], Step [100/469], Loss: 1150528490493033971712.0000
-Epoch [5/15], Step [200/469], Loss: 484391557300499709952.0000
-Epoch [5/15], Step [300/469], Loss: 1137999014355155156992.0000
-Epoch [5/15], Step [400/469], Loss: 321149233895761117184.0000
-Epoch [5/15], Test Accuracy: 7.63%
-Epoch [6/15], Step [100/469], Loss: 1108567358892927614976.0000
-Epoch [6/15], Step [200/469], Loss: 485252409424763486208.0000
-Epoch [6/15], Step [300/469], Loss: 794663670383164784640.0000
-Epoch [6/15], Step [400/469], Loss: 402415395510793338880.0000
-Epoch [6/15], Test Accuracy: 7.35%
-Epoch [7/15], Step [100/469], Loss: 478843065739585912832.0000
-Epoch [7/15], Step [200/469], Loss: 486515956018558730240.0000
-Epoch [7/15], Step [300/469], Loss: 269247032627492159488.0000
-Epoch [7/15], Step [400/469], Loss: 1079408480109913309184.0000
-Epoch [7/15], Test Accuracy: 7.31%
-Epoch [8/15], Step [100/469], Loss: 420006913491747667968.0000
-Epoch [8/15], Step [200/469], Loss: 917764449138817630208.0000
-Epoch [8/15], Step [300/469], Loss: 231015730301679304704.0000
-Epoch [8/15], Step [400/469], Loss: 636471110241230651392.0000
-Epoch [8/15], Test Accuracy: 7.30%
-Epoch [9/15], Step [100/469], Loss: 478836335471018573824.0000
-Epoch [9/15], Step [200/469], Loss: 491453909457529602048.0000
-Epoch [9/15], Step [300/469], Loss: 726414816559872081920.0000
-Epoch [9/15], Step [400/469], Loss: 299412969999297216512.0000
-Epoch [9/15], Test Accuracy: 7.55%
-Epoch [10/15], Step [100/469], Loss: 272084596222364057600.0000
-Epoch [10/15], Step [200/469], Loss: 710054421686010511360.0000
-Epoch [10/15], Step [300/469], Loss: 405654894902831415296.0000
-Epoch [10/15], Step [400/469], Loss: 427517536593778638848.0000
-Epoch [10/15], Test Accuracy: 7.85%
-Epoch [11/15], Step [100/469], Loss: 275667620240293232640.0000
-Epoch [11/15], Step [200/469], Loss: 354425449149886889984.0000
-Epoch [11/15], Step [300/469], Loss: 316929387804128444416.0000
-Epoch [11/15], Step [400/469], Loss: 254543509340092170240.0000
-Epoch [11/15], Test Accuracy: 8.10%
-Epoch [12/15], Step [100/469], Loss: 380621948354816638976.0000
-Epoch [12/15], Step [200/469], Loss: 321808162271452659712.0000
-Epoch [12/15], Step [300/469], Loss: 233786624889937133568.0000
-Epoch [12/15], Step [400/469], Loss: 629072962693344526336.0000
-Epoch [12/15], Test Accuracy: 8.37%
-Epoch [13/15], Step [100/469], Loss: 207877554474968973312.0000
-Epoch [13/15], Step [200/469], Loss: 35518031150879645696.0000
-Epoch [13/15], Step [300/469], Loss: 576900493487306899456.0000
-Epoch [13/15], Step [400/469], Loss: 459817758153177825280.0000
-Epoch [13/15], Test Accuracy: 8.52%
-Epoch [14/15], Step [100/469], Loss: 184552746320883482624.0000
-Epoch [14/15], Step [200/469], Loss: 377707838263672242176.0000
-Epoch [14/15], Step [300/469], Loss: 54010195663645949952.0000
-Epoch [14/15], Step [400/469], Loss: 587773298716309323776.0000
-Epoch [14/15], Test Accuracy: 8.59%
-Epoch [15/15], Step [100/469], Loss: 98665483182811054080.0000
-Epoch [15/15], Step [200/469], Loss: 515557020793982418944.0000
-Epoch [15/15], Step [300/469], Loss: 201590148107048976384.0000
-Epoch [15/15], Step [400/469], Loss: 233990120040829288448.0000
-Epoch [15/15], Test Accuracy: 8.71%
-
-==================================================
-Training Hadamard Network with 5 iterations (Last Loss)
-Learning rate: 0.0014686
-Batch size: 128
-Lambda weight: 0.022089
-==================================================
-
-Epoch [1/15], Step [100/469], Loss: 2068090575266421248.0000
-Epoch [1/15], Step [200/469], Loss: 93782486089724283511111680.0000
-Epoch [1/15], Step [300/469], Loss: 5105406382041237903376384.0000
-Epoch [1/15], Step [400/469], Loss: 29340648130085339734736896.0000
-Epoch [1/15], Test Accuracy: 15.62%
-Epoch [2/15], Step [100/469], Loss: 8343180745174723424419840.0000
-Epoch [2/15], Step [200/469], Loss: 49175329125923454126653440.0000
-Epoch [2/15], Step [300/469], Loss: 498510100678264020271104.0000
-Epoch [2/15], Step [400/469], Loss: 84846538851529783934713856.0000
-Epoch [2/15], Test Accuracy: 15.62%
-Epoch [3/15], Step [100/469], Loss: 1746609042750801946083328.0000
-Epoch [3/15], Step [200/469], Loss: 3929155603956245498691584.0000
-Epoch [3/15], Step [300/469], Loss: 39522731385810218697883648.0000
-Epoch [3/15], Step [400/469], Loss: 216304624592139409189502976.0000
-Epoch [3/15], Test Accuracy: 15.62%
-Epoch [4/15], Step [100/469], Loss: 14347320296783780740333568.0000
-Epoch [4/15], Step [200/469], Loss: 19351253825607309954383872.0000
-Epoch [4/15], Step [300/469], Loss: 105509940795922511650881536.0000
-Epoch [4/15], Step [400/469], Loss: 4129570578818618359808000.0000
-Epoch [4/15], Test Accuracy: 15.62%
-Epoch [5/15], Step [100/469], Loss: 8783346132729586515968000.0000
-Epoch [5/15], Step [200/469], Loss: 117624715112828594382962688.0000
-Epoch [5/15], Step [300/469], Loss: 134316644623017381025808384.0000
-Epoch [5/15], Step [400/469], Loss: 812008314866080656916480.0000
-Epoch [5/15], Test Accuracy: 15.62%
-Epoch [6/15], Step [100/469], Loss: 12152502516062506383835136.0000
-Epoch [6/15], Step [200/469], Loss: 6085687780590219987779584.0000
-Epoch [6/15], Step [300/469], Loss: 145466297408646911201640448.0000
-Epoch [6/15], Step [400/469], Loss: 82843222456089273761267712.0000
-Epoch [6/15], Test Accuracy: 15.62%
-Epoch [7/15], Step [100/469], Loss: 2828958759442225398022144.0000
-Epoch [7/15], Step [200/469], Loss: 15426567204375771220017152.0000
-Epoch [7/15], Step [300/469], Loss: 30708560701163964960079872.0000
-Epoch [7/15], Step [400/469], Loss: 91289263065904479918358528.0000
-Epoch [7/15], Test Accuracy: 15.62%
-Epoch [8/15], Step [100/469], Loss: 15620211482404180855881728.0000
-Epoch [8/15], Step [200/469], Loss: 1211155186827325043900416.0000
-Epoch [8/15], Step [300/469], Loss: 222576407996844945790992384.0000
-Epoch [8/15], Step [400/469], Loss: 13640039060681238255763456.0000
-Epoch [8/15], Test Accuracy: 15.62%
-Epoch [9/15], Step [100/469], Loss: 29159557688316519553957888.0000
-Epoch [9/15], Step [200/469], Loss: 80561875360540444214689792.0000
-Epoch [9/15], Step [300/469], Loss: 22410656531488560679747584.0000
-Epoch [9/15], Step [400/469], Loss: 9266760469267428088479744.0000
-Epoch [9/15], Test Accuracy: 15.62%
-Epoch [10/15], Step [100/469], Loss: 39143895946969004776620032.0000
-Epoch [10/15], Step [200/469], Loss: 5838720312817486896562176.0000
-Epoch [10/15], Step [300/469], Loss: 126593152457340378433978368.0000
-Epoch [10/15], Step [400/469], Loss: 90216446981447975862009856.0000
-Epoch [10/15], Test Accuracy: 15.62%
-Epoch [11/15], Step [100/469], Loss: 20346586940307057210818560.0000
-Epoch [11/15], Step [200/469], Loss: 78700105733387864539922432.0000
-Epoch [11/15], Step [300/469], Loss: 22986207317976917458550784.0000
-Epoch [11/15], Step [400/469], Loss: 19072038066554250966597632.0000
-Epoch [11/15], Test Accuracy: 15.62%
-Epoch [12/15], Step [100/469], Loss: 79762295813197944206655488.0000
-Epoch [12/15], Step [200/469], Loss: 24635167020417211502166016.0000
-Epoch [12/15], Step [300/469], Loss: 149081936146241960665939968.0000
-Epoch [12/15], Step [400/469], Loss: 6283139707604885672296448.0000
-Epoch [12/15], Test Accuracy: 15.62%
-Epoch [13/15], Step [100/469], Loss: 19534690431094644260470784.0000
-Epoch [13/15], Step [200/469], Loss: 79933973323323401748611072.0000
-Epoch [13/15], Step [300/469], Loss: 18078245907386995264454656.0000
-Epoch [13/15], Step [400/469], Loss: 120300532018729269118107648.0000
-Epoch [13/15], Test Accuracy: 15.62%
-Epoch [14/15], Step [100/469], Loss: 152791647114312364809256960.0000
-Epoch [14/15], Step [200/469], Loss: 1821327802084912061743104.0000
-Epoch [14/15], Step [300/469], Loss: 434705299689926677233664.0000
-Epoch [14/15], Step [400/469], Loss: 26279560429986913594638336.0000
-Epoch [14/15], Test Accuracy: 15.62%
-Epoch [15/15], Step [100/469], Loss: 16789008309150586622705664.0000
-Epoch [15/15], Step [200/469], Loss: 22172671279927336103837696.0000
-Epoch [15/15], Step [300/469], Loss: 8140696796134141616717824.0000
-Epoch [15/15], Step [400/469], Loss: 92763476380426867279134720.0000
-Epoch [15/15], Test Accuracy: 15.62%
-
-==================================================
-Training Hadamard Network with 6 iterations (Last Loss)
-Learning rate: 0.0014686
-Batch size: 128
-Lambda weight: 0.022089
-==================================================
-
-Epoch [1/15], Step [100/469], Loss: 390198410425790879008479510528.0000
-Epoch [1/15], Step [200/469], Loss: inf
-Epoch [1/15], Step [300/469], Loss: 6072748903348696725209623822336.0000
-Epoch [1/15], Step [400/469], Loss: 4391250842294801588098695168.0000
-Epoch [1/15], Test Accuracy: 10.43%
-Epoch [2/15], Step [100/469], Loss: 6718555415957988963598204928.0000
-Epoch [2/15], Step [200/469], Loss: inf
-Epoch [2/15], Step [300/469], Loss: inf
-Epoch [2/15], Step [400/469], Loss: 28403578464897343196994994176.0000
-Epoch [2/15], Test Accuracy: 10.43%
-Epoch [3/15], Step [100/469], Loss: 2157212736012331191301914492928.0000
-Epoch [3/15], Step [200/469], Loss: 1678610629360872927287836672.0000
-Epoch [3/15], Step [300/469], Loss: inf
-Epoch [3/15], Step [400/469], Loss: inf
-Epoch [3/15], Test Accuracy: 10.43%
-Epoch [4/15], Step [100/469], Loss: inf
-Epoch [4/15], Step [200/469], Loss: 397782962580556602561213235200.0000
-Epoch [4/15], Step [300/469], Loss: 28212208448242091996980707328.0000
-Epoch [4/15], Step [400/469], Loss: 583197012628757881208963072.0000
-Epoch [4/15], Test Accuracy: 10.43%
-Epoch [5/15], Step [100/469], Loss: inf
-Epoch [5/15], Step [200/469], Loss: 28688257895992525827369598976.0000
-Epoch [5/15], Step [300/469], Loss: inf
-Epoch [5/15], Step [400/469], Loss: 277481300054201256082669568.0000
-Epoch [5/15], Test Accuracy: 10.43%
-Epoch [6/15], Step [100/469], Loss: 1719109863957729541591677272064.0000
-Epoch [6/15], Step [200/469], Loss: inf
-Epoch [6/15], Step [300/469], Loss: 4717856404642634704502128640.0000
-Epoch [6/15], Step [400/469], Loss: inf
-Epoch [6/15], Test Accuracy: 10.43%
-Epoch [7/15], Step [100/469], Loss: 4384156693001056850066538496.0000
-Epoch [7/15], Step [200/469], Loss: 80009445079963724382142988288.0000
-Epoch [7/15], Step [300/469], Loss: 396320375102610414023854784512.0000
-Epoch [7/15], Step [400/469], Loss: inf
-Epoch [7/15], Test Accuracy: 10.43%
-Epoch [8/15], Step [100/469], Loss: 3792824638925894891073437696.0000
-Epoch [8/15], Step [200/469], Loss: inf
-Epoch [8/15], Step [300/469], Loss: 77356896092404224725352448.0000
-Epoch [8/15], Step [400/469], Loss: inf
-Epoch [8/15], Test Accuracy: 10.43%
-Epoch [9/15], Step [100/469], Loss: 4347122667892293420086112288768.0000
-Epoch [9/15], Step [200/469], Loss: 10348949203813033461120237568.0000
-Epoch [9/15], Step [300/469], Loss: inf
-Epoch [9/15], Step [400/469], Loss: 1719378675406139152546463219712.0000
-Epoch [9/15], Test Accuracy: 10.43%
-Epoch [10/15], Step [100/469], Loss: inf
-Epoch [10/15], Step [200/469], Loss: 394411376027618788856832196608.0000
-Epoch [10/15], Step [300/469], Loss: 6066895496486568405290742448128.0000
-Epoch [10/15], Step [400/469], Loss: inf
-Epoch [10/15], Test Accuracy: 10.43%
-Epoch [11/15], Step [100/469], Loss: inf
-Epoch [11/15], Step [200/469], Loss: 4426128481718115544952526077952.0000
-Epoch [11/15], Step [300/469], Loss: 95317133466036707686088704.0000
-Epoch [11/15], Step [400/469], Loss: 2116615705459319077919543787520.0000
-Epoch [11/15], Test Accuracy: 10.43%
-Epoch [12/15], Step [100/469], Loss: 1723414121444159450813854384128.0000
-Epoch [12/15], Step [200/469], Loss: 4737301750114882617454494744576.0000
-Epoch [12/15], Step [300/469], Loss: inf
-Epoch [12/15], Step [400/469], Loss: inf
-Epoch [12/15], Test Accuracy: 10.43%
-Epoch [13/15], Step [100/469], Loss: 36106128186837818599465287680.0000
-Epoch [13/15], Step [200/469], Loss: 49669514446231415394446344192.0000
-Epoch [13/15], Step [300/469], Loss: inf
-Epoch [13/15], Step [400/469], Loss: 390354076790647706328145854464.0000
-Epoch [13/15], Test Accuracy: 10.43%
-Epoch [14/15], Step [100/469], Loss: 6097508551454045641166129463296.0000
-Epoch [14/15], Step [200/469], Loss: inf
-Epoch [14/15], Step [300/469], Loss: inf
-Epoch [14/15], Step [400/469], Loss: 5963852446105220394952687616.0000
-Epoch [14/15], Test Accuracy: 10.43%
-Epoch [15/15], Step [100/469], Loss: inf
-Epoch [15/15], Step [200/469], Loss: 4350662221785470562243360849920.0000
-Epoch [15/15], Step [300/469], Loss: inf
-Epoch [15/15], Step [400/469], Loss: 1725178002360884711240790704128.0000
-Epoch [15/15], Test Accuracy: 10.43%
-
-==================================================
-Training Hadamard Network with 7 iterations (Last Loss)
-Learning rate: 0.0014686
-Batch size: 128
-Lambda weight: 0.022089
-==================================================
-
-Epoch [1/15], Step [100/469], Loss: nan
-Epoch [1/15], Step [200/469], Loss: nan
-Epoch [1/15], Step [300/469], Loss: nan
-Epoch [1/15], Step [400/469], Loss: nan
-Epoch [1/15], Test Accuracy: 9.80%
-Epoch [2/15], Step [100/469], Loss: nan
-Epoch [2/15], Step [200/469], Loss: nan
-Epoch [2/15], Step [300/469], Loss: nan
-Epoch [2/15], Step [400/469], Loss: nan
-Epoch [2/15], Test Accuracy: 9.80%
-Epoch [3/15], Step [100/469], Loss: nan
-Epoch [3/15], Step [200/469], Loss: nan
-Epoch [3/15], Step [300/469], Loss: nan
-Epoch [3/15], Step [400/469], Loss: nan
-Epoch [3/15], Test Accuracy: 9.80%
-Epoch [4/15], Step [100/469], Loss: nan
-Epoch [4/15], Step [200/469], Loss: nan
-Epoch [4/15], Step [300/469], Loss: nan
-Epoch [4/15], Step [400/469], Loss: nan
-Epoch [4/15], Test Accuracy: 9.80%
-Epoch [5/15], Step [100/469], Loss: nan
-Epoch [5/15], Step [200/469], Loss: nan
-Epoch [5/15], Step [300/469], Loss: nan
-Epoch [5/15], Step [400/469], Loss: nan
-Epoch [5/15], Test Accuracy: 9.80%
-Epoch [6/15], Step [100/469], Loss: nan
-Epoch [6/15], Step [200/469], Loss: nan
-Epoch [6/15], Step [300/469], Loss: nan
-Epoch [6/15], Step [400/469], Loss: nan
-Epoch [6/15], Test Accuracy: 9.80%
-Epoch [7/15], Step [100/469], Loss: nan
-Epoch [7/15], Step [200/469], Loss: nan
-Epoch [7/15], Step [300/469], Loss: nan
-Epoch [7/15], Step [400/469], Loss: nan
-Epoch [7/15], Test Accuracy: 9.80%
-Epoch [8/15], Step [100/469], Loss: nan
-Epoch [8/15], Step [200/469], Loss: nan
-Epoch [8/15], Step [300/469], Loss: nan
-Epoch [8/15], Step [400/469], Loss: nan
-Epoch [8/15], Test Accuracy: 9.80%
-Epoch [9/15], Step [100/469], Loss: nan
-Epoch [9/15], Step [200/469], Loss: nan
-Epoch [9/15], Step [300/469], Loss: nan
-Epoch [9/15], Step [400/469], Loss: nan
-Epoch [9/15], Test Accuracy: 9.80%
-Epoch [10/15], Step [100/469], Loss: nan
-Epoch [10/15], Step [200/469], Loss: nan
-Epoch [10/15], Step [300/469], Loss: nan
-Epoch [10/15], Step [400/469], Loss: nan
-Epoch [10/15], Test Accuracy: 9.80%
-Epoch [11/15], Step [100/469], Loss: nan
-Epoch [11/15], Step [200/469], Loss: nan
-Epoch [11/15], Step [300/469], Loss: nan
-Epoch [11/15], Step [400/469], Loss: nan
-Epoch [11/15], Test Accuracy: 9.80%
-Epoch [12/15], Step [100/469], Loss: nan
-Epoch [12/15], Step [200/469], Loss: nan
-Epoch [12/15], Step [300/469], Loss: nan
-Epoch [12/15], Step [400/469], Loss: nan
-Epoch [12/15], Test Accuracy: 9.80%
-Epoch [13/15], Step [100/469], Loss: nan
-Epoch [13/15], Step [200/469], Loss: nan
-Epoch [13/15], Step [300/469], Loss: nan
-Epoch [13/15], Step [400/469], Loss: nan
-Epoch [13/15], Test Accuracy: 9.80%
-Epoch [14/15], Step [100/469], Loss: nan
-Epoch [14/15], Step [200/469], Loss: nan
-Epoch [14/15], Step [300/469], Loss: nan
-Epoch [14/15], Step [400/469], Loss: nan
-Epoch [14/15], Test Accuracy: 9.80%
-Epoch [15/15], Step [100/469], Loss: nan
-Epoch [15/15], Step [200/469], Loss: nan
-Epoch [15/15], Step [300/469], Loss: nan
-Epoch [15/15], Step [400/469], Loss: nan
-Epoch [15/15], Test Accuracy: 9.80%
-
-==================================================
-Training Hadamard Network with 8 iterations (Last Loss)
-Learning rate: 0.0014686
-Batch size: 128
-Lambda weight: 0.022089
-==================================================
-
-Epoch [1/15], Step [100/469], Loss: nan
-Epoch [1/15], Step [200/469], Loss: nan
-Epoch [1/15], Step [300/469], Loss: nan
-Epoch [1/15], Step [400/469], Loss: nan
-Epoch [1/15], Test Accuracy: 9.80%
-Epoch [2/15], Step [100/469], Loss: nan
-Epoch [2/15], Step [200/469], Loss: nan
-Epoch [2/15], Step [300/469], Loss: nan
-Epoch [2/15], Step [400/469], Loss: nan
-Epoch [2/15], Test Accuracy: 9.80%
-Epoch [3/15], Step [100/469], Loss: nan
-Epoch [3/15], Step [200/469], Loss: nan
-Epoch [3/15], Step [300/469], Loss: nan
-Epoch [3/15], Step [400/469], Loss: nan
-Epoch [3/15], Test Accuracy: 9.80%
-Epoch [4/15], Step [100/469], Loss: nan
-Epoch [4/15], Step [200/469], Loss: nan
-Epoch [4/15], Step [300/469], Loss: nan
-Epoch [4/15], Step [400/469], Loss: nan
-Epoch [4/15], Test Accuracy: 9.80%
-Epoch [5/15], Step [100/469], Loss: nan
-Epoch [5/15], Step [200/469], Loss: nan
-Epoch [5/15], Step [300/469], Loss: nan
-Epoch [5/15], Step [400/469], Loss: nan
-Epoch [5/15], Test Accuracy: 9.80%
-Epoch [6/15], Step [100/469], Loss: nan
-Epoch [6/15], Step [200/469], Loss: nan
-Epoch [6/15], Step [300/469], Loss: nan
-Epoch [6/15], Step [400/469], Loss: nan
-Epoch [6/15], Test Accuracy: 9.80%
-Epoch [7/15], Step [100/469], Loss: nan
-Epoch [7/15], Step [200/469], Loss: nan
-Epoch [7/15], Step [300/469], Loss: nan
-Epoch [7/15], Step [400/469], Loss: nan
-Epoch [7/15], Test Accuracy: 9.80%
-Epoch [8/15], Step [100/469], Loss: nan
-Epoch [8/15], Step [200/469], Loss: nan
-Epoch [8/15], Step [300/469], Loss: nan
-Epoch [8/15], Step [400/469], Loss: nan
-Epoch [8/15], Test Accuracy: 9.80%
-Epoch [9/15], Step [100/469], Loss: nan
-Epoch [9/15], Step [200/469], Loss: nan
-Epoch [9/15], Step [300/469], Loss: nan
-Epoch [9/15], Step [400/469], Loss: nan
-Epoch [9/15], Test Accuracy: 9.80%
-Epoch [10/15], Step [100/469], Loss: nan
-Epoch [10/15], Step [200/469], Loss: nan
-Epoch [10/15], Step [300/469], Loss: nan
-Epoch [10/15], Step [400/469], Loss: nan
-Epoch [10/15], Test Accuracy: 9.80%
-Epoch [11/15], Step [100/469], Loss: nan
-Epoch [11/15], Step [200/469], Loss: nan
-Epoch [11/15], Step [300/469], Loss: nan
-Epoch [11/15], Step [400/469], Loss: nan
-Epoch [11/15], Test Accuracy: 9.80%
-Epoch [12/15], Step [100/469], Loss: nan
-Epoch [12/15], Step [200/469], Loss: nan
-Epoch [12/15], Step [300/469], Loss: nan
-Epoch [12/15], Step [400/469], Loss: nan
-Epoch [12/15], Test Accuracy: 9.80%
-Epoch [13/15], Step [100/469], Loss: nan
-Epoch [13/15], Step [200/469], Loss: nan
-Epoch [13/15], Step [300/469], Loss: nan
-Epoch [13/15], Step [400/469], Loss: nan
-Epoch [13/15], Test Accuracy: 9.80%
-Epoch [14/15], Step [100/469], Loss: nan
-Epoch [14/15], Step [200/469], Loss: nan
-Epoch [14/15], Step [300/469], Loss: nan
-Epoch [14/15], Step [400/469], Loss: nan
-Epoch [14/15], Test Accuracy: 9.80%
-Epoch [15/15], Step [100/469], Loss: nan
-Epoch [15/15], Step [200/469], Loss: nan
-Epoch [15/15], Step [300/469], Loss: nan
-Epoch [15/15], Step [400/469], Loss: nan
-Epoch [15/15], Test Accuracy: 9.80%
-
-==================================================
-Training Hadamard Network with 9 iterations (Last Loss)
-Learning rate: 0.0014686
-Batch size: 128
-Lambda weight: 0.022089
-==================================================
-
-Epoch [1/15], Step [100/469], Loss: nan
-Epoch [1/15], Step [200/469], Loss: nan
-Epoch [1/15], Step [300/469], Loss: nan
-Epoch [1/15], Step [400/469], Loss: nan
-Epoch [1/15], Test Accuracy: 9.80%
-Epoch [2/15], Step [100/469], Loss: nan
-Epoch [2/15], Step [200/469], Loss: nan
-Epoch [2/15], Step [300/469], Loss: nan
-Epoch [2/15], Step [400/469], Loss: nan
-Epoch [2/15], Test Accuracy: 9.80%
-Epoch [3/15], Step [100/469], Loss: nan
-Epoch [3/15], Step [200/469], Loss: nan
-Epoch [3/15], Step [300/469], Loss: nan
-Epoch [3/15], Step [400/469], Loss: nan
-Epoch [3/15], Test Accuracy: 9.80%
-Epoch [4/15], Step [100/469], Loss: nan
-Epoch [4/15], Step [200/469], Loss: nan
-Epoch [4/15], Step [300/469], Loss: nan
-Epoch [4/15], Step [400/469], Loss: nan
-Epoch [4/15], Test Accuracy: 9.80%
-Epoch [5/15], Step [100/469], Loss: nan
-Epoch [5/15], Step [200/469], Loss: nan
-Epoch [5/15], Step [300/469], Loss: nan
-Epoch [5/15], Step [400/469], Loss: nan
-Epoch [5/15], Test Accuracy: 9.80%
-Epoch [6/15], Step [100/469], Loss: nan
-Epoch [6/15], Step [200/469], Loss: nan
-Epoch [6/15], Step [300/469], Loss: nan
-Epoch [6/15], Step [400/469], Loss: nan
-Epoch [6/15], Test Accuracy: 9.80%
-Epoch [7/15], Step [100/469], Loss: nan
-Epoch [7/15], Step [200/469], Loss: nan
-Epoch [7/15], Step [300/469], Loss: nan
-Epoch [7/15], Step [400/469], Loss: nan
-Epoch [7/15], Test Accuracy: 9.80%
-Epoch [8/15], Step [100/469], Loss: nan
-Epoch [8/15], Step [200/469], Loss: nan
-Epoch [8/15], Step [300/469], Loss: nan
-Epoch [8/15], Step [400/469], Loss: nan
-Epoch [8/15], Test Accuracy: 9.80%
-Epoch [9/15], Step [100/469], Loss: nan
-Epoch [9/15], Step [200/469], Loss: nan
-Epoch [9/15], Step [300/469], Loss: nan
-Epoch [9/15], Step [400/469], Loss: nan
-Epoch [9/15], Test Accuracy: 9.80%
-Epoch [10/15], Step [100/469], Loss: nan
-Epoch [10/15], Step [200/469], Loss: nan
-Epoch [10/15], Step [300/469], Loss: nan
-Epoch [10/15], Step [400/469], Loss: nan
-Epoch [10/15], Test Accuracy: 9.80%
-Epoch [11/15], Step [100/469], Loss: nan
-Epoch [11/15], Step [200/469], Loss: nan
-Epoch [11/15], Step [300/469], Loss: nan
-Epoch [11/15], Step [400/469], Loss: nan
-Epoch [11/15], Test Accuracy: 9.80%
-Epoch [12/15], Step [100/469], Loss: nan
-Epoch [12/15], Step [200/469], Loss: nan
-Epoch [12/15], Step [300/469], Loss: nan
-Epoch [12/15], Step [400/469], Loss: nan
-Epoch [12/15], Test Accuracy: 9.80%
-Epoch [13/15], Step [100/469], Loss: nan
-Epoch [13/15], Step [200/469], Loss: nan
-Epoch [13/15], Step [300/469], Loss: nan
-Epoch [13/15], Step [400/469], Loss: nan
-Epoch [13/15], Test Accuracy: 9.80%
-Epoch [14/15], Step [100/469], Loss: nan
-Epoch [14/15], Step [200/469], Loss: nan
-Epoch [14/15], Step [300/469], Loss: nan
-Epoch [14/15], Step [400/469], Loss: nan
-Epoch [14/15], Test Accuracy: 9.80%
-Epoch [15/15], Step [100/469], Loss: nan
-Epoch [15/15], Step [200/469], Loss: nan
-Epoch [15/15], Step [300/469], Loss: nan
-Epoch [15/15], Step [400/469], Loss: nan
-Epoch [15/15], Test Accuracy: 9.80%
-
-==================================================
-Training Hadamard Network with 10 iterations (Last Loss)
-Learning rate: 0.0014686
-Batch size: 128
-Lambda weight: 0.022089
-==================================================
-
-Epoch [1/15], Step [100/469], Loss: nan
-Epoch [1/15], Step [200/469], Loss: nan
-Epoch [1/15], Step [300/469], Loss: nan
-Epoch [1/15], Step [400/469], Loss: nan
-Epoch [1/15], Test Accuracy: 9.80%
-Epoch [2/15], Step [100/469], Loss: nan
-Epoch [2/15], Step [200/469], Loss: nan
-Epoch [2/15], Step [300/469], Loss: nan
-Epoch [2/15], Step [400/469], Loss: nan
-Epoch [2/15], Test Accuracy: 9.80%
-Epoch [3/15], Step [100/469], Loss: nan
-Epoch [3/15], Step [200/469], Loss: nan
-Epoch [3/15], Step [300/469], Loss: nan
-Epoch [3/15], Step [400/469], Loss: nan
-Epoch [3/15], Test Accuracy: 9.80%
-Epoch [4/15], Step [100/469], Loss: nan
-Epoch [4/15], Step [200/469], Loss: nan
-Epoch [4/15], Step [300/469], Loss: nan
-Epoch [4/15], Step [400/469], Loss: nan
-Epoch [4/15], Test Accuracy: 9.80%
-Epoch [5/15], Step [100/469], Loss: nan
-Epoch [5/15], Step [200/469], Loss: nan
-Epoch [5/15], Step [300/469], Loss: nan
-Epoch [5/15], Step [400/469], Loss: nan
-Epoch [5/15], Test Accuracy: 9.80%
-Epoch [6/15], Step [100/469], Loss: nan
-Epoch [6/15], Step [200/469], Loss: nan
-Epoch [6/15], Step [300/469], Loss: nan
-Epoch [6/15], Step [400/469], Loss: nan
-Epoch [6/15], Test Accuracy: 9.80%
-Epoch [7/15], Step [100/469], Loss: nan
-Epoch [7/15], Step [200/469], Loss: nan
-Epoch [7/15], Step [300/469], Loss: nan
-Epoch [7/15], Step [400/469], Loss: nan
-Epoch [7/15], Test Accuracy: 9.80%
-Epoch [8/15], Step [100/469], Loss: nan
-Epoch [8/15], Step [200/469], Loss: nan
-Epoch [8/15], Step [300/469], Loss: nan
-Epoch [8/15], Step [400/469], Loss: nan
-Epoch [8/15], Test Accuracy: 9.80%
-Epoch [9/15], Step [100/469], Loss: nan
-Epoch [9/15], Step [200/469], Loss: nan
-Epoch [9/15], Step [300/469], Loss: nan
-Epoch [9/15], Step [400/469], Loss: nan
-Epoch [9/15], Test Accuracy: 9.80%
-Epoch [10/15], Step [100/469], Loss: nan
-Epoch [10/15], Step [200/469], Loss: nan
-Epoch [10/15], Step [300/469], Loss: nan
-Epoch [10/15], Step [400/469], Loss: nan
-Epoch [10/15], Test Accuracy: 9.80%
-Epoch [11/15], Step [100/469], Loss: nan
-Epoch [11/15], Step [200/469], Loss: nan
-Epoch [11/15], Step [300/469], Loss: nan
-Epoch [11/15], Step [400/469], Loss: nan
-Epoch [11/15], Test Accuracy: 9.80%
-Epoch [12/15], Step [100/469], Loss: nan
-Epoch [12/15], Step [200/469], Loss: nan
-Epoch [12/15], Step [300/469], Loss: nan
-Epoch [12/15], Step [400/469], Loss: nan
-Epoch [12/15], Test Accuracy: 9.80%
-Epoch [13/15], Step [100/469], Loss: nan
-Epoch [13/15], Step [200/469], Loss: nan
-Epoch [13/15], Step [300/469], Loss: nan
-Epoch [13/15], Step [400/469], Loss: nan
-Epoch [13/15], Test Accuracy: 9.80%
-Epoch [14/15], Step [100/469], Loss: nan
-Epoch [14/15], Step [200/469], Loss: nan
-Epoch [14/15], Step [300/469], Loss: nan
-Epoch [14/15], Step [400/469], Loss: nan
-Epoch [14/15], Test Accuracy: 9.80%
-Epoch [15/15], Step [100/469], Loss: nan
-Epoch [15/15], Step [200/469], Loss: nan
-Epoch [15/15], Step [300/469], Loss: nan
-Epoch [15/15], Step [400/469], Loss: nan
-Epoch [15/15], Test Accuracy: 9.80%
-
-Final Results:
-==================================================
-Hadamard Last Loss with 1 iterations: 94.61%
-Hadamard Last Loss with 2 iterations: 97.41%
-Hadamard Last Loss with 3 iterations: 16.63%
-Hadamard Last Loss with 4 iterations: 8.71%
-Hadamard Last Loss with 5 iterations: 15.62%
-Hadamard Last Loss with 6 iterations: 10.43%
-Hadamard Last Loss with 7 iterations: 9.80%
-Hadamard Last Loss with 8 iterations: 9.80%
-Hadamard Last Loss with 9 iterations: 9.80%
-Hadamard Last Loss with 10 iterations: 9.80%
+Hadamard Sum Loss with 1 iterations: 79.81%
+Hadamard Sum Loss with 2 iterations: 80.70%
+Hadamard Sum Loss with 3 iterations: 75.25%
+Hadamard Sum Loss with 4 iterations: 77.09%
+Hadamard Sum Loss with 5 iterations: 73.15%
+Hadamard Sum Loss with 6 iterations: 73.43%
+Hadamard Sum Loss with 7 iterations: 67.18%
+Hadamard Sum Loss with 8 iterations: 67.21%
+Hadamard Sum Loss with 9 iterations: 66.82%
+Hadamard Sum Loss with 10 iterations: 71.27%
