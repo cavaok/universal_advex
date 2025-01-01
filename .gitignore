@@ -3,3 +3,4 @@ __pycache__/
 .idea/
 wandb/
 sweeps/data/MNIST/raw/*
+trainers/data/MNIST/raw/*
