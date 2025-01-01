@@ -68,6 +68,8 @@ def train_hadamard(num_iterations, config):
             # Multiple iterations
             for _ in range(num_iterations):
                 current_state = autoencoder(current_state)
+                # Min-max normalization to [0,1]
+                current_state = (current_state - current_state.min()) / (current_state.max() - current_state.min())
 
                 # Split outputs into image and label components
                 output_images = current_state[:, :image_dim]
@@ -112,6 +114,8 @@ def train_hadamard(num_iterations, config):
                 # Multiple iterations
                 for _ in range(num_iterations):
                     current_state = autoencoder(current_state)
+                    # Min-max normalization to [0,1]
+                    current_state = (current_state - current_state.min()) / (current_state.max() - current_state.min())
 
                 # Get final predictions
                 output_labels = current_state[:, image_dim:]
@@ -124,7 +128,7 @@ def train_hadamard(num_iterations, config):
         print(f'Epoch [{epoch + 1}/{config["epochs"]}], Test Accuracy: {accuracy:.2f}%')
 
     # Save model
-    models_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'models')
+    models_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'models')
     os.makedirs(models_dir, exist_ok=True)
     model_path = os.path.join(models_dir, f'hadamard_sum_iter{num_iterations}.pth')
 
@@ -132,6 +136,7 @@ def train_hadamard(num_iterations, config):
         'f1_state_dict': f1.state_dict(),
         'f2_state_dict': f2.state_dict()
     }, model_path)
+    print(f"\nModel saved to: {model_path}")
 
     return accuracy
 
