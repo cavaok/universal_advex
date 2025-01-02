@@ -4,3 +4,4 @@ __pycache__/
 wandb/
 sweeps/data/MNIST/raw/*
 trainers/data/MNIST/raw/*
+*.pth
