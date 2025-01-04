@@ -194,8 +194,8 @@ def save_models(encoder, decoder, train_loss, arch_name, num_iterations, sum_los
         model_name = f"auto_{arch_name}_{num_iterations}_{loss_type}"
 
     config = MODEL_CONFIGS[arch_name]
-    log_data(model_name, config['lambda'], config['activation'], num_iterations, loss_type, config['lambda'],
-             config['sizes'][-1], config['learning_rate'], train_loss)
+    log_data(model_name, config['sizes'][-1], config['activation'], num_iterations, loss_type, config['lambda'],
+             config['batch_size'], config['learning_rate'], train_loss)
 
     torch.save(encoder.state_dict(), f'models/encoder_{model_name}.pth')
     torch.save(decoder.state_dict(), f'models/decoder_{model_name}.pth')
@@ -212,6 +212,7 @@ def log_data(model_name, smallest_layer, activation_function, num_iterations, lo
         'num_iterations': num_iterations,
         'loss_type': loss_type,
         'lambda': lambda_,
+        'batch_size': batch_size,
         'learning_rate': learning_rate,
         'train_loss': train_loss,
         'test_set_accuracy': np.nan,
