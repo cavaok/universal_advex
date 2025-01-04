@@ -1,6 +1,9 @@
 import torch
 from torch import nn, optim
 import torch.nn.functional as F
+import pandas as pd
+from datetime import datetime
+import numpy as np
 import os
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -76,23 +79,33 @@ def build_model(config):
     # Build encoder layers
     encoder_layers = []
     prev_size = input_dim
-    for size in config['sizes']:
+
+    # Add layers with activation except the last one
+    for size in config['sizes'][:-1]:
         encoder_layers.extend([
             nn.Linear(prev_size, size),
             config['activation']()
         ])
         prev_size = size
 
+    # Add final encoder layer WITHOUT activation
+    encoder_layers.append(nn.Linear(prev_size, config['sizes'][-1]))
+
     # Build decoder layers
     decoder_layers = []
     sizes_reversed = config['sizes'][::-1]
     prev_size = sizes_reversed[0]
-    for size in sizes_reversed[1:] + [input_dim]:
+
+    # Add layers with activation except the last one
+    for size in sizes_reversed[1:]:
         decoder_layers.extend([
             nn.Linear(prev_size, size),
-            config['activation']() if size != input_dim else nn.Identity()
+            config['activation']()
         ])
         prev_size = size
+
+    # Add final decoder layer WITHOUT activation
+    decoder_layers.append(nn.Linear(prev_size, input_dim))
 
     return nn.Sequential(*encoder_layers), nn.Sequential(*decoder_layers)
 
@@ -119,6 +132,7 @@ def train_model(arch_name, num_iterations, sum_losses=True, num_epochs=15):
 
     # Get data loaders using your existing function
     train_loader, test_loader, _ = get_mnist_loaders(config['batch_size'])
+    train_loss = 0
 
     # Training loop
     for epoch in range(num_epochs):
@@ -165,13 +179,13 @@ def train_model(arch_name, num_iterations, sum_losses=True, num_epochs=15):
 
         print(f'Epoch [{epoch + 1}/{num_epochs}], Loss: {train_loss / len(train_loader):.4f}')
 
-    return encoder, decoder
+    return encoder, decoder, train_loss
 
 
-def save_models(encoder, decoder, arch_name, num_iterations, sum_losses=True):
+def save_models(encoder, decoder, train_loss, arch_name, num_iterations, sum_losses=True):
     """Save trained models with appropriate naming convention."""
     os.makedirs('models', exist_ok=True)
-
+    loss_type = ""
     # Create model name
     if num_iterations == 1:
         model_name = f"auto_{arch_name}_{num_iterations}"
@@ -179,10 +193,47 @@ def save_models(encoder, decoder, arch_name, num_iterations, sum_losses=True):
         loss_type = "sum" if sum_losses else "last"
         model_name = f"auto_{arch_name}_{num_iterations}_{loss_type}"
 
-    # Save models
+    config = MODEL_CONFIGS[arch_name]
+    log_data(model_name, config['lambda'], config['activation'], num_iterations, loss_type, config['lambda'],
+             config['sizes'][-1], config['learning_rate'], train_loss)
+
     torch.save(encoder.state_dict(), f'models/encoder_{model_name}.pth')
     torch.save(decoder.state_dict(), f'models/decoder_{model_name}.pth')
     print(f"Saved models as encoder_{model_name}.pth and decoder_{model_name}.pth")
+
+
+def log_data(model_name, smallest_layer, activation_function, num_iterations, loss_type, lambda_,
+             batch_size, learning_rate, train_loss):
+    log_entry = {
+        'timestamp': datetime.now(),
+        'model_name': model_name,
+        'smallest_layer': smallest_layer,
+        'activation_function': activation_function,
+        'num_iterations': num_iterations,
+        'loss_type': loss_type,
+        'lambda': lambda_,
+        'learning_rate': learning_rate,
+        'train_loss': train_loss,
+        'test_set_accuracy': np.nan,
+        'validation_set_accuracy': np.nan,
+        'test_loss': np.nan
+    }
+
+    df_new = pd.DataFrame([log_entry])
+
+    try:
+        # Try to read existing CSV file
+        df_existing = pd.read_csv('model_logs.csv')
+        # Append new data
+        df_updated = pd.concat([df_existing, df_new], ignore_index=True)
+    except FileNotFoundError:
+        # If file doesn't exist, create new DataFrame
+        df_updated = df_new
+
+    # Save to CSV
+    df_updated.to_csv('model_logs.csv', index=False)
+
+    return df_updated
 
 
 def train_all_models():
@@ -192,8 +243,8 @@ def train_all_models():
 
         # Train single iteration version
         print(f"\nTraining single iteration version...")
-        encoder, decoder = train_model(arch_name, num_iterations=1)
-        save_models(encoder, decoder, arch_name, num_iterations=1)
+        encoder, decoder, train_loss = train_model(arch_name, num_iterations=1)
+        save_models(encoder, decoder, train_loss, arch_name, num_iterations=1)
 
         # Train multiple iteration versions
         for num_iterations in range(2, 11):
@@ -201,14 +252,15 @@ def train_all_models():
 
             # Sum loss version
             print("Training sum loss version...")
-            encoder, decoder = train_model(arch_name, num_iterations, sum_losses=True)
-            save_models(encoder, decoder, arch_name, num_iterations, sum_losses=True)
+            encoder, decoder, train_loss = train_model(arch_name, num_iterations, sum_losses=True)
+            save_models(encoder, decoder, train_loss, arch_name, num_iterations, sum_losses=True)
 
             # Last loss version
             print("Training last loss version...")
-            encoder, decoder = train_model(arch_name, num_iterations, sum_losses=False)
-            save_models(encoder, decoder, arch_name, num_iterations, sum_losses=False)
+            encoder, decoder, train_loss = train_model(arch_name, num_iterations, sum_losses=False)
+            save_models(encoder, decoder, train_loss, arch_name, num_iterations, sum_losses=False)
 
 
 if __name__ == "__main__":
     train_all_models()
+
