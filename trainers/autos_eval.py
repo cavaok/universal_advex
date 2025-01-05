@@ -2,10 +2,13 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 import os
+import sys
 import pandas as pd
-from data import get_mnist_train_val_test_loaders
-from helper import create_diffuse_one_hot
 
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append('/home/okcava/projects/universal_advex')
+from helper import create_diffuse_one_hot
+from data import get_mnist_train_val_test_loaders
 
 class ModelArchitecture:
     def __init__(self, input_dim, activation_type):
