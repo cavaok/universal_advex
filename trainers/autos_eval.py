@@ -4,11 +4,11 @@ import torch.nn.functional as F
 import os
 import sys
 import pandas as pd
-
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.append('/home/okcava/projects/universal_advex')
 from helper import create_diffuse_one_hot
 from data import get_mnist_train_val_test_loaders
+
 
 class ModelArchitecture:
     def __init__(self, input_dim, activation_type):
@@ -115,10 +115,10 @@ def main():
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     input_dim = 28 * 28 + 10
     _, val_loader, test_loader = get_mnist_train_val_test_loaders(batch_size=128)
-    models_dir = os.path.join('trainers', 'models')
+    models_dir = 'models'
 
     # Read existing CSV
-    df = pd.read_csv('trainers/model_logs.csv')
+    df = pd.read_csv('model_logs.csv')
 
     # For each encoder file in models directory
     encoder_files = [f for f in os.listdir(models_dir) if f.startswith('encoder_')]
@@ -172,7 +172,7 @@ def main():
         print(f"Test Loss: {test_loss:.4f}")
 
     # Save updated CSV
-    df.to_csv('trainers/model_logs.csv', index=False)
+    df.to_csv('model_logs.csv', index=False)
     print("\nEvaluation complete. Results saved to model_logs.csv")
 
 
