@@ -1,0 +1,762 @@
+
+Evaluated auto_128_elu_1:
+Validation Accuracy: 99.05%
+Test Accuracy: 97.42%
+Test Loss: 0.4027
+
+Evaluated auto_128_elu_10_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_128_elu_10_sum:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_128_elu_2_last:
+Validation Accuracy: 11.08%
+Test Accuracy: 11.38%
+Test Loss: 0.2393
+
+Evaluated auto_128_elu_2_sum:
+Validation Accuracy: 99.00%
+Test Accuracy: 98.04%
+Test Loss: 0.2530
+
+Evaluated auto_128_elu_3_last:
+Validation Accuracy: 3.23%
+Test Accuracy: 3.01%
+Test Loss: 0.2368
+
+Evaluated auto_128_elu_3_sum:
+Validation Accuracy: 99.15%
+Test Accuracy: 98.08%
+Test Loss: 0.2508
+
+Evaluated auto_128_elu_4_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_128_elu_4_sum:
+Validation Accuracy: 99.00%
+Test Accuracy: 98.11%
+Test Loss: 0.2148
+
+Evaluated auto_128_elu_5_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_128_elu_5_sum:
+Validation Accuracy: 98.50%
+Test Accuracy: 97.85%
+Test Loss: 0.1962
+
+Evaluated auto_128_elu_6_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_128_elu_6_sum:
+Validation Accuracy: 97.97%
+Test Accuracy: 97.58%
+Test Loss: 0.1842
+
+Evaluated auto_128_elu_7_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_128_elu_7_sum:
+Validation Accuracy: 97.75%
+Test Accuracy: 97.13%
+Test Loss: 0.1895
+
+Evaluated auto_128_elu_8_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_128_elu_8_sum:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_128_elu_9_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_128_elu_9_sum:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_128_sigmoid_1:
+Validation Accuracy: 99.75%
+Test Accuracy: 98.59%
+Test Loss: 0.8840
+
+Evaluated auto_128_sigmoid_10_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0681
+
+Evaluated auto_128_sigmoid_10_sum:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0680
+
+Evaluated auto_128_sigmoid_2_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0681
+
+Evaluated auto_128_sigmoid_2_sum:
+Validation Accuracy: 99.40%
+Test Accuracy: 98.14%
+Test Loss: 0.3544
+
+Evaluated auto_128_sigmoid_3_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0680
+
+Evaluated auto_128_sigmoid_3_sum:
+Validation Accuracy: 98.63%
+Test Accuracy: 97.48%
+Test Loss: 0.3223
+
+Evaluated auto_128_sigmoid_4_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0680
+
+Evaluated auto_128_sigmoid_4_sum:
+Validation Accuracy: 98.45%
+Test Accuracy: 97.11%
+Test Loss: 0.2667
+
+Evaluated auto_128_sigmoid_5_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0680
+
+Evaluated auto_128_sigmoid_5_sum:
+Validation Accuracy: 95.32%
+Test Accuracy: 94.63%
+Test Loss: 0.1333
+
+Evaluated auto_128_sigmoid_6_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0680
+
+Evaluated auto_128_sigmoid_6_sum:
+Validation Accuracy: 60.27%
+Test Accuracy: 60.91%
+Test Loss: 0.1192
+
+Evaluated auto_128_sigmoid_7_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0680
+
+Evaluated auto_128_sigmoid_7_sum:
+Validation Accuracy: 51.70%
+Test Accuracy: 52.49%
+Test Loss: 0.1124
+
+Evaluated auto_128_sigmoid_8_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0680
+
+Evaluated auto_128_sigmoid_8_sum:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0681
+
+Evaluated auto_128_sigmoid_9_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0681
+
+Evaluated auto_128_sigmoid_9_sum:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0682
+
+Evaluated auto_256_elu_1:
+Validation Accuracy: 98.77%
+Test Accuracy: 97.20%
+Test Loss: 0.5968
+
+Evaluated auto_256_elu_10_last:
+Validation Accuracy: 13.03%
+Test Accuracy: 13.71%
+Test Loss: 0.2504
+
+Evaluated auto_256_elu_10_sum:
+Validation Accuracy: 95.10%
+Test Accuracy: 95.20%
+Test Loss: 0.1127
+
+Evaluated auto_256_elu_2_last:
+Validation Accuracy: 14.02%
+Test Accuracy: 12.51%
+Test Loss: 0.2100
+
+Evaluated auto_256_elu_2_sum:
+Validation Accuracy: 98.52%
+Test Accuracy: 97.45%
+Test Loss: 0.2829
+
+Evaluated auto_256_elu_3_last:
+Validation Accuracy: 10.68%
+Test Accuracy: 11.19%
+Test Loss: 0.1922
+
+Evaluated auto_256_elu_3_sum:
+Validation Accuracy: 98.50%
+Test Accuracy: 97.28%
+Test Loss: 0.2294
+
+Evaluated auto_256_elu_4_last:
+Validation Accuracy: 12.45%
+Test Accuracy: 12.92%
+Test Loss: 0.1919
+
+Evaluated auto_256_elu_4_sum:
+Validation Accuracy: 97.85%
+Test Accuracy: 97.23%
+Test Loss: 0.1985
+
+Evaluated auto_256_elu_5_last:
+Validation Accuracy: 25.78%
+Test Accuracy: 26.23%
+Test Loss: 0.2047
+
+Evaluated auto_256_elu_5_sum:
+Validation Accuracy: 97.42%
+Test Accuracy: 97.03%
+Test Loss: 0.1816
+
+Evaluated auto_256_elu_6_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_256_elu_6_sum:
+Validation Accuracy: 96.87%
+Test Accuracy: 96.83%
+Test Loss: 0.1658
+
+Evaluated auto_256_elu_7_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_256_elu_7_sum:
+Validation Accuracy: 96.25%
+Test Accuracy: 96.21%
+Test Loss: 0.1473
+
+Evaluated auto_256_elu_8_last:
+Validation Accuracy: 6.98%
+Test Accuracy: 6.59%
+Test Loss: 0.1503
+
+Evaluated auto_256_elu_8_sum:
+Validation Accuracy: 96.02%
+Test Accuracy: 96.16%
+Test Loss: 0.1378
+
+Evaluated auto_256_elu_9_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_256_elu_9_sum:
+Validation Accuracy: 95.53%
+Test Accuracy: 95.58%
+Test Loss: 0.1196
+
+Evaluated auto_256_sigmoid_1:
+Validation Accuracy: 99.50%
+Test Accuracy: 97.84%
+Test Loss: 1.2464
+
+Evaluated auto_256_sigmoid_10_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0690
+
+Evaluated auto_256_sigmoid_10_sum:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0689
+
+Evaluated auto_256_sigmoid_2_last:
+Validation Accuracy: 1.08%
+Test Accuracy: 1.11%
+Test Loss: 0.2376
+
+Evaluated auto_256_sigmoid_2_sum:
+Validation Accuracy: 99.67%
+Test Accuracy: 98.31%
+Test Loss: 0.2557
+
+Evaluated auto_256_sigmoid_3_last:
+Validation Accuracy: 4.35%
+Test Accuracy: 3.98%
+Test Loss: 0.1741
+
+Evaluated auto_256_sigmoid_3_sum:
+Validation Accuracy: 99.15%
+Test Accuracy: 98.20%
+Test Loss: 0.1876
+
+Evaluated auto_256_sigmoid_4_last:
+Validation Accuracy: 5.82%
+Test Accuracy: 5.58%
+Test Loss: 0.1510
+
+Evaluated auto_256_sigmoid_4_sum:
+Validation Accuracy: 99.08%
+Test Accuracy: 98.35%
+Test Loss: 0.1603
+
+Evaluated auto_256_sigmoid_5_last:
+Validation Accuracy: 9.63%
+Test Accuracy: 9.58%
+Test Loss: 0.0681
+
+Evaluated auto_256_sigmoid_5_sum:
+Validation Accuracy: 98.83%
+Test Accuracy: 97.94%
+Test Loss: 0.1325
+
+Evaluated auto_256_sigmoid_6_last:
+Validation Accuracy: 5.63%
+Test Accuracy: 6.30%
+Test Loss: 0.0740
+
+Evaluated auto_256_sigmoid_6_sum:
+Validation Accuracy: 98.63%
+Test Accuracy: 97.85%
+Test Loss: 0.1275
+
+Evaluated auto_256_sigmoid_7_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0683
+
+Evaluated auto_256_sigmoid_7_sum:
+Validation Accuracy: 92.93%
+Test Accuracy: 93.34%
+Test Loss: 0.1302
+
+Evaluated auto_256_sigmoid_8_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: 0.0699
+
+Evaluated auto_256_sigmoid_8_sum:
+Validation Accuracy: 17.05%
+Test Accuracy: 16.55%
+Test Loss: 0.1711
+
+Evaluated auto_256_sigmoid_9_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0682
+
+Evaluated auto_256_sigmoid_9_sum:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0689
+
+Evaluated auto_512_elu_1:
+Validation Accuracy: 92.80%
+Test Accuracy: 92.03%
+Test Loss: 0.3343
+
+Evaluated auto_512_elu_10_last:
+Validation Accuracy: 5.85%
+Test Accuracy: 5.66%
+Test Loss: 0.1378
+
+Evaluated auto_512_elu_10_sum:
+Validation Accuracy: 89.53%
+Test Accuracy: 89.91%
+Test Loss: 0.0793
+
+Evaluated auto_512_elu_2_last:
+Validation Accuracy: 8.28%
+Test Accuracy: 8.63%
+Test Loss: 0.1697
+
+Evaluated auto_512_elu_2_sum:
+Validation Accuracy: 91.87%
+Test Accuracy: 91.97%
+Test Loss: 0.1400
+
+Evaluated auto_512_elu_3_last:
+Validation Accuracy: 8.97%
+Test Accuracy: 8.38%
+Test Loss: 0.1641
+
+Evaluated auto_512_elu_3_sum:
+Validation Accuracy: 91.50%
+Test Accuracy: 91.74%
+Test Loss: 0.1148
+
+Evaluated auto_512_elu_4_last:
+Validation Accuracy: 6.45%
+Test Accuracy: 6.96%
+Test Loss: 0.1511
+
+Evaluated auto_512_elu_4_sum:
+Validation Accuracy: 90.75%
+Test Accuracy: 91.16%
+Test Loss: 0.0929
+
+Evaluated auto_512_elu_5_last:
+Validation Accuracy: 3.62%
+Test Accuracy: 3.52%
+Test Loss: 0.1591
+
+Evaluated auto_512_elu_5_sum:
+Validation Accuracy: 90.52%
+Test Accuracy: 91.18%
+Test Loss: 0.0926
+
+Evaluated auto_512_elu_6_last:
+Validation Accuracy: 7.48%
+Test Accuracy: 7.35%
+Test Loss: 0.1630
+
+Evaluated auto_512_elu_6_sum:
+Validation Accuracy: 90.55%
+Test Accuracy: 91.18%
+Test Loss: 0.0881
+
+Evaluated auto_512_elu_7_last:
+Validation Accuracy: 5.05%
+Test Accuracy: 6.00%
+Test Loss: 0.1352
+
+Evaluated auto_512_elu_7_sum:
+Validation Accuracy: 90.52%
+Test Accuracy: 91.08%
+Test Loss: 0.0880
+
+Evaluated auto_512_elu_8_last:
+Validation Accuracy: 2.58%
+Test Accuracy: 2.72%
+Test Loss: 0.1008
+
+Evaluated auto_512_elu_8_sum:
+Validation Accuracy: 90.28%
+Test Accuracy: 90.86%
+Test Loss: 0.0808
+
+Evaluated auto_512_elu_9_last:
+Validation Accuracy: 3.43%
+Test Accuracy: 3.84%
+Test Loss: 0.1135
+
+Evaluated auto_512_elu_9_sum:
+Validation Accuracy: 90.00%
+Test Accuracy: 90.39%
+Test Loss: 0.0867
+
+Evaluated auto_512_sigmoid_1:
+Validation Accuracy: 36.53%
+Test Accuracy: 35.75%
+Test Loss: 0.2245
+
+Evaluated auto_512_sigmoid_10_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_512_sigmoid_10_sum:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_512_sigmoid_2_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_512_sigmoid_2_sum:
+Validation Accuracy: 18.63%
+Test Accuracy: 18.36%
+Test Loss: 0.1681
+
+Evaluated auto_512_sigmoid_3_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_512_sigmoid_3_sum:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_512_sigmoid_4_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_512_sigmoid_4_sum:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_512_sigmoid_5_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_512_sigmoid_5_sum:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_512_sigmoid_6_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_512_sigmoid_6_sum:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_512_sigmoid_7_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_512_sigmoid_7_sum:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_512_sigmoid_8_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_512_sigmoid_8_sum:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_512_sigmoid_9_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_512_sigmoid_9_sum:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_64_elu_1:
+Validation Accuracy: 99.30%
+Test Accuracy: 97.68%
+Test Loss: 0.3228
+
+Evaluated auto_64_elu_10_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_64_elu_10_sum:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_64_elu_2_last:
+Validation Accuracy: 21.13%
+Test Accuracy: 20.78%
+Test Loss: 0.3033
+
+Evaluated auto_64_elu_2_sum:
+Validation Accuracy: 99.37%
+Test Accuracy: 98.25%
+Test Loss: 0.2582
+
+Evaluated auto_64_elu_3_last:
+Validation Accuracy: 9.83%
+Test Accuracy: 10.29%
+Test Loss: 8.3478
+
+Evaluated auto_64_elu_3_sum:
+Validation Accuracy: 98.83%
+Test Accuracy: 98.06%
+Test Loss: 0.2108
+
+Evaluated auto_64_elu_4_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_64_elu_4_sum:
+Validation Accuracy: 97.67%
+Test Accuracy: 96.86%
+Test Loss: 0.2063
+
+Evaluated auto_64_elu_5_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_64_elu_5_sum:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_64_elu_6_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_64_elu_6_sum:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_64_elu_7_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_64_elu_7_sum:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_64_elu_8_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_64_elu_8_sum:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_64_elu_9_last:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_64_elu_9_sum:
+Validation Accuracy: 9.90%
+Test Accuracy: 9.80%
+Test Loss: nan
+
+Evaluated auto_64_sigmoid_1:
+Validation Accuracy: 99.48%
+Test Accuracy: 97.84%
+Test Loss: 0.5415
+
+Evaluated auto_64_sigmoid_10_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0681
+
+Evaluated auto_64_sigmoid_10_sum:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0681
+
+Evaluated auto_64_sigmoid_2_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0680
+
+Evaluated auto_64_sigmoid_2_sum:
+Validation Accuracy: 68.55%
+Test Accuracy: 67.83%
+Test Loss: 0.3100
+
+Evaluated auto_64_sigmoid_3_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0681
+
+Evaluated auto_64_sigmoid_3_sum:
+Validation Accuracy: 9.83%
+Test Accuracy: 10.28%
+Test Loss: 0.0681
+
+Evaluated auto_64_sigmoid_4_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0681
+
+Evaluated auto_64_sigmoid_4_sum:
+Validation Accuracy: 31.07%
+Test Accuracy: 31.21%
+Test Loss: 0.1254
+
+Evaluated auto_64_sigmoid_5_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0682
+
+Evaluated auto_64_sigmoid_5_sum:
+Validation Accuracy: 10.05%
+Test Accuracy: 10.32%
+Test Loss: 0.0681
+
+Evaluated auto_64_sigmoid_6_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0681
+
+Evaluated auto_64_sigmoid_6_sum:
+Validation Accuracy: 34.42%
+Test Accuracy: 34.51%
+Test Loss: 0.2011
+
+Evaluated auto_64_sigmoid_7_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0680
+
+Evaluated auto_64_sigmoid_7_sum:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0681
+
+Evaluated auto_64_sigmoid_8_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0681
+
+Evaluated auto_64_sigmoid_8_sum:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0680
+
+Evaluated auto_64_sigmoid_9_last:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0682
+
+Evaluated auto_64_sigmoid_9_sum:
+Validation Accuracy: 11.50%
+Test Accuracy: 11.35%
+Test Loss: 0.0681
+
+Evaluation complete. Results saved to model_logs.csv
