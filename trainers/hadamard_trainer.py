@@ -93,13 +93,13 @@ def train_model(num_iterations, num_epochs=15):
 
 def save_model(models, train_loss, num_iterations):
     """Save trained models with appropriate naming convention."""
-    os.makedirs('models', exist_ok=True)
+    os.makedirs('hadamard_models', exist_ok=True)
     model_name = f"hadamard_{num_iterations}"
     f1, f2 = models
 
     log_data(model_name, train_loss, num_iterations)
-    torch.save(f1.state_dict(), f'models/f1_{model_name}.pth')
-    torch.save(f2.state_dict(), f'models/f2_{model_name}.pth')
+    torch.save(f1.state_dict(), f'hadamard_models/f1_{model_name}.pth')
+    torch.save(f2.state_dict(), f'hadamard_models/f2_{model_name}.pth')
     print(f"Saved models as f1_{model_name}.pth and f2_{model_name}.pth")
 
 

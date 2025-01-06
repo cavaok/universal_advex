@@ -87,11 +87,11 @@ def train_model(num_iterations, num_epochs=15):
 
 def save_model(model, train_loss, num_iterations):
     """Save trained model with appropriate naming convention."""
-    os.makedirs('models', exist_ok=True)
+    os.makedirs('794_models', exist_ok=True)
     model_name = f"794_elu_{num_iterations}"
 
     log_data(model_name, train_loss, num_iterations)
-    torch.save(model.state_dict(), f'models/model_{model_name}.pth')
+    torch.save(model.state_dict(), f'794_models/model_{model_name}.pth')
     print(f"Saved model as model_{model_name}.pth")
 
 
