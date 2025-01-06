@@ -16,6 +16,7 @@ module load python/3.8.13/slu6jvw
 source /home/okcava/projects/universal_advex/.venv/bin/activate
 
 # Run sweep scripts
-python autos_trainer.py
+python 794_trainer.py
+python hadamard_trainer.py
 
 

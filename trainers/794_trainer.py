@@ -13,9 +13,9 @@ from data import get_mnist_loaders
 
 # Single configuration
 MODEL_CONFIG = {
-    'batch_size': 128,
-    'learning_rate': 0.0014686,
-    'lambda': 0.022089
+    'batch_size': 32,
+    'learning_rate': 0.001472,
+    'lambda': 0.069189
 }
 
 
@@ -24,29 +24,23 @@ def train_model(num_iterations, num_epochs=15):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     input_dim = 28 * 28 + 10  # MNIST image + one-hot labels
 
-    # Model definition - Hadamard architecture
-    f1 = nn.Sequential(
-        nn.Linear(input_dim, input_dim)
+    # Model definition
+    encoder_and_decoder = nn.Sequential(
+        nn.Linear(input_dim, input_dim),
+        nn.ELU()
     ).to(device)
 
-    f2 = nn.Sequential(
-        nn.Linear(input_dim, input_dim)
-    ).to(device)
-
-    def hadamard(x):
-        return f1(x) * f2(x)
+    def autoencoder(x):
+        return encoder_and_decoder(x)
 
     # Training setup
-    optimizer = optim.Adam(list(f1.parameters()) + list(f2.parameters()),
-                           lr=MODEL_CONFIG['learning_rate'])
-
+    optimizer = optim.Adam(encoder_and_decoder.parameters(), lr=MODEL_CONFIG['learning_rate'])
     train_loader, test_loader, _ = get_mnist_loaders(MODEL_CONFIG['batch_size'])
     train_loss = 0
 
     # Training loop
     for epoch in range(num_epochs):
-        f1.train()
-        f2.train()
+        encoder_and_decoder.train()
         train_loss = 0
 
         for batch_idx, (images, labels) in enumerate(train_loader):
@@ -62,7 +56,7 @@ def train_model(num_iterations, num_epochs=15):
 
             # Iterations loop
             for iteration in range(num_iterations):
-                current_state = hadamard(current_state)
+                current_state = autoencoder(current_state)
 
                 # Loss calculation
                 outputs_label_probs = F.softmax(current_state[:, -10:], dim=1)
@@ -88,19 +82,17 @@ def train_model(num_iterations, num_epochs=15):
 
         print(f'Epoch [{epoch + 1}/{num_epochs}], Loss: {train_loss / len(train_loader):.4f}')
 
-    return (f1, f2), train_loss
+    return encoder_and_decoder, train_loss
 
 
-def save_model(models, train_loss, num_iterations):
-    """Save trained models with appropriate naming convention."""
+def save_model(model, train_loss, num_iterations):
+    """Save trained model with appropriate naming convention."""
     os.makedirs('models', exist_ok=True)
-    model_name = f"hadamard_{num_iterations}"
-    f1, f2 = models
+    model_name = f"794_elu_{num_iterations}"
 
     log_data(model_name, train_loss, num_iterations)
-    torch.save(f1.state_dict(), f'models/f1_{model_name}.pth')
-    torch.save(f2.state_dict(), f'models/f2_{model_name}.pth')
-    print(f"Saved models as f1_{model_name}.pth and f2_{model_name}.pth")
+    torch.save(model.state_dict(), f'models/model_{model_name}.pth')
+    print(f"Saved model as model_{model_name}.pth")
 
 
 def log_data(model_name, train_loss, num_iterations):
@@ -120,12 +112,12 @@ def log_data(model_name, train_loss, num_iterations):
     df_new = pd.DataFrame([log_entry])
 
     try:
-        df_existing = pd.read_csv('hadamard_log.csv')
+        df_existing = pd.read_csv('794_log.csv')
         df_updated = pd.concat([df_existing, df_new], ignore_index=True)
     except FileNotFoundError:
         df_updated = df_new
 
-    df_updated.to_csv('hadamard_log.csv', index=False)
+    df_updated.to_csv('794_log.csv', index=False)
     return df_updated
 
 
@@ -133,8 +125,8 @@ def train_all_iterations():
     """Train models for iterations 1-10."""
     for num_iterations in range(1, 11):
         print(f"\nTraining model with {num_iterations} iterations...")
-        models, train_loss = train_model(num_iterations)
-        save_model(models, train_loss, num_iterations)
+        model, train_loss = train_model(num_iterations)
+        save_model(model, train_loss, num_iterations)
 
 
 if __name__ == "__main__":
