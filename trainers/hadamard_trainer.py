@@ -33,6 +33,11 @@ def train_model(num_iterations, num_epochs=15):
         nn.Linear(input_dim, input_dim)
     ).to(device)
 
+    # Print initial weight magnitudes
+    print("\nInitial magnitudes:")
+    print(f"f1 weight magnitude: {f1[0].weight.abs().mean()}")
+    print(f"f2 weight magnitude: {f2[0].weight.abs().mean()}")
+
     def hadamard(x):
         return f1(x) * f2(x)
 
@@ -56,13 +61,24 @@ def train_model(num_iterations, num_epochs=15):
             # Initial state
             initial_state = torch.cat((images, diffuse_labels), dim=1)
             current_state = initial_state
-            targets = torch.cat((images, torch.eye(10, device=device)[labels]), dim=1)
 
+            if epoch == 0 and batch_idx == 0:
+                print("\nFirst forward pass magnitudes:")
+                print(f"Input magnitude: {initial_state.abs().mean()}")
+                f1_out = f1(initial_state)
+                f2_out = f2(initial_state)
+                print(f"f1 output magnitude: {f1_out.abs().mean()}")
+                print(f"f2 output magnitude: {f2_out.abs().mean()}")
+                print(f"hadamard output magnitude: {(f1_out * f2_out).abs().mean()}")
+
+            targets = torch.cat((images, torch.eye(10, device=device)[labels]), dim=1)
             iteration_losses = []
 
             # Iterations loop
             for iteration in range(num_iterations):
                 current_state = hadamard(current_state)
+                if epoch == 0 and batch_idx == 0:
+                    print(f"\nIteration {iteration + 1} state magnitude: {current_state.abs().mean()}")
 
                 # Loss calculation
                 output_images = current_state[:, :-10]
@@ -71,6 +87,8 @@ def train_model(num_iterations, num_epochs=15):
                 label_loss = F.kl_div(F.log_softmax(output_labels, dim=1), targets[:, -10:], reduction='batchmean')
 
                 iteration_loss = image_loss + MODEL_CONFIG['lambda'] * label_loss
+                if epoch == 0 and batch_idx == 0:
+                    print(f"Iteration {iteration + 1} loss: {iteration_loss.item()}")
                 iteration_losses.append(iteration_loss)
 
             # Sum losses for all iterations
@@ -79,7 +97,18 @@ def train_model(num_iterations, num_epochs=15):
             # Optimization step
             optimizer.zero_grad()
             total_batch_loss.backward()
+
+            if epoch == 0 and batch_idx == 0:
+                print("\nGradient magnitudes:")
+                print(f"f1 weight gradients: {f1[0].weight.grad.abs().mean()}")
+                print(f"f2 weight gradients: {f2[0].weight.grad.abs().mean()}")
+
             optimizer.step()
+
+            if epoch == 0 and batch_idx == 0:
+                print("\nPost-update weight magnitudes:")
+                print(f"f1 weight magnitude: {f1[0].weight.abs().mean()}")
+                print(f"f2 weight magnitude: {f2[0].weight.abs().mean()}")
 
             train_loss += total_batch_loss.detach()
 
