@@ -35,7 +35,8 @@ def evaluate_model(f1, f2, loader, device):
 
             # Calculate loss
             image_loss = F.mse_loss(output_images, images)
-            label_loss = F.kl_div(F.log_softmax(output_labels, dim=1), target_labels, reduction='batchmean')
+            output_label_probs = F.softmax(output_labels, dim=1)
+            label_loss = F.kl_div(output_label_probs.log(), target_labels, reduction='batchmean')
             loss = image_loss + 0.022089 * label_loss  # Using lambda from config
             total_loss += loss.item()
 
