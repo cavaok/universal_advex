@@ -1,0 +1,11 @@
+timestamp,model_name,num_iterations,lambda,batch_size,learning_rate,train_loss,test_set_accuracy,validation_set_accuracy,test_loss
+2025-01-06 18:33:57.816491,hadamard_1,1,0.022089,128,0.0014686,"tensor(nan, device='cuda:0')",,,
+2025-01-06 18:35:22.819564,hadamard_2,2,0.022089,128,0.0014686,"tensor(nan, device='cuda:0')",,,
+2025-01-06 18:36:52.196237,hadamard_3,3,0.022089,128,0.0014686,"tensor(nan, device='cuda:0')",,,
+2025-01-06 18:38:25.797968,hadamard_4,4,0.022089,128,0.0014686,"tensor(nan, device='cuda:0')",,,
+2025-01-06 18:40:04.053603,hadamard_5,5,0.022089,128,0.0014686,"tensor(nan, device='cuda:0')",,,
+2025-01-06 18:41:46.051925,hadamard_6,6,0.022089,128,0.0014686,"tensor(nan, device='cuda:0')",,,
+2025-01-06 18:43:32.010536,hadamard_7,7,0.022089,128,0.0014686,"tensor(nan, device='cuda:0')",,,
+2025-01-06 18:45:22.327243,hadamard_8,8,0.022089,128,0.0014686,"tensor(nan, device='cuda:0')",,,
+2025-01-06 18:47:16.091401,hadamard_9,9,0.022089,128,0.0014686,"tensor(nan, device='cuda:0')",,,
+2025-01-06 18:49:14.590840,hadamard_10,10,0.022089,128,0.0014686,"tensor(nan, device='cuda:0')",,,
