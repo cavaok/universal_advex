@@ -5,17 +5,14 @@ import pandas as pd
 from datetime import datetime
 import numpy as np
 import os
-import sys
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-sys.path.append('/home/okcava/projects/universal_advex')
 from helper import create_diffuse_one_hot
 from data import get_mnist_loaders
 
 # Single configuration
 MODEL_CONFIG = {
     'batch_size': 128,
-    'learning_rate': 0.0014686,
-    'lambda': 0.022089
+    'learning_rate': 0.001,
+    'lambda': 0.4
 }
 
 
@@ -65,9 +62,10 @@ def train_model(num_iterations, num_epochs=15):
                 current_state = hadamard(current_state)
 
                 # Loss calculation
-                outputs_label_probs = F.softmax(current_state[:, -10:], dim=1)
-                image_loss = F.mse_loss(current_state[:, :-10], targets[:, :-10])
-                label_loss = F.kl_div(outputs_label_probs.log(), targets[:, -10:])
+                output_images = current_state[:, :-10]
+                output_labels = current_state[:, -10:]
+                image_loss = F.mse_loss(output_images, targets[:, :-10])
+                label_loss = F.kl_div(F.log_softmax(output_labels, dim=1), targets[:, -10:], reduction='batchmean')
 
                 iteration_loss = image_loss + MODEL_CONFIG['lambda'] * label_loss
                 iteration_losses.append(iteration_loss)
@@ -93,13 +91,13 @@ def train_model(num_iterations, num_epochs=15):
 
 def save_model(models, train_loss, num_iterations):
     """Save trained models with appropriate naming convention."""
-    os.makedirs('hadamard_models', exist_ok=True)
+    os.makedirs('models', exist_ok=True)
     model_name = f"hadamard_{num_iterations}"
     f1, f2 = models
 
     log_data(model_name, train_loss, num_iterations)
-    torch.save(f1.state_dict(), f'hadamard_models/f1_{model_name}.pth')
-    torch.save(f2.state_dict(), f'hadamard_models/f2_{model_name}.pth')
+    torch.save(f1.state_dict(), f'models/f1_{model_name}.pth')
+    torch.save(f2.state_dict(), f'models/f2_{model_name}.pth')
     print(f"Saved models as f1_{model_name}.pth and f2_{model_name}.pth")
 
 
