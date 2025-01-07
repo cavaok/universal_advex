@@ -5,14 +5,17 @@ import pandas as pd
 from datetime import datetime
 import numpy as np
 import os
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append('/home/okcava/projects/universal_advex')
 from helper import create_diffuse_one_hot
 from data import get_mnist_loaders
 
 # Single configuration
 MODEL_CONFIG = {
     'batch_size': 128,
-    'learning_rate': 0.001,
-    'lambda': 0.4
+    'learning_rate': 0.0014686,
+    'lambda': 0.022089
 }
 
 
