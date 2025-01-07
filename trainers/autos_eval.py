@@ -118,7 +118,7 @@ def main():
     models_dir = 'models'
 
     # Read existing CSV
-    df = pd.read_csv('model_logs.csv')
+    df = pd.read_csv('autos_log.csv')
 
     # For each encoder file in models directory
     encoder_files = [f for f in os.listdir(models_dir) if f.startswith('encoder_')]
@@ -172,8 +172,8 @@ def main():
         print(f"Test Loss: {test_loss:.4f}")
 
     # Save updated CSV
-    df.to_csv('model_logs.csv', index=False)
-    print("\nEvaluation complete. Results saved to model_logs.csv")
+    df.to_csv('autos_log.csv', index=False)
+    print("\nEvaluation complete. Results saved to autos_log.csv")
 
 
 if __name__ == "__main__":

@@ -224,7 +224,7 @@ def log_data(model_name, smallest_layer, activation_function, num_iterations, lo
 
     try:
         # Try to read existing CSV file
-        df_existing = pd.read_csv('model_logs.csv')
+        df_existing = pd.read_csv('autos_log.csv')
         # Append new data
         df_updated = pd.concat([df_existing, df_new], ignore_index=True)
     except FileNotFoundError:
@@ -232,7 +232,7 @@ def log_data(model_name, smallest_layer, activation_function, num_iterations, lo
         df_updated = df_new
 
     # Save to CSV
-    df_updated.to_csv('model_logs.csv', index=False)
+    df_updated.to_csv('autos_log.csv', index=False)
 
     return df_updated
 
