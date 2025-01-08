@@ -1,8 +1,27 @@
 import torch
-from torch.utils.data import DataLoader, TensorDataset
+from torch.utils.data import DataLoader, Subset
 from torchvision import datasets, transforms
 
 
+# Loaders used for adversarial example training (function returns dictionary of loaders)
+# ex. digit_loaders[8] returns the loader for images of 8s
+def get_mnist_digit_loaders(batch_size=1):
+    transform = transforms.Compose([
+        transforms.ToTensor()
+    ])
+    dataset = datasets.MNIST(root='./data', train=False, download=True, transform=transform)
+    digit_loaders = {}
+
+    for digit in range(10):
+        indices = [i for i, (_, label) in enumerate(dataset.data) if label == digit]  # gets digit
+        subset = Subset(dataset, indices)  # creates subset
+        loader = DataLoader(subset, batch_size=batch_size, shuffle=False)  # creates data loader
+        digit_loaders[digit] = loader  # store in dictionary
+
+    return digit_loaders
+
+
+# Loaders used for training models
 def get_mnist_loaders(batch_size=10):
     transform = transforms.Compose([
         transforms.ToTensor()
@@ -18,6 +37,7 @@ def get_mnist_loaders(batch_size=10):
     return train_loader, test_loader, adversarial_loader
 
 
+# Loaders used for evaluating models
 def get_mnist_train_val_test_loaders(batch_size=128, val_split=0.1):
     transform = transforms.Compose([transforms.ToTensor()])
 
