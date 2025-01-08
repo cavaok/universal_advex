@@ -124,7 +124,7 @@ def train_model(num_iterations, num_epochs=15):
 
 def save_model(models, train_loss, num_iterations):
     """Save trained models with appropriate naming convention."""
-    os.makedirs('models', exist_ok=True)
+    os.makedirs('hadamard_models', exist_ok=True)
     model_name = f"hadamard_{num_iterations}"
     f1, f2 = models
 
