@@ -2,7 +2,7 @@
 #SBATCH -N 1                  # Number of nodes
 #SBATCH -n 1                  # Number of tasks
 #SBATCH --mem=16G             # Memory per node
-#SBATCH -t 6:00:00            # Time required
+#SBATCH -t 2:00:00            # Time required
 #SBATCH -p short              # Partition
 #SBATCH -J eval               # Job name
 #SBATCH -o eval_out.txt       # Standard output
@@ -16,5 +16,4 @@ module load python/3.8.13/slu6jvw
 source /home/okcava/projects/universal_advex/.venv/bin/activate
 
 # Job to run
-python 794_eval.py
 python hadamard_eval.py

@@ -1,103 +1,51 @@
 
-Evaluated 794_elu_1:
-Validation Accuracy: 94.03%
-Test Accuracy: 93.03%
-Test Loss: 0.0174
-
-Evaluated 794_elu_10:
-Validation Accuracy: 90.25%
-Test Accuracy: 90.85%
-Test Loss: 0.0438
-
-Evaluated 794_elu_2:
-Validation Accuracy: 93.18%
-Test Accuracy: 92.83%
-Test Loss: 0.0194
-
-Evaluated 794_elu_3:
-Validation Accuracy: 92.47%
-Test Accuracy: 91.98%
-Test Loss: 0.0224
-
-Evaluated 794_elu_4:
-Validation Accuracy: 91.92%
-Test Accuracy: 91.91%
-Test Loss: 0.0247
-
-Evaluated 794_elu_5:
-Validation Accuracy: 91.42%
-Test Accuracy: 91.48%
-Test Loss: 0.0282
-
-Evaluated 794_elu_6:
-Validation Accuracy: 90.88%
-Test Accuracy: 91.17%
-Test Loss: 0.0314
-
-Evaluated 794_elu_7:
-Validation Accuracy: 90.60%
-Test Accuracy: 91.03%
-Test Loss: 0.0346
-
-Evaluated 794_elu_8:
-Validation Accuracy: 90.58%
-Test Accuracy: 91.12%
-Test Loss: 0.0375
-
-Evaluated 794_elu_9:
-Validation Accuracy: 90.22%
-Test Accuracy: 90.93%
-Test Loss: 0.0407
-
-Evaluation complete. Results saved to 794_log.csv
-
 Evaluated hadamard_1:
-Validation Accuracy: 10.13%
-Test Accuracy: 9.80%
-Test Loss: nan
+Validation Accuracy: 96.23%
+Test Accuracy: 94.86%
+Test Loss: 0.0047
 
 Evaluated hadamard_10:
-Validation Accuracy: 10.13%
+Validation Accuracy: 10.30%
 Test Accuracy: 9.80%
 Test Loss: nan
 
 Evaluated hadamard_2:
-Validation Accuracy: 10.13%
-Test Accuracy: 9.80%
-Test Loss: nan
+Validation Accuracy: 95.53%
+Test Accuracy: 94.88%
+Test Loss: 0.0073
 
 Evaluated hadamard_3:
-Validation Accuracy: 10.13%
-Test Accuracy: 9.80%
-Test Loss: nan
+Validation Accuracy: 94.48%
+Test Accuracy: 94.19%
+Test Loss: 0.0094
 
 Evaluated hadamard_4:
-Validation Accuracy: 10.13%
-Test Accuracy: 9.80%
-Test Loss: nan
+Validation Accuracy: 9.42%
+Test Accuracy: 8.75%
+Test Loss: 2.1186
 
 Evaluated hadamard_5:
-Validation Accuracy: 10.13%
-Test Accuracy: 9.80%
-Test Loss: nan
+Validation Accuracy: 18.68%
+Test Accuracy: 18.63%
+Test Loss: 0.2573
 
 Evaluated hadamard_6:
-Validation Accuracy: 10.13%
-Test Accuracy: 9.80%
-Test Loss: nan
+Validation Accuracy: 16.13%
+Test Accuracy: 15.92%
+Test Loss: 0.2634
 
 Evaluated hadamard_7:
-Validation Accuracy: 10.13%
+Validation Accuracy: 10.30%
 Test Accuracy: 9.80%
 Test Loss: nan
 
 Evaluated hadamard_8:
-Validation Accuracy: 10.13%
+Validation Accuracy: 10.30%
 Test Accuracy: 9.80%
 Test Loss: nan
 
 Evaluated hadamard_9:
-Validation Accuracy: 10.13%
+Validation Accuracy: 10.30%
 Test Accuracy: 9.80%
 Test Loss: nan
 
