@@ -1,0 +1,1277 @@
+
+Training model with 1 iterations...
+
+Initial magnitudes:
+f1 weight magnitude: 0.017719987779855728
+f2 weight magnitude: 0.017747322097420692
+
+First forward pass magnitudes:
+Input magnitude: 0.12940022349357605
+f1 output magnitude: 0.14735345542430878
+f2 output magnitude: 0.14973410964012146
+hadamard output magnitude: 0.022766539826989174
+
+Iteration 1 state magnitude: 0.022766539826989174
+Iteration 1 loss: 0.1636800915002823
+
+Gradient magnitudes:
+f1 weight gradients: 6.989300345594529e-06
+f2 weight gradients: 6.655838205915643e-06
+
+Post-update weight magnitudes:
+f1 weight magnitude: 0.017699750140309334
+f2 weight magnitude: 0.01772601529955864
+Epoch [1/15], Batch [0/469], Loss: 0.1637
+Epoch [1/15], Batch [100/469], Loss: 0.0221
+Epoch [1/15], Batch [200/469], Loss: 0.0132
+Epoch [1/15], Batch [300/469], Loss: 0.0165
+Epoch [1/15], Batch [400/469], Loss: 0.0101
+Epoch [1/15], Loss: 0.0200
+Epoch [2/15], Batch [0/469], Loss: 0.0082
+Epoch [2/15], Batch [100/469], Loss: 0.0091
+Epoch [2/15], Batch [200/469], Loss: 0.0081
+Epoch [2/15], Batch [300/469], Loss: 0.0084
+Epoch [2/15], Batch [400/469], Loss: 0.0047
+Epoch [2/15], Loss: 0.0077
+Epoch [3/15], Batch [0/469], Loss: 0.0040
+Epoch [3/15], Batch [100/469], Loss: 0.0046
+Epoch [3/15], Batch [200/469], Loss: 0.0042
+Epoch [3/15], Batch [300/469], Loss: 0.0093
+Epoch [3/15], Batch [400/469], Loss: 0.0038
+Epoch [3/15], Loss: 0.0061
+Epoch [4/15], Batch [0/469], Loss: 0.0068
+Epoch [4/15], Batch [100/469], Loss: 0.0071
+Epoch [4/15], Batch [200/469], Loss: 0.0054
+Epoch [4/15], Batch [300/469], Loss: 0.0066
+Epoch [4/15], Batch [400/469], Loss: 0.0038
+Epoch [4/15], Loss: 0.0053
+Epoch [5/15], Batch [0/469], Loss: 0.0032
+Epoch [5/15], Batch [100/469], Loss: 0.0042
+Epoch [5/15], Batch [200/469], Loss: 0.0046
+Epoch [5/15], Batch [300/469], Loss: 0.0030
+Epoch [5/15], Batch [400/469], Loss: 0.0031
+Epoch [5/15], Loss: 0.0047
+Epoch [6/15], Batch [0/469], Loss: 0.0069
+Epoch [6/15], Batch [100/469], Loss: 0.0052
+Epoch [6/15], Batch [200/469], Loss: 0.0027
+Epoch [6/15], Batch [300/469], Loss: 0.0054
+Epoch [6/15], Batch [400/469], Loss: 0.0039
+Epoch [6/15], Loss: 0.0043
+Epoch [7/15], Batch [0/469], Loss: 0.0066
+Epoch [7/15], Batch [100/469], Loss: 0.0035
+Epoch [7/15], Batch [200/469], Loss: 0.0035
+Epoch [7/15], Batch [300/469], Loss: 0.0014
+Epoch [7/15], Batch [400/469], Loss: 0.0077
+Epoch [7/15], Loss: 0.0040
+Epoch [8/15], Batch [0/469], Loss: 0.0027
+Epoch [8/15], Batch [100/469], Loss: 0.0041
+Epoch [8/15], Batch [200/469], Loss: 0.0064
+Epoch [8/15], Batch [300/469], Loss: 0.0025
+Epoch [8/15], Batch [400/469], Loss: 0.0019
+Epoch [8/15], Loss: 0.0039
+Epoch [9/15], Batch [0/469], Loss: 0.0012
+Epoch [9/15], Batch [100/469], Loss: 0.0063
+Epoch [9/15], Batch [200/469], Loss: 0.0059
+Epoch [9/15], Batch [300/469], Loss: 0.0030
+Epoch [9/15], Batch [400/469], Loss: 0.0044
+Epoch [9/15], Loss: 0.0037
+Epoch [10/15], Batch [0/469], Loss: 0.0043
+Epoch [10/15], Batch [100/469], Loss: 0.0035
+Epoch [10/15], Batch [200/469], Loss: 0.0023
+Epoch [10/15], Batch [300/469], Loss: 0.0056
+Epoch [10/15], Batch [400/469], Loss: 0.0040
+Epoch [10/15], Loss: 0.0036
+Epoch [11/15], Batch [0/469], Loss: 0.0037
+Epoch [11/15], Batch [100/469], Loss: 0.0040
+Epoch [11/15], Batch [200/469], Loss: 0.0038
+Epoch [11/15], Batch [300/469], Loss: 0.0035
+Epoch [11/15], Batch [400/469], Loss: 0.0028
+Epoch [11/15], Loss: 0.0035
+Epoch [12/15], Batch [0/469], Loss: 0.0035
+Epoch [12/15], Batch [100/469], Loss: 0.0036
+Epoch [12/15], Batch [200/469], Loss: 0.0021
+Epoch [12/15], Batch [300/469], Loss: 0.0057
+Epoch [12/15], Batch [400/469], Loss: 0.0042
+Epoch [12/15], Loss: 0.0035
+Epoch [13/15], Batch [0/469], Loss: 0.0030
+Epoch [13/15], Batch [100/469], Loss: 0.0020
+Epoch [13/15], Batch [200/469], Loss: 0.0058
+Epoch [13/15], Batch [300/469], Loss: 0.0039
+Epoch [13/15], Batch [400/469], Loss: 0.0030
+Epoch [13/15], Loss: 0.0034
+Epoch [14/15], Batch [0/469], Loss: 0.0038
+Epoch [14/15], Batch [100/469], Loss: 0.0048
+Epoch [14/15], Batch [200/469], Loss: 0.0031
+Epoch [14/15], Batch [300/469], Loss: 0.0022
+Epoch [14/15], Batch [400/469], Loss: 0.0027
+Epoch [14/15], Loss: 0.0033
+Epoch [15/15], Batch [0/469], Loss: 0.0028
+Epoch [15/15], Batch [100/469], Loss: 0.0023
+Epoch [15/15], Batch [200/469], Loss: 0.0012
+Epoch [15/15], Batch [300/469], Loss: 0.0035
+Epoch [15/15], Batch [400/469], Loss: 0.0025
+Epoch [15/15], Loss: 0.0032
+Saved models as f1_hadamard_1.pth and f2_hadamard_1.pth
+
+Training model with 2 iterations...
+
+Initial magnitudes:
+f1 weight magnitude: 0.01775972731411457
+f2 weight magnitude: 0.017742998898029327
+
+First forward pass magnitudes:
+Input magnitude: 0.13002385199069977
+f1 output magnitude: 0.14991052448749542
+f2 output magnitude: 0.1493777185678482
+hadamard output magnitude: 0.02288680151104927
+
+Iteration 1 state magnitude: 0.02288680151104927
+Iteration 1 loss: 0.16433708369731903
+
+Iteration 2 state magnitude: 0.0005815781187266111
+Iteration 2 loss: 0.16257646679878235
+
+Gradient magnitudes:
+f1 weight gradients: 6.78926562613924e-06
+f2 weight gradients: 6.8724752964044455e-06
+
+Post-update weight magnitudes:
+f1 weight magnitude: 0.017744874581694603
+f2 weight magnitude: 0.017727360129356384
+Epoch [1/15], Batch [0/469], Loss: 0.3269
+Epoch [1/15], Batch [100/469], Loss: 0.0642
+Epoch [1/15], Batch [200/469], Loss: 0.0462
+Epoch [1/15], Batch [300/469], Loss: 0.0342
+Epoch [1/15], Batch [400/469], Loss: 0.0310
+Epoch [1/15], Loss: 0.0583
+Epoch [2/15], Batch [0/469], Loss: 0.0328
+Epoch [2/15], Batch [100/469], Loss: 0.0230
+Epoch [2/15], Batch [200/469], Loss: 0.0279
+Epoch [2/15], Batch [300/469], Loss: 0.0233
+Epoch [2/15], Batch [400/469], Loss: 0.0238
+Epoch [2/15], Loss: 0.0256
+Epoch [3/15], Batch [0/469], Loss: 0.0193
+Epoch [3/15], Batch [100/469], Loss: 0.0226
+Epoch [3/15], Batch [200/469], Loss: 0.0207
+Epoch [3/15], Batch [300/469], Loss: 0.0193
+Epoch [3/15], Batch [400/469], Loss: 0.0191
+Epoch [3/15], Loss: 0.0204
+Epoch [4/15], Batch [0/469], Loss: 0.0191
+Epoch [4/15], Batch [100/469], Loss: 0.0197
+Epoch [4/15], Batch [200/469], Loss: 0.0126
+Epoch [4/15], Batch [300/469], Loss: 0.0240
+Epoch [4/15], Batch [400/469], Loss: 0.0166
+Epoch [4/15], Loss: 0.0175
+Epoch [5/15], Batch [0/469], Loss: 0.0130
+Epoch [5/15], Batch [100/469], Loss: 0.0185
+Epoch [5/15], Batch [200/469], Loss: 0.0170
+Epoch [5/15], Batch [300/469], Loss: 0.0155
+Epoch [5/15], Batch [400/469], Loss: 0.0148
+Epoch [5/15], Loss: 0.0154
+Epoch [6/15], Batch [0/469], Loss: 0.0123
+Epoch [6/15], Batch [100/469], Loss: 0.0146
+Epoch [6/15], Batch [200/469], Loss: 0.0146
+Epoch [6/15], Batch [300/469], Loss: 0.0120
+Epoch [6/15], Batch [400/469], Loss: 0.0169
+Epoch [6/15], Loss: 0.0149
+Epoch [7/15], Batch [0/469], Loss: 0.0171
+Epoch [7/15], Batch [100/469], Loss: 0.0145
+Epoch [7/15], Batch [200/469], Loss: 0.0145
+Epoch [7/15], Batch [300/469], Loss: 0.0192
+Epoch [7/15], Batch [400/469], Loss: 0.0134
+Epoch [7/15], Loss: 0.0147
+Epoch [8/15], Batch [0/469], Loss: 0.0128
+Epoch [8/15], Batch [100/469], Loss: 0.0133
+Epoch [8/15], Batch [200/469], Loss: 0.0112
+Epoch [8/15], Batch [300/469], Loss: 0.0131
+Epoch [8/15], Batch [400/469], Loss: 0.0113
+Epoch [8/15], Loss: 0.0131
+Epoch [9/15], Batch [0/469], Loss: 0.0108
+Epoch [9/15], Batch [100/469], Loss: 0.0105
+Epoch [9/15], Batch [200/469], Loss: 0.0121
+Epoch [9/15], Batch [300/469], Loss: 0.0123
+Epoch [9/15], Batch [400/469], Loss: 0.0138
+Epoch [9/15], Loss: 0.0127
+Epoch [10/15], Batch [0/469], Loss: 0.0123
+Epoch [10/15], Batch [100/469], Loss: 0.0088
+Epoch [10/15], Batch [200/469], Loss: 0.0131
+Epoch [10/15], Batch [300/469], Loss: 0.0137
+Epoch [10/15], Batch [400/469], Loss: 0.0138
+Epoch [10/15], Loss: 0.0130
+Epoch [11/15], Batch [0/469], Loss: 0.0210
+Epoch [11/15], Batch [100/469], Loss: 0.0162
+Epoch [11/15], Batch [200/469], Loss: 0.0145
+Epoch [11/15], Batch [300/469], Loss: 0.0123
+Epoch [11/15], Batch [400/469], Loss: 0.0113
+Epoch [11/15], Loss: 0.0133
+Epoch [12/15], Batch [0/469], Loss: 0.0097
+Epoch [12/15], Batch [100/469], Loss: 0.0131
+Epoch [12/15], Batch [200/469], Loss: 0.0134
+Epoch [12/15], Batch [300/469], Loss: 0.0151
+Epoch [12/15], Batch [400/469], Loss: 0.0161
+Epoch [12/15], Loss: 0.0121
+Epoch [13/15], Batch [0/469], Loss: 0.0134
+Epoch [13/15], Batch [100/469], Loss: 0.0111
+Epoch [13/15], Batch [200/469], Loss: 0.0129
+Epoch [13/15], Batch [300/469], Loss: 0.0139
+Epoch [13/15], Batch [400/469], Loss: 0.0135
+Epoch [13/15], Loss: 0.0130
+Epoch [14/15], Batch [0/469], Loss: 0.0094
+Epoch [14/15], Batch [100/469], Loss: 0.0066
+Epoch [14/15], Batch [200/469], Loss: 0.0128
+Epoch [14/15], Batch [300/469], Loss: 0.0102
+Epoch [14/15], Batch [400/469], Loss: 0.0123
+Epoch [14/15], Loss: 0.0111
+Epoch [15/15], Batch [0/469], Loss: 0.0109
+Epoch [15/15], Batch [100/469], Loss: 0.0122
+Epoch [15/15], Batch [200/469], Loss: 0.0107
+Epoch [15/15], Batch [300/469], Loss: 0.0117
+Epoch [15/15], Batch [400/469], Loss: 0.0106
+Epoch [15/15], Loss: 0.0122
+Saved models as f1_hadamard_2.pth and f2_hadamard_2.pth
+
+Training model with 3 iterations...
+
+Initial magnitudes:
+f1 weight magnitude: 0.017728770151734352
+f2 weight magnitude: 0.01774897612631321
+
+First forward pass magnitudes:
+Input magnitude: 0.12736940383911133
+f1 output magnitude: 0.15064947307109833
+f2 output magnitude: 0.15024586021900177
+hadamard output magnitude: 0.02322978340089321
+
+Iteration 1 state magnitude: 0.02322978340089321
+Iteration 1 loss: 0.1617717146873474
+
+Iteration 2 state magnitude: 0.0006035358528606594
+Iteration 2 loss: 0.16033752262592316
+
+Iteration 3 state magnitude: 0.000309699127683416
+Iteration 3 loss: 0.16033653914928436
+
+Gradient magnitudes:
+f1 weight gradients: 6.9716188590973616e-06
+f2 weight gradients: 6.934095836186316e-06
+
+Post-update weight magnitudes:
+f1 weight magnitude: 0.0177130326628685
+f2 weight magnitude: 0.017734240740537643
+Epoch [1/15], Batch [0/469], Loss: 0.4824
+Epoch [1/15], Batch [100/469], Loss: 0.2921
+Epoch [1/15], Batch [200/469], Loss: 0.1828
+Epoch [1/15], Batch [300/469], Loss: 0.1302
+Epoch [1/15], Batch [400/469], Loss: 0.0964
+Epoch [1/15], Loss: 0.2074
+Epoch [2/15], Batch [0/469], Loss: 0.1002
+Epoch [2/15], Batch [100/469], Loss: 0.0701
+Epoch [2/15], Batch [200/469], Loss: 0.0734
+Epoch [2/15], Batch [300/469], Loss: 0.0631
+Epoch [2/15], Batch [400/469], Loss: 0.0583
+Epoch [2/15], Loss: 0.0708
+Epoch [3/15], Batch [0/469], Loss: 0.0554
+Epoch [3/15], Batch [100/469], Loss: 0.0552
+Epoch [3/15], Batch [200/469], Loss: 0.0521
+Epoch [3/15], Batch [300/469], Loss: 0.0482
+Epoch [3/15], Batch [400/469], Loss: 0.0469
+Epoch [3/15], Loss: 0.0518
+Epoch [4/15], Batch [0/469], Loss: 0.0467
+Epoch [4/15], Batch [100/469], Loss: 0.0462
+Epoch [4/15], Batch [200/469], Loss: 0.0467
+Epoch [4/15], Batch [300/469], Loss: 0.0429
+Epoch [4/15], Batch [400/469], Loss: 0.0482
+Epoch [4/15], Loss: 0.0449
+Epoch [5/15], Batch [0/469], Loss: 0.0402
+Epoch [5/15], Batch [100/469], Loss: 0.0370
+Epoch [5/15], Batch [200/469], Loss: 0.0408
+Epoch [5/15], Batch [300/469], Loss: 0.0427
+Epoch [5/15], Batch [400/469], Loss: 0.0398
+Epoch [5/15], Loss: 0.0414
+Epoch [6/15], Batch [0/469], Loss: 0.0376
+Epoch [6/15], Batch [100/469], Loss: 0.0399
+Epoch [6/15], Batch [200/469], Loss: 0.0431
+Epoch [6/15], Batch [300/469], Loss: 0.0372
+Epoch [6/15], Batch [400/469], Loss: 0.0392
+Epoch [6/15], Loss: 0.0387
+Epoch [7/15], Batch [0/469], Loss: 0.0356
+Epoch [7/15], Batch [100/469], Loss: 0.0436
+Epoch [7/15], Batch [200/469], Loss: 0.0317
+Epoch [7/15], Batch [300/469], Loss: 0.0389
+Epoch [7/15], Batch [400/469], Loss: 0.0331
+Epoch [7/15], Loss: 0.0371
+Epoch [8/15], Batch [0/469], Loss: 0.0380
+Epoch [8/15], Batch [100/469], Loss: 0.0371
+Epoch [8/15], Batch [200/469], Loss: 0.0394
+Epoch [8/15], Batch [300/469], Loss: 0.0298
+Epoch [8/15], Batch [400/469], Loss: 0.0341
+Epoch [8/15], Loss: 0.0354
+Epoch [9/15], Batch [0/469], Loss: 0.0413
+Epoch [9/15], Batch [100/469], Loss: 0.0322
+Epoch [9/15], Batch [200/469], Loss: 0.0329
+Epoch [9/15], Batch [300/469], Loss: 0.0327
+Epoch [9/15], Batch [400/469], Loss: 0.0399
+Epoch [9/15], Loss: 0.0350
+Epoch [10/15], Batch [0/469], Loss: 0.0400
+Epoch [10/15], Batch [100/469], Loss: 0.0265
+Epoch [10/15], Batch [200/469], Loss: 0.0336
+Epoch [10/15], Batch [300/469], Loss: 0.0334
+Epoch [10/15], Batch [400/469], Loss: 0.0318
+Epoch [10/15], Loss: 0.0332
+Epoch [11/15], Batch [0/469], Loss: 0.0304
+Epoch [11/15], Batch [100/469], Loss: 0.0292
+Epoch [11/15], Batch [200/469], Loss: 0.0308
+Epoch [11/15], Batch [300/469], Loss: 0.0335
+Epoch [11/15], Batch [400/469], Loss: 0.0310
+Epoch [11/15], Loss: 0.0342
+Epoch [12/15], Batch [0/469], Loss: 0.0322
+Epoch [12/15], Batch [100/469], Loss: 0.0311
+Epoch [12/15], Batch [200/469], Loss: 0.0318
+Epoch [12/15], Batch [300/469], Loss: 0.0507
+Epoch [12/15], Batch [400/469], Loss: 0.0407
+Epoch [12/15], Loss: 0.0329
+Epoch [13/15], Batch [0/469], Loss: 0.0417
+Epoch [13/15], Batch [100/469], Loss: 0.0363
+Epoch [13/15], Batch [200/469], Loss: 0.0436
+Epoch [13/15], Batch [300/469], Loss: 0.0278
+Epoch [13/15], Batch [400/469], Loss: 0.0352
+Epoch [13/15], Loss: 0.0318
+Epoch [14/15], Batch [0/469], Loss: 0.0328
+Epoch [14/15], Batch [100/469], Loss: 0.0280
+Epoch [14/15], Batch [200/469], Loss: 0.0325
+Epoch [14/15], Batch [300/469], Loss: 0.0321
+Epoch [14/15], Batch [400/469], Loss: 0.0294
+Epoch [14/15], Loss: 0.0308
+Epoch [15/15], Batch [0/469], Loss: 0.0275
+Epoch [15/15], Batch [100/469], Loss: 0.0267
+Epoch [15/15], Batch [200/469], Loss: 0.0334
+Epoch [15/15], Batch [300/469], Loss: 0.0286
+Epoch [15/15], Batch [400/469], Loss: 0.0385
+Epoch [15/15], Loss: 0.0307
+Saved models as f1_hadamard_3.pth and f2_hadamard_3.pth
+
+Training model with 4 iterations...
+
+Initial magnitudes:
+f1 weight magnitude: 0.017741480842232704
+f2 weight magnitude: 0.017743302509188652
+
+First forward pass magnitudes:
+Input magnitude: 0.1325310468673706
+f1 output magnitude: 0.15294723212718964
+f2 output magnitude: 0.153315469622612
+hadamard output magnitude: 0.02396959252655506
+
+Iteration 1 state magnitude: 0.02396959252655506
+Iteration 1 loss: 0.16679009795188904
+
+Iteration 2 state magnitude: 0.0006100382888689637
+Iteration 2 loss: 0.1650286763906479
+
+Iteration 3 state magnitude: 0.000325335975503549
+Iteration 3 loss: 0.16501818597316742
+
+Iteration 4 state magnitude: 0.00032525425194762647
+Iteration 4 loss: 0.16501811146736145
+
+Gradient magnitudes:
+f1 weight gradients: 7.100601123966044e-06
+f2 weight gradients: 7.1008985287335236e-06
+
+Post-update weight magnitudes:
+f1 weight magnitude: 0.017726058140397072
+f2 weight magnitude: 0.017726559191942215
+Epoch [1/15], Batch [0/469], Loss: 0.6619
+Epoch [1/15], Batch [100/469], Loss: 0.6861
+Epoch [1/15], Batch [200/469], Loss: 0.6236
+Epoch [1/15], Batch [300/469], Loss: 0.6279
+Epoch [1/15], Batch [400/469], Loss: 0.6074
+Epoch [1/15], Loss: 566759260160.0000
+Epoch [2/15], Batch [0/469], Loss: 919726.0000
+Epoch [2/15], Batch [100/469], Loss: 283551026462588928.0000
+Epoch [2/15], Batch [200/469], Loss: 1084110546141184.0000
+Epoch [2/15], Batch [300/469], Loss: 220053611483234304.0000
+Epoch [2/15], Batch [400/469], Loss: 240979625902080.0000
+Epoch [2/15], Loss: 19901941116001320960.0000
+Epoch [3/15], Batch [0/469], Loss: 497614843805696.0000
+Epoch [3/15], Batch [100/469], Loss: 1374221896777728.0000
+Epoch [3/15], Batch [200/469], Loss: 18526221172211712.0000
+Epoch [3/15], Batch [300/469], Loss: 53323705090048.0000
+Epoch [3/15], Batch [400/469], Loss: 3899683739009024.0000
+Epoch [3/15], Loss: 9776612581048320.0000
+Epoch [4/15], Batch [0/469], Loss: 7543638196224.0000
+Epoch [4/15], Batch [100/469], Loss: 93689015697408.0000
+Epoch [4/15], Batch [200/469], Loss: 10959453159424.0000
+Epoch [4/15], Batch [300/469], Loss: 909956937154560.0000
+Epoch [4/15], Batch [400/469], Loss: 359779444719616.0000
+Epoch [4/15], Loss: 4786860773605376.0000
+Epoch [5/15], Batch [0/469], Loss: 22052977246208.0000
+Epoch [5/15], Batch [100/469], Loss: 564729210732544.0000
+Epoch [5/15], Batch [200/469], Loss: 497182595612672.0000
+Epoch [5/15], Batch [300/469], Loss: 194198305243136.0000
+Epoch [5/15], Batch [400/469], Loss: 324720633315328.0000
+Epoch [5/15], Loss: 2781846022651904.0000
+Epoch [6/15], Batch [0/469], Loss: 17036611682304.0000
+Epoch [6/15], Batch [100/469], Loss: 21307108360192.0000
+Epoch [6/15], Batch [200/469], Loss: 3319366156288.0000
+Epoch [6/15], Batch [300/469], Loss: 2167239692255232.0000
+Epoch [6/15], Batch [400/469], Loss: 9808728031232.0000
+Epoch [6/15], Loss: 1823936379617280.0000
+Epoch [7/15], Batch [0/469], Loss: 27694746042368.0000
+Epoch [7/15], Batch [100/469], Loss: 3981854375936.0000
+Epoch [7/15], Batch [200/469], Loss: 1365716250918912.0000
+Epoch [7/15], Batch [300/469], Loss: 1369047803363328.0000
+Epoch [7/15], Batch [400/469], Loss: 1576224275038208.0000
+Epoch [7/15], Loss: 1416445988700160.0000
+Epoch [8/15], Batch [0/469], Loss: 74742992207872.0000
+Epoch [8/15], Batch [100/469], Loss: 33741160316928.0000
+Epoch [8/15], Batch [200/469], Loss: 214790559498240.0000
+Epoch [8/15], Batch [300/469], Loss: 2045187861774336.0000
+Epoch [8/15], Batch [400/469], Loss: 1681980194291712.0000
+Epoch [8/15], Loss: 985385085698048.0000
+Epoch [9/15], Batch [0/469], Loss: 36563576684544.0000
+Epoch [9/15], Batch [100/469], Loss: 1278651531264.0000
+Epoch [9/15], Batch [200/469], Loss: 188858905919488.0000
+Epoch [9/15], Batch [300/469], Loss: 101879040180224.0000
+Epoch [9/15], Batch [400/469], Loss: 32689654595584.0000
+Epoch [9/15], Loss: 744148516732928.0000
+Epoch [10/15], Batch [0/469], Loss: 5675779883008.0000
+Epoch [10/15], Batch [100/469], Loss: 343681370423296.0000
+Epoch [10/15], Batch [200/469], Loss: 758381674496.0000
+Epoch [10/15], Batch [300/469], Loss: 993319769341952.0000
+Epoch [10/15], Batch [400/469], Loss: 8171733647360.0000
+Epoch [10/15], Loss: 608053753806848.0000
+Epoch [11/15], Batch [0/469], Loss: 22974958665728.0000
+Epoch [11/15], Batch [100/469], Loss: 1031832204214272.0000
+Epoch [11/15], Batch [200/469], Loss: 2192264050769920.0000
+Epoch [11/15], Batch [300/469], Loss: 996437262336.0000
+Epoch [11/15], Batch [400/469], Loss: 2765889732608.0000
+Epoch [11/15], Loss: 437902920122368.0000
+Epoch [12/15], Batch [0/469], Loss: 18125384843264.0000
+Epoch [12/15], Batch [100/469], Loss: 12205064978432.0000
+Epoch [12/15], Batch [200/469], Loss: 1071152168960.0000
+Epoch [12/15], Batch [300/469], Loss: 67131794259968.0000
+Epoch [12/15], Batch [400/469], Loss: 3118219395072.0000
+Epoch [12/15], Loss: 369868524224512.0000
+Epoch [13/15], Batch [0/469], Loss: 3146418487296.0000
+Epoch [13/15], Batch [100/469], Loss: 1147427225600.0000
+Epoch [13/15], Batch [200/469], Loss: 429961458483200.0000
+Epoch [13/15], Batch [300/469], Loss: 11500591775744.0000
+Epoch [13/15], Batch [400/469], Loss: 9256767062016.0000
+Epoch [13/15], Loss: 307644212445184.0000
+Epoch [14/15], Batch [0/469], Loss: 1537268908032.0000
+Epoch [14/15], Batch [100/469], Loss: 496062922752.0000
+Epoch [14/15], Batch [200/469], Loss: 733682663424.0000
+Epoch [14/15], Batch [300/469], Loss: 42474995187712.0000
+Epoch [14/15], Batch [400/469], Loss: 1491166691328.0000
+Epoch [14/15], Loss: 204127497879552.0000
+Epoch [15/15], Batch [0/469], Loss: 119158431809536.0000
+Epoch [15/15], Batch [100/469], Loss: 8441296322560.0000
+Epoch [15/15], Batch [200/469], Loss: 547508136706048.0000
+Epoch [15/15], Batch [300/469], Loss: 36212094009344.0000
+Epoch [15/15], Batch [400/469], Loss: 43907526164480.0000
+Epoch [15/15], Loss: 241958157025280.0000
+Saved models as f1_hadamard_4.pth and f2_hadamard_4.pth
+
+Training model with 5 iterations...
+
+Initial magnitudes:
+f1 weight magnitude: 0.017743222415447235
+f2 weight magnitude: 0.01773134246468544
+
+First forward pass magnitudes:
+Input magnitude: 0.12437640875577927
+f1 output magnitude: 0.14660918712615967
+f2 output magnitude: 0.1502787321805954
+hadamard output magnitude: 0.02252691052854061
+
+Iteration 1 state magnitude: 0.02252691052854061
+Iteration 1 loss: 0.15888598561286926
+
+Iteration 2 state magnitude: 0.0005825900589115918
+Iteration 2 loss: 0.157455712556839
+
+Iteration 3 state magnitude: 0.00032174409716390073
+Iteration 3 loss: 0.15745671093463898
+
+Iteration 4 state magnitude: 0.00032169430050998926
+Iteration 4 loss: 0.15745671093463898
+
+Iteration 5 state magnitude: 0.0003216981131117791
+Iteration 5 loss: 0.15745669603347778
+
+Gradient magnitudes:
+f1 weight gradients: 6.334041245281696e-06
+f2 weight gradients: 6.080138064135099e-06
+
+Post-update weight magnitudes:
+f1 weight magnitude: 0.017727993428707123
+f2 weight magnitude: 0.01771698147058487
+Epoch [1/15], Batch [0/469], Loss: 0.7887
+Epoch [1/15], Batch [100/469], Loss: 21055562.0000
+Epoch [1/15], Batch [200/469], Loss: 29393884.0000
+Epoch [1/15], Batch [300/469], Loss: 144447760.0000
+Epoch [1/15], Batch [400/469], Loss: 628631.6250
+Epoch [1/15], Loss: 1676194068037632.0000
+Epoch [2/15], Batch [0/469], Loss: 1856.6400
+Epoch [2/15], Batch [100/469], Loss: 572170.5000
+Epoch [2/15], Batch [200/469], Loss: 14189548.0000
+Epoch [2/15], Batch [300/469], Loss: 163381.8281
+Epoch [2/15], Batch [400/469], Loss: 9299851.0000
+Epoch [2/15], Loss: 69720023040.0000
+Epoch [3/15], Batch [0/469], Loss: 20896362496.0000
+Epoch [3/15], Batch [100/469], Loss: 1084478.7500
+Epoch [3/15], Batch [200/469], Loss: 10351.3398
+Epoch [3/15], Batch [300/469], Loss: 1421.2598
+Epoch [3/15], Batch [400/469], Loss: 155608.5625
+Epoch [3/15], Loss: 25980424192.0000
+Epoch [4/15], Batch [0/469], Loss: 16.2390
+Epoch [4/15], Batch [100/469], Loss: 11427.7607
+Epoch [4/15], Batch [200/469], Loss: 33470.2734
+Epoch [4/15], Batch [300/469], Loss: 60.8718
+Epoch [4/15], Batch [400/469], Loss: 647.6776
+Epoch [4/15], Loss: 16437159936.0000
+Epoch [5/15], Batch [0/469], Loss: 27.7366
+Epoch [5/15], Batch [100/469], Loss: 697959680.0000
+Epoch [5/15], Batch [200/469], Loss: 121504243712.0000
+Epoch [5/15], Batch [300/469], Loss: 4973468.5000
+Epoch [5/15], Batch [400/469], Loss: 110217904.0000
+Epoch [5/15], Loss: 10810787840.0000
+Epoch [6/15], Batch [0/469], Loss: 1191797.1250
+Epoch [6/15], Batch [100/469], Loss: 5.6432
+Epoch [6/15], Batch [200/469], Loss: 657840.5000
+Epoch [6/15], Batch [300/469], Loss: 1633256.8750
+Epoch [6/15], Batch [400/469], Loss: 137.0566
+Epoch [6/15], Loss: 7478671872.0000
+Epoch [7/15], Batch [0/469], Loss: 425528.9375
+Epoch [7/15], Batch [100/469], Loss: 43218.6055
+Epoch [7/15], Batch [200/469], Loss: 901014.7500
+Epoch [7/15], Batch [300/469], Loss: 408.7904
+Epoch [7/15], Batch [400/469], Loss: 1228744.8750
+Epoch [7/15], Loss: 5388667392.0000
+Epoch [8/15], Batch [0/469], Loss: 401.3614
+Epoch [8/15], Batch [100/469], Loss: 173746.6094
+Epoch [8/15], Batch [200/469], Loss: 1.1891
+Epoch [8/15], Batch [300/469], Loss: 1.3538
+Epoch [8/15], Batch [400/469], Loss: 7104.9492
+Epoch [8/15], Loss: 3900787712.0000
+Epoch [9/15], Batch [0/469], Loss: 1954156.1250
+Epoch [9/15], Batch [100/469], Loss: 490.4155
+Epoch [9/15], Batch [200/469], Loss: 297.3120
+Epoch [9/15], Batch [300/469], Loss: 630833.5000
+Epoch [9/15], Batch [400/469], Loss: 112.2549
+Epoch [9/15], Loss: 2903322112.0000
+Epoch [10/15], Batch [0/469], Loss: 12890787.0000
+Epoch [10/15], Batch [100/469], Loss: 79786744.0000
+Epoch [10/15], Batch [200/469], Loss: 752340.6250
+Epoch [10/15], Batch [300/469], Loss: 17282026.0000
+Epoch [10/15], Batch [400/469], Loss: 628807104.0000
+Epoch [10/15], Loss: 2251995648.0000
+Epoch [11/15], Batch [0/469], Loss: 4149577728.0000
+Epoch [11/15], Batch [100/469], Loss: 12845443.0000
+Epoch [11/15], Batch [200/469], Loss: 26.8899
+Epoch [11/15], Batch [300/469], Loss: 0.9897
+Epoch [11/15], Batch [400/469], Loss: 2069106.2500
+Epoch [11/15], Loss: 1765474944.0000
+Epoch [12/15], Batch [0/469], Loss: 3079.6201
+Epoch [12/15], Batch [100/469], Loss: 468856608.0000
+Epoch [12/15], Batch [200/469], Loss: 539771.5625
+Epoch [12/15], Batch [300/469], Loss: 78456348672.0000
+Epoch [12/15], Batch [400/469], Loss: 7382.6758
+Epoch [12/15], Loss: 1421132928.0000
+Epoch [13/15], Batch [0/469], Loss: 152120528.0000
+Epoch [13/15], Batch [100/469], Loss: 871.2431
+Epoch [13/15], Batch [200/469], Loss: 11252920.0000
+Epoch [13/15], Batch [300/469], Loss: 1452877.2500
+Epoch [13/15], Batch [400/469], Loss: 4437692.0000
+Epoch [13/15], Loss: 1134729984.0000
+Epoch [14/15], Batch [0/469], Loss: 1631788.7500
+Epoch [14/15], Batch [100/469], Loss: 130297056.0000
+Epoch [14/15], Batch [200/469], Loss: 468372.9688
+Epoch [14/15], Batch [300/469], Loss: 2.3815
+Epoch [14/15], Batch [400/469], Loss: 224201.5625
+Epoch [14/15], Loss: 936273472.0000
+Epoch [15/15], Batch [0/469], Loss: 438649.7188
+Epoch [15/15], Batch [100/469], Loss: 364801.1250
+Epoch [15/15], Batch [200/469], Loss: 48870.7148
+Epoch [15/15], Batch [300/469], Loss: 67309.3750
+Epoch [15/15], Batch [400/469], Loss: 75.7525
+Epoch [15/15], Loss: 782792512.0000
+Saved models as f1_hadamard_5.pth and f2_hadamard_5.pth
+
+Training model with 6 iterations...
+
+Initial magnitudes:
+f1 weight magnitude: 0.017752833664417267
+f2 weight magnitude: 0.017758551985025406
+
+First forward pass magnitudes:
+Input magnitude: 0.13946397602558136
+f1 output magnitude: 0.16053177416324615
+f2 output magnitude: 0.15813547372817993
+hadamard output magnitude: 0.026244772598147392
+
+Iteration 1 state magnitude: 0.026244772598147392
+Iteration 1 loss: 0.17445853352546692
+
+Iteration 2 state magnitude: 0.0006852345541119576
+Iteration 2 loss: 0.17184984683990479
+
+Iteration 3 state magnitude: 0.0003143609792459756
+Iteration 3 loss: 0.17183497548103333
+
+Iteration 4 state magnitude: 0.0003138959873467684
+Iteration 4 loss: 0.17183509469032288
+
+Iteration 5 state magnitude: 0.0003138958418276161
+Iteration 5 loss: 0.17183509469032288
+
+Iteration 6 state magnitude: 0.0003138957545161247
+Iteration 6 loss: 0.17183509469032288
+
+Gradient magnitudes:
+f1 weight gradients: 8.804019671515562e-06
+f2 weight gradients: 9.084402336156927e-06
+
+Post-update weight magnitudes:
+f1 weight magnitude: 0.017739027738571167
+f2 weight magnitude: 0.017740853130817413
+Epoch [1/15], Batch [0/469], Loss: 1.0336
+Epoch [1/15], Batch [100/469], Loss: 196764409271511777458257920.0000
+Epoch [1/15], Batch [200/469], Loss: 3774334835935135399936.0000
+Epoch [1/15], Batch [300/469], Loss: 26293.3965
+Epoch [1/15], Batch [400/469], Loss: 19152476607113854976.0000
+Epoch [1/15], Loss: inf
+Epoch [2/15], Batch [0/469], Loss: 249329467392.0000
+Epoch [2/15], Batch [100/469], Loss: 3668007452672.0000
+Epoch [2/15], Batch [200/469], Loss: 100696380555776511349461352448.0000
+Epoch [2/15], Batch [300/469], Loss: 19439217016832.0000
+Epoch [2/15], Batch [400/469], Loss: 105450607476736.0000
+Epoch [2/15], Loss: inf
+Epoch [3/15], Batch [0/469], Loss: 499860742602752.0000
+Epoch [3/15], Batch [100/469], Loss: 114822184960.0000
+Epoch [3/15], Batch [200/469], Loss: 204685189316608.0000
+Epoch [3/15], Batch [300/469], Loss: 7212121980928.0000
+Epoch [3/15], Batch [400/469], Loss: 14580104754596723399065600.0000
+Epoch [3/15], Loss: inf
+Epoch [4/15], Batch [0/469], Loss: 147307413928673280.0000
+Epoch [4/15], Batch [100/469], Loss: 290775760896.0000
+Epoch [4/15], Batch [200/469], Loss: 4790230099754584375296.0000
+Epoch [4/15], Batch [300/469], Loss: 33236.0859
+Epoch [4/15], Batch [400/469], Loss: 50328730138582196420608.0000
+Epoch [4/15], Loss: inf
+Epoch [5/15], Batch [0/469], Loss: 3948601537462272.0000
+Epoch [5/15], Batch [100/469], Loss: 13588035278995456.0000
+Epoch [5/15], Batch [200/469], Loss: 1628917483962368.0000
+Epoch [5/15], Batch [300/469], Loss: 285685537126279069097263104.0000
+Epoch [5/15], Batch [400/469], Loss: 9895858176.0000
+Epoch [5/15], Loss: inf
+Epoch [6/15], Batch [0/469], Loss: 101020935913472.0000
+Epoch [6/15], Batch [100/469], Loss: 247954308543496520288174080.0000
+Epoch [6/15], Batch [200/469], Loss: 21114189250560.0000
+Epoch [6/15], Batch [300/469], Loss: 4216650727424.0000
+Epoch [6/15], Batch [400/469], Loss: 25139246242369439268864.0000
+Epoch [6/15], Loss: inf
+Epoch [7/15], Batch [0/469], Loss: 12745773938638848.0000
+Epoch [7/15], Batch [100/469], Loss: 783308620282504151040.0000
+Epoch [7/15], Batch [200/469], Loss: 519047348224.0000
+Epoch [7/15], Batch [300/469], Loss: 2827677187707340423430144.0000
+Epoch [7/15], Batch [400/469], Loss: 9114150400042205184.0000
+Epoch [7/15], Loss: inf
+Epoch [8/15], Batch [0/469], Loss: 7720843218010505216.0000
+Epoch [8/15], Batch [100/469], Loss: 1119729850777600.0000
+Epoch [8/15], Batch [200/469], Loss: 10501214892328783867543552.0000
+Epoch [8/15], Batch [300/469], Loss: 3081597878272.0000
+Epoch [8/15], Batch [400/469], Loss: 308215209746287198029742080.0000
+Epoch [8/15], Loss: inf
+Epoch [9/15], Batch [0/469], Loss: 2758103175004160.0000
+Epoch [9/15], Batch [100/469], Loss: 237334239065491536934422446080.0000
+Epoch [9/15], Batch [200/469], Loss: 6687289643517345792.0000
+Epoch [9/15], Batch [300/469], Loss: 28034990996974443954176.0000
+Epoch [9/15], Batch [400/469], Loss: 129283506292878475264.0000
+Epoch [9/15], Loss: inf
+Epoch [10/15], Batch [0/469], Loss: 14621053838002487296.0000
+Epoch [10/15], Batch [100/469], Loss: 260203204862856694494920704.0000
+Epoch [10/15], Batch [200/469], Loss: 2944771931346306295898730135552.0000
+Epoch [10/15], Batch [300/469], Loss: 2133412235626676224.0000
+Epoch [10/15], Batch [400/469], Loss: 999647508098394311622656.0000
+Epoch [10/15], Loss: inf
+Epoch [11/15], Batch [0/469], Loss: 21751428078895104.0000
+Epoch [11/15], Batch [100/469], Loss: 386418864033959828783104.0000
+Epoch [11/15], Batch [200/469], Loss: 2731113971712.0000
+Epoch [11/15], Batch [300/469], Loss: 56195398236371901480960.0000
+Epoch [11/15], Batch [400/469], Loss: 3489805772410575675981824.0000
+Epoch [11/15], Loss: inf
+Epoch [12/15], Batch [0/469], Loss: 27914150411772838805504.0000
+Epoch [12/15], Batch [100/469], Loss: 830417900929024.0000
+Epoch [12/15], Batch [200/469], Loss: 93299761152.0000
+Epoch [12/15], Batch [300/469], Loss: 71537478598656.0000
+Epoch [12/15], Batch [400/469], Loss: 14998981856824695424899289710592.0000
+Epoch [12/15], Loss: inf
+Epoch [13/15], Batch [0/469], Loss: 1504883148117245952.0000
+Epoch [13/15], Batch [100/469], Loss: 3439728359380188208790765568.0000
+Epoch [13/15], Batch [200/469], Loss: 489806692352.0000
+Epoch [13/15], Batch [300/469], Loss: 23955542634309514952704.0000
+Epoch [13/15], Batch [400/469], Loss: 1699837005082394624.0000
+Epoch [13/15], Loss: inf
+Epoch [14/15], Batch [0/469], Loss: 442231063696204122453704704.0000
+Epoch [14/15], Batch [100/469], Loss: 120636.8203
+Epoch [14/15], Batch [200/469], Loss: 529243015722565632.0000
+Epoch [14/15], Batch [300/469], Loss: 17689106894892826624.0000
+Epoch [14/15], Batch [400/469], Loss: 681667723264.0000
+Epoch [14/15], Loss: inf
+Epoch [15/15], Batch [0/469], Loss: 273100.5625
+Epoch [15/15], Batch [100/469], Loss: 14548219904.0000
+Epoch [15/15], Batch [200/469], Loss: 168508479909398655803588608.0000
+Epoch [15/15], Batch [300/469], Loss: 181466.5312
+Epoch [15/15], Batch [400/469], Loss: 1240844739700045884948480.0000
+Epoch [15/15], Loss: inf
+Saved models as f1_hadamard_6.pth and f2_hadamard_6.pth
+
+Training model with 7 iterations...
+
+Initial magnitudes:
+f1 weight magnitude: 0.01775691658258438
+f2 weight magnitude: 0.017747972160577774
+
+First forward pass magnitudes:
+Input magnitude: 0.1275382936000824
+f1 output magnitude: 0.14738678932189941
+f2 output magnitude: 0.15512728691101074
+hadamard output magnitude: 0.023456403985619545
+
+Iteration 1 state magnitude: 0.023456403985619545
+Iteration 1 loss: 0.1619253307580948
+
+Iteration 2 state magnitude: 0.0006111502880230546
+Iteration 2 loss: 0.16052773594856262
+
+Iteration 3 state magnitude: 0.00033021895796991885
+Iteration 3 loss: 0.1605246663093567
+
+Iteration 4 state magnitude: 0.0003302024269942194
+Iteration 4 loss: 0.1605246663093567
+
+Iteration 5 state magnitude: 0.0003302068798802793
+Iteration 5 loss: 0.1605246663093567
+
+Iteration 6 state magnitude: 0.0003302068798802793
+Iteration 6 loss: 0.1605246663093567
+
+Iteration 7 state magnitude: 0.0003302068798802793
+Iteration 7 loss: 0.1605246663093567
+
+Gradient magnitudes:
+f1 weight gradients: 7.2251118581334595e-06
+f2 weight gradients: 6.941053015907528e-06
+
+Post-update weight magnitudes:
+f1 weight magnitude: 0.017741698771715164
+f2 weight magnitude: 0.017735669389367104
+Epoch [1/15], Batch [0/469], Loss: 1.1251
+Epoch [1/15], Batch [100/469], Loss: nan
+Epoch [1/15], Batch [200/469], Loss: nan
+Epoch [1/15], Batch [300/469], Loss: nan
+Epoch [1/15], Batch [400/469], Loss: nan
+Epoch [1/15], Loss: nan
+Epoch [2/15], Batch [0/469], Loss: nan
+Epoch [2/15], Batch [100/469], Loss: nan
+Epoch [2/15], Batch [200/469], Loss: nan
+Epoch [2/15], Batch [300/469], Loss: nan
+Epoch [2/15], Batch [400/469], Loss: nan
+Epoch [2/15], Loss: nan
+Epoch [3/15], Batch [0/469], Loss: nan
+Epoch [3/15], Batch [100/469], Loss: nan
+Epoch [3/15], Batch [200/469], Loss: nan
+Epoch [3/15], Batch [300/469], Loss: nan
+Epoch [3/15], Batch [400/469], Loss: nan
+Epoch [3/15], Loss: nan
+Epoch [4/15], Batch [0/469], Loss: nan
+Epoch [4/15], Batch [100/469], Loss: nan
+Epoch [4/15], Batch [200/469], Loss: nan
+Epoch [4/15], Batch [300/469], Loss: nan
+Epoch [4/15], Batch [400/469], Loss: nan
+Epoch [4/15], Loss: nan
+Epoch [5/15], Batch [0/469], Loss: nan
+Epoch [5/15], Batch [100/469], Loss: nan
+Epoch [5/15], Batch [200/469], Loss: nan
+Epoch [5/15], Batch [300/469], Loss: nan
+Epoch [5/15], Batch [400/469], Loss: nan
+Epoch [5/15], Loss: nan
+Epoch [6/15], Batch [0/469], Loss: nan
+Epoch [6/15], Batch [100/469], Loss: nan
+Epoch [6/15], Batch [200/469], Loss: nan
+Epoch [6/15], Batch [300/469], Loss: nan
+Epoch [6/15], Batch [400/469], Loss: nan
+Epoch [6/15], Loss: nan
+Epoch [7/15], Batch [0/469], Loss: nan
+Epoch [7/15], Batch [100/469], Loss: nan
+Epoch [7/15], Batch [200/469], Loss: nan
+Epoch [7/15], Batch [300/469], Loss: nan
+Epoch [7/15], Batch [400/469], Loss: nan
+Epoch [7/15], Loss: nan
+Epoch [8/15], Batch [0/469], Loss: nan
+Epoch [8/15], Batch [100/469], Loss: nan
+Epoch [8/15], Batch [200/469], Loss: nan
+Epoch [8/15], Batch [300/469], Loss: nan
+Epoch [8/15], Batch [400/469], Loss: nan
+Epoch [8/15], Loss: nan
+Epoch [9/15], Batch [0/469], Loss: nan
+Epoch [9/15], Batch [100/469], Loss: nan
+Epoch [9/15], Batch [200/469], Loss: nan
+Epoch [9/15], Batch [300/469], Loss: nan
+Epoch [9/15], Batch [400/469], Loss: nan
+Epoch [9/15], Loss: nan
+Epoch [10/15], Batch [0/469], Loss: nan
+Epoch [10/15], Batch [100/469], Loss: nan
+Epoch [10/15], Batch [200/469], Loss: nan
+Epoch [10/15], Batch [300/469], Loss: nan
+Epoch [10/15], Batch [400/469], Loss: nan
+Epoch [10/15], Loss: nan
+Epoch [11/15], Batch [0/469], Loss: nan
+Epoch [11/15], Batch [100/469], Loss: nan
+Epoch [11/15], Batch [200/469], Loss: nan
+Epoch [11/15], Batch [300/469], Loss: nan
+Epoch [11/15], Batch [400/469], Loss: nan
+Epoch [11/15], Loss: nan
+Epoch [12/15], Batch [0/469], Loss: nan
+Epoch [12/15], Batch [100/469], Loss: nan
+Epoch [12/15], Batch [200/469], Loss: nan
+Epoch [12/15], Batch [300/469], Loss: nan
+Epoch [12/15], Batch [400/469], Loss: nan
+Epoch [12/15], Loss: nan
+Epoch [13/15], Batch [0/469], Loss: nan
+Epoch [13/15], Batch [100/469], Loss: nan
+Epoch [13/15], Batch [200/469], Loss: nan
+Epoch [13/15], Batch [300/469], Loss: nan
+Epoch [13/15], Batch [400/469], Loss: nan
+Epoch [13/15], Loss: nan
+Epoch [14/15], Batch [0/469], Loss: nan
+Epoch [14/15], Batch [100/469], Loss: nan
+Epoch [14/15], Batch [200/469], Loss: nan
+Epoch [14/15], Batch [300/469], Loss: nan
+Epoch [14/15], Batch [400/469], Loss: nan
+Epoch [14/15], Loss: nan
+Epoch [15/15], Batch [0/469], Loss: nan
+Epoch [15/15], Batch [100/469], Loss: nan
+Epoch [15/15], Batch [200/469], Loss: nan
+Epoch [15/15], Batch [300/469], Loss: nan
+Epoch [15/15], Batch [400/469], Loss: nan
+Epoch [15/15], Loss: nan
+Saved models as f1_hadamard_7.pth and f2_hadamard_7.pth
+
+Training model with 8 iterations...
+
+Initial magnitudes:
+f1 weight magnitude: 0.017750177532434464
+f2 weight magnitude: 0.01774498261511326
+
+First forward pass magnitudes:
+Input magnitude: 0.13370494544506073
+f1 output magnitude: 0.15690308809280396
+f2 output magnitude: 0.15557914972305298
+hadamard output magnitude: 0.025237035006284714
+
+Iteration 1 state magnitude: 0.025237035006284714
+Iteration 1 loss: 0.16849872469902039
+
+Iteration 2 state magnitude: 0.0006736815557815135
+Iteration 2 loss: 0.1664402186870575
+
+Iteration 3 state magnitude: 0.00031355750979855657
+Iteration 3 loss: 0.16644558310508728
+
+Iteration 4 state magnitude: 0.0003131316334474832
+Iteration 4 loss: 0.16644540429115295
+
+Iteration 5 state magnitude: 0.0003131292760372162
+Iteration 5 loss: 0.16644540429115295
+
+Iteration 6 state magnitude: 0.0003131292760372162
+Iteration 6 loss: 0.16644540429115295
+
+Iteration 7 state magnitude: 0.0003131292760372162
+Iteration 7 loss: 0.16644540429115295
+
+Iteration 8 state magnitude: 0.0003131292760372162
+Iteration 8 loss: 0.16644540429115295
+
+Gradient magnitudes:
+f1 weight gradients: 8.350439202331472e-06
+f2 weight gradients: 8.76676585903624e-06
+
+Post-update weight magnitudes:
+f1 weight magnitude: 0.01773921772837639
+f2 weight magnitude: 0.017734576016664505
+Epoch [1/15], Batch [0/469], Loss: 1.3336
+Epoch [1/15], Batch [100/469], Loss: nan
+Epoch [1/15], Batch [200/469], Loss: nan
+Epoch [1/15], Batch [300/469], Loss: nan
+Epoch [1/15], Batch [400/469], Loss: nan
+Epoch [1/15], Loss: nan
+Epoch [2/15], Batch [0/469], Loss: nan
+Epoch [2/15], Batch [100/469], Loss: nan
+Epoch [2/15], Batch [200/469], Loss: nan
+Epoch [2/15], Batch [300/469], Loss: nan
+Epoch [2/15], Batch [400/469], Loss: nan
+Epoch [2/15], Loss: nan
+Epoch [3/15], Batch [0/469], Loss: nan
+Epoch [3/15], Batch [100/469], Loss: nan
+Epoch [3/15], Batch [200/469], Loss: nan
+Epoch [3/15], Batch [300/469], Loss: nan
+Epoch [3/15], Batch [400/469], Loss: nan
+Epoch [3/15], Loss: nan
+Epoch [4/15], Batch [0/469], Loss: nan
+Epoch [4/15], Batch [100/469], Loss: nan
+Epoch [4/15], Batch [200/469], Loss: nan
+Epoch [4/15], Batch [300/469], Loss: nan
+Epoch [4/15], Batch [400/469], Loss: nan
+Epoch [4/15], Loss: nan
+Epoch [5/15], Batch [0/469], Loss: nan
+Epoch [5/15], Batch [100/469], Loss: nan
+Epoch [5/15], Batch [200/469], Loss: nan
+Epoch [5/15], Batch [300/469], Loss: nan
+Epoch [5/15], Batch [400/469], Loss: nan
+Epoch [5/15], Loss: nan
+Epoch [6/15], Batch [0/469], Loss: nan
+Epoch [6/15], Batch [100/469], Loss: nan
+Epoch [6/15], Batch [200/469], Loss: nan
+Epoch [6/15], Batch [300/469], Loss: nan
+Epoch [6/15], Batch [400/469], Loss: nan
+Epoch [6/15], Loss: nan
+Epoch [7/15], Batch [0/469], Loss: nan
+Epoch [7/15], Batch [100/469], Loss: nan
+Epoch [7/15], Batch [200/469], Loss: nan
+Epoch [7/15], Batch [300/469], Loss: nan
+Epoch [7/15], Batch [400/469], Loss: nan
+Epoch [7/15], Loss: nan
+Epoch [8/15], Batch [0/469], Loss: nan
+Epoch [8/15], Batch [100/469], Loss: nan
+Epoch [8/15], Batch [200/469], Loss: nan
+Epoch [8/15], Batch [300/469], Loss: nan
+Epoch [8/15], Batch [400/469], Loss: nan
+Epoch [8/15], Loss: nan
+Epoch [9/15], Batch [0/469], Loss: nan
+Epoch [9/15], Batch [100/469], Loss: nan
+Epoch [9/15], Batch [200/469], Loss: nan
+Epoch [9/15], Batch [300/469], Loss: nan
+Epoch [9/15], Batch [400/469], Loss: nan
+Epoch [9/15], Loss: nan
+Epoch [10/15], Batch [0/469], Loss: nan
+Epoch [10/15], Batch [100/469], Loss: nan
+Epoch [10/15], Batch [200/469], Loss: nan
+Epoch [10/15], Batch [300/469], Loss: nan
+Epoch [10/15], Batch [400/469], Loss: nan
+Epoch [10/15], Loss: nan
+Epoch [11/15], Batch [0/469], Loss: nan
+Epoch [11/15], Batch [100/469], Loss: nan
+Epoch [11/15], Batch [200/469], Loss: nan
+Epoch [11/15], Batch [300/469], Loss: nan
+Epoch [11/15], Batch [400/469], Loss: nan
+Epoch [11/15], Loss: nan
+Epoch [12/15], Batch [0/469], Loss: nan
+Epoch [12/15], Batch [100/469], Loss: nan
+Epoch [12/15], Batch [200/469], Loss: nan
+Epoch [12/15], Batch [300/469], Loss: nan
+Epoch [12/15], Batch [400/469], Loss: nan
+Epoch [12/15], Loss: nan
+Epoch [13/15], Batch [0/469], Loss: nan
+Epoch [13/15], Batch [100/469], Loss: nan
+Epoch [13/15], Batch [200/469], Loss: nan
+Epoch [13/15], Batch [300/469], Loss: nan
+Epoch [13/15], Batch [400/469], Loss: nan
+Epoch [13/15], Loss: nan
+Epoch [14/15], Batch [0/469], Loss: nan
+Epoch [14/15], Batch [100/469], Loss: nan
+Epoch [14/15], Batch [200/469], Loss: nan
+Epoch [14/15], Batch [300/469], Loss: nan
+Epoch [14/15], Batch [400/469], Loss: nan
+Epoch [14/15], Loss: nan
+Epoch [15/15], Batch [0/469], Loss: nan
+Epoch [15/15], Batch [100/469], Loss: nan
+Epoch [15/15], Batch [200/469], Loss: nan
+Epoch [15/15], Batch [300/469], Loss: nan
+Epoch [15/15], Batch [400/469], Loss: nan
+Epoch [15/15], Loss: nan
+Saved models as f1_hadamard_8.pth and f2_hadamard_8.pth
+
+Training model with 9 iterations...
+
+Initial magnitudes:
+f1 weight magnitude: 0.017764266580343246
+f2 weight magnitude: 0.017742667347192764
+
+First forward pass magnitudes:
+Input magnitude: 0.1415557563304901
+f1 output magnitude: 0.15905360877513885
+f2 output magnitude: 0.15956248342990875
+hadamard output magnitude: 0.02608588896691799
+
+Iteration 1 state magnitude: 0.02608588896691799
+Iteration 1 loss: 0.1759956032037735
+
+Iteration 2 state magnitude: 0.0006834339001215994
+Iteration 2 loss: 0.17368915677070618
+
+Iteration 3 state magnitude: 0.0003071597602684051
+Iteration 3 loss: 0.17368502914905548
+
+Iteration 4 state magnitude: 0.0003065994242206216
+Iteration 4 loss: 0.17368502914905548
+
+Iteration 5 state magnitude: 0.0003065965138375759
+Iteration 5 loss: 0.17368502914905548
+
+Iteration 6 state magnitude: 0.0003065965720452368
+Iteration 6 loss: 0.17368502914905548
+
+Iteration 7 state magnitude: 0.0003065965720452368
+Iteration 7 loss: 0.17368502914905548
+
+Iteration 8 state magnitude: 0.0003065965720452368
+Iteration 8 loss: 0.17368502914905548
+
+Iteration 9 state magnitude: 0.0003065965720452368
+Iteration 9 loss: 0.17368502914905548
+
+Gradient magnitudes:
+f1 weight gradients: 8.877979780663736e-06
+f2 weight gradients: 9.029849024955183e-06
+
+Post-update weight magnitudes:
+f1 weight magnitude: 0.017749503254890442
+f2 weight magnitude: 0.017729919403791428
+Epoch [1/15], Batch [0/469], Loss: 1.5655
+Epoch [1/15], Batch [100/469], Loss: nan
+Epoch [1/15], Batch [200/469], Loss: nan
+Epoch [1/15], Batch [300/469], Loss: nan
+Epoch [1/15], Batch [400/469], Loss: nan
+Epoch [1/15], Loss: nan
+Epoch [2/15], Batch [0/469], Loss: nan
+Epoch [2/15], Batch [100/469], Loss: nan
+Epoch [2/15], Batch [200/469], Loss: nan
+Epoch [2/15], Batch [300/469], Loss: nan
+Epoch [2/15], Batch [400/469], Loss: nan
+Epoch [2/15], Loss: nan
+Epoch [3/15], Batch [0/469], Loss: nan
+Epoch [3/15], Batch [100/469], Loss: nan
+Epoch [3/15], Batch [200/469], Loss: nan
+Epoch [3/15], Batch [300/469], Loss: nan
+Epoch [3/15], Batch [400/469], Loss: nan
+Epoch [3/15], Loss: nan
+Epoch [4/15], Batch [0/469], Loss: nan
+Epoch [4/15], Batch [100/469], Loss: nan
+Epoch [4/15], Batch [200/469], Loss: nan
+Epoch [4/15], Batch [300/469], Loss: nan
+Epoch [4/15], Batch [400/469], Loss: nan
+Epoch [4/15], Loss: nan
+Epoch [5/15], Batch [0/469], Loss: nan
+Epoch [5/15], Batch [100/469], Loss: nan
+Epoch [5/15], Batch [200/469], Loss: nan
+Epoch [5/15], Batch [300/469], Loss: nan
+Epoch [5/15], Batch [400/469], Loss: nan
+Epoch [5/15], Loss: nan
+Epoch [6/15], Batch [0/469], Loss: nan
+Epoch [6/15], Batch [100/469], Loss: nan
+Epoch [6/15], Batch [200/469], Loss: nan
+Epoch [6/15], Batch [300/469], Loss: nan
+Epoch [6/15], Batch [400/469], Loss: nan
+Epoch [6/15], Loss: nan
+Epoch [7/15], Batch [0/469], Loss: nan
+Epoch [7/15], Batch [100/469], Loss: nan
+Epoch [7/15], Batch [200/469], Loss: nan
+Epoch [7/15], Batch [300/469], Loss: nan
+Epoch [7/15], Batch [400/469], Loss: nan
+Epoch [7/15], Loss: nan
+Epoch [8/15], Batch [0/469], Loss: nan
+Epoch [8/15], Batch [100/469], Loss: nan
+Epoch [8/15], Batch [200/469], Loss: nan
+Epoch [8/15], Batch [300/469], Loss: nan
+Epoch [8/15], Batch [400/469], Loss: nan
+Epoch [8/15], Loss: nan
+Epoch [9/15], Batch [0/469], Loss: nan
+Epoch [9/15], Batch [100/469], Loss: nan
+Epoch [9/15], Batch [200/469], Loss: nan
+Epoch [9/15], Batch [300/469], Loss: nan
+Epoch [9/15], Batch [400/469], Loss: nan
+Epoch [9/15], Loss: nan
+Epoch [10/15], Batch [0/469], Loss: nan
+Epoch [10/15], Batch [100/469], Loss: nan
+Epoch [10/15], Batch [200/469], Loss: nan
+Epoch [10/15], Batch [300/469], Loss: nan
+Epoch [10/15], Batch [400/469], Loss: nan
+Epoch [10/15], Loss: nan
+Epoch [11/15], Batch [0/469], Loss: nan
+Epoch [11/15], Batch [100/469], Loss: nan
+Epoch [11/15], Batch [200/469], Loss: nan
+Epoch [11/15], Batch [300/469], Loss: nan
+Epoch [11/15], Batch [400/469], Loss: nan
+Epoch [11/15], Loss: nan
+Epoch [12/15], Batch [0/469], Loss: nan
+Epoch [12/15], Batch [100/469], Loss: nan
+Epoch [12/15], Batch [200/469], Loss: nan
+Epoch [12/15], Batch [300/469], Loss: nan
+Epoch [12/15], Batch [400/469], Loss: nan
+Epoch [12/15], Loss: nan
+Epoch [13/15], Batch [0/469], Loss: nan
+Epoch [13/15], Batch [100/469], Loss: nan
+Epoch [13/15], Batch [200/469], Loss: nan
+Epoch [13/15], Batch [300/469], Loss: nan
+Epoch [13/15], Batch [400/469], Loss: nan
+Epoch [13/15], Loss: nan
+Epoch [14/15], Batch [0/469], Loss: nan
+Epoch [14/15], Batch [100/469], Loss: nan
+Epoch [14/15], Batch [200/469], Loss: nan
+Epoch [14/15], Batch [300/469], Loss: nan
+Epoch [14/15], Batch [400/469], Loss: nan
+Epoch [14/15], Loss: nan
+Epoch [15/15], Batch [0/469], Loss: nan
+Epoch [15/15], Batch [100/469], Loss: nan
+Epoch [15/15], Batch [200/469], Loss: nan
+Epoch [15/15], Batch [300/469], Loss: nan
+Epoch [15/15], Batch [400/469], Loss: nan
+Epoch [15/15], Loss: nan
+Saved models as f1_hadamard_9.pth and f2_hadamard_9.pth
+
+Training model with 10 iterations...
+
+Initial magnitudes:
+f1 weight magnitude: 0.01773299276828766
+f2 weight magnitude: 0.017764465883374214
+
+First forward pass magnitudes:
+Input magnitude: 0.12819287180900574
+f1 output magnitude: 0.14826829731464386
+f2 output magnitude: 0.14802706241607666
+hadamard output magnitude: 0.022565141320228577
+
+Iteration 1 state magnitude: 0.022565141320228577
+Iteration 1 loss: 0.1623542308807373
+
+Iteration 2 state magnitude: 0.0005858955555595458
+Iteration 2 loss: 0.16079367697238922
+
+Iteration 3 state magnitude: 0.0003234855830669403
+Iteration 3 loss: 0.1607888787984848
+
+Iteration 4 state magnitude: 0.0003231826121918857
+Iteration 4 loss: 0.1607888638973236
+
+Iteration 5 state magnitude: 0.00032318165176548064
+Iteration 5 loss: 0.1607888638973236
+
+Iteration 6 state magnitude: 0.00032318170997314155
+Iteration 6 loss: 0.1607888638973236
+
+Iteration 7 state magnitude: 0.00032318170997314155
+Iteration 7 loss: 0.1607888638973236
+
+Iteration 8 state magnitude: 0.00032318170997314155
+Iteration 8 loss: 0.1607888638973236
+
+Iteration 9 state magnitude: 0.00032318170997314155
+Iteration 9 loss: 0.1607888638973236
+
+Iteration 10 state magnitude: 0.00032318170997314155
+Iteration 10 loss: 0.1607888638973236
+
+Gradient magnitudes:
+f1 weight gradients: 6.77056686981814e-06
+f2 weight gradients: 6.961290182516677e-06
+
+Post-update weight magnitudes:
+f1 weight magnitude: 0.01771809533238411
+f2 weight magnitude: 0.01774565316736698
+Epoch [1/15], Batch [0/469], Loss: 1.6095
+Epoch [1/15], Batch [100/469], Loss: nan
+Epoch [1/15], Batch [200/469], Loss: nan
+Epoch [1/15], Batch [300/469], Loss: nan
+Epoch [1/15], Batch [400/469], Loss: nan
+Epoch [1/15], Loss: nan
+Epoch [2/15], Batch [0/469], Loss: nan
+Epoch [2/15], Batch [100/469], Loss: nan
+Epoch [2/15], Batch [200/469], Loss: nan
+Epoch [2/15], Batch [300/469], Loss: nan
+Epoch [2/15], Batch [400/469], Loss: nan
+Epoch [2/15], Loss: nan
+Epoch [3/15], Batch [0/469], Loss: nan
+Epoch [3/15], Batch [100/469], Loss: nan
+Epoch [3/15], Batch [200/469], Loss: nan
+Epoch [3/15], Batch [300/469], Loss: nan
+Epoch [3/15], Batch [400/469], Loss: nan
+Epoch [3/15], Loss: nan
+Epoch [4/15], Batch [0/469], Loss: nan
+Epoch [4/15], Batch [100/469], Loss: nan
+Epoch [4/15], Batch [200/469], Loss: nan
+Epoch [4/15], Batch [300/469], Loss: nan
+Epoch [4/15], Batch [400/469], Loss: nan
+Epoch [4/15], Loss: nan
+Epoch [5/15], Batch [0/469], Loss: nan
+Epoch [5/15], Batch [100/469], Loss: nan
+Epoch [5/15], Batch [200/469], Loss: nan
+Epoch [5/15], Batch [300/469], Loss: nan
+Epoch [5/15], Batch [400/469], Loss: nan
+Epoch [5/15], Loss: nan
+Epoch [6/15], Batch [0/469], Loss: nan
+Epoch [6/15], Batch [100/469], Loss: nan
+Epoch [6/15], Batch [200/469], Loss: nan
+Epoch [6/15], Batch [300/469], Loss: nan
+Epoch [6/15], Batch [400/469], Loss: nan
+Epoch [6/15], Loss: nan
+Epoch [7/15], Batch [0/469], Loss: nan
+Epoch [7/15], Batch [100/469], Loss: nan
+Epoch [7/15], Batch [200/469], Loss: nan
+Epoch [7/15], Batch [300/469], Loss: nan
+Epoch [7/15], Batch [400/469], Loss: nan
+Epoch [7/15], Loss: nan
+Epoch [8/15], Batch [0/469], Loss: nan
+Epoch [8/15], Batch [100/469], Loss: nan
+Epoch [8/15], Batch [200/469], Loss: nan
+Epoch [8/15], Batch [300/469], Loss: nan
+Epoch [8/15], Batch [400/469], Loss: nan
+Epoch [8/15], Loss: nan
+Epoch [9/15], Batch [0/469], Loss: nan
+Epoch [9/15], Batch [100/469], Loss: nan
+Epoch [9/15], Batch [200/469], Loss: nan
+Epoch [9/15], Batch [300/469], Loss: nan
+Epoch [9/15], Batch [400/469], Loss: nan
+Epoch [9/15], Loss: nan
+Epoch [10/15], Batch [0/469], Loss: nan
+Epoch [10/15], Batch [100/469], Loss: nan
+Epoch [10/15], Batch [200/469], Loss: nan
+Epoch [10/15], Batch [300/469], Loss: nan
+Epoch [10/15], Batch [400/469], Loss: nan
+Epoch [10/15], Loss: nan
+Epoch [11/15], Batch [0/469], Loss: nan
+Epoch [11/15], Batch [100/469], Loss: nan
+Epoch [11/15], Batch [200/469], Loss: nan
+Epoch [11/15], Batch [300/469], Loss: nan
+Epoch [11/15], Batch [400/469], Loss: nan
+Epoch [11/15], Loss: nan
+Epoch [12/15], Batch [0/469], Loss: nan
+Epoch [12/15], Batch [100/469], Loss: nan
+Epoch [12/15], Batch [200/469], Loss: nan
+Epoch [12/15], Batch [300/469], Loss: nan
+Epoch [12/15], Batch [400/469], Loss: nan
+Epoch [12/15], Loss: nan
+Epoch [13/15], Batch [0/469], Loss: nan
+Epoch [13/15], Batch [100/469], Loss: nan
+Epoch [13/15], Batch [200/469], Loss: nan
+Epoch [13/15], Batch [300/469], Loss: nan
+Epoch [13/15], Batch [400/469], Loss: nan
+Epoch [13/15], Loss: nan
+Epoch [14/15], Batch [0/469], Loss: nan
+Epoch [14/15], Batch [100/469], Loss: nan
+Epoch [14/15], Batch [200/469], Loss: nan
+Epoch [14/15], Batch [300/469], Loss: nan
+Epoch [14/15], Batch [400/469], Loss: nan
+Epoch [14/15], Loss: nan
+Epoch [15/15], Batch [0/469], Loss: nan
+Epoch [15/15], Batch [100/469], Loss: nan
+Epoch [15/15], Batch [200/469], Loss: nan
+Epoch [15/15], Batch [300/469], Loss: nan
+Epoch [15/15], Batch [400/469], Loss: nan
+Epoch [15/15], Loss: nan
+Saved models as f1_hadamard_10.pth and f2_hadamard_10.pth
+
+Evaluation complete. Results saved to hadamard_log.csv
