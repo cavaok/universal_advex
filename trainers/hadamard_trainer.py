@@ -84,9 +84,8 @@ def train_model(num_iterations, num_epochs=15):
                 output_images = current_state[:, :-10]
                 output_labels = current_state[:, -10:]
 
-                output_label_probs = F.softmax(output_labels, dim=1)
                 image_loss = F.mse_loss(output_images, targets[:, :-10])
-                label_loss = F.kl_div(output_label_probs.log(), targets[:, -10:], reduction='batchmean')
+                label_loss = F.kl_div(F.log_softmax(output_labels, dim=1), targets[:, -10:], reduction='batchmean')
 
                 iteration_loss = image_loss + MODEL_CONFIG['lambda'] * label_loss
                 if epoch == 0 and batch_idx == 0:
