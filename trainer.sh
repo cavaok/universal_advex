@@ -10,7 +10,7 @@
 #SBATCH --gres=gpu:L40S:1     # Request 1 L40S GPU
 
 # Load Python environment
-module load python/3.8.13/slu6jvw
+module load python/3.9.21/hgt2ae2
 
 # Activate Environment
 source /home/okcava/projects/universal_advex/.venv/bin/activate
