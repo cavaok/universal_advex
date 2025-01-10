@@ -257,6 +257,24 @@ if __name__ == "__main__":
     try:
         logger = SupabaseLogger()
         print("Supabase logger initialized successfully")
+
+        # Add this test block here
+        print("Testing Supabase connection...")
+        test_data = {
+            "case_idx": -1,  # Test case
+            "model_name": "test",
+            "image": [0.0] * 784,  # 28x28 zeros
+            "label": 0,
+            "original_prediction": [0.1] * 10,
+            "adversarial_image": [0.0] * 784,
+            "prediction": [0.1] * 10,
+            "label_kld": 0.0,
+            "mse": 0.0,
+            "frob": 0.0
+        }
+        response = logger.supabase.table("adversarial_examples").insert(test_data).execute()
+        print(f"Test insert response: {response}")
+
     except Exception as e:
         print(f"Error initializing Supabase logger: {str(e)}")
         print("Continuing without logging...")
