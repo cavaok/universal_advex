@@ -22,9 +22,10 @@ class Hadamard(nn.Module):
 #     "models_backup/hadamard_f2_1.pth"
 # )
 def load_hadamard_model(f1_path, f2_path):
-    hadamard = Hadamard(input_dim=784)
+    hadamard = Hadamard(input_dim=794)
 
     hadamard.f1.load_state_dict(torch.load(f1_path))
     hadamard.f2.load_state_dict(torch.load(f2_path))
 
     return hadamard
+
