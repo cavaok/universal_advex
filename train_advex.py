@@ -10,23 +10,6 @@ from mlp import load_mlp_model
 from hadamard import load_hadamard_model
 
 
-# Function for training adversarial examples (for autoencoders & hadamards)
-#     takes in data loaders and the model
-#     returns metrics to log about the training process
-
-
-# Function for training mlp adversarial examples
-#     takes in data loaders and the model
-#     returns metrics to log about the training process
-
-# Function for logging metrics
-
-# Main function
-#     load all desired pre-trained models
-#     set all pre-trained models to eval mode
-#     create a list of pre-trained models (not including MLP)
-#     then calls the functions for training adversarial examples
-
 def load_all_models():
     models = {}
 
@@ -100,7 +83,7 @@ def load_all_models():
 
     return models
 
-""" without print statements
+
 def load_adversarial_cases():
     # Load pickle data
     with open('doc.pkl', 'rb') as f:
@@ -127,67 +110,81 @@ def load_adversarial_cases():
                 all_cases.append((image, label, case[0], case[1]))
 
     return all_cases
-"""
 
-def load_adversarial_cases():
+
+def mlp_advex_train(model, image, label, target, device, lambda_=1.0, num_steps=300, lr=0.01):
+    # Setup
+    image = image.to(device).view(-1, 784)  # Reshape for MLP
+    target = target.to(device)
+    mlp_image = image.clone().detach().requires_grad_(True)
+    original_image = image.clone().detach()
+
+    # Get original prediction for logging
+    with torch.no_grad():
+        mlp_prediction = model(mlp_image)
+        mlp_prediction_label = F.softmax(mlp_prediction, dim=1)
+
+    # Optimization setup
+    optimizer = optim.Adam([mlp_image], lr=lr)
+
+    # Training loop
+    for step in range(num_steps):
+        output = model(mlp_image)
+        probs = F.softmax(output, dim=1)
+
+        mlp_label_loss = F.kl_div(probs.log(), target)
+        mlp_image_loss = F.mse_loss(mlp_image, original_image)
+        mlp_loss = mlp_image_loss + lambda_ * mlp_label_loss
+
+        optimizer.zero_grad()
+        mlp_loss.backward()
+
+        if step % 50 == 0:
+            print(f"\nMLP Step {step + 1}/{num_steps}:")
+            print(f"  Current probs: {probs.detach().cpu().numpy().round(3)}")
+            print(f"  Target probs: {target.cpu().numpy().round(3)}")
+            print(f"  Label Loss: {mlp_label_loss.item():.4f}")
+            print(f"  Image Loss: {mlp_image_loss.item():.4f}")
+            print(f"  Total Loss: {mlp_loss.item():.4f}")
+            print(f"  Image grad max: {mlp_image.grad.abs().max().item()}")
+
+        optimizer.step()
+
+        with torch.no_grad():
+            mlp_image.data.clamp_(0, 1)
+
+    # Final evaluation
+    with torch.no_grad():
+        final_prediction = model(mlp_image)
+        final_probs = F.softmax(final_prediction, dim=1)
+
+        # Calculate metrics
+        label_divergence = F.kl_div(final_probs.log(), target, reduction='sum')
+        mse = F.mse_loss(mlp_image.view(1, -1), original_image.view(1, -1))
+        frob = torch.norm(mlp_image.view(1, -1) - original_image.view(1, -1), p='fro')
+
+    # Return results
+    return {
+        "adversarial_image": mlp_image.clone().detach(),
+        "prediction": final_probs.clone().detach(),
+        "original_prediction": mlp_prediction_label.clone().detach(),
+        "label_kld": label_divergence.item(),
+        "mse": mse.item(),
+        "frob": frob.item()
+    }
+
+
+def other_advex_train(*args, **kwargs):
     """
-    Loads and organizes all adversarial cases with their corresponding MNIST images.
-    Returns:
-        list of tuples: [(image, label, digit, target_distribution), ...]
+    Placeholder for other model types (autoencoders, hadamard, etc.)
     """
-    print("\nStarting to load adversarial cases...")
+    return None  # Removed print statement to reduce output spam
 
-    # Load pickle data
-    with open('doc.pkl', 'rb') as f:
-        data = pickle.load(f)
-    print(f"Loaded pickle file with {len(data)} total cases")
 
-    # Get digit loaders
-    digit_loaders = get_mnist_digit_loaders(batch_size=1)
-    print("Created MNIST digit loaders")
-
-    cases_per_image = 18
-    images_per_digit = 5
-    all_cases = []
-
-    for digit in range(10):
-        print(f"\nProcessing digit {digit}:")
-        digit_iterator = iter(digit_loaders[digit])
-
-        for image_idx in range(images_per_digit):
-            image, label = next(digit_iterator)
-            print(f"  Image {image_idx + 1}/5 for digit {digit}:")
-            print(f"    - Image shape: {image.shape}")
-            print(f"    - Label from loader: {label}")
-
-            start_idx = (digit * images_per_digit + image_idx) * cases_per_image
-            end_idx = start_idx + cases_per_image
-            current_cases = data[start_idx:end_idx]
-
-            # Print first target distribution to verify
-            print(f"    - First target distribution shape: {current_cases[0][1].shape}")
-            print(f"    - Processing {len(current_cases)} cases for this image")
-
-            for case in current_cases:
-                # Verify digit matches label
-                if case[0] != label:
-                    print(f"    WARNING: Pickle digit {case[0]} doesn't match loader label {label}")
-                all_cases.append((image, label, case[0], case[1]))
-
-    print(f"\nFinished loading all cases. Total cases: {len(all_cases)}")
-
-    # Verify final count
-    expected_count = 10 * 5 * 18  # 10 digits * 5 images * 18 cases
-    if len(all_cases) != expected_count:
-        print(f"WARNING: Expected {expected_count} cases but got {len(all_cases)}")
-    else:
-        print("Case count matches expected total of 900")
-
-    return all_cases
 if __name__ == "__main__":
     # Load in all models and save to one dictionary
     models = load_all_models()
-    for model_name in models.keys(): # doublechecking they saved successfully
+    for model_name in models.keys():  # double-checking they saved successfully
         print(f"- {model_name}")
 
     # Set up device
@@ -201,13 +198,26 @@ if __name__ == "__main__":
             param.requires_grad = False
         print(f"Moved {name} to {device} and froze parameters")
 
-    # Load and verify cases
+    # Load all cases and confirm correct num were printed
     adversarial_cases = load_adversarial_cases()
+    print(f"\nLoaded {len(adversarial_cases)} adversarial cases ({len(adversarial_cases)//90} images per digit, {len(adversarial_cases)//10} cases per digit)")
 
-    # Print a sample case to verify structure
-    print("\nSample case structure:")
-    image, label, digit, target = adversarial_cases[0]
-    print(f"Image shape: {image.shape}")
-    print(f"Label: {label}")
-    print(f"Digit: {digit}")
-    print(f"Target distribution shape: {target.shape}")
+    # Adversarial training
+    print("\nStarting adversarial training on MLP...")
+    for idx, (image, label, digit, target) in enumerate(adversarial_cases):
+        print(f"\nCase {idx + 1}/900 (digit {digit})")
+        for model_name, model in models.items():
+            if model_name == 'mlp':
+                results = mlp_advex_train(
+                    model=model,
+                    image=image,
+                    label=label,
+                    target=target,
+                    device=device
+                )
+                # Print key metrics from results
+                print(f"Final KLD: {results['label_kld']:.4f}")
+                print(f"Final MSE: {results['mse']:.4f}")
+            else:
+                other_advex_train()
+
