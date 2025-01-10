@@ -175,14 +175,13 @@ def mlp_advex_train(model, image, label, target, device, lambda_=0.5, num_steps=
     }
 
 
-def auto_hadamard_advex_train(model, image, label, target, device, model_type='auto', lambda_=1.0, num_steps=300,
-                              lr=0.01):
+def auto_hadamard_advex_train(model, image, label, target, device, lambda_=1.0, num_steps=300, lr=0.01):
     # Setup
     image_dim = 28 * 28
     num_classes = 10
 
-    # Prepare inputs
-    image = image.to(device)
+    # Prepare inputs - flatten image to 2D
+    image = image.to(device).view(1, -1)  # Reshape to [batch_size, flattened_image]
     target = target.to(device)
     image_part = image.clone().detach().requires_grad_(True)
     label_part = torch.zeros(1, num_classes, device=device)
@@ -217,7 +216,7 @@ def auto_hadamard_advex_train(model, image, label, target, device, model_type='a
         total_loss.backward()
 
         if step % 50 == 0:
-            print(f"\n{model_type.upper()} Step {step + 1}/{num_steps}:")
+            print(f"\nStep {step + 1}/{num_steps}:")
             print(f"  Current probs: {output_probs.detach().cpu().numpy().round(3)}")
             print(f"  Target probs: {target.cpu().numpy().round(3)}")
             print(f"  Label Loss: {label_loss.item():.4f}")
