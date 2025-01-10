@@ -1,4 +1,3 @@
-Successfully loaded models:
 - mlp
 - auto64_1
 - auto64_2
@@ -44,3 +43,49 @@ Successfully loaded models:
 - hadamard_1
 - hadamard_2
 - hadamard_3
+Using device: cuda
+Moved mlp to cuda and froze parameters
+Moved auto64_1 to cuda and froze parameters
+Moved auto64_2 to cuda and froze parameters
+Moved auto64_3 to cuda and froze parameters
+Moved auto64_4 to cuda and froze parameters
+Moved auto128_1 to cuda and froze parameters
+Moved auto128_2 to cuda and froze parameters
+Moved auto128_3 to cuda and froze parameters
+Moved auto128_4 to cuda and froze parameters
+Moved auto128_5 to cuda and froze parameters
+Moved auto128_6 to cuda and froze parameters
+Moved auto128_7 to cuda and froze parameters
+Moved auto256_1 to cuda and froze parameters
+Moved auto256_2 to cuda and froze parameters
+Moved auto256_3 to cuda and froze parameters
+Moved auto256_4 to cuda and froze parameters
+Moved auto256_5 to cuda and froze parameters
+Moved auto256_6 to cuda and froze parameters
+Moved auto256_7 to cuda and froze parameters
+Moved auto256_8 to cuda and froze parameters
+Moved auto256_9 to cuda and froze parameters
+Moved auto256_10 to cuda and froze parameters
+Moved auto512_1 to cuda and froze parameters
+Moved auto512_2 to cuda and froze parameters
+Moved auto512_3 to cuda and froze parameters
+Moved auto512_4 to cuda and froze parameters
+Moved auto512_5 to cuda and froze parameters
+Moved auto512_6 to cuda and froze parameters
+Moved auto512_7 to cuda and froze parameters
+Moved auto512_8 to cuda and froze parameters
+Moved auto512_9 to cuda and froze parameters
+Moved auto512_10 to cuda and froze parameters
+Moved funkyauto_1 to cuda and froze parameters
+Moved funkyauto_2 to cuda and froze parameters
+Moved funkyauto_3 to cuda and froze parameters
+Moved funkyauto_4 to cuda and froze parameters
+Moved funkyauto_5 to cuda and froze parameters
+Moved funkyauto_6 to cuda and froze parameters
+Moved funkyauto_7 to cuda and froze parameters
+Moved funkyauto_8 to cuda and froze parameters
+Moved funkyauto_9 to cuda and froze parameters
+Moved funkyauto_10 to cuda and froze parameters
+Moved hadamard_1 to cuda and froze parameters
+Moved hadamard_2 to cuda and froze parameters
+Moved hadamard_3 to cuda and froze parameters
