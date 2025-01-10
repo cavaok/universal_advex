@@ -22,6 +22,6 @@ class MLP(nn.Module):
 # Loads in pre-trained mlp with:
 # mlp_model = load_mlp_model("models_backup/mlp_elu_512_256_128.pth")
 def load_mlp_model(model_path):
-    mlp = MLP(input_dim=794)
+    mlp = MLP(input_dim=784)
     mlp.load_state_dict(torch.load(model_path))
     return mlp
