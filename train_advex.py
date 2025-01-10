@@ -254,31 +254,18 @@ def auto_hadamard_advex_train(model, image, label, target, device, lambda_=1.0, 
 
 if __name__ == "__main__":
     # Initialize logger
+    # Initialize logger
     try:
         logger = SupabaseLogger()
-        print("Supabase logger initialized successfully")
-
-        # Add this test block here
-        print("Testing Supabase connection...")
-        test_data = {
-            "case_idx": -1,  # Test case
-            "model_name": "test",
-            "image": [0.0] * 784,  # 28x28 zeros
-            "label": 0,
-            "original_prediction": [0.1] * 10,
-            "adversarial_image": [0.0] * 784,
-            "prediction": [0.1] * 10,
-            "label_kld": 0.0,
-            "mse": 0.0,
-            "frob": 0.0
-        }
-        response = logger.supabase.table("adversarial_examples").insert(test_data).execute()
-        print(f"Test insert response: {response}")
-
+        print("Supabase logger initialized")
     except Exception as e:
         print(f"Error initializing Supabase logger: {str(e)}")
-        print("Continuing without logging...")
         logger = None
+
+    # Load models
+    models = load_all_models()
+    for model_name in models.keys():
+        print(f"- {model_name}")
 
     # Load in all models and save to one dictionary
     models = load_all_models()
@@ -299,7 +286,6 @@ if __name__ == "__main__":
     # Load all cases and confirm correct num were printed
     adversarial_cases = load_adversarial_cases()
     print(f"\nLoaded {len(adversarial_cases)} adversarial cases ({len(adversarial_cases)//90} images per digit, {len(adversarial_cases)//10} cases per digit)")
-    adversarial_cases = adversarial_cases[:2] # TESTING THIS WITH ONLY 2!!!
 
     # Adversarial training
     print("\nStarting adversarial training on MLP...")
