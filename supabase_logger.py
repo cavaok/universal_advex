@@ -7,8 +7,8 @@ import numpy as np
 class SupabaseLogger:
     def __init__(self):
         # Get these values from your Supabase project settings
-        supabase_url = os.getenv("SUPABASE_URL")
-        supabase_key = os.getenv("SUPABASE_KEY")
+        supabase_url = os.getenv("https://fxwzblzdvwowourssdih.supabase.coL")
+        supabase_key = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ4d3pibHpkdndvd291cnNzZGloIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzY0NjA1NTUsImV4cCI6MjA1MjAzNjU1NX0.Kcc9aJmOcgn6xF76aqfGUs6rO9awnabimX8HJnPhzrQ")
 
         if not supabase_url or not supabase_key:
             raise ValueError("Please set SUPABASE_URL and SUPABASE_KEY environment variables")
