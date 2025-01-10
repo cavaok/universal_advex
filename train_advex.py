@@ -201,5 +201,13 @@ if __name__ == "__main__":
             param.requires_grad = False
         print(f"Moved {name} to {device} and froze parameters")
 
-    # Set up adversarial
+    # Load and verify cases
+    adversarial_cases = load_adversarial_cases()
 
+    # Print a sample case to verify structure
+    print("\nSample case structure:")
+    image, label, digit, target = adversarial_cases[0]
+    print(f"Image shape: {image.shape}")
+    print(f"Label: {label}")
+    print(f"Digit: {digit}")
+    print(f"Target distribution shape: {target.shape}")
