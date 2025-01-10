@@ -13,7 +13,8 @@ def get_mnist_digit_loaders(batch_size=1):
     digit_loaders = {}
 
     for digit in range(10):
-        indices = [i for i, (_, label) in enumerate(dataset.data) if label == digit]  # gets digit
+        # Fix: Use dataset.targets instead of trying to unpack dataset.data
+        indices = [i for i, label in enumerate(dataset.targets) if label == digit]  # gets digit
         subset = Subset(dataset, indices)  # creates subset
         loader = DataLoader(subset, batch_size=batch_size, shuffle=False)  # creates data loader
         digit_loaders[digit] = loader  # store in dictionary
