@@ -25,3 +25,84 @@ from hadamard import load_hadamard_model
 #     set all pre-trained models to eval mode
 #     create a list of pre-trained models (not including MLP)
 #     then calls the functions for training adversarial examples
+
+def load_all_models():
+    models = {}
+
+    # Load MLP model
+    models['mlp'] = load_mlp_model("models_backup/mlp_elu_512_256_128.pth")
+
+    # Load base autoencoder64 model (single iteration version)
+    models['auto64_1'] = load_autoencoder64_model(
+        "models_backup/encoder_auto_64_elu_1.pth",
+        "models_backup/decoder_auto_64_elu_1.pth"
+    )
+
+    # Load autoencoder64 sum models (2-4 iterations)
+    for x in range(2, 5):
+        models[f'auto64_{x}'] = load_autoencoder64_model(
+            f"models_backup/encoder_auto_64_elu_{x}_sum.pth",
+            f"models_backup/decoder_auto_64_elu_{x}_sum.pth"
+        )
+
+    # Load base autoencoder128 model (single iteration version)
+    models['auto128_1'] = load_autoencoder128_model(
+        "models_backup/encoder_auto_128_elu.pth",
+        "models_backup/decoder_auto_128_elu.pth"
+    )
+
+    # Load autoencoder128 sum models (2-7 iterations)
+    for x in range(2, 8):
+        models[f'auto128_{x}'] = load_autoencoder128_model(
+            f"models_backup/encoder_auto_128_elu_{x}_sum.pth",
+            f"models_backup/decoder_auto_128_elu_{x}_sum.pth"
+        )
+
+    # Load base autoencoder256 model (single iteration version)
+    models['auto256_1'] = load_autoencoder256_model(
+        "models_backup/encoder_auto_256_elu.pth",
+        "models_backup/decoder_auto_256_elu.pth"
+    )
+
+    # Load autoencoder256 sum models (2-10 iterations)
+    for x in range(2, 11):
+        models[f'auto256_{x}'] = load_autoencoder256_model(
+            f"models_backup/encoder_auto_256_elu_{x}_sum.pth",
+            f"models_backup/decoder_auto_256_elu_{x}_sum.pth"
+        )
+
+    # Load base autoencoder512 model (single iteration version)
+    models['auto512_1'] = load_autoencoder512_model(
+        "models_backup/encoder_auto_512_elu.pth",
+        "models_backup/decoder_auto_512_elu.pth"
+    )
+
+    # Load autoencoder512 sum models (2-10 iterations)
+    for x in range(2, 11):
+        models[f'auto512_{x}'] = load_autoencoder512_model(
+            f"models_backup/encoder_auto_512_elu_{x}_sum.pth",
+            f"models_backup/decoder_auto_512_elu_{x}_sum.pth"
+        )
+
+    # Load funky autoencoder models (1-10 iterations)
+    for x in range(1, 11):
+        models[f'funkyauto_{x}'] = load_funky_autoencoder_model(
+            f"models_backup/model_794_elu_{x}.pth"
+        )
+
+    # Load hadamard models (1-3 iterations)
+    for x in range(1, 4):
+        models[f'hadamard_{x}'] = load_hadamard_model(
+            f"models_backup/hadamard_f1_{x}.pth",
+            f"models_backup/hadamard_f2_{x}.pth"
+        )
+
+    return models
+
+
+if __name__ == "__main__":
+    # Test loading all models
+    models = load_all_models()
+    print("Successfully loaded models:")
+    for model_name in models.keys():
+        print(f"- {model_name}")
