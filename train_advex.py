@@ -101,8 +101,19 @@ def load_all_models():
 
 
 if __name__ == "__main__":
-    # Test loading all models
+    # Load in all models and save to one dictionary
     models = load_all_models()
-    print("Successfully loaded models:")
-    for model_name in models.keys():
+    for model_name in models.keys(): # doublechecking they saved successfully
         print(f"- {model_name}")
+
+    # Set up device
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f"Using device: {device}")
+
+    # Move all models to device and freeze params
+    for name, model in models.items():
+        model.to(device)
+        for param in model.parameters():
+            param.requires_grad = False
+        print(f"Moved {name} to {device} and froze parameters")
+
