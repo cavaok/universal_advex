@@ -9,14 +9,14 @@ Loading python/3.8.13/slu6jvw
 Traceback (most recent call last):
   File "train_advex.py", line 105, in <module>
     models = load_all_models()
-  File "train_advex.py", line 49, in load_all_models
-    models['auto128_1'] = load_autoencoder128_model(
-  File "/home/okcava/projects/universal_advex/auto.py", line 124, in load_autoencoder128_model
-    encoder.load_state_dict(torch.load(encoder_path))
+  File "train_advex.py", line 95, in load_all_models
+    models[f'hadamard_{x}'] = load_hadamard_model(
+  File "/home/okcava/projects/universal_advex/hadamard.py", line 27, in load_hadamard_model
+    hadamard.f1.load_state_dict(torch.load(f1_path))
   File "/home/okcava/projects/universal_advex/.venv/lib/python3.8/site-packages/torch/serialization.py", line 998, in load
     with _open_file_like(f, 'rb') as opened_file:
   File "/home/okcava/projects/universal_advex/.venv/lib/python3.8/site-packages/torch/serialization.py", line 445, in _open_file_like
     return _open_file(name_or_buffer, mode)
   File "/home/okcava/projects/universal_advex/.venv/lib/python3.8/site-packages/torch/serialization.py", line 426, in __init__
     super().__init__(open(name, mode))
-FileNotFoundError: [Errno 2] No such file or directory: 'models_backup/encoder_auto_128_elu.pth'
+FileNotFoundError: [Errno 2] No such file or directory: 'models_backup/hadamard_f1_1.pth'
