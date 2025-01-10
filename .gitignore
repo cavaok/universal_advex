@@ -6,3 +6,5 @@ sweeps/data/MNIST/raw/*
 trainers/data/MNIST/raw/*
 data/MNIST/raw/*
 *.pth
+advex_out.txt
+advex_err.txt
