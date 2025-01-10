@@ -9,12 +9,11 @@ Loading python/3.8.13/slu6jvw
 Traceback (most recent call last):
   File "train_advex.py", line 105, in <module>
     models = load_all_models()
-  File "train_advex.py", line 95, in load_all_models
-    models[f'hadamard_{x}'] = load_hadamard_model(
-  File "/home/okcava/projects/universal_advex/hadamard.py", line 27, in load_hadamard_model
-    hadamard.f1.load_state_dict(torch.load(f1_path))
+  File "train_advex.py", line 33, in load_all_models
+    models['mlp'] = load_mlp_model("models_backup/mlp_elu_512_256_128.pth")
+  File "/home/okcava/projects/universal_advex/mlp.py", line 26, in load_mlp_model
+    mlp.load_state_dict(torch.load(model_path))
   File "/home/okcava/projects/universal_advex/.venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 2153, in load_state_dict
     raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
-RuntimeError: Error(s) in loading state_dict for Sequential:
-	size mismatch for 0.weight: copying a param with shape torch.Size([794, 794]) from checkpoint, the shape in current model is torch.Size([784, 784]).
-	size mismatch for 0.bias: copying a param with shape torch.Size([794]) from checkpoint, the shape in current model is torch.Size([784]).
+RuntimeError: Error(s) in loading state_dict for MLP:
+	size mismatch for layers.0.weight: copying a param with shape torch.Size([512, 784]) from checkpoint, the shape in current model is torch.Size([512, 794]).
