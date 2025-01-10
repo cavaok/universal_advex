@@ -47,8 +47,8 @@ def load_all_models():
 
     # Load base autoencoder128 model (single iteration version)
     models['auto128_1'] = load_autoencoder128_model(
-        "models_backup/encoder_auto_128_elu.pth",
-        "models_backup/decoder_auto_128_elu.pth"
+        "models_backup/encoder_auto_128_elu_1.pth",
+        "models_backup/decoder_auto_128_elu_1.pth"
     )
 
     # Load autoencoder128 sum models (2-7 iterations)
@@ -60,8 +60,8 @@ def load_all_models():
 
     # Load base autoencoder256 model (single iteration version)
     models['auto256_1'] = load_autoencoder256_model(
-        "models_backup/encoder_auto_256_elu.pth",
-        "models_backup/decoder_auto_256_elu.pth"
+        "models_backup/encoder_auto_256_elu_1.pth",
+        "models_backup/decoder_auto_256_elu_1.pth"
     )
 
     # Load autoencoder256 sum models (2-10 iterations)
@@ -73,8 +73,8 @@ def load_all_models():
 
     # Load base autoencoder512 model (single iteration version)
     models['auto512_1'] = load_autoencoder512_model(
-        "models_backup/encoder_auto_512_elu.pth",
-        "models_backup/decoder_auto_512_elu.pth"
+        "models_backup/encoder_auto_512_elu_1.pth",
+        "models_backup/decoder_auto_512_elu_1.pth"
     )
 
     # Load autoencoder512 sum models (2-10 iterations)
