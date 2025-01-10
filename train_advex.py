@@ -93,8 +93,8 @@ def load_all_models():
     # Load hadamard models (1-3 iterations)
     for x in range(1, 4):
         models[f'hadamard_{x}'] = load_hadamard_model(
-            f"models_backup/hadamard_f1_{x}.pth",
-            f"models_backup/hadamard_f2_{x}.pth"
+            f"models_backup/f1_hadamard_{x}.pth",
+            f"models_backup/f2_hadamard_{x}.pth"
         )
 
     return models
