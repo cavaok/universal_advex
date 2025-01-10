@@ -153,7 +153,10 @@ def load_autoencoder512_model(encoder_path, decoder_path):
 
 
 def load_funky_autoencoder_model(model_path):
-    funky_autoencoder = FunkyAutoencoder(input_dim=794)
+    funky_autoencoder = nn.Sequential(
+        nn.Linear(794, 794),
+        nn.ELU()
+    )
     funky_autoencoder.load_state_dict(torch.load(model_path))
     return funky_autoencoder
 
