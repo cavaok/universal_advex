@@ -1,4 +1,5 @@
 import torch
+import pickle
 from torch import optim
 from torch import nn
 import torch.nn.functional as F
@@ -99,7 +100,90 @@ def load_all_models():
 
     return models
 
+""" without print statements
+def load_adversarial_cases():
+    # Load pickle data
+    with open('doc.pkl', 'rb') as f:
+        data = pickle.load(f)
 
+    # Get digit loaders
+    digit_loaders = get_mnist_digit_loaders(batch_size=1)
+
+    cases_per_image = 18
+    images_per_digit = 5
+    all_cases = []
+
+    for digit in range(10):
+        digit_iterator = iter(digit_loaders[digit])
+
+        for image_idx in range(images_per_digit):
+            image, label = next(digit_iterator)
+
+            start_idx = (digit * images_per_digit + image_idx) * cases_per_image
+            end_idx = start_idx + cases_per_image
+            current_cases = data[start_idx:end_idx]
+
+            for case in current_cases:
+                all_cases.append((image, label, case[0], case[1]))
+
+    return all_cases
+"""
+
+def load_adversarial_cases():
+    """
+    Loads and organizes all adversarial cases with their corresponding MNIST images.
+    Returns:
+        list of tuples: [(image, label, digit, target_distribution), ...]
+    """
+    print("\nStarting to load adversarial cases...")
+
+    # Load pickle data
+    with open('doc.pkl', 'rb') as f:
+        data = pickle.load(f)
+    print(f"Loaded pickle file with {len(data)} total cases")
+
+    # Get digit loaders
+    digit_loaders = get_mnist_digit_loaders(batch_size=1)
+    print("Created MNIST digit loaders")
+
+    cases_per_image = 18
+    images_per_digit = 5
+    all_cases = []
+
+    for digit in range(10):
+        print(f"\nProcessing digit {digit}:")
+        digit_iterator = iter(digit_loaders[digit])
+
+        for image_idx in range(images_per_digit):
+            image, label = next(digit_iterator)
+            print(f"  Image {image_idx + 1}/5 for digit {digit}:")
+            print(f"    - Image shape: {image.shape}")
+            print(f"    - Label from loader: {label}")
+
+            start_idx = (digit * images_per_digit + image_idx) * cases_per_image
+            end_idx = start_idx + cases_per_image
+            current_cases = data[start_idx:end_idx]
+
+            # Print first target distribution to verify
+            print(f"    - First target distribution shape: {current_cases[0][1].shape}")
+            print(f"    - Processing {len(current_cases)} cases for this image")
+
+            for case in current_cases:
+                # Verify digit matches label
+                if case[0] != label:
+                    print(f"    WARNING: Pickle digit {case[0]} doesn't match loader label {label}")
+                all_cases.append((image, label, case[0], case[1]))
+
+    print(f"\nFinished loading all cases. Total cases: {len(all_cases)}")
+
+    # Verify final count
+    expected_count = 10 * 5 * 18  # 10 digits * 5 images * 18 cases
+    if len(all_cases) != expected_count:
+        print(f"WARNING: Expected {expected_count} cases but got {len(all_cases)}")
+    else:
+        print("Case count matches expected total of 900")
+
+    return all_cases
 if __name__ == "__main__":
     # Load in all models and save to one dictionary
     models = load_all_models()
@@ -116,4 +200,6 @@ if __name__ == "__main__":
         for param in model.parameters():
             param.requires_grad = False
         print(f"Moved {name} to {device} and froze parameters")
+
+    # Set up adversarial
 
