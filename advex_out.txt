@@ -92,35 +92,283 @@ Moved hadamard_3 to cuda and froze parameters
 
 Starting to load adversarial cases...
 Loaded pickle file with 900 total cases
-Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
-Failed to download (trying next):
-HTTP Error 403: Forbidden
+Created MNIST digit loaders
 
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz to ./data/MNIST/raw/train-images-idx3-ubyte.gz
-Extracting ./data/MNIST/raw/train-images-idx3-ubyte.gz to ./data/MNIST/raw
+Processing digit 0:
+  Image 1/5 for digit 0:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([0])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 2/5 for digit 0:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([0])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 3/5 for digit 0:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([0])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 4/5 for digit 0:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([0])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 5/5 for digit 0:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([0])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
 
-Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
-Failed to download (trying next):
-HTTP Error 403: Forbidden
+Processing digit 1:
+  Image 1/5 for digit 1:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([1])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 2/5 for digit 1:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([1])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 3/5 for digit 1:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([1])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 4/5 for digit 1:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([1])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 5/5 for digit 1:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([1])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
 
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz to ./data/MNIST/raw/train-labels-idx1-ubyte.gz
-Extracting ./data/MNIST/raw/train-labels-idx1-ubyte.gz to ./data/MNIST/raw
+Processing digit 2:
+  Image 1/5 for digit 2:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([2])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 2/5 for digit 2:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([2])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 3/5 for digit 2:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([2])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 4/5 for digit 2:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([2])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 5/5 for digit 2:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([2])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
 
-Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
-Failed to download (trying next):
-HTTP Error 403: Forbidden
+Processing digit 3:
+  Image 1/5 for digit 3:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([3])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 2/5 for digit 3:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([3])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 3/5 for digit 3:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([3])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 4/5 for digit 3:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([3])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 5/5 for digit 3:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([3])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
 
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw/t10k-images-idx3-ubyte.gz
-Extracting ./data/MNIST/raw/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw
+Processing digit 4:
+  Image 1/5 for digit 4:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([4])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 2/5 for digit 4:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([4])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 3/5 for digit 4:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([4])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 4/5 for digit 4:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([4])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 5/5 for digit 4:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([4])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
 
-Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
-Failed to download (trying next):
-HTTP Error 403: Forbidden
+Processing digit 5:
+  Image 1/5 for digit 5:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([5])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 2/5 for digit 5:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([5])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 3/5 for digit 5:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([5])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 4/5 for digit 5:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([5])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 5/5 for digit 5:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([5])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
 
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz
-Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz
-Extracting ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw
+Processing digit 6:
+  Image 1/5 for digit 6:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([6])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 2/5 for digit 6:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([6])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 3/5 for digit 6:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([6])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 4/5 for digit 6:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([6])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 5/5 for digit 6:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([6])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
 
+Processing digit 7:
+  Image 1/5 for digit 7:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([7])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 2/5 for digit 7:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([7])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 3/5 for digit 7:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([7])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 4/5 for digit 7:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([7])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 5/5 for digit 7:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([7])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+
+Processing digit 8:
+  Image 1/5 for digit 8:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([8])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 2/5 for digit 8:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([8])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 3/5 for digit 8:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([8])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 4/5 for digit 8:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([8])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 5/5 for digit 8:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([8])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+
+Processing digit 9:
+  Image 1/5 for digit 9:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([9])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 2/5 for digit 9:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([9])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 3/5 for digit 9:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([9])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 4/5 for digit 9:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([9])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+  Image 5/5 for digit 9:
+    - Image shape: torch.Size([1, 1, 28, 28])
+    - Label from loader: tensor([9])
+    - First target distribution shape: torch.Size([1, 10])
+    - Processing 18 cases for this image
+
+Finished loading all cases. Total cases: 900
+Case count matches expected total of 900
+
+Sample case structure:
+Image shape: torch.Size([1, 1, 28, 28])
+Label: tensor([0])
+Digit: 0
+Target distribution shape: torch.Size([1, 10])
