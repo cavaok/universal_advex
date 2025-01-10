@@ -6,14 +6,3 @@ Loading python/3.8.13/slu6jvw
     zstd/1.5.2/jvujieu tar/1.34/4cnckqw gettext/0.21/hgt6t5w
     libffi/3.4.2/svyohlf openssl/1.1.1o/bowp5gw sqlite/3.38.5/ulzkiln
     util-linux-uuid/2.37.4/nlecwm6
-Traceback (most recent call last):
-  File "train_advex.py", line 105, in <module>
-    models = load_all_models()
-  File "train_advex.py", line 33, in load_all_models
-    models['mlp'] = load_mlp_model("models_backup/mlp_elu_512_256_128.pth")
-  File "/home/okcava/projects/universal_advex/mlp.py", line 26, in load_mlp_model
-    mlp.load_state_dict(torch.load(model_path))
-  File "/home/okcava/projects/universal_advex/.venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 2153, in load_state_dict
-    raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
-RuntimeError: Error(s) in loading state_dict for MLP:
-	size mismatch for layers.0.weight: copying a param with shape torch.Size([512, 784]) from checkpoint, the shape in current model is torch.Size([512, 794]).
