@@ -1,4 +1,4 @@
-# Examining the Universality of Adversarial Examples from a Dynamical Systems Perspective
+# Examining the Universal Properties of Adversarial Examples from a Dynamical Systems Perspective
 
 ## Overview
 This repository contains the implementation and experimental framework used to investigate the universality of adversarial examples across different neural network architectures. The research challenges the widely accepted notion that adversarial examples are universal across model architectures by conducting a comprehensive comparative study between traditional MLPs and Dynamical Systems Architectures.
@@ -24,11 +24,8 @@ This brings about the central questions: **Are adversarial examples universal? O
 To answer this question, we conducted a comparative study of Multilayer Perceptrons (MLPs) vs Dynamical Systems Architectures. 
 
 ### DYNAMICAL SYSTEMS ARCHITECTURES
-- Iterarive Denoising Autoencoder
-- NEED TO FILL IN DEFINITION HERE (denoising autoencoders can be repurposed for classification tasks, what happens when we iterate, etc.)
-
-- Iterative Hadamard Model
-- NEED TO FILL IN DEFINITION HERE (here is the structure, we are trying them iteratively)
+- Iterarive Denoising Autoencoder (see files marked auto for architecture)
+- Iterative Hadamard Model (see files marked hadamard)
 
 ## Research HighlightsNon
 - Trained and evaluated 200+ models with varying architectures --> Moved forward with 45 models
@@ -36,7 +33,10 @@ To answer this question, we conducted a comparative study of Multilayer Perceptr
 - Found that Dynamical Systems Architectures consistently outperformed traditional MLPs in terms of robustness
 
 ## Repository Structure
-- NEED TO FILL THIS PART IN 
+I separated the repository into three branches that show three distrinct phases in development/implementation: 
+1. sweeps --> here I conducted sweeps on all the models I wanted to train
+2. train --> here I trained all the models and saved their weights
+3. current main branch --> all of my adversarial example training and logging
 
 ## Technologies Used
 - Weights & Biases for experiment tracking
@@ -44,7 +44,7 @@ To answer this question, we conducted a comparative study of Multilayer Perceptr
 - WPI Turing Supercomputing resources
 
 ## Results
-Our research demonstrates that adversarial examples are not universal but rather architecture-dependent, with Dynamical Systems Architectures showing superior robustness compared to traditional MLPs.
+Our research demonstrates that adversarial examples seem to be architecture-dependent, with some dynamical systems architectures showing superior robustness compared to traditional MLPs.
 
 ## Pending Citation
 If you use this code or our findings in your research, please cite:
